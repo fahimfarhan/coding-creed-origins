@@ -1,0 +1,5 @@
+string s;
+int x = s.find('G')
+// gives the location of 'G' in s
+
+#include <algorithm> ... ... int n = __gcd(3,4); //NOT _gcd , __gcd 

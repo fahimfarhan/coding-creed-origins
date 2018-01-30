@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CLion.dir/main.cpp.o  -o CLion 
