@@ -42,6 +42,18 @@ public:
 		}
 		cout<<endl;
 
+		// t prime
+		cout<<"The t primes are:\n";
+		//vector<int>::iterator it;
+		for(it = v.begin(); it!=v.end(); it++)
+		{
+			int t = (*it)*(*it);
+			if(t>n){ break; }
+			cout<<t<<" ";
+		}
+		cout<<endl;
+
+
 	}
 	~Seive(){
 		if(!A){
