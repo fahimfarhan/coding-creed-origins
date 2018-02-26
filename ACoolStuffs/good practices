@@ -1,8 +1,0 @@
-typedef long long int ll;
-
-scanf("%I64d",&n);
- i=42;
- printf("\nn=%I64d",n);
- printf("\ni=%I64d",i);
- printf("\ni<=n --> %d",i<=n);
- return;

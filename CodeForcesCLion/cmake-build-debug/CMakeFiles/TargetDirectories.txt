@@ -1,3 +1,0 @@
-/home/fahimfarhan/Desktop/Codes/Cpp/CodeForcesCLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/fahimfarhan/Desktop/Codes/Cpp/CodeForcesCLion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/fahimfarhan/Desktop/Codes/Cpp/CodeForcesCLion/cmake-build-debug/CMakeFiles/CodeForcesCLion.dir
