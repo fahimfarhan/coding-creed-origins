@@ -7,6 +7,7 @@ private:
     int n,r;
     int **dp;
 public:
+    int getDpIJ(int i, int j){ return dp[i][j];   }
     nCr(int N, int R){
         n=N; r=R;
         dp = new int*[n+1];
