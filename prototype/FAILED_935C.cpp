@@ -49,16 +49,36 @@ Y88888b         `888888888b,      `""""^                `Y8888888P'       d888I
 using namespace std;
 
 #define si(x) scanf("%d",&x)
-#define sf(x) scanf("%f",&x)
+#define sf(x) scanf("%lf",&x)
 
 #define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pf(x) printf("%.9lf ",x)
 
 class Soln{
 private:
-    int n;
+    double r, x1,y1,x2,y2; double dis;
 public:
-    Soln(){}
+    Soln(){
+        sf(r); sf(x1); sf(y1); sf(x2); sf(y2);
+        int dx = x1-x2, dy = y1-y2; 
+        dis = sqrt(dx*dx+dy*dy);
+
+        if(dis>=r){
+            pf(x1); pf(y1); pf(r); 
+            
+        }else{
+            dis = dis+r;
+            dis=dis/2;
+            double angle = atan2(dy,dx);
+            x1 = x2+dis*cos(angle);
+            y1 = y2+dis*sin(angle);
+
+            pf(x1); pf(y1); pf(dis); 
+            
+        }
+
+        printf("\n");
+    }
     ~Soln(){}
 };
 

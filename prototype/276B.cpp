@@ -52,13 +52,32 @@ using namespace std;
 #define sf(x) scanf("%f",&x)
 
 #define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pf(x) printf("%f\n",x)
 
 class Soln{
 private:
     int n;
+    int a[26];
+    char ch;
 public:
-    Soln(){}
+    Soln(){
+        n=0;
+        for(int i=0; i<26; i++) a[i]=0;
+
+        while(cin>>ch){
+            n = (int)(ch-'a');
+            a[n]++;
+        }
+
+        n=0;
+        for(int i=0; i<26; i++){
+            if(a[i]&1){ n++; }
+        }
+        //for(int i=0; i<26; i++) cout<<a[i]<<" ";
+
+        if( (n&1) || (n==0) )  printf("First\n");
+        else printf("Second\n");
+    }
     ~Soln(){}
 };
 

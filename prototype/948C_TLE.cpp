@@ -51,14 +51,53 @@ using namespace std;
 #define si(x) scanf("%d",&x)
 #define sf(x) scanf("%f",&x)
 
-#define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pi(x) printf("%d ",x)
+#define pf(x) printf("%f\n",x)
 
 class Soln{
 private:
-    int n;
+    int n, *v,*t, *r;
+    vector<int> result;
 public:
-    Soln(){}
+    Soln(){
+        si(n);
+        v = new int[n+1];
+        t = new int[n+1];
+        r = new int[n+1];
+        r[0]=0; v[0]=0; t[0]=0;
+        for(int i=1; i<=n; i++){ r[i]=0; }
+
+        for(int i=01; i<=n; i++){
+            si(v[i]);
+        }
+        for(int i=01; i<=n; i++){
+            si(t[i]);
+        }
+        /*for(int i=01; i<=n; i++){
+            //r[i] = max(r[i-1]-t[i],0)+max(v[i]-t[i],0);
+            for(int j=1; j<i; j++){
+                r[i]=r[i]+min(v[j],t[i]);
+                v[j]=min(v[j]-t[i],0);
+            }
+        }*/
+        /*for(int i=1; i<=n; i++){
+            for(int j=1; j<i-1; j++){
+                v[j]=min(0,v[j]-t[i]);
+                r[i]+=min(v[j],t[i]);
+            }
+            r[i]+=min(v[i],t[i]);
+            v[i]=min(0,v[i]-t[i]);
+        }*/
+        for(int i=1; i<=n; i++){
+            for(int j=01; j<=i;j++){
+                r[i]+=min(v[j],t[i]);
+                v[j]=max(v[j]-t[i],0);
+            }
+        }
+
+        for(int i=1; i<=n; i++){ pi(r[i]); }
+        printf("\n");
+    }
     ~Soln(){}
 };
 

@@ -52,14 +52,63 @@ using namespace std;
 #define sf(x) scanf("%f",&x)
 
 #define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pf(x) printf("%.15f\n",x)
 
 class Soln{
 private:
-    int n;
+    int n,u,v;
+    double Ex;
+    vector<int> *G;
+    bool *isVisited;
 public:
-    Soln(){}
-    ~Soln(){}
+
+    void DFS(){
+        for(int i=1; i<=n; i++){ isVisited[i]=false;}
+
+        for(int i=1; i<=n; i++){
+            cout<<"DFS turn:"<<i<<endl;
+            if(isVisited[i]==false) 
+            {   cout<<"DFS_visit turn:"<<i<<endl;
+                int p = G[i].size();
+                Ex=Ex+DFS_visit(i)/p;
+            }
+        }
+    }
+
+    double DFS_visit(int u){
+        double x;
+        x=0; 
+        isVisited[u]=true;
+        int p = G[u].size();
+        if(p==0){ return 1; }
+        for(int i=0; i<p; i++){
+            int v = G[u][i];
+            x += DFS_visit(v);
+            
+        }
+        cout<<"Node "<<u<<" : returns "<<x/p<<endl;
+        return x/p;
+    }
+
+    Soln(){
+        Ex = 0;
+        si(n);
+        G = new vector<int>[n+1];
+        isVisited = new bool[n+1];
+        for(int i=0; i<n-1; i++){
+            si(u);si(v);
+            G[u].push_back(v);
+        }
+        for(int i=0; i<=n; i++){ isVisited[i]=false;}
+
+        DFS();
+
+        pf(Ex);
+    }
+    ~Soln(){
+        if(!G)delete[] G;
+        if(!isVisited)delete[] isVisited;
+    }
 };
 
 int main(int argc, char const *argv[])

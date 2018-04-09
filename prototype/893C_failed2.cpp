@@ -56,10 +56,69 @@ using namespace std;
 
 class Soln{
 private:
-    int n;
+    int n,u,v;
+    double Ex, **dp;
+    vector<int> *G;
+    bool *isVisited;
 public:
-    Soln(){}
-    ~Soln(){}
+
+    void DFS(){
+        for(int i=1; i<=n; i++){
+            if(!isVisited[i]){
+                DFS_visit(i);
+                //cout<<endl;
+            }
+        }
+    }
+
+    void DFS_visit(int u){
+        isVisited[u]=true;
+        //dp[u]=1;
+        double temp=0;
+        //cout<<u<<"-->";
+        int p = 0;
+        for(int i=0; i<G[u].size(); i++){
+            int v = G[u][i];
+            if(!isVisited[v]){
+                p++;
+                DFS_visit(v);
+                //temp+=dp[v];
+            }
+            //if(p)dp[u] = temp/p;
+        }
+    }
+    Soln(){
+        Ex=0;
+        si(n);
+        G = new vector<int>[n+1];
+        isVisited = new bool[n+1];
+        //dp = new double[n+1];
+        for(int i=0; i<=n; i++){ dp[i]=0; }
+        dp = new double*[n+1];
+        for(int i=0; i<=n; i++){
+            dp[i] = new double[n+1];
+        }
+        for(int i=0; i<=n; i++)
+            for(int j=0; j<=n; j++)
+                dp[i][j]=0;
+        
+
+        for(int i=0; i<=n; i++){ isVisited[i]=false;}
+        for(int i=0; i<n-1; i++){
+            si(u); si(v);
+            G[u].push_back(v);
+        }
+
+        DFS();
+        //Ex = dp[1];
+        pf(Ex);
+    }
+    ~Soln(){
+        if(!G)delete[] G;
+        if(!isVisited)delete[] isVisited;
+        for(int i=0; i<=n; i++){if(!dp[i])delete[] dp[i];}
+        if(!dp)delete[] dp;
+    }
 };
 
 int main(int argc, char const *argv[])

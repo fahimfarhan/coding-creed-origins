@@ -52,14 +52,72 @@ using namespace std;
 #define sf(x) scanf("%f",&x)
 
 #define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pf(x) printf("%f\n",x)
 
 class Soln{
 private:
-    int n;
+    int n, R, C;
+    string *s;
+    bool b;
 public:
-    Soln(){}
-    ~Soln(){}
+    Soln(){
+        //b = true;
+        si(R); si(C);
+        s = new string[R];
+
+        //cout<<"ok1\n";
+        for(int i=0; i<R; i++){
+            cin>>s[i];
+
+        //cout<<"ok2\n";
+        }
+
+        for(int i=0; i<R; i++){
+            for(int j=0; j<C; j++){
+
+        //cout<<"ok3\n";
+                if(s[i][j]=='.'){
+                    s[i][j]='D';
+                }else if(s[i][j]=='S'){
+                    int x,y;
+
+        //cout<<"ok4\n";
+                    x=i+1; y=j;
+          //          cout<<"ok4 1\n"; 
+                    if(x<R){    
+                        if(s[x][y]=='W'){cout<<"NO\n"; exit(0); }
+                    }
+                    x=i-1; y=j;
+            //        cout<<"ok4 2\n";
+                    if(x>=0){    
+                        if(s[x][y]=='W'){cout<<"NO\n"; exit(0); }
+                    }
+                    x=i; y=j+1; 
+              //      cout<<"ok4 3\n";
+                    if(y<C){    
+                        if(s[x][y]=='W'){cout<<"NO\n"; exit(0); }
+                    }
+                    x=i; y=j-1; 
+                //    cout<<"ok4 4\n";
+                    if(y>=0){    
+                        if(s[x][y]=='W'){cout<<"NO\n"; exit(0); }
+                    }
+
+       // cout<<"ok5\n";
+                }
+            }
+        }
+        cout<<"YES\n";
+        for(int i=0; i<R; i++){
+            cout<<s[i]<<endl;
+        }
+
+
+    }
+
+    ~Soln(){
+        if(!s)delete[] s;
+    }
 };
 
 int main(int argc, char const *argv[])

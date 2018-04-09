@@ -52,13 +52,17 @@ using namespace std;
 #define sf(x) scanf("%f",&x)
 
 #define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pf(x) printf("%f\n",x)
 
 class Soln{
 private:
     int n;
 public:
-    Soln(){}
+    Soln(){
+        scanf("%d",&n);
+        if( (n&01) == 1) printf("Ehab\n");
+        else printf("Mahmoud\n");
+    }
     ~Soln(){}
 };
 

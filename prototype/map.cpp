@@ -52,13 +52,19 @@ using namespace std;
 #define sf(x) scanf("%f",&x)
 
 #define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pf(x) printf("%f\n",x)
 
 class Soln{
 private:
     int n;
+    map<string, int> mp;
 public:
-    Soln(){}
+    Soln(){
+        mp["abc"]=1;
+        mp["cde"]=2;
+
+        cout<<mp["abc"]<<" "<<mp["cde"];
+    }
     ~Soln(){}
 };
 

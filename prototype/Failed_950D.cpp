@@ -52,19 +52,44 @@ using namespace std;
 #define sf(x) scanf("%f",&x)
 
 #define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pf(x) printf("%f\n",x)
 
-class Soln{
+class D950{
 private:
-    int n;
+    int n,q, *A;
 public:
-    Soln(){}
-    ~Soln(){}
+    D950(){
+        si(n); si(q);
+        A = new int[2*n];
+        for(int i=0; i<2*n; i++){
+            A[i]=0;
+        }
+        int j=1;
+        for(int i=1; i<2*n; i+=2){
+            A[i]=j; j++;
+        }
+
+        int lastEmpty = 2*n-2;
+        int lastPos = 2*n-1;
+        while(lastEmpty!=0){
+            A[lastEmpty]=A[lastEmpty]^A[lastPos];
+            A[lastPos]=A[lastEmpty]^A[lastPos];
+            A[lastEmpty]=A[lastEmpty]^A[lastPos];
+            
+            lastEmpty-=2; lastPos--;
+        }
+        int pos;
+        for(int i=0; i<q; i++){
+            si(pos);
+            pi(A[pos]);
+        }
+    }
+    ~D950(){}
 };
 
 int main(int argc, char const *argv[])
 {
 	/* code */
-	Soln soln;
+	D950 soln;
 	return 0;
 }

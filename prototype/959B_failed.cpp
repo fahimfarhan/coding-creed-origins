@@ -52,14 +52,48 @@ using namespace std;
 #define sf(x) scanf("%f",&x)
 
 #define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pf(x) printf("%f\n",x)
 
 class Soln{
 private:
-    int n;
+    int n,m,k,x;
+    int64_t sum;
+    string s;
+    //string *msg;
+    map<string, int> mp;
+    int *cost;
 public:
-    Soln(){}
-    ~Soln(){}
+    Soln(){
+        si(n); si(k); si(m);
+        //s = new string[n+1];
+        cost = new int[n+1];
+        for(int i=01; i<=n; i++){   cin>>s; mp[s]=i;    }
+        for(int i=01; i<=n; i++){  si(cost[i]); } //mp[s[i]]=cost[i]; }
+
+        for(int i=01; i<=k; i++){
+            si(x);
+            int min = INT_MAX;
+            int temp;
+            for(int i=0; i<x; i++){
+                si(temp);
+                if(cost[temp]<min){ min=cost[temp]; }
+                else { cost[temp]=min; } // min< cost[temp]
+            }
+        }
+        sum=0;
+        for(int i=0; i<m; i++){
+            cin>>s;
+            //index = mp[s];
+            sum=sum+cost[mp[s]];
+        }
+
+        cout<<sum<<"\n";
+
+    }
+    ~Soln(){
+        //if(!s)delete[] s;
+        if(!cost) delete[] cost;
+    }
 };
 
 int main(int argc, char const *argv[])

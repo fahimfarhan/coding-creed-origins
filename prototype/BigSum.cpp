@@ -52,13 +52,89 @@ using namespace std;
 #define sf(x) scanf("%f",&x)
 
 #define pi(x) printf("%d\n",x)
-#define pf(x) printf("%.4f\n",x)
+#define pf(x) printf("%f\n",x)
 
 class Soln{
 private:
-    int n;
+    int n,carry;
+    string s, n1,n2,result;
 public:
-    Soln(){}
+    Soln(){
+        while(getline(cin,s)){
+            //s1: take inputs
+            int pos = s.find(',');
+            n1 = s.substr(0,pos);
+            n2 = s.substr(pos+1);
+
+            //cout<<n1<<" "<<n2;
+            //s2: reverse the strs
+            /*n1.reverse();
+            n2.reverse();
+            */
+            reverse(n1.begin(), n1.end());
+            reverse(n2.begin(), n2.end());
+            int smallLen=0;
+            if(n1.length()<n2.length()){ smallLen = n1.length(); }
+            else{ smallLen = n2.length(); }
+        
+            result = "";
+            int i=0;
+            carry=0;
+            while(i<smallLen){
+                i++;
+                n = n1[n1.length()-i]-'0' + n2[n2.length()-i]-'0'+carry;
+                //cout<<"n= "<<n<<endl;
+                carry = n/10;
+                n=n%10;
+                //result = result+(char)n+'0';
+                string lastLetter(1,(char)n+'0');
+                result = result+lastLetter;
+                //cout<<"result= "<<result<<endl;
+            }
+
+            if(n1.length()<n2.length()){
+                int i=0; 
+                while(i<n2.length()-smallLen){
+                    i++;
+                    n = n2[n2.length()-i]-'0'+carry;
+                    carry = n/10;
+                    n=n%10;
+                    //result = result+(char)n+'0';
+                string lastLetter(1,(char)n+'0');
+                result = result+lastLetter;
+
+                }
+                
+            }else{
+                int i=0; 
+                while(i<n1.length()-smallLen){
+                    i++;
+                    n = n1[n1.length()-i]-'0'+carry;
+                    carry = n/10;
+                    n=n%10;
+                    //result = result+(char)n+'0';
+                string lastLetter(1,(char)n+'0');
+                result = result+lastLetter;
+                }
+            }
+            if(carry){ 
+                //result = result+(char)carry+'0';
+                                string lastLetter(1,(char)carry+'0');
+                result = result+lastLetter; 
+            }
+
+            //strp 3: remove leading zeros!
+            pos = 0;
+            bool b=false;
+            for(int i=0; i<result.length(); i++){
+                if(result[i]!='0'){  pos = i; break;  }
+            }
+            //for(int i=0; i<pos; i++){ result.erase(i); }
+            
+            result = result.substr(pos);
+            cout<<result<<endl;
+        }
+    }
     ~Soln(){}
 };
 
