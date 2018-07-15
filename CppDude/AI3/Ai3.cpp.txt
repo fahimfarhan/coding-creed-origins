@@ -1,0 +1,189 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+
+class AI{
+public:
+    double **Gd;
+    int n,s,*x,*y;
+    bool *isVisited;
+    vector<int> v1,v2,v3,v4, v5;
+
+    void resetIsVisited(){
+        for(int i=0; i<n; i++){
+            isVisited[i] = false;
+        }
+    }
+    AI(){
+        cin>>n;
+        cin>>s;
+        x = new int[n]; 
+        y = new int[n];
+        isVisited = new bool[n];
+        
+        resetIsVisited();
+
+        for(int i=0; i<n; i++){
+            cin>>x[i]>>y[i];
+        }
+        // calculate cost
+        Gd = new double*[n];
+        for(int i=0; i<n; i++)
+        { Gd[i] = new double[n]; }
+
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                double temp = (x[i]-x[j])*(x[i]-x[j]) + (y[i]-y[j])*(y[i]-y[j]);
+                temp = sqrt(temp);
+                Gd[i][j] = temp; 
+            }
+        }
+        printf("\nCase #A Nearest Neighbour:\n");
+
+        v1.push_back(s);
+        int pos=0;
+        while(pos<n-1){
+            int x = v1[pos];
+            isVisited[x] = true;
+            pos++;
+            int temp = INT_MAX;
+            int next_node = -1;
+            for(int i=0; i<n; i++){
+                if( (Gd[x][i]!=0) && (Gd[x][i]<temp) && (isVisited[i]==false) ){
+                    temp = Gd[x][i];
+                    next_node = i;
+                }
+            }
+            v1.push_back(next_node);
+            isVisited[next_node] = true;
+        }
+
+        int temp1 = v1[0];
+        v1.push_back(temp1);
+        // cout<<"temp1 = "<<temp1<<"\n";
+        
+        /*for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                cout<<(int)Gd[i][j]<<" ";
+            }
+            cout<<"\n";
+        }*/
+
+        
+        for(int i=0; i<v1.size(); i++){
+            cout<<v1[i]<<"-->";
+        }cout<<"\n";
+        /***************************************************/
+        cout<<"\nCase #B1 Nearest Insertion:\n";
+        resetIsVisited();
+        //Step 1. Start with a sub-graph consisting of node i only.
+        v2.push_back(s);
+        isVisited[s] = true;
+        //Step 2. Find node r such that Cir is minimal and form sub-tour i-r-i.
+        double temp2 = INT_MAX;
+        int pos2 = -1;
+        for(int i=0; i<n; i++){
+            if((!isVisited[i]) && Gd[s][i]<temp2){
+                    pos2 = i;
+                    temp2 = Gd[s][i];
+            } 
+        }
+        v2.push_back(pos2);
+        isVisited[pos2] = true;
+        //cout<<"ok1\n";
+        //Step 3. (Selection step) Given a sub-tour, 
+        //find node r not in the sub-tour closest to any node j in the sub-tour;
+        // i.e. with minimal Crj
+
+        
+        for(int i=0; i<n-2; i++){
+            //cout<<"ok2\n";
+            double temp2 = INT_MAX;
+            int pos2 = -1;
+            
+            for(int j = 0; j <v2.size(); j++)
+            {
+                //cout<<"ok3\n";
+                for(int r = 0; r <n; r++)
+                {
+                    //cout<<"ok4\n";
+                    if((!isVisited[r]) && Gd[r][j]<temp2){
+                        pos2 = j;
+                        temp2 = Gd[r][j];
+                    }
+                }
+            }
+            isVisited[pos2] = true;
+            //cout<<"ok5\n";
+            //Step 4. (Insertion step) Find the arc (i, j) in the sub-tour which minimizes Cir + Crj - Cij . 
+            
+            double temp2_2 = INT_MAX;
+            int pos2_2 = -1;
+            for(int k=1; k<v2.size();k++){
+                int i1 = v2[k-1];
+                int j1 = v2[k];
+                int r1 = pos2;
+                //cout<<"ok6\n";
+                double C = Gd[i1][r1]+Gd[r1][j1]-Gd[i1][j1];
+                if(C<temp2_2){
+                    temp2_2 = C;
+                    pos2_2 = k;
+                    //cout<<"ok7\n";
+                }
+            }
+            //Insert r between i and j.
+            // here r = pos2 , pos between i and j = pos2_2
+            v2.insert(v2.begin()+pos2_2, pos2);
+            isVisited[pos2] = true;
+            
+            // Step 5. If all the nodes are added to the tour, stop. Else go to step 3 
+
+            
+        }
+        
+    
+
+        for(int i=0; i<v2.size(); i++){ cout<<v2[i]<<"-->"; }
+
+        cout<<"\nCase #B2 Cheapest Insertion:\n";
+        resetIsVisited();
+        //Step 1. Start with a sub-graph consisting of node i only.
+        v3.push_back(s);
+        isVisited[s] = true;
+        //Step 2. Find node r such that Cir is minimal and form sub-tour i-r-i.
+        double temp3 = INT_MAX;
+        int pos3 = -1;
+        for(int i=0; i<n; i++){
+            if((!isVisited[i]) && Gd[s][i]<temp3){
+                    pos3 = i;
+                    temp3 = Gd[s][i];
+            } 
+        }
+        v3.push_back(pos3);
+        isVisited[pos3] = true;
+        
+
+
+        /*******THE END**********/
+        cout<<"\n\n\n";
+    }
+
+    ~AI(){
+        for(int i=0; i<n; i++){
+            if(!Gd[i]) delete[] Gd[i];
+        }
+        if(!Gd) delete[] Gd;
+        if(!x) delete[] x;
+        if(!y) delete[] y;
+    }
+};
+
+
+
+int main()
+{
+    AI ai3;
+    return 0;
+}
