@@ -56,16 +56,40 @@ using namespace std;
 
 class Soln{
 private:
-    int n,k, *a;
-    
+    int n,k,sum, a;
 public:
     Soln(){
+        vector<pair<int, int> > v;
+        vector<int> index;
+        index.push_back(0);
         si(n);
         si(k);
-        a = new int[n];
+        //a = new int[n];
         for(int i=0; i<n; i++){
-            si(a[i]);
+            si(a);
+            a = -a;
+            pair<int , int> p(a,i+1);
+            v.push_back(p);
         }
+
+        sort(v.begin(), v.end());
+
+        sum = 0;
+        for(int i=0; i<k; i++){
+            sum = sum - v[i].first;
+            index.push_back(v[i].second);
+        }
+        sort(index.begin(), index.end());
+
+        printf("%d\n", sum);
+
+        for(int i=1; i<k; i++){
+            int x = abs(index[i] - index[i-1]);
+            printf("%d ",x);
+        }
+        printf("%d", abs(n-index[k-1]));
+        printf("\n");
+
         
     }
     ~Soln(){}

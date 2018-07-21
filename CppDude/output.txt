@@ -1,0 +1,60 @@
+info@bwcigroup.com : true
+info@envirotectltd.co.uk : true
+info@allplantsales.com : true
+info@sabaleather.co.uk : true
+info@sensor-technik.co.uk : true
+info@oneonline.co.uk : true
+info@pact-engineering.co.uk : true
+info@www.uniquemployment.co.uk : None
+----------------------------------------
+
+hello@bwcigroup.com : unknown
+hello@envirotectltd.co.uk : true
+hello@allplantsales.com : true
+hello@sabaleather.co.uk : true
+hello@sensor-technik.co.uk : true
+hello@oneonline.co.uk : true
+hello@pact-engineering.co.uk : true
+hello@www.uniquemployment.co.uk : None
+----------------------------------------
+
+support@bwcigroup.com : true
+support@envirotectltd.co.uk : true
+support@allplantsales.com : true
+support@sabaleather.co.uk : true
+support@sensor-technik.co.uk : true
+support@oneonline.co.uk : true
+support@pact-engineering.co.uk : true
+support@www.uniquemployment.co.uk : None
+----------------------------------------
+
+admin@bwcigroup.com : unknown
+admin@envirotectltd.co.uk : true
+admin@allplantsales.com : true
+admin@sabaleather.co.uk : true
+admin@sensor-technik.co.uk : true
+admin@oneonline.co.uk : true
+admin@pact-engineering.co.uk : true
+admin@www.uniquemployment.co.uk : None
+----------------------------------------
+
+sales@bwcigroup.com : true
+sales@envirotectltd.co.uk : true
+sales@allplantsales.com : true
+sales@sabaleather.co.uk : true
+sales@sensor-technik.co.uk : true
+sales@oneonline.co.uk : true
+sales@pact-engineering.co.uk : true
+sales@www.uniquemployment.co.uk : None
+----------------------------------------
+
+account@bwcigroup.com : true
+account@envirotectltd.co.uk : true
+account@allplantsales.com : true
+account@sabaleather.co.uk : true
+account@sensor-technik.co.uk : true
+account@oneonline.co.uk : true
+account@pact-engineering.co.uk : true
+account@www.uniquemployment.co.uk : None
+----------------------------------------
+

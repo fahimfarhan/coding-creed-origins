@@ -55,10 +55,7 @@ using namespace std;
 #define pi(x) printf("%d\n",x)
 #define pf(x) printf("%.4f\n",x)
 
-#define ll long long int
-
-#define sll(x) scanf("%I64d",&x);
-#define pll(x) printf("%-I64d\n",x);
+#define ll long long 
 
 class Soln{
 private:
@@ -71,8 +68,30 @@ public:
 int main(int argc, char const *argv[])
 {
 	/* code */
-  /* Soln soln */
-	int n;
+	int n, maximum, *a;
+    double x, sum_ai;
+     maximum = 0;
+    sum_ai = 0;
+    si(n);
+    a = new int[n];
+
+    for(int i=0; i<n; i++){
+        si(a[i]);
+        sum_ai = sum_ai + a[i];
+        if(a[i]>maximum) maximum = a[i]; 
+    }
+
+    x = sum_ai/(n-1);
+    x = ceil(x);
+    
+    //cout<<"x = "<<x<<"\n";
+    //cout<<"m = "<<maximum<<"\n"; 
+    
+    if( x< maximum){   pi(maximum);   }
+    else{   pi((int)x);   }
+
+
+    if(!a)delete[] a;
 	return 0;
 }
 

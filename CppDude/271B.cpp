@@ -67,12 +67,108 @@ public:
     Soln(){}
     ~Soln(){}
 };
+class Seive{
+public:
+	bool *A;
+	vector<int> v;
+	Seive(int n){
+		A = new bool[n+1];
+		for(int i=0; i<=n; i++){ A[i] = true;}
+		A[0] = false; A[1] = false;
+		//v.push_back(2);
+		int stop = (int)sqrt(n);
+		for(int i=4; i<=n; i+=2){ A[i] = false; }
+		// eliminate remaining numbers	
+		for(int i=3; i<=stop; i++){
+			if(A[i]==true){
+				for(int j = 3*i; j<=n;j+=2*i){
+					A[j]=false;
+				}
+			}
+		}
+
+		for(int i=0; i<=n; i++)
+		{ 
+			//cout<<i<<" "<<A[i]<<"\n";
+			if(A[i]){v.push_back(i);}	
+		}
+
+	}
+	~Seive(){
+		if(!A){
+			delete[] A;
+		}
+	}
+};
 
 int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-	int n;
+	int n, m, **a;
+    si(n); si(m);
+    a = new int*[n];
+    for(int i=0; i<n; i++){
+        a[i] = new int[m];
+    }
+    //cout<<"ok 1\n";
+    for(int i=0; i<n; i++){
+        for(int j=0; j<m; j++){
+            si(a[i][j]);
+        }
+    }
+    //cout<<"ok 2\n";
+    Seive sv(2000000);
+    //cout<<"\n\n\n";
+    for(int i=0; i<n; i++){
+        for(int j=0; j<m; j++){
+            int diff = 0;
+            if(!binary_search(sv.v.begin(), sv.v.end(), a[i][j])){
+                int pos = upper_bound(sv.v.begin(), sv.v.end(), a[i][j]) - sv.v.begin();
+                int prime = sv.v[pos];
+                diff = prime - a[i][j];
+            }
+            a[i][j] = diff;
+        }
+    }
+    //cout<<"ok 3\n";
+    /*
+    for(int i=0; i<n; i++){
+        for(int j=0; j<m; j++){
+            cout<<a[i][j]<<" ";
+        }cout<<endl;
+    }
+    */
+    
+    ll min = INT_MAX;
+    // row wise
+    for(int i=0; i<n; i++){
+        ll  sum = 0;
+        for(int j=0; j<m; j++){
+            sum+=a[i][j];
+        }
+        if(sum<min){    min=sum;    }
+    }
+
+    //column wise check
+    for(int j=0; j<m; j++){
+        ll  sum = 0;
+        for(int i=0; i<n; i++){
+            sum+=a[i][j];
+        }
+        if(sum<min){    min=sum;    }
+    }
+
+    pll(min);
+    //cout<<min<<"\n";
+    
+    /*****************************/
+    for(int i=0; i<m; i++){
+        if(!a[i]) delete[] a[i];
+    }
+    delete[] a;
+
+
 	return 0;
 }
 

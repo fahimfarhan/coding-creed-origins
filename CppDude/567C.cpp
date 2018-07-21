@@ -60,6 +60,43 @@ using namespace std;
 #define sll(x) scanf("%I64d",&x);
 #define pll(x) printf("%-I64d\n",x);
 
+
+class nCr{
+private:
+    int n,r;
+    int **dp;
+public:
+    int getDpIJ(int i, int j){ return dp[i][j];   }
+    nCr(int N, int R){
+        n=N; r=R;
+        dp = new int*[n+1];
+        for(int i=0; i<=n;i++){ dp[i] = new int[r+1]; }
+        dp[0][0] = 1;
+        /*for(int i=0; i<=n; i++){
+            dp[i][0] = 1;
+        }
+        for(int i=0; i<=r; i++){
+            dp[0][i] = 1;
+        }*/
+        for(int i=1; i<=n; i++){
+            for(int j=0; j<=r; j++){
+                if(j>i){ dp[i][j]=0; }
+                else if(j==i || j==0){ dp[i][j]=1;}
+                else dp[i][j] = dp[i-1][j-1]+dp[i-1][j]; // nCr = n-1Cr-1 + n-1Cr
+            }
+        }
+
+        
+
+    }
+    ~nCr(){
+        for(int i=0; i<=n;i++)
+        { if(!dp[i]) delete[] dp[i]; }
+        if(!dp)delete[] dp;
+    }
+};
+
+
 class Soln{
 private:
     int n;
@@ -72,7 +109,24 @@ int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-	int n;
+	int n, k, *a;
+    set<int> s;
+    si(n); si(k);
+
+    a = new int[n];
+    for(int i=0; i<n; i++){
+        si(a[i]);
+        s.insert(a[i]);
+    }
+    int mx = 0;
+    for(int i=0; i<s.size(); i++){
+        int temp = count(a,a+n, *s.find(i));
+        if( temp>mx ){  mx=temp;    }
+    }
+
+    nCr ncr(mx,mx);
+
+    s.
 	return 0;
 }
 

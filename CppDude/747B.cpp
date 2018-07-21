@@ -73,6 +73,27 @@ int main(int argc, char const *argv[])
 	/* code */
   /* Soln soln */
 	int n;
+    string s, sequence;
+    sequence = "ATCG";
+    si(n);
+    cin>>s;
+
+    if(n%4 != 0){   printf("===\n"); return 0;   }
+
+    for(int i=0; i<4; i++){
+        int needed = n/4 - count(s.begin(),s.end(), sequence[i]);
+        if(needed > count(s.begin(),s.end(), '?')){
+               printf("===\n"); return 0;   
+        }
+
+        for(int j=0; j<needed; j++){
+            int pos = s.find('?');
+            s[pos] = sequence[i];
+        }
+    }
+
+    cout<<s<<"\n";
+
 	return 0;
 }
 

@@ -73,6 +73,29 @@ int main(int argc, char const *argv[])
 	/* code */
   /* Soln soln */
 	int n;
+    ll sum1, sum2,mx, *a, *s;
+    sum1 = 0; sum2=0; mx = 0;
+    
+    si(n);
+    a = new ll[n];
+    s = new ll[n];
+    sum1 = 0;
+    for(int i=0; i<n; i++){     s[i]= 0 ;   }
+    for(int i=0; i<n; i++){     sll(a[i]); sum1 = sum1+a[i]; s[i] = sum1;    }
+    //s[0] = a[0];
+    for(int i=0; i<n; i++){    /*s[i]=s[i-1]+a[i];*/ pll(s[i]);   }
+
+    sum2 = 0; mx = 0;
+    for(int i=n-1; i>=0; i--){
+        sum2 +=a[i];
+        int pos = lower_bound(s,s+n,sum2)-a;
+        if( (s[pos]== sum2) ){   mx = max(mx, s[pos]); }
+    }
+
+    pll(mx);
+
+    if(!a)delete[] a;
+    if(!s)delete[] s;
 	return 0;
 }
 
