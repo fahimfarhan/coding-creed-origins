@@ -72,11 +72,33 @@ int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-  // freopen("input.txt","r",stdin);
-  // freopen("output.txt","w",stdout);
-	int n;
-	return 0;
+	int n, m, *a, *t;
+
+    si(n); si(m);
+
+    a = new int[n];
+    t = new int[n];
+
+    int sum = 0;
+    for(int i=0; i<n; i++){
+        si(a[i]);
+        sum+=a[i];
+        t[i]=sum;
+    }
+    int prev = 0;
+    for(int i=0; i<n; i++){
+        int c = (int)t[i]/m - prev;
+        //if(t[i]%m==0){  c=c-1;}
+        printf("%d ",c);
+        prev = c;
+    }
+    printf("\n");
+    delete[] a;
+    delete[] t;
+	
+    return 0;
 }
+
 
 
 		// ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ 

@@ -62,7 +62,7 @@ using namespace std;
 
 class Soln{
 private:
-    int n;
+    
 public:
     Soln(){}
     ~Soln(){}
@@ -72,11 +72,29 @@ int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-  // freopen("input.txt","r",stdin);
-  // freopen("output.txt","w",stdout);
-	int n;
-	return 0;
+	int n, T, b_count, o_count, bo_count;
+    char s1[3+1], s2[3+1];
+    si(T);
+    while(T--){
+        b_count=0; o_count=0; bo_count=0;
+        scanf("%s",s1);
+        scanf("%s",s2);
+        s1[3]='\0'; s2[3]='\0';
+        for(int i=0; i<3; i++){
+            if(s1[i]=='b' || s2[i]=='b'){   b_count++;  }
+            else if(s1[i]=='o' || s2[i]=='o'){   o_count++;  }
+            if( ( (s1[i]=='b') && (s2[i]=='o')) || ( (s2[i]=='b') && (s1[i]=='o') ) ){
+                bo_count++;
+            }
+        }
+
+        if(b_count==3 && o_count==3){   printf("yes\n");    }
+        else if(b_count>=2 && o_count>=1 && bo_count==0){   printf("yes\n");    }
+        
+    }
+    return 0;
 }
+
 
 
 		// ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ 

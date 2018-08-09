@@ -72,11 +72,21 @@ int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-  // freopen("input.txt","r",stdin);
-  // freopen("output.txt","w",stdout);
-	int n;
+	int n,m,a,s;
+    s = 0;
+    si(n); si(m);
+
+    for(int i=0; i<n; i++){
+        si(a);
+        s = s+a;
+        //pi(s/m);
+        printf("%d ", (s/m) );
+        s = s%m;
+    }
+    printf("\n");
 	return 0;
 }
+
 
 
 		// ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ 

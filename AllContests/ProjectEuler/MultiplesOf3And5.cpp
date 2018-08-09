@@ -74,7 +74,36 @@ int main(int argc, char const *argv[])
   /* Soln soln */
   // freopen("input.txt","r",stdin);
   // freopen("output.txt","w",stdout);
-	int n;
+	int n,nA,nB,nAB, n1,n2,n3, ans;
+  n = 1000;
+  nA = 0; nB=0; nAB=0;
+  n1 = (int)n/3;
+  n2 = (int)(n-1)/5;
+  n3 = (int)n1/5;
+
+  nA = 3*n1*(n1+1)/2;
+  nB = 5*n2*(n2+1)/2;
+  nAB = 15*n3*(n3+1)/2;
+
+  ans = nA+nB-nAB;
+  cout<<nA<<" "<<nB<<" "<<nAB<<"\n";
+  pi(ans);
+
+  cout<<"\n-------------\n";
+  nA=0; nB=0; nAB=0;
+  for(int i=3; i<1000; i+=3){
+     nA+=i; 
+  }
+  for(int i=5; i<1000; i+=5){
+     nB+=i; 
+  }
+  for(int i=15; i<1000; i+=15){
+    if(i%15==0){ nAB+=i; }
+  }
+
+  ans = nA+nB-nAB;
+  cout<<nA<<" "<<nB<<" "<<nAB<<"\n";
+  pi(ans);
 	return 0;
 }
 
@@ -108,4 +137,5 @@ int main(int argc, char const *argv[])
 		// ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
  
  
+
 

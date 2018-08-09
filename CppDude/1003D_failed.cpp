@@ -72,11 +72,43 @@ int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-  // freopen("input.txt","r",stdin);
-  // freopen("output.txt","w",stdout);
-	int n;
+	int n,q,x,*a;
+
+    si(n); si(q);
+
+    a = new int[n];
+
+    for(int i=0; i<n; i++){
+        si(a[i]);
+    }
+
+    sort(a,a+n);
+    while(q--){
+        si(x);
+        //cout<<x<<" "<<x%2<<"\n";
+        if( (x%2)==1){    pi(-1);    }
+        else{
+            int count = 0;
+            while(1){
+                //cout<<"here "<<x<<"\n";
+                if(x==0){   break;  }
+
+                int index = lower_bound(a,a+n,x) - a;
+                //cout<<"index = "<<index<<" x= "<<x<<"\n";
+                if( x<a[0] ){ count=-1; break;  }
+                else{   
+                    x=x-a[index]; count++;   
+                    
+                }
+            }
+            pi(count);
+        }
+
+    }
+    if(!a)delete[] a;
 	return 0;
 }
+
 
 
 		// ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ 

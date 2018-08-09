@@ -62,7 +62,7 @@ using namespace std;
 
 class Soln{
 private:
-    int n;
+    
 public:
     Soln(){}
     ~Soln(){}
@@ -72,11 +72,30 @@ int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-  // freopen("input.txt","r",stdin);
-  // freopen("output.txt","w",stdout);
-	int n;
-	return 0;
+
+    ifstream cin("input.txt");
+	ofstream cout("output.txt");
+
+	int n,x,y, *a;
+    //si(n);
+    cin>>n;
+    a = new int[n];
+    for(int i=0; i<n; i++){ /*si(a[i]);*/ cin>>a[i];   }
+    sort(a,a+n);
+    x = a[0];
+    y = x<<1;
+
+    int u = upper_bound(a,a+n,y)-a;
+    int ans1 = n-u;
+    int ans2 = u;
+    int ans = min(ans1,ans2);
+    //pi(ans);
+    cout<<ans<<"\n";
+    if(!a)delete[] a;
+
+    return 0;
 }
+
 
 
 		// ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ 

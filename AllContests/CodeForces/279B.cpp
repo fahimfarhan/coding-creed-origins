@@ -55,10 +55,7 @@ using namespace std;
 #define pi(x) printf("%d\n",x)
 #define pf(x) printf("%.4f\n",x)
 
-#define ll long long int
-
-#define sll(x) scanf("%I64d",&x);
-#define pll(x) printf("%-I64d\n",x);
+#define ll long long 
 
 class Soln{
 private:
@@ -71,12 +68,41 @@ public:
 int main(int argc, char const *argv[])
 {
 	/* code */
-  /* Soln soln */
-  // freopen("input.txt","r",stdin);
-  // freopen("output.txt","w",stdout);
-	int n;
-	return 0;
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+	
+	int n,t, total_time;
+    int *a;
+
+    si(n); si(t);
+
+    a = new int[n];
+    total_time = 0;
+    for(int i=0; i<n; i++){
+        si(a[i]);
+        total_time+=a[i];
+    }
+
+    total_time = t-total_time;
+    if(total_time>=0){
+        pi(n);
+    }else{
+        int ans = 0;
+        int count = 0;
+        sort(a,a+n);
+        for(int i=0; i<n;i++){
+            
+            if(ans<t && (t - ans >a[i])){
+                count++; ans = ans+a[i];            
+            }
+            else break;
+            
+        }
+        pi(count);
+    }
+    return 0;
 }
+
 
 
 		// ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ 

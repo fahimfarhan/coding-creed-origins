@@ -68,15 +68,43 @@ public:
     ~Soln(){}
 };
 
+bool compare(const pair<int,int>& f,const pair<int,int>& s){
+    if(f.first>s.first){
+        return true;
+    }else if(f.first<s.first){
+        return false;
+    }else{
+        if(f.second<s.second){  return true;    }
+        else return false;
+    }
+
+}
+
 int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-  // freopen("input.txt","r",stdin);
-  // freopen("output.txt","w",stdout);
-	int n;
+	int n,a,b,c,d;
+    vector< pair<int,int> > v;
+    si(n);
+    for(int i=1; i<=n; i++){
+        si(a);si(b);si(c);si(d);
+        int sum = a+b+c+d;
+        v.push_back({sum,i});
+    }
+
+    sort(v.begin(),v.end(),compare);
+
+    int ans = 0;
+    for(int i=0; i<v.size(); i++){
+
+        if(v[i].second==1){ ans = i+1; break;   }
+
+    }
+    pi(ans);
 	return 0;
 }
+
 
 
 		// ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ 

@@ -72,11 +72,25 @@ int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-  // freopen("input.txt","r",stdin);
-  // freopen("output.txt","w",stdout);
 	int n;
+    char *a,*b;
+    si(n);
+    a = new char[n+1];
+    b = new char[n+1];
+    scanf("%s %s",a,b);
+    a[n]='\0';
+    b[n]='\0';
+
+    int c[2][2] = {0,0,0,0};
+
+    for(int i=0; i<n; i++){
+        c[a[i]-'0'][b[i]-'0']++;
+    }
+    ll ans = 1ll*c[0][0]*(c[1][0]+c[1][1])+1ll*c[0][1]*c[1][0];
+    pll(ans);
 	return 0;
 }
+
 
 
 		// ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ 
