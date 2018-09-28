@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int *t;
+
+int *t,*lazy;
 int n;
 
 void build(){
@@ -31,7 +32,7 @@ int query(int L, int R){
     l=l+n; r=r+n;
     while(l<r){
         if(l&1){  res += t[l]; l++; }
-        if(r&1){  r--;  res += t[r];  }
+        if( !(r&1) ){  r--;  res += t[r];  }
         l >>= 1;
         r >>= 1; 
     }
@@ -39,17 +40,43 @@ int query(int L, int R){
     return res;
 }
 
+void lazy_propagate(int L, int R, int add_u){
+    int l,r;
+    l=n+L;
+    r=n+R;
+    while(l<r){
+        if(l&1){    lazy[l]+=add_u; l++;    }
+        if(!(r&1)){ lazy[r]+=add_u; r--;    }
+        l = l>>1;
+        r = r>>1;
+    }
+}
+
+void lazy_update(){
+    for(int i=1; i<=n; i++){
+        lazy[i<<1]+=lazy[i];
+        lazy[(i<<1)|1]+= lazy[i];
+        lazy[i] = 0;
+    }
+    for(int i=1; i<=n; i++){
+        t[i] = t[i] + lazy[i];
+        lazy[i] = 0;
+    }
+}
+
 
 int main()
 {
-  scanf("%d", &n);
-  t = new int[n*4];
+    scanf("%d", &n);
+    t = new int[n*4];
+    lazy = new int[n*4];
 
-  for (int i = 0; i < n; ++i) scanf("%d", t + n + i);
-  build();
-  modify(0, 1);
-  printf("%d\n", query(3, 11));
+    for (int i = 0; i < n; ++i) scanf("%d", t + n + i);
+    build();
+    modify(0, 1);
+    printf("%d\n", query(3, 11));
 
     if(!t)delete[] t;
+    if(!lazy)delete[] lazy;
     return 0;
 }
