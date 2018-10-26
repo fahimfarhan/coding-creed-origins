@@ -25,16 +25,23 @@ int main(int argc, char const *argv[])
 
 	int n, top_stack;
     cin>>n;
-    top_stack = 0;
+
     int a[n+1], b[n+1], pos[n+1];
     for(int i=1; i<=n; i++){
         cin>>a[i];
         pos[a[i]] = i;
     }
-
+        top_stack = 0;
     for(int i=1; i<=n; i++){
         cin>>b[i];
-        
+        if(pos[b[i]]>top_stack){
+            int ans = pos[b[i]] - top_stack;
+            top_stack+=ans;
+            cout<<ans<<" ";
+        }else{
+            cout<<0<<" ";
+        }
     }
+    cout<<"\n";
 	return 0;
 }
