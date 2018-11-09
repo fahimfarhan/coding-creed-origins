@@ -1,0 +1,5 @@
+This is a test.
+we are demonstrating the bufferedreader.
+It is not who I am underneath, but what I do that defines me!
+You can only die once, make sure it's worth it!
+Be prepared for anything.
