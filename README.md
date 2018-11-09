@@ -1,11 +1,20 @@
 # centurion-legendary-codes
 
 ## Useful Links
+* [AnikSarker/DeobureoMinkyuParty](https://github.com/AnikSarker/DeobureoMinkyuParty)
+* [AnikSarker/ACM-ICPC-Live-Archive-Solutions](https://github.com/AnikSarker/ACM-ICPC-Live-Archive-Solutions)
+* [AnikSarker/UVA-Online-Judge-solutions](https://github.com/AnikSarker/UVA-Online-Judge-solutions)
 * [Diusrex/UVA-Solutions](https://github.com/Diusrex/UVA-Solutions)
+* [ahsantarique/Contest-Programming-Codes](https://github.com/ahsantarique/Contest-Programming-Codes)
 * [Ayesha049/all-contest-code](https://github.com/Ayesha049/all-contest-code)
 * [tasneemria/Codeforces_Solved](https://github.com/tasneemria/Codeforces_Solved)
+* [Salsabil007/programming](https://github.com/Salsabil007/programming)
 * [Segment Tree Example Code Demo](http://codeforces.com/blog/entry/18051)
-
+* [shahidul2k9/problem-solution](https://github.com/shahidul2k9/problem-solution) 
+* [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) 
+* [hasancse91/Programming-Problem-In-Bengali](https://github.com/hasancse91/Programming-Problem-In-Bengali) 
+* [me-shaon/bangla-programming-resources](https://github.com/me-shaon/bangla-programming-resources) 
+* []()
 
 ## MISSION IMPOSSIBLE
 1. - [x] Basic data sturctures (arrays, queues, linked lists, etc.).
