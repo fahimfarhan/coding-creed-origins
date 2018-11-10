@@ -23,27 +23,30 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
-	int n,k;
-    int sz = 1;
-    int mid = 0;
-    cin>>n>>k;
-    
-    for(int i=1;i<n; i++){
-        sz = 1+(sz>>1);
-    }
-    mid = 1+sz<<1;
+	int n,m,k,y, count, ans;
+    int *a;
 
-    while(true){
-        if(mid == k){   break; }
-        else{
-            if(k<mid){
-                mid = 1+mid>>1;
-                n--;
-            }else{
-                k = mid - (k%mid);
-            }
-        }
-    }
-    cout<<n<<"\n";
+  count = 0;
+  ans = 0;
+  cin>>n>>m>>k;
+    a = new int[m+1];
+  for(int i=0; i<=m; i++){
+      cin>>a[i];
+  }  
+
+  for(int i=0; i<m; i++){
+      
+      y=a[i]^a[m];
+      
+      while(y>0){
+        
+        if( (y&1)==0 ){   count++;   } 
+        y = y>>1;
+      }
+
+      if(count<=k){ ans++; }
+  }
+  cout<<ans<<"\n";
+  if(!a)delete[] a;
 	return 0;
 }
