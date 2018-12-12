@@ -35,7 +35,7 @@
 7. - [ ]  Dynamic programming and it's tricks and optimisations (Knuth optimisation, convex hull optimisation, bitmasks, etc.).
 8. - [ ]  Graph algorithms:
 - [x] a. Traversal (DFS & BFS) algorithms and how to use them.
-- [ ] b. Finding Connected Components.
+- [x] b. Finding Connected Components.
 - [ ] c. Flood Fill.
 - [ ] d. Topological Sorting (the famous algorithm uses DFS but you should also know Kahn's algorithm that uses BFS as it has much applications).
 - [ ] e. Bipartite Check.

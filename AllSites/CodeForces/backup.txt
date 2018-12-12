@@ -1,0 +1,14 @@
+   if(s > sum){
+        cout<<"-1\n";
+    
+    }else{
+        sum-=minimus;
+        if(s <= sum){
+            cout<<minimus<<"\n";
+        }else{
+            ll remaining = s - sum;
+            ll ans =  minimus - remaining;
+            cout<<ans<<"\n";
+        }
+        
+    }
