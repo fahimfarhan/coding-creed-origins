@@ -38,7 +38,7 @@
 - [x] b. Finding Connected Components.
 - [ ] c. Flood Fill.
 - [x] d. Topological Sorting (the famous algorithm uses DFS but you should also know Kahn's algorithm that uses BFS as it has much applications). 
-- [ ] e. Bipartite Check.
+- [x] e. Bipartite Check.
 - [ ] d. Finding Strongly Connected Components.
 - [x] f. Kruskal's and Prim's algorithms for finding the Minimum Spanning Tree of a graph and the variants of the problem.
 - [ ] g. Dijkstra's algorithm for solving the Single Source Shortest Path (SSSP) Problem with out negaitive cycles.
