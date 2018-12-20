@@ -41,7 +41,7 @@
 - [x] e. Bipartite Check.
 - [x] f. Kruskal's and Prim's algorithms for finding the Minimum Spanning Tree of a graph and the variants of the problem.
 - [x] g. Dijkstra's algorithm for solving the Single Source Shortest Path (SSSP) Problem with out negaitive cycles.
-- [ ] h. Bellman-Ford's algorithm for solving the SSSP problem with negative sycles.
+- [x] h. Bellman-Ford's algorithm for solving the SSSP problem with negative sycles.
 - [ ] i. Floyd-Warshall's algorithm for solving the All Pairs Shortest Path (APSP) problem and it's variants.
 - [ ] j. Network Flow problem (all it's algorithms, variants and the problems reducable to it).
 - [x] k. Finding Strongly Connected Components.

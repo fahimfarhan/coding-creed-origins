@@ -80,7 +80,9 @@ int main(int argc, char const *argv[])
         weight[i] = c;
     }
     //cout<<"ok1"<<"\n";
+    
     cout<<BellmanFord()<<"\n";
+    for(int i=1; i<=n; i++){    cout<<dis[i]<<" "; } cout<<"\n";
     try{
         //delete[] g;
         delete[] dis;
