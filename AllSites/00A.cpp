@@ -13,6 +13,9 @@ using namespace std;
 #define pll(x) printf("%-I64d\n",x);
 
 int n,m;
+vector<int> *g;
+bool *isvisited;
+
 
 int main(int argc, char const *argv[])
 {
