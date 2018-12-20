@@ -12,6 +12,8 @@ using namespace std;
 #define sll(x) scanf("%I64d",&x);
 #define pll(x) printf("%-I64d\n",x);
 
+int n,m;
+
 int main(int argc, char const *argv[])
 {
 	/* code */
@@ -23,6 +25,6 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
-	int n;
+
 	return 0;
 }
