@@ -1,7 +1,7 @@
 # centurion-legendary-codes
 ## Useful Links
-* [What important topics of number theory should every programmer know?](https://fahimfarhan.github.io/centurion-legendary-codes/quora)
-* [How do I prepare for Google Code Jam in 2018?](https://fahimfarhan.github.io/centurion-legendary-codes/quora2)
+* [What important topics of number theory should every programmer know?](https://www.quora.com/What-important-topics-of-number-theory-should-every-programmer-know)
+* [How do I prepare for Google Code Jam in 2018?](https://www.quora.com/How-do-I-prepare-for-Google-Code-Jam-in-2018)
 * [Segment Tree Example Code Demo](http://codeforces.com/blog/entry/18051)
 
 ## Important Repos
