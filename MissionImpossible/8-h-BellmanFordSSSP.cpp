@@ -12,6 +12,7 @@ using namespace std;
 #define sll(x) scanf("%I64d",&x);
 #define pll(x) printf("%-I64d\n",x);
 
+#define INF 1000
 int n,m;
 vector< int > *g;
 bool *isvisited;
@@ -67,7 +68,7 @@ int main(int argc, char const *argv[])
     dis = new int[n+10];
     weight = new int[n+10];
     //cout<<"ok0\n";
-    for(int i=0; i<=n; i++){    dis[i] = INT_MAX;  }
+    for(int i=0; i<=n; i++){    dis[i] = INF;  }
     int a,b,c;
     //cout<<"ok01\n";
     for(int i=1; i<=m; i++){

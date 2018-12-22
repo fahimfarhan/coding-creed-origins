@@ -5,6 +5,7 @@
 * [Segment Tree Example Code Demo](http://codeforces.com/blog/entry/18051)
 
 ## Important Repos
+* [google-code-jam-2017-solns](https://github.com/ruippeixotog/google-code-jam-2017)
 * [AnikSarker/DeobureoMinkyuParty](https://github.com/AnikSarker/DeobureoMinkyuParty)
 * [AnikSarker/ACM-ICPC-Live-Archive-Solutions](https://github.com/AnikSarker/ACM-ICPC-Live-Archive-Solutions)
 * [AnikSarker/UVA-Online-Judge-solutions](https://github.com/AnikSarker/UVA-Online-Judge-solutions)
@@ -42,7 +43,7 @@
 - [x] f. Kruskal's and Prim's algorithms for finding the Minimum Spanning Tree of a graph and the variants of the problem.
 - [x] g. Dijkstra's algorithm for solving the Single Source Shortest Path (SSSP) Problem with out negaitive cycles.
 - [x] h. Bellman-Ford's algorithm for solving the SSSP problem with negative sycles.
-- [ ] i. Floyd-Warshall's algorithm for solving the All Pairs Shortest Path (APSP) problem and it's variants.
+- [x] i. Floyd-Warshall's algorithm for solving the All Pairs Shortest Path (APSP) problem and it's variants.
 - [ ] j. Network Flow problem (all it's algorithms, variants and the problems reducable to it).
 - [x] k. Finding Strongly Connected Components.
 
