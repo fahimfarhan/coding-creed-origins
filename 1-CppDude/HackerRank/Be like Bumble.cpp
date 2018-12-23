@@ -16,7 +16,6 @@ void testDrivenDevelopment();
 int start(int argc=0, char const *argv[] = NULL);
 
 
-int n,m;
 vector<int> *g;
 bool *isvisited;
 
@@ -35,6 +34,32 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
-  
+  int T;
+
+ll  n,m, sn;
+    ll dp[2][10005];
+    ll cf[10005];
+    cf[1] = 1;
+    dp[0][01] = 1;
+    dp[01][01] = 6;
+    
+    for(int i=2; i<10005; i++){
+        dp[1][i] = (dp[1][i-1]+6)%1000000007;
+        dp[0][i] = (dp[0][i-1]+dp[1][i-1] )%1000000007;
+
+        //cout<<dp[0][i]<<" ";
+    }
+
+    for(int i=2; i<10005; i++){
+        cf[i] = cf[i-1]+dp[0][i];
+        // cout<<cf[i]<<" ";
+    }
+ 
+  cin>>T;
+  while(T--){
+      cin>>m>>n;
+        sn = (m*cf[n]) % 1000000007;
+        cout<<sn<<"\n";
+  }
   return 0;
 }

@@ -35,6 +35,29 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
+  ll n; int k;
+  cin>>n>>k;
+  ll a,b; int x=0;
+  // cout<<sqrt(n)<<"\n";
+  int i = 1*k+1;
+  for(int i=1; i<=sqrt(n); i++){
+      if( (n%i) == 0 ){
+          a = i; b = n/i;
+          // if(b>a){  a=a^b; b=a^b; a=a^b;}
+          
+            x = a*k+b;
+            if( ((x/k)*(x%k)) == n){
+cout<<x<<"\n";
+          break;
+
+            }
+                    
+           
+      }
+  }
+
+  //cout<<x<<"\n";
+
   
   return 0;
 }

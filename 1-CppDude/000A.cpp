@@ -21,7 +21,21 @@ vector<int> *g;
 bool *isvisited;
 
 
+bool myAssert(bool b){
+    if(b){  cout<<"PASSED!\n";    }
+    else cout<<"FAILED\n";  
+}
 
+void testDrivenDevelopment(){
+
+}
+
+int start(int argc=0, char const *argv[] = NULL)
+{
+
+
+	return 0;
+}
 
 
 int main(int argc, char const *argv[])
@@ -35,6 +49,7 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
-  
-  return 0;
+  start();
+  //testDrivenDevelopment();
+	return 0;
 }
