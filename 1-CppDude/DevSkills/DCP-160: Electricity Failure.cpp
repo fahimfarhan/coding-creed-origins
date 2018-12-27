@@ -34,6 +34,27 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
+   // Target sequence 
+    string s = "f(3,2)"; 
+  
+    // An object of regex for pattern to be searched 
+    regex r("f([0-9]+,[0-9]+)"); //r("Geek[a-zA-Z]+"); 
+  
+    // flag type for determining the matching behavior 
+    // here it is for matches on 'string' objects 
+    smatch m; 
+  
+    // regex_search() for searching the regex pattern 
+    // 'r' in the string 's'. 'm' is flag for determining 
+    // matching behavior. 
+    regex_search(s, m, r); 
+  
+    // for each loop 
+    for (auto x : m) 
+        cout << x << " "; 
+  
+    return 0; 
+
   
   return 0;
 }

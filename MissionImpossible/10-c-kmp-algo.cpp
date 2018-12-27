@@ -14,14 +14,27 @@ using namespace std;
 bool myAssert(bool b);
 void testDrivenDevelopment();
 int start(int argc=0, char const *argv[] = NULL);
-
+bool myAssert(int a[], int b[], int arraysize);
+void setLPS();
 
 int n,m;
 vector<int> *g;
 bool *isvisited;
 
+string text, pattern;
+int *lps;
+int lpslen;
+// longest proper prefix which is also suffix
 
+bool myAssert(int a[], int b[], int arraysize){
+    int len = arraysize;
+    for(int i=0; i<len; i++){   if(a[i]!=b[i]) return false; }
+    return true;
+}
 
+void setLPS(){
+    // for(int i=0; i<)
+}
 
 int main(int argc, char const *argv[])
 {
@@ -34,6 +47,15 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
-  
+  text = "AABAACAADAABAABA"; pattern = "AABA";
+  lpslen = text.size();
+
+  lps = new int[lpslen];
+
+  for(int i=0; i<lpslen; i++){ lps[i] = 0; }
+
+  setLPS();
+
+  if(!lps)delete[] lps;
   return 0;
 }

@@ -23,6 +23,7 @@ bool *isvisited;
 
 
 
+
 int main(int argc, char const *argv[])
 {
 	/* code */
@@ -33,6 +34,27 @@ int main(int argc, char const *argv[])
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
+  string s,t;
+  cin>>n;
+  cin>>t;
+  s = "";
+
+  int j=0;
+  int k = 0;
+  
+    for(int i=1; i<=n; i++){
+        if( (i*(i+1)/2) == n){ k=i; break; }
+    }
+
+    for(int i=1; i<=k; i++){
+        j = j+i;
+        s = s +  t[j-1];
+        // if(i == k ){    break; }
+
+    }
+
+    cout<<s<<"\n";
+
 
   
   return 0;

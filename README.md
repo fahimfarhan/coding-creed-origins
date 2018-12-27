@@ -52,7 +52,7 @@
 - [ ] b. Some Combinatorics.
 - [ ] c. Number Theory (all what you can learn about it).
 - [ ] d. Probability Theory.
-- [ ] e. Floyd-Cycle detection algorithm.
+- [x] e. Floyd-Cycle detection algorithm.
 - [ ] f. Game Theory (especially impartial games and Sprague-Grundy Theorem).
 10. - [ ]  Strings:
 - [x] a. Basic Manipulation.

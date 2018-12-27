@@ -23,6 +23,7 @@ bool *isvisited;
 
 
 
+
 int main(int argc, char const *argv[])
 {
 	/* code */
@@ -33,7 +34,24 @@ int main(int argc, char const *argv[])
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
+    ll *a;
+    ll b, x;
+    cin>>n;
+    a = new ll[n+1];
+    for(int i=0; i<=n; i++){    a[i] = 0;   }
+    cin>>x;
+    a[1] = 0;
+    a[n] = x;
+    for(int i=2; i<=n/2; i++){
+        cin>>x;
+        b = min(a[n-i+2] , x - a[n-i+2]);
+        a[i]  = max(a[i-1], b);
+        a[n-i+1] = x - a[i];
+    }
+  for(int i=1; i<=n; i++){
+      cout<<a[i]<<" ";
+  }cout<<"\n";
 
-  
+  delete[] a;
   return 0;
 }
