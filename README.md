@@ -56,7 +56,7 @@
 - [ ] f. Game Theory (especially impartial games and Sprague-Grundy Theorem).
 10. - [ ]  Strings:
 - [x] a. Basic Manipulation.
-- [ ] b. Z-Algorithm for finding a pattern in a text.
+- [x] b. Z-Algorithm for finding a pattern in a text.
 - [ ] c. Knuth-Morris-Pratt Algorithm for finding a pattern in a text.
 - [ ] d. Hashing and Rabin-Karp Algorithm for finding a pattern in a text.
 - [ ] e. Trie data structure.
