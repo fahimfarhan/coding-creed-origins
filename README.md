@@ -20,6 +20,7 @@
 * [me-shaon/bangla-programming-resources](https://github.com/me-shaon/bangla-programming-resources) 
 
 ## MISSION IMPOSSIBLE
+0. - [ ] study notebook.pdf
 1. - [x] Basic data sturctures (arrays, queues, linked lists, etc.).
 2. - [ ]  Bit manipulation.
 3. - [ ]  Advanced data structures:

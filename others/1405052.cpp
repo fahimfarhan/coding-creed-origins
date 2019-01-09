@@ -305,7 +305,7 @@ int main(int argc=0, char const *argv[] = NULL)
   /* Soln soln */
   try{
     freopen("input_KL.txt","r",stdin);
-    freopen("output.txt","w",stdout);
+    freopen("output_KL.txt","w",stdout);
 
   }catch(exception& x){
     cout<<"Exception!"<<x.what()<<"\n";
