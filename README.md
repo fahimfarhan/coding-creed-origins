@@ -1,4 +1,6 @@
 # centurion-legendary-codes
+
+## "As you write your odyssey across the mountains and seas, remember: the fate of Greece journeys with you." AC Odyssey
 ## Useful Links
 * [What important topics of number theory should every programmer know?](https://www.quora.com/What-important-topics-of-number-theory-should-every-programmer-know)
 * [How do I prepare for Google Code Jam in 2018?](https://www.quora.com/How-do-I-prepare-for-Google-Code-Jam-in-2018)
@@ -18,6 +20,7 @@
 * [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) 
 * [hasancse91/Programming-Problem-In-Bengali](https://github.com/hasancse91/Programming-Problem-In-Bengali) 
 * [me-shaon/bangla-programming-resources](https://github.com/me-shaon/bangla-programming-resources) 
+* [codechef.com/getting-started](https://www.codechef.com/getting-started)
 
 ## MISSION IMPOSSIBLE
 0. - [ ] study notebook.pdf
