@@ -1,4 +1,4 @@
-# legendary-coding-odyssey
+# coding-creed-origins
 
 ## "As you write your odyssey across the mountains and seas, remember: the fate of Greece journeys with you." AC Odyssey
 ## Useful Links
