@@ -16,9 +16,12 @@ void testDrivenDevelopment();
 int start(int argc=0, char const *argv[] = NULL);
 
 
-int n,m;
+
 vector<int> *g;
 bool *isvisited;
+
+
+
 
 int main(int argc, char const *argv[])
 {
@@ -30,6 +33,19 @@ int main(int argc, char const *argv[])
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
+
+    int q;
+    ll l,r, d,a;
+    cin>>q;
+    while(q--){
+        cin>>l>>r>>d;
+        if(d<l || d>r){
+            cout<<d<<"\n";
+        }else{
+            a = (r/d)*d+d;
+            cout<<a<<"\n";
+        }
+    }
 
   
   return 0;
