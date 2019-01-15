@@ -1,9 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define PI 2*acos(0)
+#define si(x) scanf("%d",&x)
+#define sf(x) scanf("%f",&x)
+
+#define pi(x) printf("%d\n",x)
+#define pf(x) printf("%.4f\n",x)
 
 #define ll long long int
+
+#define sll(x) scanf("%I64d",&x);
+#define pll(x) printf("%-I64d\n",x);
+
 
 bool myAssert(bool b);
 void testDrivenDevelopment();
@@ -28,8 +36,7 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
-
-  
+    cout<<2*acos(0)<<"\n";
+    cout<<cos(2*acos(0))<<"\n";
   return 0;
 }
-
