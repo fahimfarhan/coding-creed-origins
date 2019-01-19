@@ -68,3 +68,15 @@
 - [ ] g. Suffix Array data structure.
 - [ ] h. Suffix Automaton data structure.
 11. - [ ]  Computational Geometry Algorithms.
+
+
+AC I - Redemption 
+AC II - Revenge 
+AC: Brotherhood - Justice 
+AC: Revelation - Answers 
+AC III - Freedom 
+AC IV - Glory 
+AC Rogue - Betrayal 
+AC Unity - Love 
+AC Syndicate - Family 
+AC Origins - Beginnings﻿
