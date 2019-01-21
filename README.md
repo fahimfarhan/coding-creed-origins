@@ -29,7 +29,7 @@
 3. - [ ]  Advanced data structures:
 - [ ]  a. Union-Find Disjoint Sets.
 - [ ]  b. Segment Tree.
-- [ ]  c. Binary Indexed Tree (a.k.a Fenwik Tree).
+- [x]  c. Binary Indexed Tree (a.k.a Fenwik Tree).
 - [x] d. Graph.
 - [ ]  e. Treap.
 - [ ]  f. Skip Lists.
