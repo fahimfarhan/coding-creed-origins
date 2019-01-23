@@ -23,7 +23,7 @@
 * [codechef.com/getting-started](https://www.codechef.com/getting-started)
 
 ## MISSION IMPOSSIBLE
-0. - [ ] study notebook.pdf
+0. - [ ] study GeeksForGeeks, notebook.pdf
 1. - [x] Basic data sturctures (arrays, queues, linked lists, etc.).
 2. - [ ]  Bit manipulation.
 3. - [ ]  Advanced data structures:
