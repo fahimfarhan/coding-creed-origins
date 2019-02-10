@@ -17,3 +17,10 @@
 3. [halite.io](https://halite.io) fahimfarhan  (github)
 4. [kaggle](https://www.kaggle.com/fahimfarhan) fahimfarhan (facebook)
 5. [theaigames](http://theaigames.com) fahimfarhan (id)
+
+## Web Hostings 
+1. [heroku](https://dashboard.heroku.com/apps) fahimfarhan (email, firefox) 
+2. [pythonanywhere](http://fahimfarhan.pythonanywhere.com/) fahimfarhan (email)
+3. [netlify](https://www.netlify.com/) fahimfarhan (github) 
+4. github, heroku
+5. [000webhost.com](https://www.000webhost.com/free-php-hosting) (facebook)

@@ -62,9 +62,10 @@ int main(int argc, char const *argv[])
         g[a].push_back(b);
         g[b].push_back(a);
     }
+    /*
     for(int i=0; i<=n; i++){    
         sort(g[i].begin(), g[i].end());
-    }
+    }*/
     dfs();
     for(int i=0; i<path.size(); i++){
         cout<<path[i]<<" ";
