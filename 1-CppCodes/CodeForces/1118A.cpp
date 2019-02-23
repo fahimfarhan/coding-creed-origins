@@ -10,7 +10,7 @@ void testDrivenDevelopment();
 int start(int argc=0, char const *argv[] = NULL);
 
 
-int n,m;
+
 vector<int> *g;
 bool *isvisited;
 
@@ -28,9 +28,17 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
-
+    int m,a,q,b;
+    int64_t n,ans;
+    cin>>q;
+    while(q--){
+        cin>>n>>a>>b;
+        ans = 0;
+        ans = n/2*b+a*(n%2);
+        ans = min(ans, n*a);
+        cout<<ans<<"\n";
+    }
   
   return 0;
 }
-
 

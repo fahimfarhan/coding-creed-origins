@@ -10,7 +10,7 @@ void testDrivenDevelopment();
 int start(int argc=0, char const *argv[] = NULL);
 
 
-int n,m;
+ll n,k;
 vector<int> *g;
 bool *isvisited;
 
@@ -28,9 +28,31 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
+  cin>>n>>k;
+  ll count=0;
 
-  
+  for(int i=1; i<=k; i++){
+    for(int j=i+1; j<=k; j++){
+      count+=2;
+    }
+  }
+  if(count < n){
+    cout<<"NO\n";
+    exit(0);
+  }else{
+    cout<<"YES\n";
+  }
+  count=0;
+  for(int i=1; i<k; i++){
+    for(int j=i+1; j<=k; j++){
+      cout<<i<<" "<<j<<"\n";   
+      count++;
+      if(count == n){ break; }
+      cout<<j<<" "<<i<<"\n";
+      count++;      
+            if(count == n){ break; }
+    }
+  }
   return 0;
 }
-
 

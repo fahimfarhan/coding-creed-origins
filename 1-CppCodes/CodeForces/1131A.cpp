@@ -28,8 +28,18 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
+int64_t w1,h1,w2,h2,a,b,c,d,e,f, ans=0;
 
-  
+cin>>w1>>h1>>w2>>h2;
+
+a = w2; b = w1; 
+c = h1+h2+2;
+d = h1+1;
+e = h2; 
+if(w1-w2 == 0){ f = 1;}
+else{   f = w1-w2+1; }
+ans = a+b+c+d+e+f;
+  cout<<ans<<"\n";
   return 0;
 }
 

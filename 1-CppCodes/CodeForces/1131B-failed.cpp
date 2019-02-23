@@ -10,7 +10,6 @@ void testDrivenDevelopment();
 int start(int argc=0, char const *argv[] = NULL);
 
 
-int n,m;
 vector<int> *g;
 bool *isvisited;
 
@@ -27,9 +26,15 @@ int main(int argc, char const *argv[])
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
-
-
-  
+    int n;
+    int64_t a0,b0, a,b, d1,d2;
+    cin>>n;
+    cin>>a0>>b0;
+    for(int i=01; i<n; i++){
+        cin>>a>>b;
+        d1 = b-a0;
+        d2 = a-b0;
+    }
   return 0;
 }
 

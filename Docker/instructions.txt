@@ -1,0 +1,3 @@
+docker build -t imagename .     # . means the location where the Dockerfile is
+docker run -d -p 80:5000 --name containername imagename
+
