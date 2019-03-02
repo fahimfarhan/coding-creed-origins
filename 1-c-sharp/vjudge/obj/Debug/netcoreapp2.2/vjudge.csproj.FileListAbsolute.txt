@@ -1,0 +1,11 @@
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/bin/Debug/netcoreapp2.2/vjudge.deps.json
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/bin/Debug/netcoreapp2.2/vjudge.runtimeconfig.json
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/bin/Debug/netcoreapp2.2/vjudge.runtimeconfig.dev.json
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/bin/Debug/netcoreapp2.2/vjudge.dll
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/bin/Debug/netcoreapp2.2/vjudge.pdb
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/obj/Debug/netcoreapp2.2/vjudge.csprojAssemblyReference.cache
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/obj/Debug/netcoreapp2.2/vjudge.csproj.CoreCompileInputs.cache
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/obj/Debug/netcoreapp2.2/vjudge.AssemblyInfoInputs.cache
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/obj/Debug/netcoreapp2.2/vjudge.AssemblyInfo.cs
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/obj/Debug/netcoreapp2.2/vjudge.dll
+/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/obj/Debug/netcoreapp2.2/vjudge.pdb

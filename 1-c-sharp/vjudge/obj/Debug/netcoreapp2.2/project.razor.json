@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/home/fahimfarhan/Codes/coding-creed-origins/1-c-sharp/vjudge/vjudge.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

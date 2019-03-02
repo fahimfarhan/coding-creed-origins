@@ -26,8 +26,11 @@ void bfs(){
             break;
         }
     }
+    int start1, start2;
 
-    int start1 =g[start][0], start2 = g[start][1];
+    start1 =g[start][0];
+    
+     
     isvisited[start] = true;
     q.push(start1);
 
@@ -45,20 +48,24 @@ void bfs(){
         }
     }
 
-    q.push(start2);
+    if(n>2){
+        start2 = g[start][1];
+        q.push(start2);
 
-    while(!q.empty()){
-        int u = q.front();
-        path.push_front(u);
-        q.pop();
-        isvisited[u] = true;
+        while(!q.empty()){
+            int u = q.front();
+            path.push_front(u);
+            q.pop();
+            isvisited[u] = true;
 
-        int v = 0;
-        for(int i=0; i<g[u].size(); i++){
-            v = g[u][i];
-            if(!isvisited[v]){  q.push(v);}
+            int v = 0;
+            for(int i=0; i<g[u].size(); i++){
+                v = g[u][i];
+                if(!isvisited[v]){  q.push(v);}
+            }
         }
     }
+
 }
 
 

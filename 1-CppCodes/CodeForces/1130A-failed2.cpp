@@ -28,7 +28,21 @@ int main(int argc, char const *argv[])
   cin.tie(0);
   cout.tie(0);
 
+    int n,a,d=0, neg_count=0, pos_count=0, ceiling;
+    cin>>n;
 
+    ceiling = ceil((1.0*n)/2);
+    
+    for(int i=0; i<n; i++){
+        cin>>a;
+        if(a > 0){   pos_count++;   }
+        else if( a < 0){   neg_count++; }
+    }
+
+    if(pos_count >= ceiling){   d = 1; }
+    else if(neg_count >= ceiling ){ d = -1; }
+    else{   d = 0; }
+    cout<<d<<"\n";
   
   return 0;
 }
