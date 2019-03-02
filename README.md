@@ -1,10 +1,11 @@
 # coding-creed-origins
 
-## "As you write your odyssey across the mountains and seas, remember: the fate of Greece journeys with you." AC Odyssey
-## Useful Links
+## Useful Links/Blogs
 * [What important topics of number theory should every programmer know?](https://www.quora.com/What-important-topics-of-number-theory-should-every-programmer-know)
 * [How do I prepare for Google Code Jam in 2018?](https://www.quora.com/How-do-I-prepare-for-Google-Code-Jam-in-2018)
 * [Segment Tree Example Code Demo](http://codeforces.com/blog/entry/18051)
+* [Dark Knight Segment Tree](https://codeforces.com/blog/entry/15890)
+* [Dark Knight DS](https://codeforces.com/blog/entry/15729)
 
 ## Important Repos
 * [google-code-jam-2017-solns](https://github.com/ruippeixotog/google-code-jam-2017)
@@ -22,6 +23,8 @@
 * [me-shaon/bangla-programming-resources](https://github.com/me-shaon/bangla-programming-resources) 
 * [codechef.com/getting-started](https://www.codechef.com/getting-started)
 * [morris821028/UVa](https://github.com/morris821028/UVa)
+* [hickford/codejam](https://github.com/hickford/codejam)
+* [ruippeixotog/google-code-jam-2018](https://github.com/ruippeixotog/google-code-jam-2018)
 
 ## MISSION IMPOSSIBLE
 0. - [ ] study GeeksForGeeks, notebook.pdf
@@ -81,3 +84,5 @@ AC Rogue - Betrayal
 AC Unity - Love 
 AC Syndicate - Family 
 AC Origins - Beginnings﻿
+
+## "As you write your odyssey across the mountains and seas, remember: the fate of Greece journeys with you." AC Odyssey

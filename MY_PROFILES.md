@@ -1,5 +1,5 @@
 # MY PROFILES
-0. [vjudge] (https://vjudge.net/user/269707) fahimfarhan (id)
+0. [vjudge](https://vjudge.net/user/269707) fahimfarhan (id)
 1. [Codeforces](http://codeforces.com/profile/fahimfarhan) fahimfarhan  (email,id)
 2. [HackerRank](https://www.hackerrank.com/fahimfarhan) fahimfarhan     (github)
 3. [CodeChef](https://www.codechef.com/users/fahimfarhan) fahimfarhan (github, firefox)
@@ -11,12 +11,22 @@
 9. [hihoCoder](https://hihocoder.com/user/114793) fahimfarhan  (github)
 10. [DevSkill](https://devskill.com/Home) fahimfarhan (firefox)
 
- ## AI
+## AI
 1. [codingame](https://www.codingame.com/home) fahimfarhan  (github)
 2. [gvgai](http://www.gvgai.net/index.php) fahimfarhan  (id)
 3. [halite.io](https://halite.io) fahimfarhan  (github)
 4. [kaggle](https://www.kaggle.com/fahimfarhan) fahimfarhan (facebook)
 5. [theaigames](http://theaigames.com) fahimfarhan (id)
+
+## RECOMMENDER SITES
+1. [a2oj](https://www.a2oj.com/categories)
+2. [codedrills](https://code-drills.com/profile?handles=fahimfarhan)
+
+## MATH , PHYSICS
+1. [brilliant.org](http://www.brilliant.org)
+2. [Project Euler](https://projecteuler.net)
+3. [ibm ponder](https://www.research.ibm.com/haifa/ponderthis/index.shtml)
+4. [QUORA](https://www.quora.com/Is-there-a-site-like-Project-Euler-but-about-pure-maths)
 
 ## Web Hostings 
 1. [heroku](https://dashboard.heroku.com/apps) fahimfarhan (email, firefox) 
