@@ -28,6 +28,20 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll n,m, x,y, ans;
+    set<ll> r,c;
+    cin>>n>>m;
+
+    while(m--){
+        cin>>x>>y;
+        r.insert(x);    c.insert(y);
+        ans = (n-r.size())*(n-c.size());
+
+        cout<<ans<<" ";
+
+    }
+
+
 
     return 0;
 }

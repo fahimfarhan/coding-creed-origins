@@ -16,7 +16,7 @@ bool *isvisited;
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+	/* code */
     /* Soln soln */
     // freopen("input.txt","r",stdin);
     // freopen("output.txt","w",stdout);
@@ -28,10 +28,25 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll sum=0, a=0, b=0, maximus=0, minimus = INT_MAX;
 
+    ll k2,k3,k5,k6;
+
+    cin>>k2>>k3>>k5>>k6;
+    minimus = min(k2, k5);
+    minimus = min(minimus, k6);
+
+    k2-=minimus;
+
+    sum = 256*minimus;
+
+    minimus = min(k3, k2);
+    //minimus = min(minimus, k3);
+
+    sum = sum+32*minimus;
+    
+    cout<<sum<<"\n";
     return 0;
 }
-/*
-    int     -2147483648 2147483647
-    short   -32768      32767
-*/
+
+

@@ -28,7 +28,25 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int n ; ll *a;
+    cin>>n;
+    a = new ll[n+1];
 
+    for(int i=0; i<n; i++){    cin>>a[i];  }
+
+    int   j=0;
+    ll maximus=0;
+
+    for(int i=0; i<n; i++){
+        j=i;
+        while( (j+1<n) && (a[j+1] <= 2*a[j]) ){    j++;    }
+        maximus = max(maximus, (ll)(j-i+1) );
+        i=j;
+    }
+
+    cout<<maximus+1<<"\n";
+
+    delete[] a;
     return 0;
 }
 /*

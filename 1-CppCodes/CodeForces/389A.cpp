@@ -1,3 +1,4 @@
+//NOT SUBMITTED YET!!!
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -28,7 +29,29 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    short n, *a;
+    cin>>n;
+    a = new short[n+1];
+    for(short i=0; i<n; i++){   cin>>a[i];  }
+    short minimus = 101;
+    bool b;
+    sort(a,a+n);
+    short temp;
+    while(true){
+        minimus = a[0];
+        b = false;
+        for(short i=0; i<n; i++){
+            temp = a[i]%minimus;
+            if( temp!=0 ) {   a[i] = temp; b = true; break;  }
+        }
+        sort(a,a+n);
+        minimus = a[0];
+        //for(int i=0; i<n; i++){ cout<<a[i]<<" "; }cout<<"\n";
 
+        if(b == false){ break; }
+    }
+    cout<<(a[0]*n)<<"\n";
+    delete[] a;
     return 0;
 }
 /*

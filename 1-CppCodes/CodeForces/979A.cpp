@@ -28,7 +28,13 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int64_t n;
+    cin>>n;
+    if(n==0){   cout<<"0\n";    exit(0);    }
+    n++;
 
+    if( (n&1) == 0){   n=n>>1; }
+    cout<<n<<"\n";
     return 0;
 }
 /*

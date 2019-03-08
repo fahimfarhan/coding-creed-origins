@@ -28,6 +28,18 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    string s;
+    cin>>s;
+
+    // find the left most 0
+    int index=0;
+    for(int i=0; i<s.size(); i++){
+        if(s[i]=='0'){ index=i; break;   }
+    }
+
+    for(int i=0; i<index; i++){ cout<<s[i]; }
+    for(int i=index+1; i<s.size(); i++){    cout<<s[i]; }
+    cout<<"\n";
 
     return 0;
 }

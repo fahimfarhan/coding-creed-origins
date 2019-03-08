@@ -28,6 +28,29 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    bool b = false;
+    int n,x, count=0, sum=0;
+    //vector<int> v;
+    int v[105];
+    cin>>n;
+    int maximus = max(1,n-81); // idk keno erokom :/
+    for(int i=maximus; i<=n; i++){
+        x = i;
+        sum = x;
+        while(x>0){
+            sum = sum+(x%10); x = x/10;
+        }
+        x = i;
+        if(sum==n ){
+            v[count]=x; count++; 
+        }
+
+    }
+    //if(!count){ cout<<"0\n";    }
+    //else{
+        cout<<count<<"\n";
+        for(int i=0; i<count; i++){ cout<<v[i]<<"\n";     }
+    //}
 
     return 0;
 }

@@ -28,6 +28,21 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int l,m,n,k,d, count;
+    //bool *a;
+
+    count = 0; 
+
+    cin>>k>>l>>m>>n>>d;
+    
+    for(int i=1; i<=d; i++ ){
+        if( (i%l==0) || (i%m==0) || (i%n==0) || (i%k==0) )
+        { count++;    }
+    }
+    cout<<count<<"\n";
+
+    //delete[] a;
+
 
     return 0;
 }
