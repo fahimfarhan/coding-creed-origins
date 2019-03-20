@@ -33,7 +33,7 @@ bool *isvisited;
 int debugcount=0;
 
 void lazybuild(){
-    if(doLazyBuildFlag == false){   return; }
+    // if(doLazyBuildFlag == false){   return; }
     int l, r;
     for(int i=1; i<N; i++){
         l= i<<1;  r = l|1;

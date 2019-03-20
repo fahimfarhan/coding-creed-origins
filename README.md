@@ -32,7 +32,7 @@
 2. - [ ]  Bit manipulation.
 3. - [ ]  Advanced data structures:
 - [ ]  a. Union-Find Disjoint Sets.
-- [ ]  b. Segment Tree.
+- [x]  b. Segment Tree.
 - [x]  c. Binary Indexed Tree (a.k.a Fenwik Tree).
 - [x] d. Graph.
 - [ ]  e. Treap.
