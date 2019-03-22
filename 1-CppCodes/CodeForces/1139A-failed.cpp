@@ -27,16 +27,26 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int a,b,c,d;
-    cin>>a>>b>>c>>d;
 
-    double p=(1.0*a)/b; double q = (1.0*c)/d;
+    int n, m, N;
+    ll ans=0;
+    string s;
+    cin>>n;
+    cin>>s;
 
-    double r = (1-p)*(1-q);
+    ans = 0; 
+    for(int i=1; i<=n; i++){
+        N = i-1;
+        m = s[N] - '0';
+        if( (m&1) == 0 )// even
+        {
+            ans = ans + i; //((N*(N+1))>>1);
+            // cout<<ans<<"\n";
+            
+        }
+    }
 
-    double ans = p/(1-r);
-    cout << setprecision(8);
-    cout<<ans<<"\n"; 
+    cout<<ans<<"\n";
 
     return 0;
 }

@@ -27,20 +27,27 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int a,b,c,d;
-    cin>>a>>b>>c>>d;
 
-    double p=(1.0*a)/b; double q = (1.0*c)/d;
+    int n; ll *a;
+    cin>>n;
+    a = new ll[n+1];
+    for(int i=0; i<n; i++){ cin>>a[i]; }
 
-    double r = (1-p)*(1-q);
+    ll ans = a[n-1];
+    int start = n-2;
 
-    double ans = p/(1-r);
-    cout << setprecision(8);
-    cout<<ans<<"\n"; 
+    ll minimus;
+    for(int i=start; i>=0; i--){
+        minimus = min(a[i], a[i+1]);
+        if(minimus==a[i+1]){    minimus--; }
+        if(minimus <0){ minimus = 0; break;  }
 
+
+        a[i] = minimus;
+        ans+=minimus;
+    }
+    cout<<ans<<"\n";
+
+    delete[] a;
     return 0;
 }
-/*
-    int     -2147483648 2147483647
-    short   -32768      32767
-*/

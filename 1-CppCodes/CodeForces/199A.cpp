@@ -27,16 +27,12 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int a,b,c,d;
-    cin>>a>>b>>c>>d;
 
-    double p=(1.0*a)/b; double q = (1.0*c)/d;
+    ll n;
+    cin>>n;
 
-    double r = (1-p)*(1-q);
+    cout<<"0 0 "<<n<<"\n";
 
-    double ans = p/(1-r);
-    cout << setprecision(8);
-    cout<<ans<<"\n"; 
 
     return 0;
 }
