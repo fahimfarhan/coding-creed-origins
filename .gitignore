@@ -1,12 +1,13 @@
 # CPP
 # mine
-
-1-CppCodes/CodeForces/.vscode/*
-Junk/*
-*.vscode/*
-.vscode/* 
+.vscode
 .idea/*
-*/.vscode/*
+
+Junk/*
+# *.vscode/*
+# .vscode/* 
+# */.vscode/*
+# 1-CppCodes/CodeForces/.vscode/*
 
 
 # Prerequisites

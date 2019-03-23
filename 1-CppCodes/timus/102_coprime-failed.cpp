@@ -27,6 +27,14 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int N, count=0;
+    cin>>N;
+
+    for(int i=2; i<N; i++){
+        if( __gcd(N,i) == 1 ){   count++;    }
+    }
+
+    cout<<count<<"\n";
 
     return 0;
 }

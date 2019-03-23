@@ -27,7 +27,20 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int l=0, count=0;
+    int n, a;
 
+    cin>>n;
+    //a = new int[n+1];
+    
+    for(int i=1; i<=n; i++){
+        cin>>a;
+        if(a>l){ l=a; }
+        
+        if(i>=l){   l=l+1; count++;}
+    }
+    cout<<count<<"\n";
+    //if(!a)delete[] a;
     return 0;
 }
 /*

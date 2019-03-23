@@ -14,6 +14,28 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
+int *phi; bool *mark;
+int N;
+    
+void seivephi(int n){
+    // initialization 
+    for(int i=0; i<=n; i++){    phi[i]=i; mark[i]=0; }
+
+    phi[1]  = 1;
+    mark[1] = 1;
+
+    for(int i=2; i<=n; i++){
+        if(!mark[i]){
+            for(int j=i; j<=n; j+=i){
+                mark[j]=1; 
+                phi[j] = phi[j]*(i-1)/i;
+            }
+
+        }
+    }
+
+}
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -27,7 +49,14 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    cin>>N;
 
+    phi = new int[N+1]; mark = new bool[N+1];
+    seivephi(N);
+
+    cout<<phi[N]<<'\n';
+    if(!phi)delete[] phi; 
+    if(!mark)delete[] mark;
     return 0;
 }
 /*
