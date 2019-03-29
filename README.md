@@ -23,8 +23,12 @@
 * [me-shaon/bangla-programming-resources](https://github.com/me-shaon/bangla-programming-resources) 
 * [codechef.com/getting-started](https://www.codechef.com/getting-started)
 * [morris821028/UVa](https://github.com/morris821028/UVa)
+#### codejam
 * [hickford/codejam](https://github.com/hickford/codejam)
 * [ruippeixotog/google-code-jam-2018](https://github.com/ruippeixotog/google-code-jam-2018)
+#### spoj
+* [spojsolutions/spoj](https://github.com/spojsolutions/spoj)
+* [bnslakki/Spoj](https://github.com/bnslakki/Spoj)
 
 ## MISSION IMPOSSIBLE
 0. - [ ] study GeeksForGeeks, notebook.pdf

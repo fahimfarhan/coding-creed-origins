@@ -27,40 +27,32 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    ll H, *A;
-    int n;
-    ll sum=0;
-    ll maximus = 0;
+    int n,k;
+    vector<pair<ll,ll> > v;
+    ll t,b;
 
-    cin>>H>>n;
-    A = new ll[n+1];
+    cin>>n>>k;
     for(int i=0; i<n; i++){
-        cin>>A[i];
-        sum = sum - A[i];
-
-        maximus = max(maximus, sum);
-        if(H-maximus<=0){
-            cout<<(i+1)<<"\n";
-            return 0;
-        }
+        cin>>t>>b;
+        v.push_back({b,t});
     }
-    if(sum<=0){     cout<<"-1\n";   }
-    else{
-        ll count = (H-maximus)/sum;
-        H=H-sum*count;
 
-        count = count*n;
+    sort(v.begin() , v.end());
 
-        int i=0;
-        while(true){
-            H = H+A[i%n];
-            count++; i++;
-            if(H<=0){
-                cout<<count<<"\n";
-                break;
-            }
-        }
+    ll ans=0;
+    ll maximus = 0;
+    int stop1=n-k,stop2=0;
+    
+    for(int j=0; j<n;j++){
+        stop2 = min(j+k,n);
+        ans = 0;
+        for(int i=j; i<stop2; i++)
+        { ans+=v[i].second*v[j].first; maximus = max(maximus, ans);   }
+        //ans = ans*v[j].first;
+        
     }
+    cout<<maximus<<"\n";
+
     return 0;
 }
 /*
