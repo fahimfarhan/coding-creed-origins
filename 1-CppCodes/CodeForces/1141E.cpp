@@ -2,42 +2,19 @@
 using namespace std;
 
 #define PI 2*acos(0)
-
 #define ll long long int
-
-bool myAssert(bool b);
-void testDrivenDevelopment();
-int start(int argc=0, char const *argv[] = NULL);
-
-
-// int n,m;
-vector<int> *g;
-bool *isvisited;
 
 int main(int argc, char const *argv[])
 {
-    /* code */
-    // freopen("input.txt","r",stdin);
-    // freopen("output.txt","w",stdout);
-    /*
-    cout << setprecision(8);
-    cout << num1 << endl;
-    */
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-
-    ll H, *A;
-    int n;
-    ll sum=0;
-    ll maximus = 0;
-
+    ll H, *A;int n;ll sum=0;ll maximus = 0;
     cin>>H>>n;
     A = new ll[n+1];
     for(int i=0; i<n; i++){
         cin>>A[i];
         sum = sum - A[i];
-
         maximus = max(maximus, sum);
         if(H-maximus<=0){
             cout<<(i+1)<<"\n";
@@ -48,9 +25,7 @@ int main(int argc, char const *argv[])
     else{
         ll count = (H-maximus)/sum;
         H=H-sum*count;
-
         count = count*n;
-
         int i=0;
         while(true){
             H = H+A[i%n];
@@ -63,7 +38,3 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
-/*
-    int     -2147483648 2147483647
-    short   -32768      32767
-*/
