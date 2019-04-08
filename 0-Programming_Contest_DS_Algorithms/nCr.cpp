@@ -26,7 +26,7 @@ public:
                 else dp[i][j] = dp[i-1][j-1]+dp[i-1][j]; // nCr = n-1Cr-1 + n-1Cr
             }
         }
-
+        
         for(int i=0; i<=n; i++){
             for(int j=0; j<=r; j++){
                 cout<<dp[i][j]<<" ";
