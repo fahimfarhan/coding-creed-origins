@@ -176,6 +176,10 @@ int main(int argc, char const *argv[])
     //build(1,1,N);
     build();
     printer();
+     cout<<query(7,15)<<"\n";
+    cout<<query(1,5)<<"\n";
+    cout<<query(3,7)<<"\n";
+    cout<<query(2,11)<<"\n";
     singleUpdate(1,1);
     cout<<"After singleUpdate\n";
     printer();

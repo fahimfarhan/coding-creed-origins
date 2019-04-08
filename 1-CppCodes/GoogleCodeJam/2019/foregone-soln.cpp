@@ -27,6 +27,23 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int T, len;
+    string s1, s2;
+    cin>>T;
+    for(int t=1; t<=T; t++){
+        cin>>s1;
+        s2 = "";
+        len = s1.size();
+        for(int i=0; i<len; i++){
+            if(s1[i]=='4'){
+                s1[i] = '3';
+                s2 = s2+'1';
+            }else{
+                s2 = s2 + '0';
+            }
+        }
+        cout<<"Case #"<<t<<": "<<s1<<" "<<stoll(s2)<<"\n";
 
+    }
     return 0;
 }

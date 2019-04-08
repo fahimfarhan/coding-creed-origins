@@ -49,4 +49,17 @@ int main(int argc, char const *argv[])
 /*
     int     -2147483648 2147483647
     short   -32768      32767
+
+    int
+-2147483648 2147483647
+short
+-32768 32767
+long
+0 -1
+long long
+0 -1
+float
+0 -2147483648
+double
+0 -2147483648
 */

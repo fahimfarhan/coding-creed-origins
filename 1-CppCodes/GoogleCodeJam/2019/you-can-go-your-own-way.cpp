@@ -27,6 +27,20 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int T; ll N; string s1, s2;
+    cin>>T;
+    for(int t=1; t<=T; t++){
+        cin>>N;
+        cin>>s1;
+        N = (N<<1)-2;
+
+        s2 = "";
+        for(int i=0; i<N; i++){
+            if(s1[i]=='S'){ s2+='E';    }
+            else{   s2+='S';    }
+        }
+        cout<<"Case #"<<t<<": "<<s2<<"\n";
+    }
 
     return 0;
 }

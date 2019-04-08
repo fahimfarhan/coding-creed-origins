@@ -52,6 +52,13 @@ public:
 			cout<<t<<" ";
 		}
 		cout<<endl;
+		// code jam!
+		cout<<"code jam!\n";
+		cout<<"{ ";
+		for(int i=1; i<26; i++){
+			cout<<v[i]<<", ";
+		}
+		cout<<v[26]<<" }";
 
 
 	}
