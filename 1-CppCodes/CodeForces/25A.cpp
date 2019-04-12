@@ -14,8 +14,6 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
-int *mycount, mysize;
-
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -29,33 +27,16 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    mysize = 1<<18;
-
-    cout<<mysize<<"\n";
-    
-
-    mycount = new int[mysize+1];
-
-    int T;
-    cin>>T;
-    string  s;
-    char q;
-    int num;
-    while(T--){
-      cin>>q>>s;
-
-      num =0; 
-      for(int i=0; i<s.size(); i++){  num = (num<<1) | ((s[i]-'0')&1) ; }
-        
-      if(q=='+'){
-        mycount[num]++;
-      }else if(q=='-'){
-        mycount[num]--;
-      }else if(q=='?'){
-        cout<<mycount[num]<<"\n";   
-      }
+    int n,a;
+    int evenCount=0, evenPos, oddCount=0, oddPos;
+    cin>>n;
+    for(int i=1; i<=n; i++){
+        cin>>a;
+        if( (a&1)==1){ oddCount++; oddPos = i; }
+        else{   evenCount++; evenPos=i;  }
     }
 
-    if(!mycount)delete[] mycount;
+    if(evenCount==1){ cout<<evenPos<<"\n";    }
+    else{   cout<<oddPos<<"\n"; }
     return 0;
 }
