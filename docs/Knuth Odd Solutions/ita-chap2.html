@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+    </script>
+  </head>
+  <body>
+    <h2>
+      2.3-3
+    </h2>
+    <p>
+      \(T(2)=2 \\
+      T(n)=2T(n/2)+n,\text{ where } n=2^k\text{ and }k>1 \\
+      T(n)= n \log_2 n \\
+      \text{Basis: }T(2^1)=2^1 \log_2 2^1=2 \\
+      \text{Inductive Step: } \\
+      2^k \log_2 2^k=2(2^{k-1} \log_22^{k-1})+2^k \\
+      k2^k=2(2^{k-1}\cdot(k-1))+2^k=2(k2^{k-1}-2^{k-1})+2^k \\
+      k2^k=k2^k-2^k+2^k
+      \)
+    </p>
+    <h2>
+      4.3-1
+    </h2>
+    <p>
+      \(T(n)=T(n-1)+n \\
+      T(n)\le c(n-1)^2+n \\
+      T(n)\le \underbrace{cn^2}_\text{desired}-\underbrace{(2cn-c-n)}_\text{residual} \\
+      T(n)=O(n^2)
+      \)
+    </p>
+    <h2>
+      4.3-2
+    </h2>
+    <p>
+      \(T(n)=T(\lceil n/2\rceil)+1 \\
+      T(n)\le c\cdot\log_2(\lceil n/2\rceil)-d+1,\text{ where }d\ge1 \\
+      T(n)\le \underbrace{c\cdot\log_2n}_\text{desired}-\underbrace{(d-1)}_\text{residual} \\
+      T(n)=c\cdot \log_2n \\
+      \)
+    </p>
+  </body>
+</html>

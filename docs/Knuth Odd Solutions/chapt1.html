@@ -1,0 +1,207 @@
+<html>
+  <head>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+    </script>
+  </head>
+  <body>
+      <h2>
+      <a href="chap1.html">Chapter 1 Solutions</a></br>
+      <a href="chap2.html">Chapter 2 Solutions</a></br>
+      <a href="chap3.html">Chapter 3 Solutions</a></br>
+      <a href="chap5.html">Chapter 5 Solutions</a></br>
+    </h2>
+    <h2>
+      Exercise 1.2
+    </h2>
+    <h3>
+      Recurrent Relation:
+    <h3/>
+    <p>
+      \(A(0)=0 \\
+      A(n)=3A(n-1)+2, \text{for }n\ge0\)
+    </p>
+    <h3>
+      Closed Form Hypothesis:
+    </h3>
+    <p>
+      \(A(n)=3^n-1\)
+    </p>
+    <h3>
+      Inductive Proof:
+    </h3>
+    <p>
+      \(A(0)=3^0-1=0 \\
+      A(n)=3(3^{n-1}-1)+2=3^n-1\)
+    </p>
+    
+    <h2>
+      Exercise 1.2 Alternative - Generating Functions
+    </h2>
+    <p>
+      \(\text{Recurrent relation} \\
+      A_0=0 \\
+      A_{n+1}=3A_n+2, \text{for }n\ge0 \\
+      \text{Define the generating function} \\
+      G(x)=\sum_{n\ge0}A_nx^n \\
+      \text{Express }A_{n+1}\text{ in terms of }G(x) \\
+      \sum_{n\ge0}A_{n+1}x^n=A_1+A_2x+a_3x^2+...=\{A_1x+A_2x^2+a_3x^3+...\}/x \\
+      \sum_{n\ge0}A_{n+1}x^n=G(x)/x \\
+      \text{Express }3A_{n}+2\text{ in terms of }G(x) \\
+      \sum_{n\ge0}(3A_{n}+2)x^n=3(\sum_{n\ge0}A_{n}x^n)+(\sum_{n\ge0}2x^n)\\
+      \sum_{n\ge0}(3A_{n}+2)x^n=3G(x)+\frac2{1-x},\text{ for }x<1 \\
+      \text{Solve }G(x) \\
+      G(x)/x=3G(x)+\frac2{1-x},\text{ for }x<1 \\
+      G(x)-3xG(x)=\frac{2x}{1-x}=(1-3x)G(x) \\
+      G(x)=\frac{2x}{(1-x)(1-3x)} \\
+      \text{Partial Fractions Expansion} \\
+      \frac{2x}{(1-x)(1-3x)}=\frac{y}{1-x}+\frac{z}{1-3x} \\
+      2x=(1-3x)y+(1-x)z\\
+      (1-3(\frac13))y+(1-\frac13)z=\frac23z=\frac23 \\
+      2x=(1-3x)y+(1-x)\\
+      y=\frac{-1+3x}{1-3x}=-1 \\
+      G(x)=\frac{1}{1-3x}-\frac{1}{1-x},\text{ for }x<1 \\
+      \text{Expand }G(x)\text{ into a power series} \\
+      G(x)=\sum_{n\ge0}(3x)^n - \sum_{n\ge0}x^n=
+      \sum_{n\ge0}3^nx^n - \sum_{n\ge0}x^n \\
+      [x^n]G(x)=A_n=3^n-1
+      \)
+    </p>
+
+    <h2>
+      Exercise 1.6
+    </h2>
+    <h3>
+      Recurrent Relation:
+    </h3>
+    <p>
+      \(B(2)=0 \\
+      B(n)=B(n-1)+n-2,\text{ for }n>2\)
+    </p>
+    <h3>
+      Unroll The Recurrence:
+    </h3>
+    <p>
+      \(B(n)=B(n-2)+(n-1-2)+(n-2) \\
+      B(n)=0+(3-2)+...+(n-1-2)+(n-2) \\
+      B(n)=0+(n-2)+...+(4-2)+(3-2) \\
+      2B(n)=(n+3-4)(n-2)\)
+    </p>
+    <h3>
+      Closed Form Hypothesis:
+    </h3>
+    <p>
+      \(B(n)=\frac{(n-1)(n-2)}2,\text{ for }n\ge2\)
+    </p>
+    <h3>
+      Inductive Proof:
+    </h3>
+    <p>
+      \(\frac{(2-1)(2-2)}2=0 \\
+      \frac{(n-1)(n-2)}2=\frac{(n-2)(n-3)}2+n-2 \\
+      \frac{n^2-3n+2}2=\frac{n^2-3n+2}2\)
+
+    </p>
+    <h2>
+      Exercise 1.8
+    </h2>
+    <p>
+      \(n=5m+l,\text{ where }0\le l\le4\text{ and } m \in \Bbb N \\
+      Q(5m+l)=P(l) \\
+      P(0)=\alpha \\
+      P(1)=\beta \\
+      P(2)=\frac{1+\beta}\alpha \\
+      P(3)=\frac{1+\beta+\alpha}{\alpha\beta} \\
+      P(4)=\frac{1+\alpha}\beta\)
+    </p>
+
+    <h2>
+      Exercise 1.11a
+    </h2>
+    <h3>
+      Recurrent Relation:
+    <h3/>
+    <p>
+      \(D(0)=0 \\
+      D(2n)=2D(2n-2)+2, \text{for }n\ge0\)
+    </p>
+    <h3>
+      Closed Form Hypothesis:
+    </h3>
+    <p>
+      \(D(2n)=2^{n+1}-2\)
+    </p>
+    <h3>
+      Inductive Proof:
+    </h3>
+    <p>
+      \(D(2(0))=2^{0+1}-2=0 \\
+      s = 2n-2 \\
+      D(s) = 2^{(s/2)+1}-2 \\
+      D(2n)=2D(s)+2=2^{(s/2)+2}-4+2=2^{n+1}-2\)
+    </p>
+
+    <h2>
+      Exercise 13
+    </h2>
+    <h3>
+      Recurrent Relation:
+    </h3>
+    <p>
+      \(Z(0)=1 \\
+      Z(n)=Z(n-1)+9n-8,\text{ for }n>0\)
+    </p>
+    <h3>
+      Unroll The Recurrence:
+    </h3>
+    <p>
+      \(Z(n)=Z(n-2)+(9(n-1)-8)+(9n-8) \\
+      Z(n)=1+(9(1)-8)+(9(2)-8)+...+(9n-8) \\
+      Z(n)=1+(9n-8)+(9(n-1)-8)+...+(9-8) \\
+      2Z(n)=2+n(9(n+1)-16)\)
+    </p>
+    <h3>
+      Closed Form Hypothesis:
+    </h3>
+    <p>
+      \(Z(n)=\frac{n(9n-7)}2+1,\text{ for }n>0\)
+    </p>
+    <h3>
+      Inductive Proof:
+    </h3>
+    <p>
+      \(Z(1)=\frac{1(9(1)-7)}2+1=2 \\
+      Z(n)=\frac{(n-1)(9(n-1)-7)}2+1+9n-8 \\
+      Z(n)=\frac{(n-1)(9n-16)}2+9n-7 \\
+      Z(n)=\frac{9n^2-7n+2}2 \\
+      Z(n)=\frac{n(9n-7)}2+1\)
+
+    <h2>
+      Exercise 1.15
+    </h2>
+    <h3>
+      Recurrent Relation:
+    </h3>
+    <p>
+      \(I(1)=0 \\
+      I(2)=2 \\
+      I(2n)=2I(n)-1,\text{ for }n>0 \\
+      I(2n+1)=2I(n)+1,\text{ for }n>0\)
+    </p>
+    <h3>
+      Closed Form Hypothesis:
+    </h3>
+    <p>
+      \(n=3(2^m)+l,\text{ where }0\le l<3(2^m)\le n \\
+      I(n)=2l+1,\text{ for }n>2\)
+    </p>
+    <h3>
+      Inductive Proof:
+    </h3>
+    <p>
+      Basis:\(I(3)=I(3(2^0)+0)=2(0)+1=1\)<br/>
+      Even:\(I(n)=2(2(l/2)+1)-1=2l+1,\text{ for }n>2\)<br/>
+      Odd:\(I(n)=2(2(l-1)/2+1)+1=2l+1,\text{ for }n>2\)<br/>
+    </p>      
+
+  </body>
+<html>

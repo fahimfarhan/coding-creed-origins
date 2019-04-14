@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+    </script>
+  </head>
+  <body>
+      <h2>
+      <a href="chap1.html">Chapter 1 Solutions</a></br>
+      <a href="chap2.html">Chapter 2 Solutions</a></br>
+      <a href="chap3.html">Chapter 3 Solutions</a></br>
+      <a href="chap5.html">Chapter 5 Solutions</a></br>
+    </h2>
+    <h2>
+      Exercise 3.7
+    </h2>
+    <h3>
+      Recurrence:
+    </h3>
+    <p>
+      \(X_n=n,\text{ for } 0\le n< m \\
+      X_n=X_{n-m}+1,\text{ for } n\ge m\)
+    </p>
+    <h3>
+      Closed Form Hypothesis:
+    </h3>
+    <p>
+      \(X_n=\lfloor n/m\rfloor+n\text{ mod } m \\
+      X_n=\lfloor n/m \rfloor+n-m\lfloor n/m\rfloor \\
+      X_n=n-(m-1)\lfloor n/m\rfloor\)
+    </p>
+    <h3>
+      Inductive Proof:
+    </h3>
+    <p>
+      \(X_0=0-(m-1)\lfloor 0/m\rfloor=0 \\
+      \lfloor n/m\rfloor=0,\text{ for } 0\le n< m \\
+      X_n=0+n-m(0)=n,\text{ for } 0\le n< m \\
+      X_n=n-m-(m-1)\lfloor(n-m)/m\rfloor+1,\text{ for } n\ge m \\
+      X_n=n-m-(m-1)\lfloor n/m\rfloor+(m-1)+1,\text{ for } n\ge m \\
+      X_n=n-(m-1)\lfloor n/m\rfloor,\text{ for } n\ge m \)
+    </p>
+    <h2>
+      Exercise 3.10
+    </h2>
+    <h3>
+      Show \(\lceil\frac{2x+1}2\rceil-\lceil\frac{2x+1}4\rceil+\lfloor\frac{2x+1}4\rfloor\) 
+      is always \(\lfloor x\rfloor\) or \(\lceil x\rceil\)
+    </h3>
+    <p>
+      \(
+      -\lceil y\rceil + \lfloor y\rfloor=-1,\text{ for } y \notin \Bbb Z\\
+      -\lceil y\rceil + \lfloor y\rfloor=0,\text{ for } y \in \Bbb Z \\
+      \frac{2x+1}2=0 \implies \frac{2x+1}2 \in \{1.5, 3.5, 5.5,...\} \\
+      \{x\}<0.5 \implies \lfloor x\rfloor \\
+      \{x\}>0.5 \implies \lceil x\rceil \\
+      \{x\}=0.5\text{ and }[\lfloor x \rfloor\text{ is even}] \implies \lfloor x\rfloor \\
+      \{x\}=0.5\text{ and }[\lfloor x \rfloor\text{ is odd}] \implies \lceil x\rceil
+      \)
+    </p>
+  </body>
+<html>

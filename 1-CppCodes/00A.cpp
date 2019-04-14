@@ -27,6 +27,6 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-
+    
     return 0;
 }

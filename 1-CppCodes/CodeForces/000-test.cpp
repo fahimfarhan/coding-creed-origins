@@ -1,64 +1,40 @@
-#include <vector>
-#include <list>
-#include <map>
-#include <set>
-#include <deque>
-#include <stack>
-#include <queue>
-#include <algorithm>
-#include <sstream>
-#include <iostream>
-#include <iomanip>
-#include <cstdio>
-#include <cmath>
-#include <cstdlib>
-#include <memory.h>
-#include <ctime>
- 
+#include<bits/stdc++.h>
 using namespace std;
- 
-#define ABS(a) ((a>0)?a:-(a))
-#define MIN(a,b) ((a<b)?(a):(b))
-#define MAX(a,b) ((a<b)?(b):(a))
-#define FOR(i,a,n) for (int i=(a);i<(n);++i)
-#define FI(i,n) for (int i=0; i<(n); ++i)
-#define pnt pair <int, int>
-#define mp make_pair
-#define PI 3.14159265358979
-#define MEMS(a,b) memset(a,b,sizeof(a))
-#define LL long long
-#define U unsigned
- 
-int a[200100];
-int val[200100];
-int b[200100];
-int main()
-{
-        int n,q;
-        scanf("%d%d",&n,&q);
-        FOR(i,0,n)
-                scanf("%d",&a[i]);
-        sort(a,a+n);
-        FOR(i,0,q)
-        {
-                int l,r;
-                scanf("%d%d",&l,&r);
-                l--;
-                r--;
-                val[l]++;
-                if (r<n-1)
-                        val[r+1]--;
-        }
-        int v=0;
-        FOR(i,0,n)
-        {
-                v+=val[i];
-                b[i]=v;
-        }
-        sort(b,b+n);
-        LL res=0;
-        FOR(i,0,n)
-                res+=(b[i]*1ll*a[i]);
-        cout<<res<<endl;
-    return 0;
+char s[300005];
+int l,ans;
+int main(){
+	int n;
+	scanf("%d%s",&n,s+1);
+	if(n%2!=0){
+		puts(":(");
+		return 0;
+	}
+	for(int i=1;i<=n;i++)
+		if(s[i]=='(')
+			l++;
+	for(int i=1;i<=n;i++)
+		if(s[i]=='?'&&l<n/2)
+			l++,s[i]='(';
+	for(int i=1;i<=n;i++){
+		if(s[i]=='?')
+			s[i]=')';
+	}
+	for(int i=1;i<=n;i++){
+		if(s[i]=='(')
+			ans++;
+		else{
+			ans--;
+			if(ans==0&&i!=n||ans<0){
+				puts(":(");
+				return 0;
+			}
+		}
+	}
+	if(!ans){
+		printf("%s",s+1);
+	}
+	else{
+		puts(":(");
+	}
+	return 0;
 }

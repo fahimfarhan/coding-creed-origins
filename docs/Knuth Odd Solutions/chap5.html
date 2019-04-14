@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+    </script>
+  </head>
+  <body>
+      <h2>
+      <a href="chap1.html">Chapter 1 Solutions</a></br>
+      <a href="chap2.html">Chapter 2 Solutions</a></br>
+      <a href="chap3.html">Chapter 3 Solutions</a></br>
+      <a href="chap5.html">Chapter 5 Solutions</a></br>
+    </h2>
+    <h2>
+      5.2 Basic Practice #1
+    </h2>
+    <p>
+      \(\text{Solve: }\sum\limits_{k=0}^m\binom m k/\binom n k \\
+      \text{Apply Trinomial Revision Identity: } \\
+      \binom r m\binom m k = \binom r k \binom{r-k}{m-k} \\
+      \frac{\binom r m\binom m k}{\binom r m\binom r k} = \frac{\binom r k \binom{r-k}{m-k}}{\binom r m\binom r k} \\
+      \frac{\binom m k}{\binom r k} = \frac{\binom{r-k}{m-k}}{\binom r m} \\
+      \sum\limits_{k=0}^m\frac{\binom m k}{\binom n k}=\sum\limits_{k=0}^m\frac{\binom{n-k}{m-k}}{\binom n m}=
+      \frac{\sum\limits_{k=0}^m\binom{n-k}{m-k}}{\binom n m} \\
+      \text{Apply Parallel Summation Identity: } \\
+      \sum\limits_{k=0}^m\binom{n-k}{m-k}=\sum\limits_{m-k=0}^m\binom{n-(m-k)}{m-(m-k)}=
+      \sum\limits_{k\le m}\binom{n-m+k}k \\
+      \sum\limits_{k\le n}\binom{r+k}k=\binom{r+n+1}n \\
+      \sum\limits_{k\le m}\binom{n-m+k}k=\binom{n+1}m \\
+      \sum\limits_{k=0}^m\binom m k/\binom n k=\binom{n+1}m/\binom n m=\frac{m!(n+1)_m}{m!(n)_m}=\frac{n+1}{n-m+1} \)
+    </p>
+    <h2>
+      Exercise 5.3
+    </h2>
+    <p>
+      \(\text{Prove }\binom{n-1}{k-1}\binom n{k+1}\binom{n+1}k=
+      \binom{n-1}k\binom{n+1}{k+1}\binom{n}{k-1}\\
+      \frac{(n-1)_{k-1}}{(k-1)!}\cdot\frac{n_{k+1}}{(k+1)!}\cdot\frac{(n+1)_{k}}{k!}=
+      \frac{(n-1)_{k}}{k!}\cdot\frac{(n+1)_{k+1}}{(k+1)!}\cdot\frac{n_{k-1}}{(k-1)!} \\
+      (n-1)_{k-1}\cdot\frac{n_{k+1}}{k(k+1)}\cdot\frac{(n+1)_{k}}k=
+      \frac{(n-1)_{k}}k\cdot\frac{(n+1)_{k+1}}{k(k+1)}\cdot{n_{k-1}} \\
+      (n-1)_{k-1}\cdot n_{k-1}\cdot(n+1)_{k-1}=
+      (n-1)_{k-1}\cdot(n+1)_{k-1}\cdot{n_{k-1}} \\
+      
+      \)
+    </p>
+    <h2>
+      Exercise 5.11
+    </h2>
+    <p>
+	\(\text{Express }\sin z\text{ as a hypergeometric series} \\
+	\sin z = z - \frac{z^3}{3!}+\frac{z^5}{5!}-\frac{z^7}{7!}+... \\
+	\sin z = \sum\limits_{k\ge0}\frac{(-1)^kz^{2k+1}}{(2k+1)!} \\
+	\frac{T_{k+1}}{T_k}=\frac{\sin(z+1)}{\sin(z)}=\frac{(-1)^{k+1}z^{2k+3}(2k+1)!}{(-1)^kz^{2k+1}(2k+3)!}=
+	\frac{-z^2}{(2k+2)(2k+3)}=\frac{-z^2}4\cdot\frac1{(k+1)(k+\frac32)} \\
+	\sin z =z\cdot\text{}_0F_1(;\frac32;\frac{-z^2}4) \\
+	\text{Express }\arcsin z\text{ as a hypergeometric series} \\
+	\arcsin z = z + \frac{1\cdot z^3}{2\cdot3}+\frac{1\cdot3\cdot z^5}{2\cdot4\cdot5}+\frac{1\cdot3\cdot5\cdot z^7}{2\cdot4\cdot6\cdot7}+... \\
+	\arcsin z = \sum\limits_{k\ge0}\frac{\frac12^{(k)}z^{2k+1}}{k!(2k+1)} \\
+	\frac{T_{k+1}}{T_k}=\frac{\arcsin(z+1)}{\arcsin(z)}=\frac{\frac12^{(k+1)}z^{2k+3}k!(2k+1)}{\frac12^{(k)}z^{2k+1}(k+1)!(2k+3)}=
+	z^2\cdot\frac{(k+\frac12)(k+\frac12)}{(k+1)(k+\frac32)} \\
+	\arcsin z=z\cdot\text{}_2F_1(\frac12,\frac12;\frac32;z^2)
+	\)
+    </p>
+  </body>
+</html>
