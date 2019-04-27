@@ -1,20 +1,10 @@
 3
-6
-cplusplus
-oscar
-deck
-fee
-hat
-near
-5
-code
-hacker
-chef
-chaby
-dumbofe
-5
-codechef
-chefcode
-fehcedoc
-cceeohfd
-codechef
+3
+2 3 2
+10 3 4
+4
+7 5 3 4
+2 3 1 3
+2
+10 1
+1 10
