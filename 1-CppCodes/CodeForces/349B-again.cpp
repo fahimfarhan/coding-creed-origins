@@ -44,9 +44,13 @@ int main(int argc, char const *argv[])
 
     int len = s.size();
 
-    int paintInHand = r;
+    int paintInHand;
     for(int i=1; i<10; i++){
         if(i!=index){
+            paintInHand = r + d;
+            if(paintInHand>a[i]){
+                
+            }
             
         }
     }
