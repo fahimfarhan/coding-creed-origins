@@ -14,9 +14,6 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
-ll coin[5] = {1,5,10,20,100};
-
-
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -30,14 +27,27 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    ll n=0, ans=0;
+    int n;
+    ll *a;
+    int temp=0, maximus=0;
     cin>>n;
 
-    for(int i=4; i>=0; i--){
-        ans+=n/coin[i];
-        n=(n%coin[i]);
-    }
+    a = new ll[n+1];
 
-    cout<<ans<<"\n";
+    for(int i=0; i<n; i++){    cin>>a[i];     }
+
+    temp=1;
+    for(int i=1; i<n; i++){
+        if(a[i]>a[i-1]){    temp++; }
+        else{
+            maximus = max(maximus, temp);
+            temp=1;
+        }
+    }
+    maximus = max(maximus, temp);
+            
+    cout<<maximus<<"\n";
+
+    delete[] a;
     return 0;
 }
