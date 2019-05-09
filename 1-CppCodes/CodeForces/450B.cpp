@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define MODULO 1e9+7
 #define PI 2*acos(0)
 
 #define ll long long int
+ll MODULO = 1e9+7;
 
 bool myAssert(bool b);
 void testDrivenDevelopment();
@@ -27,12 +27,25 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int n,m,ans;
-    cin>>n>>m;
+    ll x,y,n;
+    ll a[6];
+    cin>>x>>y;
+    cin>>n;
+    
+    x = (x)%MODULO;
+    y = (y)%MODULO;
+    
+    a[0]=x; a[1]=y; a[2]=y-x; a[3]=-x; a[4]=-y; a[5]=x-y;
+    for(int i=0; i<6; i++){
+        a[i]=(a[i])%MODULO;
+        if(a[i]<0){ a[i]+=MODULO; }
+        //cerr<<a[i]<<" ";
+    }
+    n=n-1;
+    n=n%6;
 
-    ans = min( (m+n)/3, min(m,n) );
+    cout<<a[(int)n]<<"\n";
 
-    cout<<ans<<"\n";
     
     return 0;
 }

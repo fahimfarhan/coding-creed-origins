@@ -3,7 +3,7 @@ using namespace std;
 #define MODULO 1e9+7
 #define PI 2*acos(0)
 
-#define ll long long int
+#define ll uint64_t
 
 bool myAssert(bool b);
 void testDrivenDevelopment();
@@ -27,12 +27,11 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int n,m,ans;
-    cin>>n>>m;
-
-    ans = min( (m+n)/3, min(m,n) );
-
-    cout<<ans<<"\n";
-    
+    ll l,r;
+    cin>>l>>r;
+    cout<<"YES\n";
+    for(ll i=l; i<=r; i+=2){
+        cout<<i<<" "<<(i+1)<<"\n";
+    }
     return 0;
 }

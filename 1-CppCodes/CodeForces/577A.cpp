@@ -27,12 +27,19 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int n,m,ans;
-    cin>>n>>m;
+    ll n,x,ans;
+    ans = 0;
 
-    ans = min( (m+n)/3, min(m,n) );
+    cin>>n>>x;
+    ll temp;
+    for(int i=1; i<=n; i++){
+        temp = x/i;
+        if( ((temp*i) == x) && (temp<=n) ){    ans++;   }
+    }
 
     cout<<ans<<"\n";
+
+
     
     return 0;
 }

@@ -16,6 +16,21 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
+int ans, K;
+
+int f(int a, int b, int q){
+    int k = q - (a%q);
+    if((a%q)==0){ k=0;    }
+    a+=k; b+=k;
+    int mylcm = (a)*(b)/(__gcd(a,b));
+
+    if(mylcm<ans){
+        ans = mylcm;
+        return k;
+    }
+    return k;
+}
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -28,7 +43,22 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+    K = INT_MAX;
+    ans = INT_MAX;
+    int a,b;
+    cin>>a>>b;
 
-    
+    if(a>b){    swap(a,b);  }
+
+    int stop = sqrt(b-a)+1;
+
+    for(int q=1; q<=stop; q++ ){
+        if( (((b-a)%q) ==0) && ( (a%q) == (b%q) )){
+            K = f(a,b,q);
+            K = f(a,b,(b-a)/q); // min(K,f(a,b,(b-a)/q));
+        }
+    }
+
+    cout<<K<<"\n";
     return 0;
 }
