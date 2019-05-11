@@ -29,5 +29,13 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+        int n,m,p;
+    cin>>n>>m;
+    
+    p = n>>1;
+    if(m==0){   cout<<1<<"\n";  }
+    else if(m<=p){   cout<<m<<"\n";  }
+    else{   cout<<(n-m)<<"\n";  }
+
     return 0;
 }
