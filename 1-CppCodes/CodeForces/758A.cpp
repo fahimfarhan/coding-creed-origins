@@ -30,5 +30,18 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int maximus, n, sum,a;
+    maximus = INT_MIN;
+    sum = 0;
+
+    cin>>n;
+
+    for(int i=0; i<n; i++){
+        cin>>a;
+        maximus = max(maximus,a);
+        sum+=a;
+    }
+    maximus = maximus*n;
+    cout<<(maximus-sum)<<"\n";
     return 0;
 }

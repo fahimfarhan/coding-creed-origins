@@ -30,5 +30,19 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll n,k;
+    cin>>n>>k;
+
+    ll a[3] = {2,5,8};
+
+    ll minimus = 0;
+    for(int i=0; i<3; i++){
+        a[i] = a[i]*n;
+        minimus += a[i]/k;
+        if(a[i]%k!=0){  minimus+=1; }
+    }
+
+    cout<<minimus<<"\n";
+
     return 0;
 }

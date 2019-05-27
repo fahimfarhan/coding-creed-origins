@@ -13,7 +13,7 @@ void testDrivenDevelopment();
 int start(int argc=0, char const *argv[] = NULL);
 
 
-// int n,m;s
+// int n,m;
 vector<int> *g;
 bool *isvisited;
 
@@ -30,5 +30,23 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int n, a;
+    cin>>n>>a;
+    double A = 1.0*(n-2)*180/n;
+    double B = 90 - A/2;
+
+    int v1 = n; int v2 = n-1; int v3=0;
+
+    double temp, minimus = INT_MAX;
+    for(int i=1; i<=n-2; i++){
+        temp = B*i;
+        temp = abs(temp - a);
+        if(temp<minimus){   
+            minimus = temp; v3 = i;
+        }
+    }
+
+    cout<<v1<<" "<<v2<<" "<<v3<<"\n";
+    
     return 0;
 }

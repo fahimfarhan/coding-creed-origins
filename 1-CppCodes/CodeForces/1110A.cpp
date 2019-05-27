@@ -30,5 +30,25 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int b,k;
+    int *a;
+
+    ll n;
+
+    cin>>b>>k;
+    a = new int[k+1];
+
+    for(int i=0; i<k; i++){    cin>>a[i];  }
+
+    n = 0;
+    for(int i=0; i<k; i++){ n= b*n+a[i]; }
+
+
+    // cout<<n<<"\n";
+    if(n&1 == 1){   cout<<"odd\n";   }
+    else{           cout<<"even\n";  }
+
+
+    if(!a)delete[] a;
     return 0;
 }
