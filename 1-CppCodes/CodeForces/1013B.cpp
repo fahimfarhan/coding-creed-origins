@@ -72,8 +72,36 @@ int main(int argc, char const *argv[])
 {
 	/* code */
   /* Soln soln */
-	int n;
-	return 0;
+	int n, x,y,r,*a,*b;
+    
+    si(n); si(x);
+    a = new int[100000];
+    b = new int[100000];
+
+    for(int i=0; i<100000; i++){    a[i]=0; b[i]=0;     }
+
+    // case -1: none 
+    // case  0: already 2ta same
+    // case  1: a[y] ==  b[y&x] = 1
+    // case  2: b[y&x] == 1
+
+    r = -1;
+
+    for(int i=0; i<n; i++){
+        si(y);
+        int z = x&y;
+        cout<<"a["<<y<<"]= "<<a[y]<<" , b["<<z<<"]= "<<b[z]<<"\n";
+        if(a[y]==1){    r = 0; break; }
+        if(a[y]==b[z] && a[y]==1){    r=1; break; }
+        if(a[z]==b[z] && a[z]==1){   r=2; break; }
+        a[y]=1; b[z] = 1;
+        
+    }
+    pi(r);
+    if(!a)delete[] a;
+    if(!b)delete[] b;
+    
+    return 0;
 }
 
 

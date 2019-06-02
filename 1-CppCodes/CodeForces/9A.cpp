@@ -1,21 +1,33 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <cstdlib>
+#include <algorithm>
+
 using namespace std;
 
-int n,d;
+class A9{
+private:
+  int y,w;
+public:
+  A9(){
+    cin>>y>>w;
+    if(w>y){ y = w; }
+    w = 0;
+    for(int i=y; i<=6; i++){
+      w++;
+    }
 
-int main(int argc, char const *argv[])
+
+      int gcd = __gcd(w,6);
+      cout<<(w/gcd)<<"/"<<(6/gcd)<<"\n";
+
+
+  }
+  ~A9(){}
+
+};
+
+int main()
 {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    
-    cin>>n>>d;
-    n = max(n,d);
-    n= (6-n+1);
-    d = 6;
-    d = __gcd(n,d);
-    n=n/d;
-    d=6/d;
-    cout<<n<<"/"<<d<<"\n";
-    return 0;
+  A9 a;
+  return 0;
 }

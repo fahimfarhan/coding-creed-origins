@@ -5,46 +5,41 @@ using namespace std;
 class A131{
 private:
     string s;
+    int n;
 public:
+    bool isCapital(char c){
+        if(c>='A' && c<='Z'){
+            return true;
+        }else return false;
+    }
+
+    bool isSmall(char c){
+
+        if (c >= 'a' && c <= 'z')
+        {
+            return true;
+        }
+        else
+            return false;
+    }
+
     A131(){
         cin>>s;
-        if(case1()){
-            for(int i=0; i<s.length(); i++){
-                cout<<(char)(s[i]-'A'+'a');
-            }printf("\n");
+        n = 'a'-'A';
+        for(int i=0; i<s.size();i++){
+            if(isCapital(s[i])){
+                printf("%c",s[i]+n);
+            }else if(isSmall(s[i])){
+                printf("%c", s[i] - n);
+            }else{
+                printf("%c",s[i]);
+            }
         }
-        else if(case2()){
-            cout<<(char)(s[0]-'a'+'A');
-            for(int i=1; i<s.length(); i++){
-                cout<<(char)(s[i]-'A'+'a');
-            }printf("\n");
-        }
-        else cout<<s<<"\n";
-        
-    }
+        printf("\n");
 
-    bool case1(){
-        // all letters capital
-        for(int i=0; i<s.length(); i++){
-            if(!(s[i]>='A' && s[i]<='Z') )
-                return false;
-        }
-        return true;
     }
-    bool case2(){
-        //1st small rest caps
-        bool b = true;
-        if(!(s[0]>='a' && s[0]<='z'))return false;
-        for(int i=01; i<s.length(); i++){
-            if(!(s[i]>='A' && s[i]<='Z') )
-                return false;
-        }
-        return true;
-    }
-
     ~A131(){}
 };
-
 int main()
 {
     A131 a131;
