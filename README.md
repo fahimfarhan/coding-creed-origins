@@ -49,7 +49,7 @@
 8. - [ ]  Graph algorithms:
 - [x] a. Traversal (DFS & BFS) algorithms and how to use them.
 - [x] b. Finding Connected Components.
-- [ ] c. Flood Fill.
+- [x] c. Flood Fill.
 - [x] d. Topological Sorting (the famous algorithm uses DFS but you should also know Kahn's algorithm that uses BFS as it has much applications). 
 - [x] e. Bipartite Check.
 - [x] f. Kruskal's and Prim's algorithms for finding the Minimum Spanning Tree of a graph and the variants of the problem.
