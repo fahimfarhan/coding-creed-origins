@@ -89,7 +89,7 @@ AC Unity - Love
 AC Syndicate - Family 
 AC Origins - Beginnings﻿
 
-##Cool Stuffs
+## Cool Stuffs
 ```
 next_permutation(v.begin(), v.end());
 ```
