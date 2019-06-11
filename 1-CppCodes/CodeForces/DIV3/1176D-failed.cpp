@@ -20,38 +20,44 @@ vector<int> *g;
 bool *isvisited;
 
 int cnt[N+1];
-int biggestDivisor[N+1];
+
 
 class Seive{
 public:
     int n, stop;
     bool *A;
     vector<int> v;
-
+    int *biggestDivisor;
 //public:
     Seive(){
         //cout<<"Enter n:\n";
         //cin>>n;
-        n = 2750131;
+        n = N;
         stop = (int)sqrt(n)+1;
+
         A = new bool[n+1];
+        biggestDivisor = new int[N+1];
+        
         for(int i=0; i<=n; i++){
             A[i] = true;
+            biggestDivisor[i] = 1;
         }
         A[0] = false;
         A[1] = false;
 
         //eliminate evens
         //v.push_back(2);
-        for(int i=4; i<=n;i+=2){ A[i] = false; }
+        
+        for(int i=4; i<=n;i+=2){ A[i] = false; biggestDivisor[i] = max(biggestDivisor[i],2);  }
         // eliminate rest
         for(int i=3; i<=stop; i++){  // i=3,5,7,...,n
             //cout<<i<<" A[i]="<<A[i]<<endl;
             if(A[i]){
                 //v.push_back(i);
                 //cout<<"pushed back "<<i<<endl;
-                for(int j=3*i; j<=n; j+=2*i){
+                for(int j=i; j<=n; j+=i){
                     A[j] = false;
+                    if(i!=j){ biggestDivisor[j] = max(biggestDivisor[j],i); }
                 }
             }
         }
@@ -69,6 +75,7 @@ public:
 
     ~Seive(){
         if(!A)delete[] A;   
+        if(!biggestDivisor)delete[] biggestDivisor;
     }
 };
 
@@ -93,18 +100,9 @@ int main(int argc, char const *argv[])
     cin>>n;
     n = n<<1;
 
-    for(int i=0; i<=N; i++){    cnt[i] = 0; biggestDivisor[i] = i; }
+    for(int i=0; i<=N; i++){    cnt[i] = 0;  }
 
     Seive s;
-
-    for(int i=2; i<=N; i++){
-        for(int j=i; j<=N; j+=i){
-            
-        }
-    }
-    
-
-    
     
     int x,y;
     for(int i=0; i<n; i++){ cin>>x; cnt[x]++; }
@@ -115,11 +113,12 @@ int main(int argc, char const *argv[])
             if(s.A[i]){
                 // if i is prime 
                 a.push_back(i);
+                cnt[s.v[i]]--;
                 cnt[i]--;
             }else{
                 cnt[i]--;
-                cnt[biggestDivisor[i]]--;
-                a.push_back(biggestDivisor[i]);
+                cnt[s.biggestDivisor[i]]--;
+                a.push_back(s.biggestDivisor[i]);
             }
         }
     }
