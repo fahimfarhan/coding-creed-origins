@@ -78,18 +78,11 @@
 11. - [ ]  Computational Geometry Algorithms.
 
 
-AC I - Redemption 
-AC II - Revenge 
-AC: Brotherhood - Justice 
-AC: Revelation - Answers 
-AC III - Freedom 
-AC IV - Glory 
-AC Rogue - Betrayal 
-AC Unity - Love 
-AC Syndicate - Family 
-AC Origins - Beginnings﻿
 
 ## Cool Stuffs
+```
+    int a[100] = {0}; // shorter way to initialize in cpp. yeah, I didn't knew that
+```
 ```
 next_permutation(v.begin(), v.end());
 ```
@@ -121,6 +114,18 @@ while(getline(cin, s[line])){
 ```
 int m=min_element(a+l,a+r+1)-a;
 ``` 
+
+AC I - Redemption 
+AC II - Revenge 
+AC: Brotherhood - Justice 
+AC: Revelation - Answers 
+AC III - Freedom 
+AC IV - Glory 
+AC Rogue - Betrayal 
+AC Unity - Love 
+AC Syndicate - Family 
+AC Origins - Beginnings﻿
+
 ```
 "As you write your odyssey across the mountains and seas, remember: the fate of Greece journeys with you." AC Odyssey
 ```
