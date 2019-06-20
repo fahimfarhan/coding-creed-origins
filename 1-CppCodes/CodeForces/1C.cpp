@@ -1,4 +1,27 @@
+#ifdef _WIN32
+
+#include <iostream>
+#include <sstream>
+#include <cstdio>
+#include <cmath>
+#include <cstring>
+#include <cctype>
+#include <string>
+#include <vector>
+#include <list>
+#include <set>
+#include <map>
+#include <queue>
+#include <stack>
+#include <algorithm>
+#include <functional>
+
+#else
+
 #include <bits/stdc++.h>
+
+#endif
+
 using namespace std;
 
 #define PI 2*acos(0)

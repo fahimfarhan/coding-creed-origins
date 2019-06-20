@@ -1,26 +1,4 @@
-#ifdef _WIN32
-
-#include <iostream>
-#include <sstream>
-#include <cstdio>
-#include <cmath>
-#include <cstring>
-#include <cctype>
-#include <string>
-#include <vector>
-#include <list>
-#include <set>
-#include <map>
-#include <queue>
-#include <stack>
-#include <algorithm>
-#include <functional>
-
-#else
-
 #include <bits/stdc++.h>
-
-#endif
 
 using namespace std;
 
@@ -52,6 +30,36 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    int n,m,res, *cf;
+
+    cin>>n>>m;
+
+    cf = new int[n+2];
+    cf[0]=0;
+    cf[n+1]=0;
+
+//    cin>>cf[01];
+    for(int i=1; i<=n; i++){
+        cin>>cf[i];
+        cf[i]+=cf[i-1];
+    }
+
+
+    for(int i=0; i<n; i++){
+        res = 0;
+        if(cf[i]<m){    cout<<res<<" "; }
+        else{
+            int ti = cf[i]-cf[i-1];
+            int temp = m-ti;
+            int lb = lower_bound(cf, cf+n, temp)-cf;
+            while(cf[lb]+ti > m){   lb--; }
+            res = i-lb; // r-l+1 = (i-1) - lb + 1 = i-lb 
+            cout<<res<<" ";
+        }
+    }cout<<"\n";
+
+    delete[] cf;
 
     return 0;
 }

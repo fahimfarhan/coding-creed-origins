@@ -1,26 +1,4 @@
-#ifdef _WIN32
-
-#include <iostream>
-#include <sstream>
-#include <cstdio>
-#include <cmath>
-#include <cstring>
-#include <cctype>
-#include <string>
-#include <vector>
-#include <list>
-#include <set>
-#include <map>
-#include <queue>
-#include <stack>
-#include <algorithm>
-#include <functional>
-
-#else
-
 #include <bits/stdc++.h>
-
-#endif
 
 using namespace std;
 
@@ -53,5 +31,36 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int n;
+    ll *a;
+
+    cin>>n;
+    a = new ll[n+1];
+
+    set<int> v;
+    map<int,int> mp;
+    map<int, int> diff;
+
+    for(int i=0; i<n; i++){ cin>>a[i]; mp[a[i]] = i;  }
+    sort(a,a+n);
+
+    if(n==2){   cout<<"1\n";   }
+    else if(n==3){  if( (a[1]-a[0]) != (a[2]-a[1]) ){ cout<<2<<"\n";   }  }
+    else if(n>=4){
+        
+
+        for(int i=1; i<n; i++){ a[i]-=a[0]; }
+
+        int mycounter = 0;
+        
+        for(int i=1; i<n; i++){ if()}
+
+
+            
+        
+    }
+
+
+    delete[] a;
     return 0;
 }

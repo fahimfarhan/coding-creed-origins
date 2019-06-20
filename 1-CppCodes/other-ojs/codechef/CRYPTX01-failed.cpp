@@ -44,8 +44,24 @@ int main(int argc, char const *argv[])
 
     double d = sqrt(len);
 
-    row = floor(d);
-    col = ceil(d);
+    int ll, ul;
+    ll = floor(d);
+    ul = ceil(d);
+
+    int minimus = INT_MAX;
+    int temp=0;
+    for(int i=ll; i<=ul; i++){
+        for(int j=ll; j<=ul; j++){
+            temp = i*j;
+            if(temp>=len){
+                if(temp<minimus){
+                    minimus = temp;
+                    row = i;
+                    col = j;
+                }
+            }
+        }
+    }
 
     char **a;
     a = new char*[row+1];

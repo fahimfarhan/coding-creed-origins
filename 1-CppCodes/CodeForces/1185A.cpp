@@ -1,26 +1,4 @@
-#ifdef _WIN32
-
-#include <iostream>
-#include <sstream>
-#include <cstdio>
-#include <cmath>
-#include <cstring>
-#include <cctype>
-#include <string>
-#include <vector>
-#include <list>
-#include <set>
-#include <map>
-#include <queue>
-#include <stack>
-#include <algorithm>
-#include <functional>
-
-#else
-
 #include <bits/stdc++.h>
-
-#endif
 
 using namespace std;
 
@@ -52,6 +30,23 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    ll a[3];
+    ll d;
+    ll minimus=0;
+    ll temp = 0;
+    cin>>a[0]>>a[1]>>a[2]>>d;
+    
+    sort(a,a+3);
+    temp = abs(a[0]-a[1]);
+    if( temp < d ){ minimus+=(d-temp);   }
+
+    temp = abs(a[2]-a[1]);
+    if( temp < d ){ minimus+=(d-temp);   }
+
+    cout<<minimus<<"\n";
+
+
 
     return 0;
 }
