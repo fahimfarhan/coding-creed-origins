@@ -77,7 +77,23 @@
 - [ ] h. Suffix Automaton data structure.
 11. - [ ]  Computational Geometry Algorithms.
 
+12. -[ ] https://www.geeksforgeeks.org/category/project/
 
+## ToDoList
+Linux from scratch 
+Machine Learning
+Deep Learning 
+CodeForces
+Qt/C++
+OpenCV
+TensonFlow
+Keras
+Spring
+Vue.js
+kali linux
+Projects from Freelancer
+CodinGame, Halit AI projects
+Kaggle ML projects
 
 ## Cool Stuffs
 ```
