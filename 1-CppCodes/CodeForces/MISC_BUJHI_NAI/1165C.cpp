@@ -53,22 +53,23 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int n,x,y;
-    
-    string s;
+    string s, res;
+    int n;
 
-    cin>>n>>x>>y>>s;
+    cin>>n;
+    cin>>s;
 
-    int res = 0;
-
-    for(int i=n-x; i<n; i++){
-        if(i == (n-y-1) ){
-            if(s[i]=='0'){  res++; }
-        }else{
-            if(s[i]=='1'){  res++; }
+    for(int i=0; i<n; i++){
+        if(res.size()%2 == 0 || res.back()!=s[i]){
+            res.push_back(s[i]);
         }
     }
 
+    if( ( ((int)res.size())&1) == 1){ res.pop_back(); }
+
+    n = n- (int)res.size();
+
+    cout<<n<<"\n";
     cout<<res<<"\n";
 
     return 0;

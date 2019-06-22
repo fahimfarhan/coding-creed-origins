@@ -53,23 +53,19 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int n,x,y;
-    
-    string s;
+    int n, pos, *a;
+    cin>>n;
+    a = new int[n+1];
 
-    cin>>n>>x>>y>>s;
+    for(int i=0; i<n; i++){ cin>>a[i];  }
 
-    int res = 0;
+    sort(a,a+n);
 
-    for(int i=n-x; i<n; i++){
-        if(i == (n-y-1) ){
-            if(s[i]=='0'){  res++; }
-        }else{
-            if(s[i]=='1'){  res++; }
-        }
-    }
+    pos = 1;
+    for(int i=0; i<n; i++){   if(a[i]>=pos)  pos++;   }
 
-    cout<<res<<"\n";
+    cout<<(pos-1)<<"\n";
 
+    delete[] a;
     return 0;
 }

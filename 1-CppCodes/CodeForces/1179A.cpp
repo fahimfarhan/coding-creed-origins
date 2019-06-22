@@ -26,7 +26,7 @@ using namespace std;
 
 #define PI 2*acos(0)
 
-typedef long long int ll;
+typedef int ll;
 // #define ll long long int
 // other popular ones=> int64_t, uint64_t => use for 10^18
 ll MODULO = 1e9+7;
@@ -93,7 +93,7 @@ int main(int argc, char const *argv[])
 
     maximusPos--;
     
-    int index = 0, len = v.size();
+    long long int index = 0, len = v.size();
     while(q--){
         cin>>index;
         index=index-1;

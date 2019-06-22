@@ -53,23 +53,42 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int n,x,y;
-    
-    string s;
+    ll *f, *s;
+    ll n,q,x;
+    deque<ll> a;
 
-    cin>>n>>x>>y>>s;
+    cin>>n>>q;
+    f = new ll[n+10]; s = new ll[n+10];
 
-    int res = 0;
+    for(int i=0; i<n; i++){ cin>>x; a.push_back(x); }
 
-    for(int i=n-x; i<n; i++){
-        if(i == (n-y-1) ){
-            if(s[i]=='0'){  res++; }
-        }else{
-            if(s[i]=='1'){  res++; }
+    ll A, B;
+    A = a.front(); a.pop_front(); 
+
+    for(int i=1; i<=n; i++){
+        B = a.front(); a.pop_front();
+        f[i] = A; s[i] = B; 
+        if(A>B){    a.push_back(B); }
+        else{
+            swap(A,B);
+            a.push_back(B);
         }
     }
+    a.push_front(A);
 
-    cout<<res<<"\n";
+    ll index;
+    while(q--){
+        cin>>index;
+        if(index<=n){
+            cout<<f[index]<<" "<<s[index]<<"\n";
+        }else{
+            index = index - n -1;
+            index = index%(n-1)+1;
+
+            B = a[index];
+            cout<<A<<" "<<B<<"\n";
+        }
+    }
 
     return 0;
 }
