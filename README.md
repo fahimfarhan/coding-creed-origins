@@ -94,6 +94,7 @@ kali linux
 Projects from Freelancer
 CodinGame, Halit AI projects
 Kaggle ML projects
+create a messenger in webapp!
 
 ## Cool Stuffs
 ```
@@ -124,6 +125,15 @@ while(getline(cin, s[line])){
             }
             line++;
         }    
+```
+
+### Crazy Input Format 
+```
+int main(){     
+  int A[] = gets(stdin);
+}
+// input.txt
+{0,-2,-2,5,5,5}
 ```
 
 ### search for smallest element's index in an array in range[l,r]

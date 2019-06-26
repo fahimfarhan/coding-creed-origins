@@ -12,6 +12,8 @@ kali linux
 Projects from Freelancer
 CodinGame, Halit AI projects
 Kaggle ML projects
+create a messenger in webapp!
+add maps(google/openstreet) in webapp!
 
 01515262338
 
