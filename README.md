@@ -95,7 +95,7 @@ Projects from Freelancer
 CodinGame, Halit AI projects
 Kaggle ML projects
 create a messenger in webapp!
-
+Learn GDB, Valgrind
 ## Cool Stuffs
 ```
     int a[100] = {0}; // shorter way to initialize in cpp. yeah, I didn't knew that
