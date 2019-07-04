@@ -31,5 +31,34 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int a[10];
+    int g=0,p=0;
+
+    for(int i=2; i<6; i++){
+        //cout<<"? 1 "<<i<<"\n";
+        printf("? 1 %d\n",i);
+        fflush(stdout);
+        cin>>a[i];
+        g = __gcd(g,a[i]);
+    }
+
+    if((g==30) || (g==46)){    g = g>>1;   }
+
+    cout<<"! "<<g<<" ";
+
+    p=g;
+
+    for(int i=2; i<6; i++){
+        cout<<(a[i]/g)<<" ";
+        p = p*(a[i]/g);
+    } 
+
+	cout<<(4*8*15*16*23*42)/p<<endl;	
+
     return 0;
 }
+
+/*16
+64
+345
+672*/

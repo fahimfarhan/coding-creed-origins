@@ -1,3 +1,5 @@
+#ifdef _WIN32
+
 #include <iostream>
 #include <sstream>
 #include <cstdio>
@@ -13,6 +15,12 @@
 #include <stack>
 #include <algorithm>
 #include <functional>
+
+#else
+
+#include <bits/stdc++.h>
+
+#endif
 
 using namespace std;
 
