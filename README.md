@@ -1,6 +1,7 @@
 # coding-creed-origins
 
 ## Useful Links/Blogs
+* [yufeizhao.com/olympiad](http://yufeizhao.com/olympiad/)
 * [What important topics of number theory should every programmer know?](https://www.quora.com/What-important-topics-of-number-theory-should-every-programmer-know)
 * [How do I prepare for Google Code Jam in 2018?](https://www.quora.com/How-do-I-prepare-for-Google-Code-Jam-in-2018)
 * [Segment Tree Example Code Demo](http://codeforces.com/blog/entry/18051)
