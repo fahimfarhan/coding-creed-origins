@@ -4,8 +4,8 @@ using namespace std;
 
 #define PI 2*acos(0)
 
-//typedef long long int ll;
- #define ll long long int
+typedef long long int ll;
+// #define ll long long int
 // other popular ones=> int64_t, uint64_t => use for 10^18
 ll MODULO = 1e9+7;
 
@@ -31,6 +31,32 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll m, n, p, k, d;
+    ll *a;
+
+    cin>>n;
+    a = new ll[n+1];
+
+    for(int i=0; i<n; i++){
+        cin>>a[i];
+    }
+
+    p = 0;
+
+    //m = 4, i<2; 
+
+    for(int i=0; i<(n+1)/2; i++){
+        p+=a[i];
+    }
+    k=0;
+    for(int i=(n+1)/2; i<n; i++){
+        k+=a[i];
+    }
+
+    d = abs(k-p);
+
+    cout<<d<<"\n";
+    delete[] a;
 
     return 0;
 }

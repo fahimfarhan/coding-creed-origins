@@ -31,6 +31,26 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int n;
+    cin>>n;
+    ll a[n+1] = {0};
 
+    int imax = 0; ll maximus = 0;
+    for(int i=0; i<n; i++){ 
+        cin>>a[i]; 
+        if(a[i]>maximus){ imax = i;   maximus = a[i]; }
+    }
+
+    bool b = true;
+    // check left
+    for(int i=imax-1; i>=0; i--){
+        if(a[i]-a[i+1]>=0){ b = false; break; }
+    }
+    // check right
+    for(int i=imax+1; i<n; i++){
+        if(a[i]-a[i-1]>=0){ b = false; break; }
+    }
+    if(b){  cout<<"YES\n";  }
+    else{   cout<<"NO\n";   }
     return 0;
 }

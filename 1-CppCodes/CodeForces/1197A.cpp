@@ -31,6 +31,27 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll T, n, k;
+    cin>>T;
+    while(T--){
+        cin>>n;
+        ll a[n+1]={0};
+        ll cf[n+1] = {0};
+        k = 0;
+        for(int i=0; i<n; i++){ cin>>a[i]; cf[a[i]]++;   }
+
+        for(int i=n-1; i>=0; i--){  cf[i] = cf[i]+cf[i+1];  }
+        
+        k = n-2;
+
+        
+        while(k>0){
+            if( (cf[k+1]-cf[n-1])>=2 || cf[k+1]>=2){   break; }
+            else{k--;}
+        }
+        
+        cout<<k<<"\n";
+    }
 
     return 0;
 }
