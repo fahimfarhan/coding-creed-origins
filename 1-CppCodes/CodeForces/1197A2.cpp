@@ -1,3 +1,5 @@
+/* Author : Qazi Fahim Farhan (@fahimfarhan) */
+/* May the CodeForces be with you! */
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -31,27 +33,28 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    ll T, n, k,res, *a;
+    ll T, n, k,res, a, largest, secondLargest;
 
     cin>>T;
     while(T--){
         cin>>n;
-        a = new ll[n+1];
 
+        //a = new ll[n+1];
+        largest = 0; secondLargest = 0;
         for(int i=0; i<n; i++){
-            cin>>a[i];
+            cin>>a;
+            if(a>largest){
+                secondLargest = largest;
+                largest = a;
+            }else if(a>secondLargest){
+                secondLargest = a;
+            }
         }
-        sort(a,a+n);
-        res = 0;
-        if(n<3){    res = 0;    }
-        else{
-            
-            res = min(min(a[n-1], a[n-2])-1, n-2);
-            
-        }
+        k = n-2;
+        res = min(k, secondLargest-1);
         cout<<res<<"\n";
 
-        if(!a)delete[] a;
+        //if(!a)delete[] a;
     }
 
 

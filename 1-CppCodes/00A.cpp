@@ -1,3 +1,5 @@
+/* Author : Qazi Fahim Farhan (@fahimfarhan) */
+/* May the CodeForces be with you! */
 #include <bits/stdc++.h>
 
 using namespace std;
