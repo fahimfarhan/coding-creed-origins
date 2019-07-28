@@ -17,6 +17,7 @@
 14. [toph](https://toph.co/u/fahimfarhan) fahimfarhan (github, id)
 15. [coderbyte](https://www.coderbyte.com/profile/fahimfarhan) fahimfarhan (id)
 16. [dimikoj](https://dimikoj.com/) fahimfarhan (id, email)
+
 ## AI
 1. [codingame](https://www.codingame.com/home) fahimfarhan  (github)
 2. [gvgai](http://www.gvgai.net/index.php) fahimfarhan  (id)
@@ -38,5 +39,9 @@
 1. [heroku](https://dashboard.heroku.com/apps) fahimfarhan (email, firefox) 
 2. [pythonanywhere](http://fahimfarhan.pythonanywhere.com/) fahimfarhan (email)
 3. [netlify](https://www.netlify.com/) fahimfarhan (github) 
-4. github, heroku
-5. [000webhost.com](https://www.000webhost.com/free-php-hosting) (facebook)
+4. [000webhost.com](https://www.000webhost.com/free-php-hosting) (facebook)
+
+## Software Development
+1. github, bitbucket, gitlab, visualstudio
+2. [sourceforge](https://sourceforge.net/u/fahimfarhan/profile/) fahimfarhan (email)
+3. [imgur.com](https://imgur.com/user/fahimfarhan) fahimfarhan (facebook)
