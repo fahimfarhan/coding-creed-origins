@@ -1,4 +1,4 @@
-##Cool Stuffs
+## Cool Stuffs
 Return 1st '1' from right ( 1011 0`1`00 that  highlighted one )
 ```
 int lowestbit(int x){	return x&(-x);	}
