@@ -98,6 +98,16 @@ CodinGame, Halit AI projects
 Kaggle ML projects
 create a messenger in webapp!
 Learn GDB, Valgrind
+
+## Cool Tools
+- BundlePhobia https://bundlephobia.com/
+- CloudCraft https://cloudcraft.co/
+- Figma https://www.figma.com
+- Fontflipper https://fontflipper.com/
+- Visbug https://github.com/GoogleChromeLabs/ProjectVisBug
+- Insomnia https://insomnia.rest/
+- Flare https://www.2dimensions.com/about-flare
+
 ## Cool Stuffs
 ```
     int a[100] = {0}; // shorter way to initialize in cpp. yeah, I didn't knew that
