@@ -1,120 +1,177 @@
 #include<bits/stdc++.h>
-#include<ext/pb_ds/assoc_container.hpp>
-#include<ext/pb_ds/tree_policy.hpp>
-using namespace __gnu_pbds;
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+#include <ext/pb_ds/detail/standard_policies.hpp>
+
 using namespace std;
+using namespace __gnu_pbds;
+using namespace __gnu_cxx;
 
-#define             f(i,n)         	for(int i=0;i<n;i++)
-#define             f1(i,n)        	for(int i=1;i<=n;i++)
-#define             fab(i,a,b)     	for(int i=a;i<=b;i++)
-#define             ll             	long long int
-#define             pb             	push_back
-#define             te(t)          	int t;cin>>t;while(t--)
-#define             MOD            	1e9+7
-#define             fast           	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define             MEM(a,b)       	memset(a,b,sizeof(a))
-#define             MP            	make_pair
-#define             all(v)         	v.begin(),v.end()
-#define             mnv(v)         	*min_element(v.begin(),v.end())
-#define             mxv(v)         	*max_element(v.begin(),v.end())
-#define             toint(a)            atoi(a.c_str())
-#define             valid(tx,ty)   	(tx>=0&&tx<n&&ty>=0&&ty<m)
-#define             issq(x)        	(((ll)(sqrt((x))))*((ll)(sqrt((x))))==(x))
-#define             ub             	upper_bound
-#define             lb             	lower_bound
-#define             grtsrt(v)      	sort(v.begin(),v.end(),greater<ll>())
-#define             Unique(v)      	v.erase(unique(all(v)),v.end())
-#define             ff             	first
-#define             ss             	second
-#define             sff(a,b)       	scanf("%d %d",&a,&b)
-#define             sfff(a,b,c)    	scanf("%d %d %d",&a,&b,&c)
-#define		    NL		        pf("\n");
-#define             DBG                 pf("ALSMK\n");
+#define ll long long
+#define pii pair<int,int>
+#define pll pair<ll,ll>
+#define pb push_back
 
-#define             ull            	unsigned long long
-#define             ld             	long double
-#define             pii            	pair<int,int>
-#define             pll            	pair<ll,ll>
-#define             vi             	vector<int>
-#define             vll            	vector<ll>
-#define             vc             	vector<char>
-#define             vs             	vector<string>
-#define             vpll           	vector<pll>
-#define             vpii           	vector<pii>
-#define             umap           	unordered_map
-#define             uset           	unordered_set
-#define             PQ             	priority_queue
-#define             nl             	"\n"
-#define             lg(r,n)        	(int)(log2(n)/log2(r))
-#define             sz(s)               (int)s.size()
-#define             M              	1000000
+#define ri(n) scanf("%d",&n)
+#define rl(n) scanf("%lld",&n)
+
+#define MX 101
+
+#define BIGMAX 4*MX
+
+#define MOD 1000000007
 
 
+typedef tree<
+int,
+null_type,
+less<int>,
+rb_tree_tag,
+tree_order_statistics_node_update>
+ordered_set;
+//find_by_order(k) --> returns iterator to the kth largest element counting from 0
+//order_of_key(val) --> returns the number of items in a set that are strictly smaller than our item
 
-#define pf                          printf
-#define sf(a)                       scanf("%d",&a)
-#define sfl(a)                      scanf("%lld",&a)
-#define sff(a,b)                    scanf("%d %d",&a,&b)
-#define sffl(a,b)                   scanf("%lld %lld",&a,&b)
-#define sfff(a,b,c)                 scanf("%d %d %d",&a,&b,&c)
-#define sfffl(a,b,c)                scanf("%lld %lld %lld",&a,&b,&c)
-#define sffff(a,b,c,d)              scanf("%d %d %d %d",&a,&b,&c,&d)
-#define sffffl(a,b,c,d)             scanf("%lld %lld %lld %lld",&a,&b,&c,&d)
-#define sfffff(a,b,c,d,e)           scanf("%d %d %d %d %d",&a,&b,&c,&d,&e)
-#define sfffffl(a,b,c,d,e)          scanf("%lld %lld %lld %lld %lld",&a,&b,&c,&d,&e)
-string tostr(int n) {stringstream rr;rr<<n;return rr.str();}
-template<class T, class T2> inline int chkmax(T &x, const T2 &y) { return x < y ? x = y, 1 : 0; }
-template<class T, class T2> inline int chkmin(T &x, const T2 &y) { return x > y ? x = y, 1 : 0; }
-
-
-bool Chk(int N,int pos){return (bool)(N & (1<<pos));}
-int Set(int N,int pos){	return N=N | (1<<pos);}
-int reset(int N,int pos){return N= N & ~(1<<pos);}
-
-
+int setBit(int n,int p)
+{
+    return n|(1<<p);
+}
+bool checkBit(int n,int p)
+{
+    return (bool)(n&(1<<p));
+}
+int fx[]= {0,-1,0,1};
+int fy[]= {1,0,-1,0};
 
 
-//const int fx[]={+1,-1,+0,+0};
-//const int fy[]={+0,+0,+1,-1};
-//const int fx[]={+0,+0,+1,-1,-1,+1,-1,+1};   // Kings Move
-//const int fy[]={-1,+1,+0,+0,+1,+1,-1,-1};  // Kings Move
-//const int fx[]={-2, -2, -1, -1,  1,  1,  2,  2};  // Knights Move
-//const int fy[]={-1,  1, -2,  2, -2,  2, -1,  1}; // Knights Move
+ll bigMod(ll x,ll n)
+{
+    if(n==0)
+        return 1;
+    ll t = bigMod(x,n/2);
+    t = ((t%MOD)*(t%MOD))%MOD;
+    if(n%2)
+    {
+        t = ((x%MOD)*(t%MOD))%MOD;
+    }
+    return t;
+}
+struct info
+{
+    int u,v,w;
+    info()
+    {
+        u = v = w = 0;
+    }
 
-const int N=5001;
-int a[N];
-int dp[N][N];
+    bool operator<(const info &rhs)
+
+    {
+
+    }
+
+};
+
+//***********************************************************************//
+string a,b,c;
+int dp[MX][MX][MX],mark[MX][MX][MX],marker;
+
+int f(int i,int j,int k)
+{
+    if(i>=a.size() || j>=b.size())
+    {
+        if(k>=c.size())
+            return 0;
+        else
+            return -1000;
+    }
+
+    if(mark[i][j][k] == marker)
+    {
+        return dp[i][j][k];
+    }
+
+    int mx = -10000000;
+
+    if(k<c.size())
+    {
+
+        if(a[i] == b[j])
+        {
+            if(k == 0)
+            {
+                if(a[i] == c[k])
+                {
+                    mx = 1+f(i+1,j+1,k+1);
+                    //cout<<"HI "<<mx<<endl;
+                }
+                mx = max(mx,1+f(i+1,j+1,k));
+               // cout<<"baal "<<mx<<" "<<i<<" "<<j<<" "<<k<<endl;
+            }
+            else
+            {
+                if(a[i] == c[k])
+                {
+                    mx = 1+f(i+1,j+1,k+1);
+                }
+                else
+                {
+                    mx = f(i+1,j+1,k);
+                }
+
+            }
+        }
+        else
+        {
+            mx = f(i,j+1,k);
+            mx = max(mx,f(i+1,j,k));
+        }
+    }
+    else
+    {
+        if(a[i] == b[j])
+        {
+            mx = 1+f(i+1,j+1,k);
+        }
+        else
+        {
+            mx = f(i+1,j,k);
+            mx = max(mx,f(i,j+1,k));
+        }
+    }
+
+    mark[i][j][k] = marker;
+
+    return dp[i][j][k] = mx;
+
+}
+
+
 int main()
 {
-        int t;sf(t);
-        int ca=0;
-        while(t--)
-        {
-                int n,k;
-                sff(n,k);
-                for(int i=0;i<=k;i++){
-                    dp[0][i]=0;
-                }
-                for(int i=1;i<=n;i++){
-                    sf(a[i]);
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
 
-                }
-                int ans=-INT_MAX;
-                for(int i=1;i<=n;i++){
+    int t;
+    cin>>t;
+    for(int tc = 1;tc<=t;tc++)
+    {
+        cin>>a>>b>>c;
+        marker++;
+        cout<<"Case "<<tc<<": "<<max(0,f(0,0,0))<<'\n';
+    }
 
-                    for(int j=0;j<=k;j++){
-                        int x=0;int y=0;
-                        x=max(dp[i-1][j]+a[i],a[i]);
-                        if(a[i]<0&&j>0){
-                            y=dp[i-1][j-1];
-                            y=max(x,y);
-                            dp[i][j]=max(x,y);
-                        }else dp[i][j]=x;
-                        //
-                    }
-                    chkmax(ans,dp[i][k]);
-                }
-                pf("Case %d: %d",++ca,ans);
-                puts("");
-        }
+
+    return 0;
+
+
+
 }
+
+/*
+1
+akjgapksdpbokdf
+jsjodfjipabdok
+abd
+
+*/

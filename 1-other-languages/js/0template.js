@@ -18,22 +18,18 @@ function readLine() {
     return input_stdin_array[input_currentline++];
 }
 
-function solveMeFirst(a, b, c) {
+function solveMeFirst(a, b) {
   // Hint: Type return a+b below   
-    var ret = 0;
-    ret = Math.ceil(a/c)*Math.ceil(b/c);
-    return ret;
+    return a + b;
 }
 
 
 function main() {
-    var a, b; 
-    var c, d, e;
-    e = readLine();
-    d = e.toString().split(' ');
-    a = parseInt(d[0]); b = parseInt(d[1]); c = parseInt(d[2]);
+    var a = parseInt(readLine());
+    var b = parseInt(readLine());
+    var c = parseInt(readLine()); 
 
-    var res = solveMeFirst(a, b, c);
+    var res = solveMeFirst(a, b);
     console.log(res);
 }
 
