@@ -33,37 +33,16 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    ll n;
+    ll n=0, even=0, odd=0, a=0, one=1, minimus = 0;
+
     cin>>n;
-    ll a[n+1] = {0};
-    short b[1000000000] = {0};
-
-    for(int i=0; i<n; i++){ cin>>a[i];  }
-
-    int l = 0;
-    ll llval = 0;
-
-    while(l<n){
-        int temp = a[l];
-        if(b[temp]==0){
-            b[temp] = 1;
-        }else{
-            llval = temp;
-            break;
-        }
+    for(int i=0; i<n; i++){
+        cin>>a;
+        if( (a&one) == one){    odd++;  }
+        else{   even++; }
     }
 
-    if(l==n){   cout<<0<<"\n";  }
-
-    int  r = n-1;
-    while(r>=0){
-        int temp = a[r];
-        if(b[temp] == 1 ){   b[temp] = 1; }
-        else{   break; }
-    }
-
-    cout<<r-l+1;
-
-
+    minimus = min(even, odd);
+    cout<<minimus<<"\n";
     return 0;
 }
