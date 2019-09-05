@@ -1,2 +1,2 @@
-Case 1: 15
-Case 2: 3
+29
+Total runtime: 0:00:00:0.1464
