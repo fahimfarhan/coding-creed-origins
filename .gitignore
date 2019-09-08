@@ -8,7 +8,8 @@ Junk/*
 # .vscode/* 
 # */.vscode/*
 # 1-CppCodes/CodeForces/.vscode/*
-
+*/zin.txt
+*/zout.txt
 
 # Prerequisites
 *.d
