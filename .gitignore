@@ -10,6 +10,11 @@ Junk/*
 # 1-CppCodes/CodeForces/.vscode/*
 */zin.txt
 */zout.txt
+1-CppCodes/CodeForces/zin.txt
+1-CppCodes/CodeForces/zout.txt
+
+1-CppCodes/CodeChef/zin.txt
+1-CppCodes/CodeChef/zout.txt
 
 # Prerequisites
 *.d
