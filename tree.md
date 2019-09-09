@@ -6,6 +6,7 @@
 │   ├── 3_2_4_DearrangementNum.cpp
 │   ├── 3_2_4_StirlingNum1.cpp
 │   ├── 3_2_4_StirlingNum2.cpp
+│   ├── 5-13-1-uvalive6986.cpp
 │   ├── 5_7_priority_queue.cpp
 │   ├── 5_8_disjointUnionSet.cpp
 │   ├── 5_9_SqRootSegmentation.cpp
@@ -28,6 +29,7 @@
 │   ├── my-binaryIndexTree.cpp
 │   ├── myLazyPropagation.cpp
 │   ├── mySegmentTree.cpp
+│   ├── nCr2failed.cpp
 │   ├── nCr.cpp
 │   ├── old-coin-change
 │   │   ├── 7-2-1-coin-change.cpp
@@ -48,6 +50,7 @@
 │   ├── template.cpp
 │   ├── tprimes.cpp
 │   ├── withvector.txt
+│   ├── xxor-prototype.cpp
 │   ├── zexecscript.sh
 │   └── zin.txt
 ├── 1-Corman
@@ -64,6 +67,67 @@
 │   │   ├── 100.cpp
 │   │   ├── 460.cpp
 │   │   └── input.txt
+│   ├── CodeChef
+│   │   ├── a.out
+│   │   ├── AUG19B
+│   │   │   └── MSNSADM1.cpp
+│   │   ├── COZI2019
+│   │   │   └── failedSHERCH.cpp
+│   │   ├── ENAU2019
+│   │   │   ├── ADDI.cpp
+│   │   │   └── AVPN6.cpp
+│   │   ├── INQU2019
+│   │   │   ├── INQU1903.cpp
+│   │   │   └── INQU1906.cpp
+│   │   ├── JULY19B
+│   │   │   ├── CHFM.cpp
+│   │   │   ├── MMAX.cpp
+│   │   │   ├── PRTAGN-bruteforce-failed.cpp
+│   │   │   ├── PRTAGN-RTE.cpp
+│   │   │   └── PRTAGN-TLE.cpp
+│   │   ├── KETEKI2A.cpp
+│   │   ├── LTIME73B
+│   │   │   └── SILLYPRS-failed.cpp
+│   │   ├── SEPT19B
+│   │   │   ├── f2-FIBEASY.cpp
+│   │   │   └── f-FIBEASY.cpp
+│   │   ├── untitled-contests
+│   │   │   ├── ARRGRAPH.cpp
+│   │   │   ├── ATTND.cpp
+│   │   │   ├── C001.cpp
+│   │   │   ├── CFMM.cpp
+│   │   │   ├── cf.txt
+│   │   │   ├── CHCOINSG.cpp
+│   │   │   ├── CHEFZOT.cpp
+│   │   │   ├── CRYPTX01-failed.cpp
+│   │   │   ├── DINCPATH-failed.cpp
+│   │   │   ├── EATTWICE.cpp
+│   │   │   ├── EXAM1.cpp
+│   │   │   ├── FAILED-CARDMGK.cpp
+│   │   │   ├── Fancy-failed.cpp
+│   │   │   ├── Fancy.java
+│   │   │   ├── FASTFOOD.cpp
+│   │   │   ├── GARGOYLE.cpp
+│   │   │   ├── GCDSET-failed.cpp
+│   │   │   ├── HP18-failed.cpp
+│   │   │   ├── HUNGALGO-failed.cpp
+│   │   │   ├── KCON.cpp
+│   │   │   ├── MAXSC.cpp
+│   │   │   ├── MINARRS-failed.cpp
+│   │   │   ├── NUMGAME.cpp
+│   │   │   ├── REACTION.cpp
+│   │   │   ├── RECTANGL.cpp
+│   │   │   ├── RECVSEQ.cpp
+│   │   │   ├── REDONE.cpp
+│   │   │   ├── SLUSH-failed.cpp
+│   │   │   ├── TEST.cpp
+│   │   │   ├── TTO1.cpp
+│   │   │   ├── TYPING.cpp
+│   │   │   ├── xxor.cpp
+│   │   │   └── xxor-prototype.cpp
+│   │   ├── zexecscript.sh
+│   │   ├── zin.txt
+│   │   └── zout.txt
 │   ├── CodeForces
 │   │   ├── 000-test.cpp
 │   │   ├── 1005A.cpp
@@ -88,8 +152,7 @@
 │   │   ├── 1025A.cpp
 │   │   ├── 1027A.cpp
 │   │   ├── 1027B.cpp
-│   │   ├── 1029B-failed.cpp
-│   │   ├── 1029Bfailed.cpp
+│   │   ├── 1030B.cpp
 │   │   ├── 1037B.cpp
 │   │   ├── 1037D-Forgot.cpp
 │   │   ├── 1038B-Non-Coprime-Partition.cpp
@@ -103,7 +166,8 @@
 │   │   ├── 10474.cpp
 │   │   ├── 1047A.cpp
 │   │   ├── 1047B.cpp
-│   │   ├── 1051B-failed.cpp
+│   │   ├── 1051B2.cpp
+│   │   ├── 1051B.cpp
 │   │   ├── 1051C.cpp
 │   │   ├── 1055A.cpp
 │   │   ├── 1055B.cpp
@@ -123,24 +187,24 @@
 │   │   ├── 1077A.cpp
 │   │   ├── 1077B.cpp
 │   │   ├── 1077D.cpp
+│   │   ├── 1080A.cpp
 │   │   ├── 1082A.cpp
 │   │   ├── 1084A.cpp
 │   │   ├── 1084B.cpp
 │   │   ├── 1084D.cpp
 │   │   ├── 1087A.cpp
-│   │   ├── 1087B-FAILED.cpp
 │   │   ├── 1087C.cpp
 │   │   ├── 1088A-backup.cpp
 │   │   ├── 1088A.cpp
 │   │   ├── 1088B.cpp
 │   │   ├── 1089L.cpp
+│   │   ├── 1091A.cpp
 │   │   ├── 1092A.cpp
 │   │   ├── 1092B.cpp
 │   │   ├── 1092F.cpp
 │   │   ├── 1093C.cpp
 │   │   ├── 1095A.cpp
 │   │   ├── 1095B.cpp
-│   │   ├── 1095C-failed.cpp
 │   │   ├── 1096A.cpp
 │   │   ├── 1097B.cpp
 │   │   ├── 1100A.cpp
@@ -149,187 +213,373 @@
 │   │   ├── 1101B.cpp
 │   │   ├── 1101C.cpp
 │   │   ├── 1102A.cpp
+│   │   ├── 1102C.cpp
 │   │   ├── 1104A.cpp
 │   │   ├── 1104B.cpp
-│   │   ├── 1104E-Almost-ok.cpp
 │   │   ├── 1106A.cpp
 │   │   ├── 1106C.cpp
 │   │   ├── 1108B.cpp
-│   │   ├── 1108B-failed.cpp
+│   │   ├── 1110A2.cpp
+│   │   ├── 1110A.cpp
 │   │   ├── 1111A.cpp
 │   │   ├── 1111C.cpp
 │   │   ├── 1111C-ok-for-small-case.cpp
 │   │   ├── 1113A.cpp
 │   │   ├── 1118A.cpp
-│   │   ├── 1118E1-failed.cpp
-│   │   ├── 1118E-failed.cpp
-│   │   ├── 1118F-failed.cpp
 │   │   ├── 1121B-better.cpp
 │   │   ├── 1121B.cpp
+│   │   ├── 112A.cpp
 │   │   ├── 1130A.cpp
-│   │   ├── 1130A-failed2.cpp
-│   │   ├── 1130A-failed.cpp
 │   │   ├── 1130B.cpp
 │   │   ├── 1130C.cpp
 │   │   ├── 1131A.cpp
 │   │   ├── 1131B.cpp
-│   │   ├── 1131B-failed.cpp
 │   │   ├── 1131C.cpp
-│   │   ├── 1131F-bfs-RTE.cpp
-│   │   ├── 1131F-failed-dfs-wa.cpp
+│   │   ├── 1132A.cpp
+│   │   ├── 1132B.cpp
 │   │   ├── 1133A.cpp
-│   │   ├── 1133D_failed.cpp
+│   │   ├── 1133B.cpp
 │   │   ├── 1136A.cpp
 │   │   ├── 1136B.cpp
 │   │   ├── 1136D.cpp
-│   │   ├── 1139A-failed.cpp
 │   │   ├── 1139B.cpp
+│   │   ├── 1139C2.cpp
+│   │   ├── 1139C.cpp
 │   │   ├── 1140A.cpp
 │   │   ├── 1140C.cpp
 │   │   ├── 1141A2.cpp
 │   │   ├── 1141A.cpp
-│   │   ├── 1141A-failed.cpp
 │   │   ├── 1141A-pantho.cpp
-│   │   ├── 1141B-failed.cpp
-│   │   ├── 1141C2-RTE-failed.cpp
 │   │   ├── 1141C.cpp
 │   │   ├── 1141D.cpp
 │   │   ├── 1141E.cpp
-│   │   ├── 1141E-failed.cpp
 │   │   ├── 1143A.cpp
 │   │   ├── 1143C.cpp
+│   │   ├── 1144A.cpp
 │   │   ├── 1145A2.cpp
 │   │   ├── 1145A.cpp
 │   │   ├── 1146A.cpp
 │   │   ├── 1146B.cpp
-│   │   ├── 1146B-failed.cpp
 │   │   ├── 1146B-tle.cpp
+│   │   ├── 1148A.cpp
+│   │   ├── 1149A.cpp
+│   │   ├── 1150B.cpp
+│   │   ├── 1150B-ok.cpp
+│   │   ├── 1152A.cpp
+│   │   ├── 1152B-again.cpp
+│   │   ├── 1152B.cpp
 │   │   ├── 1153A.cpp
-│   │   ├── 1153A-failed.cpp
-│   │   ├── 1153A-fained2.cpp
 │   │   ├── 1153B.cpp
-│   │   ├── 1153C-failed.cpp
 │   │   ├── 1153D.cpp
 │   │   ├── 1154A.cpp
 │   │   ├── 1154B.cpp
-│   │   ├── 1154D-failed2.cpp
-│   │   ├── 1154D-failed.cpp
+│   │   ├── 1154D.cpp
+│   │   ├── 1154F-MikeMirzayanov.cpp
+│   │   ├── 1155A.cpp
+│   │   ├── 1155B.cpp
+│   │   ├── 1155C.cpp
+│   │   ├── 1155C-ok.cpp
+│   │   ├── 1155F.cpp
+│   │   ├── 1159A.cpp
+│   │   ├── 115A.cpp
+│   │   ├── 1161C.cpp
+│   │   ├── 1162A.cpp
+│   │   ├── 1162B.cpp
+│   │   ├── 1162D.cpp
+│   │   ├── 1163A.cpp
+│   │   ├── 1165A.cpp
+│   │   ├── 1165D.cpp
+│   │   ├── 1165E.cpp
+│   │   ├── 1166A.cpp
+│   │   ├── 1166B.cpp
+│   │   ├── 1166C-bruteforce.cpp
+│   │   ├── 1167C-mle.cpp
+│   │   ├── 1174A.cpp
+│   │   ├── 1174C.cpp
+│   │   ├── 1176A-ME.cpp
+│   │   ├── 1178A.cpp
+│   │   ├── 1179A.cpp
+│   │   ├── 1179A-imAnikStyle.cpp
+│   │   ├── 1180A.cpp
+│   │   ├── 1180C.cpp
+│   │   ├── 1180C-mle.cpp
+│   │   ├── 1181A.cpp
+│   │   ├── 1181B-not-sure.cpp
+│   │   ├── 1182B.cpp
+│   │   ├── 1182F.cpp
+│   │   ├── 1183A.cpp
+│   │   ├── 1183B.cpp
+│   │   ├── 1183D.cpp
+│   │   ├── 1185A.cpp
+│   │   ├── 1185B.cpp
+│   │   ├── 1185C1.cpp
+│   │   ├── 118A.cpp
+│   │   ├── 1194A.cpp
+│   │   ├── 1194B.cpp
+│   │   ├── 1195B.cpp
+│   │   ├── 1196A.cpp
+│   │   ├── 1196D1.cpp
+│   │   ├── 1196E.cpp
+│   │   ├── 1197A2.cpp
+│   │   ├── 1197A.cpp
+│   │   ├── 1197B.cpp
+│   │   ├── 1199A.cpp
+│   │   ├── 1199B.cpp
+│   │   ├── 1200A.cpp
+│   │   ├── 1200B.cpp
+│   │   ├── 1201A.cpp
+│   │   ├── 1201B.cpp
+│   │   ├── 1205B.cpp
+│   │   ├── 1206A.cpp
+│   │   ├── 1206B.cpp
+│   │   ├── 1206C.cpp
+│   │   ├── 1207A.cpp
+│   │   ├── 1207B.cpp
+│   │   ├── 1208A.cpp
+│   │   ├── 1213A.cpp
+│   │   ├── 1213B.cpp
+│   │   ├── 1213C.cpp
+│   │   ├── 1214A.cpp
+│   │   ├── 1214C.cpp
 │   │   ├── 124A.cpp
+│   │   ├── 127A.cpp
 │   │   ├── 131A.cpp
+│   │   ├── 141A.cpp
+│   │   ├── 141A-regex.cpp
 │   │   ├── 148A-again.cpp
 │   │   ├── 148A.cpp
+│   │   ├── 157B.cpp
+│   │   ├── 158B.cpp
 │   │   ├── 158C.cpp
 │   │   ├── 166E-again.cpp
 │   │   ├── 166E.cpp
 │   │   ├── 166E-dp.cpp
+│   │   ├── 181A.cpp
 │   │   ├── 181B-2.cpp
 │   │   ├── 181B.cpp
 │   │   ├── 199A.cpp
+│   │   ├── 1A.cpp
+│   │   ├── 1C.cpp
+│   │   ├── 200B.cpp
 │   │   ├── 202A.cpp
 │   │   ├── 208A.cpp
 │   │   ├── 217A2.cpp
 │   │   ├── 217A.cpp
+│   │   ├── 230A.cpp
 │   │   ├── 230B.cpp
+│   │   ├── 233A.cpp
 │   │   ├── 251A.cpp
 │   │   ├── 253B.cpp
 │   │   ├── 258A.cpp
 │   │   ├── 25A.cpp
+│   │   ├── 265B.cpp
+│   │   ├── 265B_non_oop.cpp
+│   │   ├── 268B.cpp
+│   │   ├── 271A.c
+│   │   ├── 271A.cpp
 │   │   ├── 271B.cpp
 │   │   ├── 274A.cpp
 │   │   ├── 276B.cpp
 │   │   ├── 276C.cpp
+│   │   ├── 277A.cpp
 │   │   ├── 279B.cpp
-│   │   ├── 285Cfailed.cpp
+│   │   ├── 295B.cpp
 │   │   ├── 2A.cpp
 │   │   ├── 312B.cpp
 │   │   ├── 313A-Ilya-and-Bak-Account.cpp
-│   │   ├── 337D-failed.cpp
+│   │   ├── 320A.cpp
 │   │   ├── 339D.cpp
+│   │   ├── 346A.cpp
 │   │   ├── 348A.cpp
-│   │   ├── 349B.cpp
+│   │   ├── 349B-again.cpp
 │   │   ├── 352A.cpp
 │   │   ├── 352A-no-namespace.cpp
 │   │   ├── 363B.cpp
 │   │   ├── 368B.cpp
+│   │   ├── 377A.cpp
+│   │   ├── 385A.cpp
 │   │   ├── 389A-better.cpp
 │   │   ├── 389A.cpp
 │   │   ├── 3A.cpp
+│   │   ├── 401A.cpp
 │   │   ├── 41A.cpp
 │   │   ├── 427B.cpp
+│   │   ├── 437C.cpp
 │   │   ├── 445A.cpp
 │   │   ├── 448C.cpp
+│   │   ├── 450B.cpp
 │   │   ├── 453A.cpp
+│   │   ├── 456A.cpp
 │   │   ├── 456B.cpp
-│   │   ├── 456B-failed.cpp
 │   │   ├── 459B.cpp
+│   │   ├── 462B.cpp
 │   │   ├── 464E.cpp
 │   │   ├── 466C.cpp
 │   │   ├── 467B.cpp
 │   │   ├── 467B-Fedor-and-New-Game.cpp
+│   │   ├── 469A.cpp
 │   │   ├── 474B.cpp
+│   │   ├── 476A.cpp
+│   │   ├── 476B.cpp
 │   │   ├── 478B.cpp
-│   │   ├── 478B-failed.cpp
+│   │   ├── 478C.cpp
 │   │   ├── 484A-cf-tutorial-kisu-bujhi-nai.cpp
 │   │   ├── 484A.cpp
+│   │   ├── 486A.cpp
+│   │   ├── 486B.cpp
+│   │   ├── 489B.cpp
 │   │   ├── 490A-copy.cpp
 │   │   ├── 490A.cpp
+│   │   ├── 492B.cpp
+│   │   ├── 493D.cpp
 │   │   ├── 499B.cpp
+│   │   ├── 500A.cpp
+│   │   ├── 501A.cpp
 │   │   ├── 501B.cpp
-│   │   ├── 501B-ME.cpp
+│   │   ├── 507A.cpp
 │   │   ├── 507B.cpp
+│   │   ├── 514A.cpp
 │   │   ├── 514B.cpp
-│   │   ├── 514B-failed2.cpp
-│   │   ├── 514B-failed.cpp
+│   │   ├── 515A.cpp
 │   │   ├── 515B.cpp
 │   │   ├── 515B-easy.cpp
 │   │   ├── 519B.cpp
+│   │   ├── 519C.cpp
+│   │   ├── 520A.cpp
+│   │   ├── 520B.cpp
+│   │   ├── 525A-again.cpp
+│   │   ├── 525A.cpp
+│   │   ├── 527A.cpp
 │   │   ├── 535B.cpp
+│   │   ├── 552D2.cpp
+│   │   ├── 552D.cpp
+│   │   ├── 552D-tle.cpp
+│   │   ├── 559A.cpp
 │   │   ├── 567C.cpp
+│   │   ├── 569B.cpp
 │   │   ├── 570B.cpp
 │   │   ├── 570C.cpp
 │   │   ├── 573A-again.cpp
 │   │   ├── 573A.cpp
+│   │   ├── 574B.cpp
+│   │   ├── 576A.cpp
+│   │   ├── 577A.cpp
 │   │   ├── 579A-Raising-Bacteria.cpp
 │   │   ├── 580B.cpp
+│   │   ├── 580C.cpp
+│   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 58A.cpp
+│   │   ├── 591A.cpp
+│   │   ├── 593B.cpp
+│   │   ├── 598A.cpp
 │   │   ├── 600B.cpp
+│   │   ├── 601A.cpp
+│   │   ├── 616B.cpp
 │   │   ├── 617A.cpp
 │   │   ├── 617B.cpp
+│   │   ├── 621B.cpp
 │   │   ├── 624A.cpp
+│   │   ├── 629A.cpp
 │   │   ├── 630C.cpp
+│   │   ├── 630F.cpp
 │   │   ├── 650A.cpp
+│   │   ├── 651A.cpp
 │   │   ├── 651B.cpp
+│   │   ├── 659A.cpp
+│   │   ├── 659D.cpp
+│   │   ├── 664A.cpp
+│   │   ├── 667A.cpp
 │   │   ├── 682A.cpp
+│   │   ├── 688B.cpp
+│   │   ├── 701A.cpp
+│   │   ├── 701A_using_pair.cpp
 │   │   ├── 701B.cpp
+│   │   ├── 702A.cpp
 │   │   ├── 705B.cpp
 │   │   ├── 706B.cpp
+│   │   ├── 712A.cpp
 │   │   ├── 713A.cpp
 │   │   ├── 727A.cpp
+│   │   ├── 731A.cpp
+│   │   ├── 731B.cpp
+│   │   ├── 735A.cpp
 │   │   ├── 743B.cpp
+│   │   ├── 746A.cpp
 │   │   ├── 747B.cpp
+│   │   ├── 749A.cpp
 │   │   ├── 749B.cpp
 │   │   ├── 750A.cpp
 │   │   ├── 750A_math.cpp
+│   │   ├── 750B.cpp
+│   │   ├── 755A.cpp
+│   │   ├── 755B2.cpp
+│   │   ├── 755B.cpp
+│   │   ├── 758A.cpp
+│   │   ├── 758B.cpp
+│   │   ├── 761A.cpp
 │   │   ├── 767A.cpp
 │   │   ├── 768B.cpp
-│   │   ├── 768B-failed.cpp
 │   │   ├── 771A.cpp
+│   │   ├── 776B.cpp
+│   │   ├── 787A-copy.cpp
+│   │   ├── 787A.cpp
+│   │   ├── 796A2.cpp
+│   │   ├── 796A.cpp
+│   │   ├── 796B.cpp
+│   │   ├── 796C.cpp
 │   │   ├── 804A.cpp
+│   │   ├── 805A.cpp
+│   │   ├── 80A.cpp
+│   │   ├── 820B.cpp
 │   │   ├── 822A.cpp
+│   │   ├── 832A.cpp
 │   │   ├── 839C-again.cpp
 │   │   ├── 839C.cpp
+│   │   ├── 841B.cpp
+│   │   ├── 842B.cpp
 │   │   ├── 84A.cpp
+│   │   ├── 850A.cpp
+│   │   ├── 851B.cpp
 │   │   ├── 854A.cpp
-│   │   ├── 854A-failed.cpp
 │   │   ├── 875A.cpp
-│   │   ├── 875A-TLE.cpp
+│   │   ├── 876B.cpp
+│   │   ├── 879A.cpp
 │   │   ├── 879B.cpp
+│   │   ├── 883M.cpp
+│   │   ├── 898A.cpp
+│   │   ├── 898B.cpp
+│   │   ├── 898B-tle.cpp
+│   │   ├── 900A.cpp
 │   │   ├── 902B.cpp
+│   │   ├── 903A.cpp
+│   │   ├── 908A.cpp
+│   │   ├── 908B.cpp
+│   │   ├── 908C.cpp
+│   │   ├── 908F.cpp
+│   │   ├── 909E.cpp
 │   │   ├── 911B.cpp
+│   │   ├── 912A.cpp
+│   │   ├── 912B.cpp
+│   │   ├── 913A.cpp
+│   │   ├── 913B.cpp
+│   │   ├── 913D.cpp
+│   │   ├── 914A.cpp
+│   │   ├── 914B.cpp
+│   │   ├── 914D.cpp
+│   │   ├── 916A.cpp
+│   │   ├── 917B.cpp
+│   │   ├── 918A.cpp
+│   │   ├── 918B.cpp
+│   │   ├── 919A.cpp
+│   │   ├── 919C.cpp
+│   │   ├── 920A.cpp
+│   │   ├── 920C.cpp
 │   │   ├── 920F.cpp
 │   │   ├── 935A.cpp
 │   │   ├── 935B.cpp
 │   │   ├── 935C.cpp
+│   │   ├── 938A.cpp
+│   │   ├── 940A.cpp
 │   │   ├── 946A.cpp
 │   │   ├── 946B.cpp
 │   │   ├── 946C.cpp
@@ -339,6 +589,7 @@
 │   │   ├── 950B.cpp
 │   │   ├── 950D.cpp
 │   │   ├── 959A.cpp
+│   │   ├── 959B.cpp
 │   │   ├── 961B-backup-st.cpp
 │   │   ├── 961B.cpp
 │   │   ├── 964A.cpp
@@ -347,6 +598,7 @@
 │   │   ├── 975C.cpp
 │   │   ├── 977B.cpp
 │   │   ├── 977C.cpp
+│   │   ├── 978B.cpp
 │   │   ├── 978C.cpp
 │   │   ├── 979A.cpp
 │   │   ├── 980A.cpp
@@ -361,129 +613,107 @@
 │   │   ├── 992A.cpp
 │   │   ├── 992C.cpp
 │   │   ├── 994B.cpp
+│   │   ├── 996A.cpp
 │   │   ├── 996B.cpp
 │   │   ├── 999A.cpp
 │   │   ├── 999B.cpp
 │   │   ├── 999C.cpp
 │   │   ├── 9A.cpp
-│   │   ├── A112.cpp
-│   │   ├── A115.cpp
-│   │   ├── A118.cpp
-│   │   ├── A131.cpp
-│   │   ├── A141.cpp
-│   │   ├── A141regex.cpp
-│   │   ├── A217.cpp
-│   │   ├── A230.cpp
-│   │   ├── A271.c
-│   │   ├── A271.cpp
-│   │   ├── A277.cpp
-│   │   ├── A320.cpp
-│   │   ├── A346.cpp
-│   │   ├── A469.cpp
-│   │   ├── A486.cpp
-│   │   ├── A500.cpp
-│   │   ├── A515.cpp
-│   │   ├── A520.cpp
-│   │   ├── A576.cpp
-│   │   ├── A601.cpp
-│   │   ├── A701.cpp
-│   │   ├── A701_using_pair.cpp
-│   │   ├── A731.cpp
-│   │   ├── A735.cpp
-│   │   ├── A746.cpp
-│   │   ├── A749.cpp
-│   │   ├── A80.cpp
-│   │   ├── A832.cpp
-│   │   ├── A879.cpp
-│   │   ├── A900.cpp
-│   │   ├── A903.cpp
-│   │   ├── A908.cpp
-│   │   ├── A912.cpp
-│   │   ├── A913.cpp
-│   │   ├── A914.cpp
-│   │   ├── A916.cpp
-│   │   ├── A918.cpp
-│   │   ├── A919.cpp
-│   │   ├── A920.cpp
-│   │   ├── A938.cpp
-│   │   ├── A940.cpp
-│   │   ├── A9.cpp
 │   │   ├── Amanda749B.cpp
 │   │   ├── a.out
 │   │   ├── Atemp.cpp
-│   │   ├── B1013.cpp
-│   │   ├── B1146.class
 │   │   ├── B1146.java
-│   │   ├── B265.cpp
-│   │   ├── B265_non_oop.cpp
-│   │   ├── B295.cpp
-│   │   ├── B476.cpp
-│   │   ├── B489.cpp
-│   │   ├── B492.cpp
-│   │   ├── B520.cpp
-│   │   ├── B574.cpp
-│   │   ├── B688.cpp
-│   │   ├── B841.cpp
-│   │   ├── B876.cpp
-│   │   ├── B908.cpp
-│   │   ├── B911.cpp
-│   │   ├── B912.cpp
-│   │   ├── B913.cpp
-│   │   ├── B914.cpp
-│   │   ├── B917.cpp
-│   │   ├── B918.cpp
-│   │   ├── B919.cpp
 │   │   ├── backup.txt
 │   │   ├── BigSum.cpp
 │   │   ├── binarysearch706B.cpp
-│   │   ├── C158.class
-│   │   ├── C158-failed.java
-│   │   ├── C437.cpp
-│   │   ├── C478.cpp
-│   │   ├── C580.cpp
-│   │   ├── C580_ok_study_this.cpp
-│   │   ├── C839.cpp
-│   │   ├── C893.cpp
-│   │   ├── C919.cpp
-│   │   ├── C920.cpp
 │   │   ├── CA.cpp
 │   │   ├── ColeAnderson.cpp
-│   │   ├── COPY
-│   │   │   └── 1105C.cpp
-│   │   ├── D913.cpp
-│   │   ├── D914.cpp
 │   │   ├── debug1104E.cpp
+│   │   ├── debug1150B.cpp
 │   │   ├── dfs.cpp
 │   │   ├── DFS_demo_stack_version_Corman_1ta_BAAL.cpp
-│   │   ├── E909.cpp
-│   │   ├── F630.cpp
-│   │   ├── F908.cpp
-│   │   ├── F920.cpp
+│   │   ├── DIV3
+│   │   │   ├── 1148B.cpp
+│   │   │   ├── 1148D.cpp
+│   │   │   ├── 1176A.cpp
+│   │   │   ├── 1176B.cpp
+│   │   │   ├── 1176C.cpp
+│   │   │   ├── 1176D.cpp
+│   │   │   ├── 1176E.cpp
+│   │   │   └── zin.txt
+│   │   ├── f1214A.cpp
+│   │   ├── f1217A.cpp
+│   │   ├── f1217B.cpp
+│   │   ├── f2-1214A.cpp
+│   │   ├── f31214A.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
-│   │   ├── M883.cpp
+│   │   ├── MISC_BUJHI_NAI
+│   │   │   ├── 1105C.cpp
+│   │   │   ├── 1107B.cpp
+│   │   │   ├── 1148C.cpp
+│   │   │   ├── 1152C.cpp
+│   │   │   ├── 1155D.cpp
+│   │   │   ├── 1156A.cpp
+│   │   │   ├── 1162C.cpp
+│   │   │   ├── 1165B.cpp
+│   │   │   ├── 1165C.cpp
+│   │   │   ├── 1167B.cpp
+│   │   │   ├── 1182A.cpp
+│   │   │   ├── 1195A.cpp
+│   │   │   ├── 1195C-DP.cpp
+│   │   │   ├── 1195D1-comb-num-thm.cpp
+│   │   │   ├── 1196B.cpp
+│   │   │   ├── 1214B.cpp
+│   │   │   ├── 294C.cpp
+│   │   │   ├── 414B.cpp
+│   │   │   ├── 461A.cpp
+│   │   │   ├── 576A.cpp
+│   │   │   ├── 644B.cpp
+│   │   │   ├── 796C.cpp
+│   │   │   ├── 923B.cpp
+│   │   │   ├── 975D.cpp
+│   │   │   └── zin.txt
+│   │   ├── MyException.java
 │   │   ├── NewTricks
-│   │   ├── NOT_SUBMITTED_YET
 │   │   ├── puzzle15.cpp
 │   │   ├── ria.cpp
 │   │   ├── SegmentTree.cpp
 │   │   ├── Seive_usable_anywhere.cpp
 │   │   ├── spellbob.cpp
+│   │   ├── Stack.cpp
 │   │   ├── STL_BinarySearch.cpp
 │   │   ├── STL_SET.cpp
 │   │   ├── STL_Useful_stuffs.cpp
+│   │   ├── temp
+│   │   │   ├── 1096C.cpp
+│   │   │   ├── 1138A.cpp
+│   │   │   ├── 224A.cpp
+│   │   │   ├── 508B-rte.cpp
+│   │   │   ├── 794B.cpp
+│   │   │   └── 859B.cpp
 │   │   ├── test126tg.cpp
 │   │   ├── test.cpp
+│   │   ├── training
+│   │   │   ├── 1213D1.cpp
+│   │   │   └── a.out
 │   │   ├── uri1424.cpp
 │   │   ├── Welcome_to_CSE_DU.cpp
 │   │   ├── zexecscript.sh
+│   │   ├── zin.txt
+│   │   ├── zout.txt
+│   │   └── ztree.md
+│   ├── FacebookHackerCup
+│   │   ├── ClassTreasurer.cpp
+│   │   ├── Graphs-as-a-Service.cpp
+│   │   ├── Leapfrog-Ch-1.cpp
+│   │   ├── Leapfrog-Ch-2.cpp
 │   │   ├── zin.txt
 │   │   └── zout.txt
 │   ├── GoogleCodeJam
 │   │   ├── 1.cpp
 │   │   ├── 2017
-│   │   │   ├── a.out
 │   │   │   ├── A-oversized-pancake-flipper.cpp
 │   │   │   └── B-tidy-numbers.cpp
 │   │   ├── 2018
@@ -498,50 +728,39 @@
 │   │   │   ├── in.txt
 │   │   │   └── output.txt
 │   │   ├── 2019
-│   │   │   ├── a.out
 │   │   │   ├── ar.cpp
 │   │   │   ├── buildingpalindromes.cpp
 │   │   │   ├── cryptopangrams1.cpp
 │   │   │   ├── cryptopangrams.cpp
 │   │   │   ├── diversesubarray-failed.cpp
+│   │   │   ├── FoodStalls.cpp
 │   │   │   ├── foregone-soln.cpp
 │   │   │   ├── in.txt
+│   │   │   ├── LatestGuests.cpp
+│   │   │   ├── ManhattanCrepeCart.cpp
 │   │   │   ├── pylons.cpp
+│   │   │   ├── wigglewalk-failed.cpp
 │   │   │   └── you-can-go-your-own-way.cpp
-│   │   ├── a.out
 │   │   └── testing_tool.py
 │   ├── namespace.cpp
 │   ├── newskills.md
 │   ├── nextSolve.md
 │   ├── other-ojs
-│   │   ├── codechef
-│   │   │   ├── ARRGRAPH.cpp
-│   │   │   ├── cf.txt
-│   │   │   ├── CHCOINSG.cpp
-│   │   │   ├── CHEFZOT.cpp
-│   │   │   ├── FAILED-CARDMGK.cpp
-│   │   │   ├── Fancy.class
-│   │   │   ├── Fancy-failed.cpp
-│   │   │   ├── Fancy.java
-│   │   │   ├── GARGOYLE.cpp
-│   │   │   ├── HP18-failed.cpp
-│   │   │   ├── in.txt
-│   │   │   ├── KCON.cpp
-│   │   │   ├── MAXSC.cpp
-│   │   │   ├── NUMGAME.cpp
-│   │   │   ├── out.txt
-│   │   │   ├── RECTANGL.cpp
-│   │   │   ├── TEST.cpp
-│   │   │   └── TYPING.cpp
+│   │   ├── CoderByte
+│   │   │   ├── Distinct List.cpp
+│   │   │   ├── FizzBuzz.cpp
+│   │   │   ├── InputDistinctList.txt
+│   │   │   ├── Min Window Substring.cpp
+│   │   │   └── Prime Time.cpp
 │   │   ├── DevSkills
 │   │   │   ├── DCP-160: Electricity Failure.cpp
-│   │   │   ├── DCP7FriendlyURL.class
 │   │   │   └── DCP7FriendlyURL.java
 │   │   ├── HackerEarth
-│   │   │   ├── a.out
-│   │   │   └── Equal_multisets.cpp
+│   │   │   ├── Equal_multisets.cpp
+│   │   │   └── MojtabasArrayandArpasQueries.cpp
 │   │   ├── HackerRank
 │   │   │   ├── 10daystatistics-d1-p1.cpp
+│   │   │   ├── arithmetic.cpp
 │   │   │   ├── a-very-big-sum.cpp
 │   │   │   ├── Be like Bumble.cpp
 │   │   │   ├── compare-the-triplets.cpp
@@ -559,6 +778,7 @@
 │   │   │   ├── security-tutorial-function.cpp
 │   │   │   ├── security-tutorial-permutations.cpp
 │   │   │   └── simple-array-sum.cpp
+│   │   ├── lol.cpp
 │   │   ├── ProjectEuler
 │   │   │   ├── Even Fibonacci numbers.cpp
 │   │   │   ├── Largest palindrome product-FAILED.cpp
@@ -566,24 +786,48 @@
 │   │   │   └── MultiplesOf3And5.cpp
 │   │   ├── spoj
 │   │   │   ├── AE00-Rectangles.cpp
-│   │   │   ├── a.out
 │   │   │   ├── BYTESM2-PhilosophersStone.cpp
 │   │   │   ├── GSS1 - Can you answer these queries I.cpp
 │   │   │   ├── in.txt
 │   │   │   ├── LASTDIG.cpp
 │   │   │   ├── LOOPEXP.cpp
 │   │   │   └── PIVAL - Digits of Pi.cpp
-│   │   └── UVA
-│   │       ├── 10018Reverse-and-Add.cpp
-│   │       ├── 490RotatingSentence.cpp
-│   │       ├── 494-KindergartenCountingGame.cpp
-│   │       ├── 7025.cpp
-│   │       ├── in.txt
-│   │       ├── out.txt
-│   │       ├── UvaLive6802.cpp
-│   │       ├── UvaLive6983MatryoshkaDolls.cpp
-│   │       ├── uvalive6986.ccpp
-│   │       └── x.cpp
+│   │   ├── toph
+│   │   │   ├── a.out
+│   │   │   ├── ArraySimulation.cpp
+│   │   │   ├── Earthquake.cpp
+│   │   │   ├── F_Fitness_Freak.cpp
+│   │   │   ├── goat-research.cpp
+│   │   │   ├── H-BeautifulPaths.cpp
+│   │   │   ├── I_AreaofTriangles.cpp
+│   │   │   ├── I_AreaofTriangles-failed.cpp
+│   │   │   ├── mines.cpp
+│   │   │   ├── n-th-prime.cpp
+│   │   │   ├── sabiha-play-with-fibonacci-series.cpp
+│   │   │   ├── subarray-sum.cpp
+│   │   │   ├── temp.cpp
+│   │   │   ├── that-s-1-minute-see-you-tomorrow.cpp
+│   │   │   ├── unique-relief.cpp
+│   │   │   ├── very-dirty-string.cpp
+│   │   │   ├── zexecscript.sh
+│   │   │   ├── zin.txt
+│   │   │   └── zout.txt
+│   │   ├── UVA
+│   │   │   ├── 10018Reverse-and-Add.cpp
+│   │   │   ├── 100.cpp
+│   │   │   ├── 100-dp.cpp
+│   │   │   ├── 11172.cpp
+│   │   │   ├── 490RotatingSentence.cpp
+│   │   │   ├── 494-KindergartenCountingGame.cpp
+│   │   │   ├── 7025.cpp
+│   │   │   ├── UvaLive6802.cpp
+│   │   │   ├── UvaLive6983MatryoshkaDolls.cpp
+│   │   │   ├── uvalive6986.ccpp
+│   │   │   ├── x.cpp
+│   │   │   ├── zexecscript.sh
+│   │   │   ├── zin.txt
+│   │   │   └── zout.txt
+│   │   └── zin.txt
 │   ├── Others
 │   │   ├── 0A1_template.cpp
 │   │   ├── 0in.txt
@@ -648,6 +892,7 @@
 │   │   ├── prince.cpp
 │   │   ├── prince.txt
 │   │   ├── printPermutations.cpp
+│   │   ├── stack.cpp
 │   │   ├── stwithpropagation.cpp
 │   │   ├── temp2.cpp
 │   │   ├── temp.cpp
@@ -660,11 +905,9 @@
 │   │   ├── 1000.cpp
 │   │   ├── 102_coprime-failed.cpp
 │   │   ├── 102.cpp
-│   │   ├── a.out
 │   │   ├── zexecscript.sh
 │   │   └── zin.txt
 │   ├── vjudge
-│   │   ├── a.out
 │   │   ├── CodeChef-TSORT.cpp
 │   │   ├── CodeForces-44A.cpp
 │   │   ├── CodeForces-546A.cpp
@@ -673,7 +916,8 @@
 │   │   ├── input.txt
 │   │   ├── in.txt
 │   │   ├── lightoj-1211.cpp
-│   │   └── UVA-374.cpp
+│   │   ├── UVA-374.cpp
+│   │   └── UVALive-7025-failed.cpp
 │   └── zAllSizes.cpp
 ├── 1-JavaCodes
 │   ├── A0Fast.java
@@ -684,69 +928,13 @@
 │   │   ├── out
 │   │   │   └── production
 │   │   │       └── Algorithms
-│   │   │           ├── AlgorithmsTestPrototype1
-│   │   │           │   └── Main.class
-│   │   │           ├── CoinChangePrototype1
-│   │   │           │   ├── CoinChange.class
-│   │   │           │   └── Main.class
 │   │   │           ├── FileIO
-│   │   │           │   ├── BufferedReaderDemo.class
-│   │   │           │   ├── BufferedWrierDemo.class
-│   │   │           │   ├── ConsoleDemo.class
-│   │   │           │   ├── FileCopyDemo.class
-│   │   │           │   ├── MainIO.class
 │   │   │           │   ├── test1.txt
 │   │   │           │   └── test.txt
-│   │   │           ├── Ford_Fulkerson
-│   │   │           │   ├── GraphFF.class
-│   │   │           │   ├── MainFF.class
-│   │   │           │   ├── Node.class
-│   │   │           │   └── Vertex.class
 │   │   │           ├── graph
 │   │   │           │   ├── friendship.txt
-│   │   │           │   ├── Graph.class
-│   │   │           │   ├── Main.class
-│   │   │           │   ├── Node.class
-│   │   │           │   ├── Vertex.class
 │   │   │           │   └── websites.txt
-│   │   │           ├── GraphGFSPrototype1
-│   │   │           │   ├── Graph.class
-│   │   │           │   ├── Graph$Color.class
-│   │   │           │   └── Main.class
 │   │   │           ├── in.txt
-│   │   │           ├── Knapsack
-│   │   │           │   └── Knapsack.class
-│   │   │           ├── Knapsack_0_1_Prototype
-│   │   │           │   ├── Knapsack2.class
-│   │   │           │   ├── Knapsack.class
-│   │   │           │   └── MainK.class
-│   │   │           ├── KnightsTour
-│   │   │           │   ├── KnightsTour.class
-│   │   │           │   └── MainKT.class
-│   │   │           ├── LCS.class
-│   │   │           ├── LCS$Dir.class
-│   │   │           ├── LCSiterativePrototype1
-│   │   │           │   ├── LCS1.class
-│   │   │           │   ├── LCS2.class
-│   │   │           │   └── MainLCS.class
-│   │   │           ├── MaxFlow.class
-│   │   │           ├── MCM.class
-│   │   │           ├── MCMPrototype
-│   │   │           │   ├── MainMCM.class
-│   │   │           │   └── MCM1.class
-│   │   │           ├── MCMPrototype2
-│   │   │           │   ├── Functions.class
-│   │   │           │   └── MainMCM2.class
-│   │   │           ├── MergeSort
-│   │   │           │   ├── MainMergeSort.class
-│   │   │           │   └── MergeSort.class
-│   │   │           ├── N_QueenProblem
-│   │   │           │   ├── MainNQ.class
-│   │   │           │   └── NQueen.class
-│   │   │           ├── QuickSort
-│   │   │           │   ├── MainQuickSort.class
-│   │   │           │   └── QuickSort.class
-│   │   │           ├── Sudoku.class
 │   │   │           └── Temp.txt
 │   │   └── src
 │   │       ├── AlgorithmsTestPrototype1
@@ -830,15 +1018,25 @@
 │           ├── Start.java
 │           └── State.java
 ├── 1-other-languages
+│   ├── bash
+│   │   ├── 1read.sh
+│   │   ├── 2read.sh
+│   │   ├── 3readnumber.sh
+│   │   ├── 4ifelse.sh
+│   │   ├── vi.txt
+│   │   ├── z1.sh
+│   │   └── z2.sh
 │   ├── c-sharp
 │   │   ├── 1131B.cs
+│   │   ├── a
 │   │   ├── A-new-console.md
+│   │   ├── HelloThere.cs
+│   │   ├── HowToRun.sh
 │   │   └── vjudge
 │   │       ├── bin
 │   │       │   └── Debug
 │   │       │       └── netcoreapp2.2
 │   │       │           ├── vjudge.deps.json
-│   │       │           ├── vjudge.dll
 │   │       │           ├── vjudge.pdb
 │   │       │           ├── vjudge.runtimeconfig.dev.json
 │   │       │           └── vjudge.runtimeconfig.json
@@ -853,7 +1051,6 @@
 │   │       │   │       ├── vjudge.csprojAssemblyReference.cache
 │   │       │   │       ├── vjudge.csproj.CoreCompileInputs.cache
 │   │       │   │       ├── vjudge.csproj.FileListAbsolute.txt
-│   │       │   │       ├── vjudge.dll
 │   │       │   │       └── vjudge.pdb
 │   │       │   ├── project.assets.json
 │   │       │   ├── vjudge.csproj.nuget.cache
@@ -867,11 +1064,30 @@
 │   │   │   └── 1131B.go
 │   │   └── template
 │   │       └── test.go
+│   ├── groovy
+│   │   └── Hello.groovy
 │   ├── in.txt
-│   └── js
-│       ├── 1A.js
-│       ├── hk1.js
-│       └── hk2.js
+│   ├── js
+│   │   ├── 0template.js
+│   │   ├── 1A.js
+│   │   ├── 2A.js
+│   │   ├── 4C.js
+│   │   ├── greedyDemo.js
+│   │   └── in.txt
+│   └── kotlin
+│       ├── 1170A.kt
+│       ├── 1170B.kt
+│       ├── 1171B.kt
+│       ├── 1212A.kt
+│       ├── _1212AKt.class
+│       ├── 1212B.kt
+│       ├── _1212BKt.class
+│       ├── 1A.kt
+│       ├── _1AKt.class
+│       ├── a.kt
+│       ├── AKt.class
+│       └── META-INF
+│           └── main.kotlin_module
 ├── 1-software-development
 │   ├── design-patterns
 │   │   └── java
@@ -910,12 +1126,59 @@
 │           │   └── start.cpython-37.pyc
 │           ├── start.py
 │           └── test.py
+├── 1-stl-n-collections
+│   └── java-collections
+│       ├── ArrayDequeue.java
+│       ├── ArrayListDemo.java
+│       ├── HashMap.java
+│       ├── HashSet.java
+│       ├── LinkedHashSet.java
+│       ├── LinkedListDemo.java
+│       ├── ListDemo.java
+│       ├── PriorityQueue.java
+│       ├── Stack.java
+│       ├── TreeSet.java
+│       └── Vector.java
+├── 1-threading
+│   ├── cpp17-builtin
+│   │   ├── part1
+│   │   │   ├── 1.cpp
+│   │   │   ├── 2.cpp
+│   │   │   ├── 3.cpp
+│   │   │   └── start.cpp
+│   │   ├── part2
+│   │   │   ├── 1.cpp
+│   │   │   ├── 1-join.cpp
+│   │   │   ├── 2-detach.cpp
+│   │   │   ├── 3-this-is-error.cpp
+│   │   │   ├── 4-so-do-this.cpp
+│   │   │   ├── 5-always-call-join-else-error.cpp
+│   │   │   └── 6-exception-handle.cpp
+│   │   ├── part3
+│   │   │   ├── 1-passing-simple-args.cpp
+│   │   │   ├── 2-dont-do-this.cpp
+│   │   │   ├── 3-const-ref.cpp
+│   │   │   ├── 4-const-ref-and-return-it-to-main.cpp
+│   │   │   └── 5-assign-pointer-to-member-func-of-a-class.cpp
+│   │   ├── part5
+│   │   │   ├── 1-mutex-demo.cpp
+│   │   │   └── 2-lock-guaard-demo.cpp
+│   │   └── part7
+│   │       └── 1-conditional-variables.cpp
+│   └── java
+│       ├── RunnableDemo.java
+│       ├── TestThread.java
+│       └── ThreadDemo.java
+├── 2-memory-managemennt
+│   ├── a.out
+│   ├── in.txt
+│   ├── memory-management-0.cpp
+│   └── memory-management-1.cpp
 ├── commit
 ├── CoolStuffs
 │   ├── allsize.md
-│   ├── a.out
 │   └── dfs4simple_case_A115.cpp
-├── Data Structures and Algorithms in Java Fourth Edition.pdf
+├── cp1.pdf
 ├── Docker
 │   ├── docker-cpp
 │   │   ├── Dockerfile
@@ -937,10 +1200,14 @@
 │       ├── Dockerfile
 │       └── requirements.txt
 ├── docs
-│   ├── Concrete Mathematics  - Knuth (Good Print).pdf
-│   ├── fahimfarhan-SNCK19.pdf
-│   ├── Introduction to Algorithm 3rd Edition Solution.pdf
-│   ├── Introduction.to.Algorithms.3rd.Edition.Sep.2009.pdf
+│   ├── certificates
+│   │   ├── fahimfarhan-Certificate-Code-Jam-2019.pdf
+│   │   ├── fahimfarhan-Round-B-Certificate-Kick-Start.pdf
+│   │   ├── fahimfarhan-Round-C-Certificate-Kick-Start.pdf
+│   │   ├── fahimfarhan-Round-D-Certificate-Kick-Start.pdf
+│   │   ├── fahimfarhan-SNCK19.pdf
+│   │   └── fahimfarhan-Summary-Certificate-Kick-Start-2019.pdf
+│   ├── index.html
 │   └── Knuth Odd Solutions
 │       ├── chap1.html
 │       ├── chap1.html.docx
@@ -958,10 +1225,14 @@
 │   ├── 1016A_failed.cpp
 │   ├── 1023A_FAILED.cpp
 │   ├── 1023B_FAILED.cpp
+│   ├── 1029B-failed.cpp
+│   ├── 1029Bfailed.cpp
+│   ├── 1030B-failed.cpp
 │   ├── 1037B_failed.cpp
 │   ├── 1037D-FAILED.cpp
 │   ├── 1040A_FAILED.cpp
 │   ├── 1047C-failed.cpp
+│   ├── 1051B-failed.cpp
 │   ├── 1055B-FAILED-2.cpp
 │   ├── 1055B-FAILED.cpp
 │   ├── 1062A-failed.cpp
@@ -970,24 +1241,96 @@
 │   ├── 1084B-failed.cpp
 │   ├── 1084D-failed.cpp
 │   ├── 1084D-failed-test-2.cpp
+│   ├── 1087B-FAILED.cpp
+│   ├── 1095C-failed.cpp
+│   ├── 1108B-failed.cpp
+│   ├── 1118E1-failed.cpp
+│   ├── 1118E-failed.cpp
+│   ├── 1118F-failed.cpp
+│   ├── 1130A-failed2.cpp
+│   ├── 1130A-failed.cpp
+│   ├── 1131B-failed.cpp
+│   ├── 1131F-failed-dfs-wa.cpp
+│   ├── 1133D_failed.cpp
+│   ├── 1139A-failed.cpp
+│   ├── 1141A-failed.cpp
+│   ├── 1141B-failed.cpp
+│   ├── 1141C2-RTE-failed.cpp
+│   ├── 1141E-failed.cpp
+│   ├── 1146B-failed.cpp
+│   ├── 1148B-failed.cpp
+│   ├── 1148C2-failed.cpp
+│   ├── 1148C-failed.cpp
+│   ├── 1152B-failed.cpp
+│   ├── 1152C-failed.cpp
+│   ├── 1153A-failed.cpp
+│   ├── 1153C-failed.cpp
+│   ├── 1154D-failed2.cpp
+│   ├── 1154D-failed.cpp
+│   ├── 1155F-failed.cpp
+│   ├── 1156A-failed.cpp
+│   ├── 1162B-failed.cpp
+│   ├── 1162D-failed.cpp
+│   ├── 1163C1-failed2.cpp
+│   ├── 1163C1-failed.cpp
+│   ├── 1165A-failed.cpp
+│   ├── 1165C-failed.cpp
+│   ├── 1165D-failed2.cpp
+│   ├── 1165D-failed3.cpp
+│   ├── 1165D-failed.cpp
+│   ├── 1165E-failed.cpp
+│   ├── 1167A-failed.cpp
+│   ├── 1167F-failed.cpp
+│   ├── 1176A-failed.cpp
+│   ├── 1176D-failed2.cpp
+│   ├── 1176D-failed.cpp
+│   ├── 1182F-failed.cpp
+│   ├── 1185C1-failed2.cpp
+│   ├── 1185C1-failed.cpp
+│   ├── 1185D-failed.cpp
 │   ├── 166E-again.cpp.FAILED
 │   ├── 166E-FAILED.cpp
 │   ├── 166E-formula.cpp.Formula-error.FAILED
 │   ├── 189A-failed-2.cpp
 │   ├── 189A-failed.cpp
 │   ├── 230B_alternative_TLE_FAILED.cpp
+│   ├── 233A-failed.cpp
+│   ├── 245H-failed.cpp
+│   ├── 285Cfailed.cpp
 │   ├── 2A-FAILED.cpp
+│   ├── 321C-failed.cpp
+│   ├── 337D-failed.cpp
+│   ├── 349B-failed.cpp
+│   ├── 377A-failed.cpp
 │   ├── 3A_badLogicByMe.cpp
+│   ├── 401A-failed.cpp
+│   ├── 456B-failed.cpp
+│   ├── 478B-failed.cpp
+│   ├── 498A-failed.cpp
+│   ├── 514B-failed2.cpp
+│   ├── 514B-failed.cpp
+│   ├── 519C-failed.cpp
+│   ├── 543B-failed2.cpp
+│   ├── 543B-failed.cpp
 │   ├── 567C_failed.cpp
 │   ├── 743B-Chloe-and-the-sequence-FAILED.cpp
 │   ├── 743B-FAILED.cpp
+│   ├── 758B-failed.cpp
+│   ├── 768B-failed.cpp
+│   ├── 776B-failed.cpp
+│   ├── 796C-failed.cpp
 │   ├── 839C_failed.cpp
+│   ├── 851B-failed.cpp
+│   ├── 854A-failed.cpp
 │   ├── 893C_failed2.cpp
 │   ├── 893C_failed.cpp
+│   ├── 914B-failed.cpp
 │   ├── 920F-failed.cpp
 │   ├── 920F-trial1-failed.ccpp
 │   ├── 948C_TLE.cpp
 │   ├── 959B_failed.cpp
+│   ├── 975D-failed.cpp
+│   ├── 996A-failed.cpp
 │   ├── A115_failed.cpp
 │   ├── A601failed.cpp
 │   ├── A911_failed2.cpp
@@ -999,53 +1342,93 @@
 │   ├── B908_failed.cpp
 │   ├── B914_failed.cpp
 │   ├── B920_failed.cpp
+│   ├── C158-failed.java
 │   ├── C437failed2.cpp
 │   ├── C437failed.cpp
 │   ├── C580_failed.cpp
 │   ├── C893_failed.cpp
 │   ├── C913failed.cpp
 │   ├── E909_failed.cpp
+│   ├── f-1192A.cpp
+│   ├── f-1196B.cpp
+│   ├── f-1199A.cpp
+│   ├── f-1200B-wronglogic.cpp
+│   ├── f1201B-try-later.cpp
+│   ├── f1201C2.cpp
+│   ├── f1201C-infiniteLoop.cpp
+│   ├── f1206C.cpp
+│   ├── f1208B.cpp
+│   ├── f1213C.cpp
+│   ├── f-501B-ME.cpp
+│   ├── f-621B-tle.cpp
+│   ├── f-796C-tle2.cpp
+│   ├── f-796C-tle.cpp
 │   ├── FAILED-1073A.cpp
 │   ├── FAILED-1073B-Vasya-and-Books.cpp
 │   ├── FAILED-1073D.cpp
 │   ├── FAILED-1075A.cpp
+│   ├── failed-1104E-Almost-ok.cpp
 │   ├── FAILED-1106D.cpp
+│   ├── failed-1131F-bfs-RTE.cpp
+│   ├── failed-1159C-so-close.cpp
+│   ├── failed-1185D-almost-ok.cpp
+│   ├── failed-1197A-Hacked.cpp
 │   ├── Failed_131A.cpp
+│   ├── failed-2-1153A.cpp
 │   ├── FAILED-2A.cpp
 │   ├── FAILED_494-KindergartenCountingGame.cpp
 │   ├── FAILED_550A.cpp
+│   ├── failed-875A-TLE.cpp
+│   ├── failed-923B-tle.cpp
 │   ├── FAILED_935C.cpp
 │   ├── FAILED_946C.cpp
 │   ├── Failed_950D.cpp
+│   ├── failed-996A-almost-ok-rte.cpp
 │   ├── FAILED_ASCDFIB-AscendingFibonacciNumbers.cpp
 │   ├── G911_time_exceed.cpp
 │   └── prince2_failed.cpp
+├── geeksforgeeks
+│   ├── backtrack
+│   ├── Divide-n-Conquer
+│   │   ├── 0binary-tree.cpp
+│   │   ├── 1binary-search.cpp
+│   │   ├── 2randomized-binary-search-algorithm-failed.cpp
+│   │   ├── 3mergesort.cpp
+│   │   ├── 4count-inversion.cpp
+│   │   ├── 5closest-pair-of-points-using-divide-and-conquer-algorithm.cpp
+│   │   ├── 6closestpoints.cpp
+│   │   ├── 7maximum-subarray-sum-using-divide-and-conquer-algorithm.cpp
+│   │   ├── 8longest-common-prefix-using-divide-and-conquer-algorithm.cpp
+│   │   ├── zin.txt
+│   │   └── zout.txt
+│   ├── dp
+│   │   ├── 0url.md
+│   │   ├── 1uglydpagain.cpp
+│   │   ├── 1uglynumber.cpp
+│   │   ├── 1uglynumberdp.cpp
+│   │   ├── 2bellnumber.cpp
+│   │   ├── 3binomialCoefficient.cpp
+│   │   ├── 4tiling-problem.cpp
+│   │   └── 5-gold-mine-problem.cpp
+│   ├── prefix-sum
+│   │   ├── prefix_sum.cpp
+│   │   └── prefix_sum_matrix.cpp
+│   ├── recursion
+│   │   ├── a.out
+│   │   ├── checkpalindrome.cpp
+│   │   ├── first-uppercase-letter-in-a-string-iterative-and-recursive.cpp
+│   │   ├── generate-binary-strings-without-consecutive-1s.cpp
+│   │   ├── given-a-string-print-all-possible-palindromic-partition.cpp
+│   │   ├── link.txt
+│   │   ├── out.txt
+│   │   ├── powet-set-lexicographic-order.cpp
+│   │   ├── print-all-combinations-of-given-length.cpp
+│   │   ├── Print-all-possible-strings-of-length-k-that-can-be-formed-from-a-set-of-n-characters.cpp
+│   │   ├── recursive-implementation-of-atoi.cpp
+│   │   └── recursive-solution-count-substrings-first-last-characters.cpp
+│   ├── xor-of-all-the-nodes-in-the-sub-tree-of-the-given-node.cpp
+│   └── zin.txt
 ├── graph-shafayet-planet.pdf
-├── index.html
-├── Junk
-│   ├── A.cpp
-│   ├── a.out
-│   ├── a.rb
-│   ├── cdemo.cpp
-│   ├── demo.py
-│   ├── hello.m
-│   ├── helloswift
-│   │   ├── Package.swift
-│   │   └── Sources
-│   │       ├── main
-│   │       └── main.swift
-│   ├── HelloWorld
-│   ├── HelloWorld.d
-│   ├── HelloWorld.m
-│   ├── lol.cpp
-│   ├── nanoTutorials.cpp
-│   ├── nayokgraph
-│   │   ├── graph.cpp
-│   │   └── input.txt
-│   ├── nayokgraph.zip
-│   ├── nayok.out
-│   ├── permutation1.cpp
-│   └── permutation.cpp
 ├── LICENSE
 ├── MissionImpossible
 │   ├── 10-b-z-algo.cpp
@@ -1057,6 +1440,7 @@
 │   ├── 3-e-treap.cpp
 │   ├── 3-e-treap-failed.cpp
 │   ├── 8-b-ConnetedComponentInAGraph.cpp
+│   ├── 8-c-floodfill.cpp
 │   ├── 8-d-TopologicalSort.cpp
 │   ├── 8-d-TopologicalSortKahnsAlgo.cpp
 │   ├── 8-e-bipartitegraph.cpp
@@ -1067,9 +1451,9 @@
 │   ├── 8-j-FordFulkerson-failed.cpp
 │   ├── 8-k-findNumOfSCC-NotSureIfOk.cpp
 │   ├── 9-e-FloydCycleDetectAlgo.cpp
-│   ├── a.out
 │   ├── input.txt
 │   ├── in.txt
+│   ├── isprime-quickly.cpp
 │   └── lalala.cpp
 ├── MissionImpossible-2.pdf
 ├── MISSION_IMPOSSIBLE.md
@@ -1079,12 +1463,10 @@
 │   ├── global-routing
 │   │   ├── 1405052
 │   │   │   ├── 1405052.cpp
-│   │   │   ├── a.out
 │   │   │   ├── Lee_output.txt
 │   │   │   └── routing_input.txt
 │   │   ├── 1405052.cpp
 │   │   ├── 1405052.zip
-│   │   ├── a.out
 │   │   ├── Lee and Soukup Offline.pdf
 │   │   ├── lee_output.txt
 │   │   ├── Lee_output.txt
@@ -1095,7 +1477,6 @@
 │   │   └── soukup_output.txt.original
 │   └── partitioning
 │       ├── 1405052.cpp
-│       ├── a.out
 │       ├── input_KL.txt
 │       ├── output_KL.txt
 │       └── output_KL.txt.original
@@ -1106,8 +1487,11 @@
 ├── quora.txt
 ├── README2.md
 ├── README.md
+├── Remove_Old_Snaps.sh
 ├── script.sh
+├── Things-To-Do-After-Installing-Linux-Ed3.0.2.pdf
+├── todolist.md
 ├── tree.md
 └── USEFUL_LINKS.pdf
 
-111 directories, 999 files
+129 directories, 1365 files
