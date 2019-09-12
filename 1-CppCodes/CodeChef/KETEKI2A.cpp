@@ -60,3 +60,6 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+
+/*
+ * just testing some nvim stuffs!*/

@@ -1,4 +1,8 @@
 # coding-creed-origins
+## Hello there! 
+Thank you for visiting! Feel free to see the codes. But it would be nice if you try the problems yourself first :) 
+And I would really like to know who you are. Perhaps you could `Star` the repo :)
+Thank you for reading.
 
 ## Useful Links/Blogs
 * [yufeizhao.com/olympiad](http://yufeizhao.com/olympiad/)
@@ -110,7 +114,7 @@ Learn GDB, Valgrind
 
 ## Cool Stuffs
 ```
-    int a[100] = {0}; // shorter way to initialize in cpp. yeah, I didn't knew that
+    int a[100] = {0}; // shorter way to initialize in cpp. yeah, I didn't know that
 ```
 ```
 next_permutation(v.begin(), v.end());
