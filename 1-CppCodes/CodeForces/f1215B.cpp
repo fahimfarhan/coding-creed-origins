@@ -33,11 +33,6 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
-bool can(int m, int s)
-{
-    return (s >= 0) && (s <= 9*m);
-}
-
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -51,27 +46,27 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int m,s;
+    ll n;
+    cin>>n;
+    int a[n]={0};
 
-    cin>>m>>s;
-    if(s<1&&m>1||s>m*9){
-        cout<<-1<<" "<<-1<<"\n";
+    ll b;
+    for(int i=0; i<n; i++){ cin>>b; if(b<0){    a[i] = 1;   }   }
+    // convert into cf
+    for(int i=1; i<n; i++){ a[i] +=a[i-1];  }
+
+    ll ans1 = 0;
+    ll one = 1;
+    ll temp;
+    for(int i=0; i<n-1; i++){
+        for(int j=i+1; j<n; j++){
+            temp = a[j]-a[i];
+            if(temp&one==one){  ans1++; }
+        }
     }
-    else{
-        int j=0, k = s;
-        for(int i=m-1; i>=0; i--){
-            j = max(0, k-9*i);
-            if(j==0&&i==m-1&&k){    j=1;    }
-            cout<<j;
-            k=k-j;
-        }cout<<" ";
-        k=s;
-        for(int i=m-1;i>=0;i--)
-        {
-            j=min(9,k);
-            cout<<j;
-            k=k-j;
-        }cout<<"\n";
-    }
+
+    ll ans2 = (n*(n-1)/2)-ans1;
+    cout<<ans1<<" "<<ans2<<"\n";
+
     return 0;
 }

@@ -33,11 +33,6 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
-bool can(int m, int s)
-{
-    return (s >= 0) && (s <= 9*m);
-}
-
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -51,27 +46,24 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int m,s;
+    ll minimus, maximus, a1,a2,k1,k2,n;
+    cin>>a1;
+    cin>>a2;
+    cin>>k1;
+    cin>>k2;
+    cin>>n;
+    
+    minimus = max((ll)0,n-(k1-1)*a1-(k2-1)*a2);
 
-    cin>>m>>s;
-    if(s<1&&m>1||s>m*9){
-        cout<<-1<<" "<<-1<<"\n";
+    // maximus 
+    if(k2<k1){
+        if(n<=a2*k2){   maximus = n/k2;     }
+        else{   maximus = a2+(n-a2*k2)/k1;  }
+    }else{
+        if(n<=a1*k1){   maximus = n/k1;     }
+        else{   maximus=a1+(n-a1*k1)/k2;    }
     }
-    else{
-        int j=0, k = s;
-        for(int i=m-1; i>=0; i--){
-            j = max(0, k-9*i);
-            if(j==0&&i==m-1&&k){    j=1;    }
-            cout<<j;
-            k=k-j;
-        }cout<<" ";
-        k=s;
-        for(int i=m-1;i>=0;i--)
-        {
-            j=min(9,k);
-            cout<<j;
-            k=k-j;
-        }cout<<"\n";
-    }
+
+    cout<<minimus<<" "<<maximus<<"\n";
     return 0;
 }

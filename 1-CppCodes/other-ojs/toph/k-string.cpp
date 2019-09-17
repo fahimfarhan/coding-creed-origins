@@ -33,11 +33,6 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
-bool can(int m, int s)
-{
-    return (s >= 0) && (s <= 9*m);
-}
-
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -51,27 +46,30 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int m,s;
+    ll N, k;
+    string s;
+    int count[26]={0};
 
-    cin>>m>>s;
-    if(s<1&&m>1||s>m*9){
-        cout<<-1<<" "<<-1<<"\n";
+    cin>>N>>k;
+    cin>>s;
+
+    int ch='0';
+    for(int i=0; i<N; i++){
+        ch = s[i];
+        if(ch>='A' && ch<='Z'){ ch=ch-'A'; }
+        else{   ch=ch-'a';  }
+        count[ch]++;
     }
-    else{
-        int j=0, k = s;
-        for(int i=m-1; i>=0; i--){
-            j = max(0, k-9*i);
-            if(j==0&&i==m-1&&k){    j=1;    }
-            cout<<j;
-            k=k-j;
-        }cout<<" ";
-        k=s;
-        for(int i=m-1;i>=0;i--)
-        {
-            j=min(9,k);
-            cout<<j;
-            k=k-j;
-        }cout<<"\n";
-    }
+
+    vector<int> v;
+    for(int i=0; i<26; i++){    if(count[i]!=0)v.push_back(count[i]);   }
+
+    sort(v.begin(), v.end());
+
+    int m = v.size();
+    N = N-v[m-1]-v[m-2]-v[m-3];
+
+    cout<<N<<"\n";
+
     return 0;
 }

@@ -1,17 +1,5 @@
 /* Author : Qazi Fahim Farhan (@fahimfarhan) */
 /* May the CodeForces be with you! */
-/**
-Dread it, run from it, destiny arrives all the same !
-I find your lack of faith in the CodeForces disturbing! >_<
-Love you 3000 !
-Keep It Simple Stupid (KISS)!
-Good Hunting 47!
-*/
-/**
-AC I - Redemption AC II - Revenge AC: Brotherhood - Justice AC: Revelation - Answers 
-AC III - Freedom AC IV - Glory AC Rogue - Betrayal AC Unity - Love AC Syndicate - Family 
-AC Origins - Beginnings 
-*/
 
 #include <bits/stdc++.h>
 
@@ -49,3 +37,16 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+
+/**
+Dread it, run from it, destiny arrives all the same !
+I find your lack of faith in the CodeForces disturbing! >_<
+Love you 3000 !
+Keep It Simple Stupid (KISS)!
+Good Hunting 47!
+*/
+/**
+AC I - Redemption AC II - Revenge AC: Brotherhood - Justice AC: Revelation - Answers 
+AC III - Freedom AC IV - Glory AC Rogue - Betrayal AC Unity - Love AC Syndicate - Family 
+AC Origins - Beginnings 
+*/

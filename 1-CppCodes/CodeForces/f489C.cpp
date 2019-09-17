@@ -33,11 +33,6 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
-bool can(int m, int s)
-{
-    return (s >= 0) && (s <= 9*m);
-}
-
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -51,27 +46,26 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int m,s;
-
+    int m,s, k;
     cin>>m>>s;
-    if(s<1&&m>1||s>m*9){
-        cout<<-1<<" "<<-1<<"\n";
-    }
-    else{
-        int j=0, k = s;
+
+    if( s<1 && m>1 || s>9*m ){ // =>  ((s<1 && m>1) || s>9*m) 
+        cout<<"-1 -1\n";
+    }else{
+        k = s;
         for(int i=m-1; i>=0; i--){
-            j = max(0, k-9*i);
-            if(j==0&&i==m-1&&k){    j=1;    }
+            int j=max(0, k-9*i);
+            if(j==0 && i==(m-1&&k)){    j=1;    }
             cout<<j;
-            k=k-j;
+            k-=j;
         }cout<<" ";
         k=s;
-        for(int i=m-1;i>=0;i--)
-        {
-            j=min(9,k);
+        for(int i=m-1; i>=0; i--){
+            int j=min(9,k);
             cout<<j;
-            k=k-j;
+            k-=j;
         }cout<<"\n";
     }
+
     return 0;
 }

@@ -33,9 +33,17 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
-bool can(int m, int s)
-{
-    return (s >= 0) && (s <= 9*m);
+ll mypow(const ll& n, const ll& p){
+    ll ret=1;
+    for(int i=0; i<p; i++){ ret*=n; }
+    return ret;
+}
+
+int sod(const int64_t& n){
+    int64_t a = n;
+    int sum = 0;
+    while(a){  sum+=a%10;   a=a/10; }
+    return sum;
 }
 
 int main(int argc, char const *argv[])
@@ -51,27 +59,21 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int m,s;
+    ll a,b,c;
+    cin>>a>>b>>c;
 
-    cin>>m>>s;
-    if(s<1&&m>1||s>m*9){
-        cout<<-1<<" "<<-1<<"\n";
+    int64_t x, maximus = 1000000000;
+
+    vector<int64_t> v;
+    for(int i=1; i<=80; i++){
+        x = b*mypow(i,a)+c;
+        if( (x>0) && (x<maximus) && (i==sod(x)) ){   v.push_back(x);  }
     }
-    else{
-        int j=0, k = s;
-        for(int i=m-1; i>=0; i--){
-            j = max(0, k-9*i);
-            if(j==0&&i==m-1&&k){    j=1;    }
-            cout<<j;
-            k=k-j;
-        }cout<<" ";
-        k=s;
-        for(int i=m-1;i>=0;i--)
-        {
-            j=min(9,k);
-            cout<<j;
-            k=k-j;
-        }cout<<"\n";
-    }
+
+    cout<<v.size()<<"\n";
+    for(int i=0; i<v.size(); i++){  cout<<v[i]<<" ";    }
+    cout<<"\n";
+
+
     return 0;
 }

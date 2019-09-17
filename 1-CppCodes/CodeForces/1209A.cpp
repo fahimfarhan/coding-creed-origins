@@ -33,11 +33,6 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
-bool can(int m, int s)
-{
-    return (s >= 0) && (s <= 9*m);
-}
-
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -51,27 +46,36 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    int m,s;
+    int n;
+    cin>>n;
+    int a[n+1]={0};
+    bool b[n+1]={false};
 
-    cin>>m>>s;
-    if(s<1&&m>1||s>m*9){
-        cout<<-1<<" "<<-1<<"\n";
+    for(int i=0; i<n; i++){  cin>>a[i]; }
+    sort(a,a+n); 
+
+    int count = 0; 
+    int remaining = n;
+
+    int curr = 0;
+    for(int i=0; i<n; i++){
+        if(remaining == 0){ break;  }
+        if(b[i]==false){
+            b[i] = true;
+            curr = a[i];
+            //cout<<curr<<"\n";
+            count++;
+            remaining--;
+            for(int j=i+1; j<n; j++){
+                if( (b[j]==false) && ( (a[j]%curr) == 0) ){
+                    b[j] = true;
+                    remaining--;
+                }
+            }
+        }
     }
-    else{
-        int j=0, k = s;
-        for(int i=m-1; i>=0; i--){
-            j = max(0, k-9*i);
-            if(j==0&&i==m-1&&k){    j=1;    }
-            cout<<j;
-            k=k-j;
-        }cout<<" ";
-        k=s;
-        for(int i=m-1;i>=0;i--)
-        {
-            j=min(9,k);
-            cout<<j;
-            k=k-j;
-        }cout<<"\n";
-    }
+
+    cout<<count<<"\n";
+
     return 0;
 }
