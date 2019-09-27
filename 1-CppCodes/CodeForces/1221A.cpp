@@ -8,7 +8,7 @@ using namespace std;
 #define PI 2*acos(0)
 
 //typedef long long int ll;
- #define ll int
+ #define ll long long int
 // other popular ones=> int64_t, uint64_t => use for 10^18
 ll MODULO = 1e9+7;
 
@@ -20,6 +20,17 @@ int start(int argc=0, char const *argv[] = NULL);
 // int n,m;s
 vector<int> *g;
 bool *isvisited;
+
+map<int,int> mp;
+
+bool f(const int& N,const int& count){
+    // cout<<N<<" "<<count<<"\n";
+    if(N==0){   return false;   }
+    if(mp[N]>=count){   return true;    }
+    int M = N>>1;
+    int C = (count-mp[N])<<1;
+    return f(M,C);
+}
 
 int main(int argc, char const *argv[])
 {
@@ -34,25 +45,23 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    ll n, k;
-    cin>>n>>k;
-
-    ll cf[n+1];
-
-    cf[0] = 0;
-    for(int i=1; i<=n; i++){    cin>>cf[i]; }
-    for(int i=1; i<=n; i++){    cf[i] = cf[i]+cf[i-1]; }
-
-
-    ll temp=0, minimus=INT_MAX, j=0;
-    
-    for(int i=1; i<=n-k+1; i++){
-        temp = cf[(i+k-1)]-cf[(i-1)];
-        if(temp<minimus){   minimus = temp; j = i; }
+    ll q,m,n;
+    cin>>q;
+    while(q--){
+        for(int j=1; j<=2048; j=(j<<1)){
+            mp[j] = 0;
+        }
+        cin>>n;
+        for(int i=0; i<n; i++){
+            cin>>m;
+            if(m<=2048){
+                mp[m]++;
+            }
+        }
+        bool b = f(2048,1);
+        if(b){  cout<<"YES\n";  }
+        else{   cout<<"NO\n";  }
     }
-
-    cout<<j<<"\n";
-    
 
     return 0;
 }

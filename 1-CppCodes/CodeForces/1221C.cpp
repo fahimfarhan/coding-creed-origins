@@ -8,7 +8,7 @@ using namespace std;
 #define PI 2*acos(0)
 
 //typedef long long int ll;
- #define ll int
+ #define ll long long int
 // other popular ones=> int64_t, uint64_t => use for 10^18
 ll MODULO = 1e9+7;
 
@@ -20,6 +20,22 @@ int start(int argc=0, char const *argv[] = NULL);
 // int n,m;s
 vector<int> *g;
 bool *isvisited;
+
+#define MAXN 100000000
+
+
+
+int f(int c, int m, int x){
+    if(c<=0 || m<=0 || x<0){   return 0; }
+    int a1 = f(c-1, m-1, x-1);
+    int a2 = f(c-2, m-1,x);
+    int a3 = f(c-1, m-2, x);
+
+    int maximus = max(a1,a2);
+    maximus = max(maximus,a3);
+
+    return 1+maximus;
+}
 
 int main(int argc, char const *argv[])
 {
@@ -34,25 +50,15 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    ll n, k;
-    cin>>n>>k;
 
-    ll cf[n+1];
+    ll q, c, m, x, t;
+    cin>>q;
+    while(q--){
+        cin>>c>>m>>x;
+        t=f(c,m,x);
+        cout<<t<<"\n";
 
-    cf[0] = 0;
-    for(int i=1; i<=n; i++){    cin>>cf[i]; }
-    for(int i=1; i<=n; i++){    cf[i] = cf[i]+cf[i-1]; }
-
-
-    ll temp=0, minimus=INT_MAX, j=0;
-    
-    for(int i=1; i<=n-k+1; i++){
-        temp = cf[(i+k-1)]-cf[(i-1)];
-        if(temp<minimus){   minimus = temp; j = i; }
-    }
-
-    cout<<j<<"\n";
-    
+    }    
 
     return 0;
 }

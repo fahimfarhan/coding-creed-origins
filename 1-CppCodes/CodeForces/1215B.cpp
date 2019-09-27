@@ -8,7 +8,7 @@ using namespace std;
 #define PI 2*acos(0)
 
 //typedef long long int ll;
- #define ll int
+ #define ll long long int
 // other popular ones=> int64_t, uint64_t => use for 10^18
 ll MODULO = 1e9+7;
 
@@ -34,25 +34,23 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    ll n, k;
-    cin>>n>>k;
-
-    ll cf[n+1];
-
-    cf[0] = 0;
-    for(int i=1; i<=n; i++){    cin>>cf[i]; }
-    for(int i=1; i<=n; i++){    cf[i] = cf[i]+cf[i-1]; }
-
-
-    ll temp=0, minimus=INT_MAX, j=0;
-    
-    for(int i=1; i<=n-k+1; i++){
-        temp = cf[(i+k-1)]-cf[(i-1)];
-        if(temp<minimus){   minimus = temp; j = i; }
+    ll n=0, t=0, st=1, odd=0,even=1;
+    cin>>n;
+    for(int i=0; i<n; i++){
+        cin>>t;
+        if(t<0){    st*=-1; }
+        //else{   st*=1;  }
+        if(st<0){   odd++;  }
+        else{   even++; }
     }
 
-    cout<<j<<"\n";
-    
+    ll neg=0, pos=0, total=0;
+    neg = odd*even;
+    total = n*(n+1);
+    total = total>>1;
+    pos = total - neg;
+
+    cout<<neg<<" "<<pos<<"\n";
 
     return 0;
 }
