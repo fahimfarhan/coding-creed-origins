@@ -34,6 +34,29 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll t, n, m, h, w, *a;
+    cin>>t;
+    while(t--){
+        cin>>n;
+        a = new ll[n+1];
+        
+        for(int i=0; i<n; i++){     cin>>a[i];  }
+        
+        sort(a,a+n);
+        m = INT_MIN;
+        for(int i=0; i<n; i++){
+            h = a[i];
+            w = n-i;
+            // if(h<=w){   m = min(h,w);   }
+            // else{   break;  }
+            ll temp = min(h,w);
+            m = max(m,temp);
+        }
+
+        cout<<m<<"\n";
+        delete[] a;
+    }
+
 
     return 0;
 }

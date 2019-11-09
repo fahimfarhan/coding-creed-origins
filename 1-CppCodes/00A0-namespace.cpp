@@ -43,7 +43,17 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
-/*
-    int     -2147483648 2147483647
+/**
+Dread it, run from it, destiny arrives all the same !
+I find your lack of faith in the CodeForces disturbing! >_<
+Love you 3000 !
+Keep It Simple Stupid (KISS)!
+Good Hunting 47!
+*/
+/**
+AC I - Redemption AC II - Revenge AC: Brotherhood - Justice AC: Revelation - Answers 
+AC III - Freedom AC IV - Glory AC Rogue - Betrayal AC Unity - Love AC Syndicate - Family 
+AC Origins - Beginnings 
+*/  int     -2147483648 2147483647
     short   -32768      32767
 */

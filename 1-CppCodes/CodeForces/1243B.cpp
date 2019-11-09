@@ -34,6 +34,16 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    string s,t;
+    s = "souse";
+    t = "houhe";
+
+    string u = "";
+    for(int i=0; i<5; i++){
+        cout<<(s[i]^t[i])<<"\n";
+    }
+
+    cout<<('s'^'h')<<"\n";
 
     return 0;
 }

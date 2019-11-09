@@ -14,12 +14,38 @@ ll MODULO = 1e9+7;
 
 bool myAssert(bool b);
 void testDrivenDevelopment();
-int start(int argc=0, char const *argv[] = NULL);
+
 
 
 // int n,m;s
 vector<int> *g;
 bool *isvisited;
+
+bool b[26];
+string s;
+int pos, Count;
+
+void start(){
+    for(int i=0; i<26; i++){    b[i] = 0;   }
+    cin>>s;
+    for(int i=0; i<s.size(); i++){
+        Count = 0;
+        int j=i;
+        pos = s[i]-'a';
+        while (j + 1 < s.size() && s[j + 1] == s[i])
+		{j++;   }
+        Count = j-i;
+        if( (Count&1) == 0){
+            b[pos] = 1;
+        }
+        i=j;
+    }
+    char ch;
+    for(int i=0; i<26; i++){
+        if(b[i]){  ch = 'a'+i; cout<<ch<<"";    }
+    }cout<<"\n";
+
+}
 
 int main(int argc, char const *argv[])
 {
@@ -34,50 +60,12 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
-    ll T;
-    string s;
-    char ch;
-    cin>>T;
-
-    while(T--){
-        cin>>s;
-        set<char> st;
-        vector<char> v;
-        if(s.size() == 1){  st.insert(s[0]);    }
-        else if(s.size() == 2){
-            if(s[0]!=s[1]){ st.insert(s[0]);    st.insert(s[1]);    }
-        }else{
-            if(s[0]!=s[1]){ st.insert(s[0]);    }
-            for(int i=1; i<s.size()-1; i++){
-                ch = s[i];
-                if( (ch != s[i+1]) && (ch!=s[i-1])){
-                    st.insert(ch);
-                }
-            }
-            if(s[s.size()-1] != s[s.size()-2]){ st.insert(s[s.size()-1]);   }
-        }
-        for(auto x:st){ 
-            //v.push_back(x);
-            cout<<x<<"";    
-        }
-        //sort(v.begin(), v.end());
-        cout<<"\n";
-
+    int t;
+    cin>>t;
+    while(t--){
+        start();
     }
-
 
     return 0;
 }
 
-/**
-Dread it, run from it, destiny arrives all the same !
-I find your lack of faith in the CodeForces disturbing! >_<
-Love you 3000 !
-Keep It Simple Stupid (KISS)!
-Good Hunting 47!
-*/
-/**
-AC I - Redemption AC II - Revenge AC: Brotherhood - Justice AC: Revelation - Answers 
-AC III - Freedom AC IV - Glory AC Rogue - Betrayal AC Unity - Love AC Syndicate - Family 
-AC Origins - Beginnings 
-*/
