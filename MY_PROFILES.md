@@ -52,3 +52,6 @@
 1. github, bitbucket, gitlab, visualstudio
 2. [sourceforge](https://sourceforge.net/u/fahimfarhan/profile/) fahimfarhan (email)
 3. [imgur.com](https://imgur.com/user/fahimfarhan) fahimfarhan (facebook)
+
+## Others
+1. [pdfdrive.com](https://www.pdfdrive.com) (email)
