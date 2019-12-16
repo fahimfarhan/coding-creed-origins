@@ -16,8 +16,6 @@
 // #include <stack>
 // #include <algorithm>
 // #include <functional>
-#include <iomanip>      // std::setprecision
-
 
 using namespace std;
 
@@ -37,19 +35,43 @@ int start(int argc=0, char const *argv[] = NULL);
 vector<int> *g;
 bool *isvisited;
 
+int add(int x, int y){
+    int ret = 0;
+    ret = x+y;
+    if(ret>MODULO){
+        ret = ret - MODULO;
+    }
+    return ret;
+}
+
 int main(int argc, char const *argv[])
 {
     /* code */
     // freopen("input.txt","r",stdin);
     // freopen("output.txt","w",stdout);
     /*
-    std::cout << std::fixed;
-    std::cout << std::setprecision(10);
+    cout << setprecision(8);
     cout << num1 << endl;
     */
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    int T;
+    int MAX_SIZE = 1000001;
+    int N, a[MAX_SIZE];
+    N = MODULO;
+    // preprocessing
+    a[0] = 1, a[1] = 1;
+    for(int i=2; i<MAX_SIZE; i++){
+        a[i] = add(a[i-1], a[i-2]);
+    }
+    // solve
+    cin>>T;
+    while(T--){
+        cin>>N;
+        cout<<a[N-1]<<"\n";
+    }
 
 
     return 0;

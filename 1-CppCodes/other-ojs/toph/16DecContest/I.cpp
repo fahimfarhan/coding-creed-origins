@@ -4,7 +4,7 @@
 #include <iostream>
 // #include <sstream>
 // #include <cstdio>
-// #include <cmath>
+#include <cmath>
 // #include <cstring>
 // #include <cctype>
 // #include <string>
@@ -50,6 +50,19 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+    std::cout << std::fixed;
+    std::cout << std::setprecision(10);
+    int T;
+    ll  A;
+    double area, perimeter;
+    cin>>T;
+    while(T--){
+        cin>>A;
+        area = A-PI*A/4;
+        perimeter = PI*sqrt(A);
+
+        cout<<area<<" "<<perimeter<<"\n";
+    }
 
 
     return 0;

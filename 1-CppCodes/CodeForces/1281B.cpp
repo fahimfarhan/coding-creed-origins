@@ -16,8 +16,6 @@
 // #include <stack>
 // #include <algorithm>
 // #include <functional>
-#include <iomanip>      // std::setprecision
-
 
 using namespace std;
 
@@ -43,14 +41,32 @@ int main(int argc, char const *argv[])
     // freopen("input.txt","r",stdin);
     // freopen("output.txt","w",stdout);
     /*
-    std::cout << std::fixed;
-    std::cout << std::setprecision(10);
+    cout << setprecision(8);
     cout << num1 << endl;
     */
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
 
+    int t, p;
+    string s, c;
+
+    cin>>t;
+    while(t--){
+        cin>>s>>c;
+        p=0;
+        for(int i=0; i<s.size(); i++){
+            p = i;
+            for(int j=s.size()-1; j>i; j--){
+                if(s[p]>s[j]){
+                    p = j;
+                }
+            }
+            if(p!=i){  swap(s[p], s[i]);    break; }
+        }
+        if(s<c){    cout<<s<<"\n";  }
+        else{       cout<<"---\n";          }
+    }
 
     return 0;
 }

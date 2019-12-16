@@ -5,7 +5,7 @@
 2. [HackerRank](https://www.hackerrank.com/fahimfarhan) fahimfarhan     (github)
 3. [CodeChef](https://www.codechef.com/users/fahimfarhan) fahimfarhan (github, firefox)
 4. [Spoj](https://www.spoj.com/users/fahimfarhan/) fahimfarhan (id)
-5. [UVA](https://uva.onlinejudge.org/) fahimfarhan ( email)
+5. [onlinejudge (former UVA)](https://onlinejudge.org/) fahimfarhan ( email)
 6. [Project Euler](https://projecteuler.net) fahimfarhan (FireFox)
 7. [Code Jam](https://codingcompetitions.withgoogle.com/profile) fahimfarhan (Google)
 8. [HackerEarth](https://www.hackerearth.com/@fahimfarhan) fahimfarhan  (github)
