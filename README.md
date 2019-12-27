@@ -4,6 +4,9 @@ Thank you for visiting! Feel free to see the codes. But it would be nice if you 
 And I would really like to know who you are. Perhaps you could `Star` the repo :)
 Thank you for reading.
 
+## Modular Inverse
+[online calculator](https://planetcalc.com/3311/), [geeksforgeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/), [khanacademy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses)
+
 ## Useful Links/Blogs
 * [yufeizhao.com/olympiad](http://yufeizhao.com/olympiad/)
 * [What important topics of number theory should every programmer know?](https://www.quora.com/What-important-topics-of-number-theory-should-every-programmer-know)

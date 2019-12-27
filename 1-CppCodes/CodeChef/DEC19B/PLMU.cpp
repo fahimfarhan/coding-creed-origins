@@ -2,28 +2,23 @@
 
 using namespace std;
 
-#define ll long long int
-
 int main(){
+    int T;
+    long long int N, a, zeroCount, twoCount, two = 2, zero = 0;
 
-    int T, N;
-    ll a, kount, ans, one = 1, two = 2;
-    ll A[40000];
-    cin>>T; 
+    cin>>T;
     while(T--){
         cin>>N;
-        
+        zeroCount = 0; twoCount = 0;
         for(int i=0; i<N; i++){
-            cin>>A[i];
-        }
-        a = 0; kount = 0;
-        for(int i=0; i<N; i++){
-            if(A[i] == 2){kount++;}
+            cin>>a;
+            if(a == two){   twoCount++; }
+            else if(a == zero){ zeroCount++;    }
         }
 
-        ans = kount*(kount-1)/2;
-        cout<<ans<<"\n";
-
+        a = zeroCount*(zeroCount-1)/2 + twoCount*(twoCount-1)/2;
+        cout<<a<<"\n";
     }
+
     return 0;
 }
