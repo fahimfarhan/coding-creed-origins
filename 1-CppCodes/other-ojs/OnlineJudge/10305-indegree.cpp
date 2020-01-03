@@ -12,8 +12,8 @@
 // #include <list>
 // #include <set>
 // #include <map>
-// #include <queue>
-#include <stack>
+#include <queue>
+// #include <stack>
 // #include <algorithm>
 // #include <functional>
 #include <iomanip>      // std::setprecision
@@ -35,36 +35,8 @@ int start(int argc=0, char const *argv[] = NULL);
 
 int n,m;
 vector<int> *g;
-stack<int> st;
+int *indegree;
 bool *isvisited;
-
-void dfs_visit(int u){
-    isvisited[u] = true;
-    int v = 0;
-    for(int i=0; i<g[u].size(); i++){
-        v = g[u][i];
-        if(!isvisited[v]){
-            dfs_visit(v);
-        }
-    }
-    st.push(u);
-}
-
-void dfs(){
-    for(int i=0; i<=n; i++){    isvisited[i] = false; }
-    for(int i=1; i<=n; i++){
-        if(!isvisited[i]){    dfs_visit(i);   }
-    }
-}
-
-void printer(){
-    int top = 0;
-    while(!st.empty()){
-        top = st.top();
-        st.pop();
-        cout<<top<<" ";
-    }cout<<"\n";
-}
 
 int main(int argc, char const *argv[])
 {
@@ -82,24 +54,48 @@ int main(int argc, char const *argv[])
 
     while(true){
         cin>>n>>m;
-        if(n==0 && m==0){   exit(0);    }
-        
+        if(n==0 && m==0){
+            break;
+        }
         g = new vector<int>[n+1];
-        isvisited = new bool[n+1];
-
-        int a,b;
-        for(int i=0; i<m; i++){
-            cin>>a>>b;
+        indegree = new int[n+1]; for(int i=0; i<=n; i++){   indegree[i] = 0; }
+        int a, b;
+        for(int i=0; i<m; i++){    
+            cin>>a>>b;  
             g[a].push_back(b);
+            indegree[b]++;    
         }
 
-        dfs();
-        printer();
+        queue<int> q;
+        vector<int> output;
 
+        for(int i=1; i<=n; i++){    if(indegree[i] == 0) q.push(i);     }
 
+        while (!q.empty())
+        {
+            /* code */
+            int u, v;
+            u = q.front();
+            q.pop();
+            output.push_back(u);
+            
+            for(int i=0; i<g[u].size(); i++){
+                v = g[u][i];
+                if(indegree[v]>0){  
+                    indegree[v]--;  
+                    if(indegree[v] == 0){  q.push(v);  }    
+                }            
+            }
+        }
+
+        for(int i=0; i<output.size(); i++){
+            cout<<output[i]<<" ";
+        }cout<<"\n";
+        
         delete[] g;
-        delete[] isvisited;
+        delete[] indegree;
     }
+
 
     return 0;
 }
