@@ -29,7 +29,7 @@ using namespace std;
 
 const ll MOD = 119 << 23 | 1;
 
-ll inv(ll input){
+ll inv(const ll &input){
     ll ret = 1;
     ll k = MOD - 2;
     ll a = input;
