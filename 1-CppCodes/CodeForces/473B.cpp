@@ -32,6 +32,23 @@ ll MOD = 1e9+7;
 vector<int> *g;
 bool *isvisited;
 
+ll f(const ll &l,const ll &r,const ll &k,const ll &n){
+    // cerr<<l<<" "<<r<<" "<<k<<" "<<n<<"\n";
+    ll ret = 0, m = 0;
+    m = (l+r);
+    if( (m&1) == 1){    m = (m>>1) + 1;     }
+    else{  m = m>>1;   }
+    
+    if(m == k){    return n;   }
+    ll l1 = m+1, r1 = m-1, p = n-1;
+    if(k<m){
+        ret = f(l, r1, k, p );
+    }else if(k>m){
+        ret = f( l1 , r, k, p );
+    }
+    return ret;
+}
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -46,7 +63,14 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll n,k, sz = 1;
+    
+    cin>>n>>k;
+    for(int i=1; i<n; i++){    sz = 1 + (sz<<1);       }
 
+    ll ret = f(1,sz,k,n);
+
+    cout<<ret<<"\n";
     return 0;
 }
 

@@ -26,7 +26,12 @@ using namespace std;
 //typedef long long int ll;
  #define ll long long int
 // other popular ones=> int64_t, uint64_t => use for 10^18
-ll MOD = 1e9+7;
+ll MODULO = 1e9+7;
+
+bool myAssert(bool b);
+void testDrivenDevelopment();
+int start(int argc=0, char const *argv[] = NULL);
+
 
 // int n,m;s
 vector<int> *g;
@@ -46,6 +51,15 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll T,n,d, D;
+    cin>>T;
+    while(T--){
+        cin>>n>>d;
+        n=n+1;
+        D = n*n-(d<<2);
+        if(D>=0){   cout<<"YES\n";  }
+        else{   cout<<"NO\n";   }
+    }
 
     return 0;
 }

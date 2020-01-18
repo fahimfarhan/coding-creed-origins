@@ -46,6 +46,24 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int n;
+    ll m;
+    cin>>n>>m;
+
+    ll fact[n+1];
+    fact[0] = 1;
+    for(int i=1; i<=n; i++){
+        fact[i] = (fact[i-1]*i)%m;
+    }
+
+    ll ret = 0, kountForNextPermutation = 0, segmentLength = 0;
+    for(int i=1; i<=n; i++){
+        segmentLength = n-i+1;
+        kountForNextPermutation = segmentLength*( (fact[i]*fact[segmentLength])%m );
+        ret = (ret+kountForNextPermutation)%m;
+    }
+
+    cout<<ret<<"\n";
 
     return 0;
 }
