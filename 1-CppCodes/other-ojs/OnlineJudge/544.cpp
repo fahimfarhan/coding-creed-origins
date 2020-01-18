@@ -29,8 +29,7 @@ using namespace std;
 ll MOD = 1e9+7;
 
 // int n,m;
-vector<int> *g;
-bool *isvisited;
+
 
 int main(int argc, char const *argv[])
 {
@@ -45,6 +44,17 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    int n,m;
+    while(true){
+        cin>>n>>m;
+        if((n==0) && (m==0)){   break;  }
+
+
+    }
+
+
+
 
 
     return 0;

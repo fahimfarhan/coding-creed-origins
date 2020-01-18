@@ -28,7 +28,7 @@ using namespace std;
 // other popular ones=> int64_t, uint64_t => use for 10^18
 ll MOD = 1e9+7;
 
-// int n,m;
+// int n,m;s
 vector<int> *g;
 bool *isvisited;
 
@@ -46,7 +46,29 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll l,r, ret, pos, n, diff;
+    ret = 0; pos = 0; n = 1;
 
+    cin>>l>>r;
+
+    diff = r-l;
+
+    ret = 0;
+    while(diff >= n){
+        ret+=n;
+        n=n<<1;
+        pos++;
+    }
+
+    while( r >= n){
+        ll temp = (l>>pos)^(r>>pos);
+        if(temp&1 == 1){
+            ret+=n;
+        }
+        n=n<<1;
+        pos++;
+    }
+    cout<<ret<<"\n";
     return 0;
 }
 
