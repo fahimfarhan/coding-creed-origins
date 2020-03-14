@@ -8,6 +8,9 @@ Thank you for reading.
 [online calculator](https://planetcalc.com/3311/), [geeksforgeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/), [khanacademy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses)
 
 ## Useful Links/Blogs
+* [tayllan/awesome-algorithms](https://github.com/tayllan/awesome-algorithms)
+* [ds & algo visualization](https://visualgo.net/en)
+* [ds & algo visualization 2](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 * [yufeizhao.com/olympiad](http://yufeizhao.com/olympiad/)
 * [What important topics of number theory should every programmer know?](https://www.quora.com/What-important-topics-of-number-theory-should-every-programmer-know)
 * [How do I prepare for Google Code Jam in 2018?](https://www.quora.com/How-do-I-prepare-for-Google-Code-Jam-in-2018)
