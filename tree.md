@@ -18,7 +18,6 @@
 │   ├── 7-6-in.txt
 │   ├── 7-6-Matrix-Chain-Multiplication.cpp
 │   ├── 7-6-MCM.cpp
-│   ├── a.out
 │   ├── bigmod.cpp
 │   ├── bigsum.cpp
 │   ├── divisors.cpp
@@ -69,10 +68,24 @@
 │   │   └── input.txt
 │   ├── CodeChef
 │   │   ├── a.out
+│   │   ├── APRIL20B
+│   │   │   ├── a.out
+│   │   │   ├── CARSELL.cpp
+│   │   │   ├── COVIDLQ.cpp
+│   │   │   ├── in.txt
+│   │   │   └── STRNO.cpp
 │   │   ├── AUG19B
 │   │   │   └── MSNSADM1.cpp
 │   │   ├── COZI2019
+│   │   │   ├── a.out
 │   │   │   └── failedSHERCH.cpp
+│   │   ├── DEC19B
+│   │   │   ├── failed2-PLMU.cpp
+│   │   │   ├── failed-PLMU.cpp
+│   │   │   ├── in.txt
+│   │   │   ├── PLMU.cpp
+│   │   │   ├── test.cpp
+│   │   │   └── WATSCORE.cpp
 │   │   ├── ENAU2019
 │   │   │   ├── ADDI.cpp
 │   │   │   └── AVPN6.cpp
@@ -86,10 +99,14 @@
 │   │   │   ├── PRTAGN-RTE.cpp
 │   │   │   └── PRTAGN-TLE.cpp
 │   │   ├── KETEKI2A.cpp
+│   │   ├── LRNDSA01
+│   │   │   ├── FLOW007.cpp
+│   │   │   └── TEXT.cpp
 │   │   ├── LTIME73B
 │   │   │   └── SILLYPRS-failed.cpp
 │   │   ├── SEPT19B
 │   │   │   ├── f2-FIBEASY.cpp
+│   │   │   ├── f-CHEFINSQ.cpp
 │   │   │   └── f-FIBEASY.cpp
 │   │   ├── untitled-contests
 │   │   │   ├── ARRGRAPH.cpp
@@ -125,9 +142,7 @@
 │   │   │   ├── TYPING.cpp
 │   │   │   ├── xxor.cpp
 │   │   │   └── xxor-prototype.cpp
-│   │   ├── zexecscript.sh
-│   │   ├── zin.txt
-│   │   └── zout.txt
+│   │   └── zexecscript.sh
 │   ├── CodeForces
 │   │   ├── 000-test.cpp
 │   │   ├── 1005A.cpp
@@ -154,6 +169,7 @@
 │   │   ├── 1027B.cpp
 │   │   ├── 1030B.cpp
 │   │   ├── 1037B.cpp
+│   │   ├── 1037C.cpp
 │   │   ├── 1037D-Forgot.cpp
 │   │   ├── 1038B-Non-Coprime-Partition.cpp
 │   │   ├── 1042B.cpp
@@ -205,6 +221,7 @@
 │   │   ├── 1093C.cpp
 │   │   ├── 1095A.cpp
 │   │   ├── 1095B.cpp
+│   │   ├── 1095C.cpp
 │   │   ├── 1096A.cpp
 │   │   ├── 1097B.cpp
 │   │   ├── 1100A.cpp
@@ -336,14 +353,86 @@
 │   │   ├── 1207A.cpp
 │   │   ├── 1207B.cpp
 │   │   ├── 1208A.cpp
+│   │   ├── 1209A.cpp
 │   │   ├── 1213A.cpp
 │   │   ├── 1213B.cpp
 │   │   ├── 1213C.cpp
 │   │   ├── 1214A.cpp
 │   │   ├── 1214C.cpp
+│   │   ├── 1215A.cpp
+│   │   ├── 1215B.cpp
+│   │   ├── 1216A.cpp
+│   │   ├── 1216B.cpp
+│   │   ├── 1220A.cpp
+│   │   ├── 1220B.cpp
+│   │   ├── 1221A.cpp
+│   │   ├── 1221C.cpp
+│   │   ├── 1234A.cpp
+│   │   ├── 1234B2.cpp
+│   │   ├── 1234B.cpp
+│   │   ├── 1234D.cpp
+│   │   ├── 1238A.cpp
+│   │   ├── 1238B.cpp
+│   │   ├── 1241A.cpp
+│   │   ├── 1243A.cpp
+│   │   ├── 1243B1.cpp
+│   │   ├── 1243B.cpp
+│   │   ├── 1245A.cpp
 │   │   ├── 124A.cpp
+│   │   ├── 1251A.cpp
+│   │   ├── 1255A.cpp
+│   │   ├── 1257A.cpp
+│   │   ├── 1257B.cpp
+│   │   ├── 1265A.cpp
+│   │   ├── 1265E_2.cpp
+│   │   ├── 1265E.cpp
+│   │   ├── 1266A.cpp
+│   │   ├── 1266B.cpp
+│   │   ├── 1270C.cpp
+│   │   ├── 1271A.cpp
+│   │   ├── 1277A.cpp
+│   │   ├── 1277B.cpp
+│   │   ├── 1277C.cpp
 │   │   ├── 127A.cpp
+│   │   ├── 1281A.cpp
+│   │   ├── 1281B.cpp
+│   │   ├── 1282A.cpp
+│   │   ├── 1282B1.cpp
+│   │   ├── 1285A.cpp
+│   │   ├── 1285B-failed.cpp
+│   │   ├── 1288A.cpp
+│   │   ├── 1288B.cpp
+│   │   ├── 1288C.cpp
+│   │   ├── 1291A.cpp
+│   │   ├── 1291B.cpp
+│   │   ├── 1293B.cpp
+│   │   ├── 1294A.cpp
+│   │   ├── 1294B.cpp
+│   │   ├── 1294C.cpp
+│   │   ├── 1295A.cpp
+│   │   ├── 1296A.cpp
+│   │   ├── 1296B.cpp
+│   │   ├── 1296C.cpp
+│   │   ├── 1296D.cpp
+│   │   ├── 1303A.cpp
 │   │   ├── 131A.cpp
+│   │   ├── 1325A.cpp
+│   │   ├── 1325B.cpp
+│   │   ├── 1325D.cpp
+│   │   ├── 1326A.cpp
+│   │   ├── 1326B.cpp
+│   │   ├── 1326C.cpp
+│   │   ├── 1327A.cpp
+│   │   ├── 1327A-tle.cpp
+│   │   ├── 1328A.cpp
+│   │   ├── 1328B.cpp
+│   │   ├── 1332A.cpp
+│   │   ├── 1332B1.cpp
+│   │   ├── 1332B.cpp
+│   │   ├── 1335A.cpp
+│   │   ├── 1335B.cpp
+│   │   ├── 1335C.cpp
+│   │   ├── 1335D.cpp
 │   │   ├── 141A.cpp
 │   │   ├── 141A-regex.cpp
 │   │   ├── 148A-again.cpp
@@ -359,6 +448,7 @@
 │   │   ├── 181B.cpp
 │   │   ├── 199A.cpp
 │   │   ├── 1A.cpp
+│   │   ├── 1B.cpp
 │   │   ├── 1C.cpp
 │   │   ├── 200B.cpp
 │   │   ├── 202A.cpp
@@ -381,6 +471,7 @@
 │   │   ├── 274A.cpp
 │   │   ├── 276B.cpp
 │   │   ├── 276C.cpp
+│   │   ├── 276D.cpp
 │   │   ├── 277A.cpp
 │   │   ├── 279B.cpp
 │   │   ├── 295B.cpp
@@ -388,6 +479,7 @@
 │   │   ├── 312B.cpp
 │   │   ├── 313A-Ilya-and-Bak-Account.cpp
 │   │   ├── 320A.cpp
+│   │   ├── 327A.cpp
 │   │   ├── 339D.cpp
 │   │   ├── 346A.cpp
 │   │   ├── 348A.cpp
@@ -404,6 +496,8 @@
 │   │   ├── 401A.cpp
 │   │   ├── 41A.cpp
 │   │   ├── 427B.cpp
+│   │   ├── 431C.cpp
+│   │   ├── 431C-recursion.cpp
 │   │   ├── 437C.cpp
 │   │   ├── 445A.cpp
 │   │   ├── 448C.cpp
@@ -412,12 +506,14 @@
 │   │   ├── 456A.cpp
 │   │   ├── 456B.cpp
 │   │   ├── 459B.cpp
+│   │   ├── 460B.cpp
 │   │   ├── 462B.cpp
 │   │   ├── 464E.cpp
 │   │   ├── 466C.cpp
 │   │   ├── 467B.cpp
 │   │   ├── 467B-Fedor-and-New-Game.cpp
 │   │   ├── 469A.cpp
+│   │   ├── 473B.cpp
 │   │   ├── 474B.cpp
 │   │   ├── 476A.cpp
 │   │   ├── 476B.cpp
@@ -428,6 +524,7 @@
 │   │   ├── 486A.cpp
 │   │   ├── 486B.cpp
 │   │   ├── 489B.cpp
+│   │   ├── 489C.cpp
 │   │   ├── 490A-copy.cpp
 │   │   ├── 490A.cpp
 │   │   ├── 492B.cpp
@@ -450,6 +547,7 @@
 │   │   ├── 525A-again.cpp
 │   │   ├── 525A.cpp
 │   │   ├── 527A.cpp
+│   │   ├── 534A.cpp
 │   │   ├── 535B.cpp
 │   │   ├── 552D2.cpp
 │   │   ├── 552D.cpp
@@ -464,6 +562,8 @@
 │   │   ├── 574B.cpp
 │   │   ├── 576A.cpp
 │   │   ├── 577A.cpp
+│   │   ├── 577B.cpp
+│   │   ├── 577B-failed.cpp
 │   │   ├── 579A-Raising-Bacteria.cpp
 │   │   ├── 580B.cpp
 │   │   ├── 580C.cpp
@@ -491,6 +591,8 @@
 │   │   ├── 667A.cpp
 │   │   ├── 682A.cpp
 │   │   ├── 688B.cpp
+│   │   ├── 698A.cpp
+│   │   ├── 698A-failed.cpp
 │   │   ├── 701A.cpp
 │   │   ├── 701A_using_pair.cpp
 │   │   ├── 701B.cpp
@@ -527,6 +629,7 @@
 │   │   ├── 796A.cpp
 │   │   ├── 796B.cpp
 │   │   ├── 796C.cpp
+│   │   ├── 796D.cpp
 │   │   ├── 804A.cpp
 │   │   ├── 805A.cpp
 │   │   ├── 80A.cpp
@@ -556,8 +659,12 @@
 │   │   ├── 908B.cpp
 │   │   ├── 908C.cpp
 │   │   ├── 908F.cpp
+│   │   ├── 909A.cpp
+│   │   ├── 909C.cpp
 │   │   ├── 909E.cpp
 │   │   ├── 911B.cpp
+│   │   ├── 911C.cpp
+│   │   ├── 911D.cpp
 │   │   ├── 912A.cpp
 │   │   ├── 912B.cpp
 │   │   ├── 913A.cpp
@@ -641,11 +748,26 @@
 │   │   │   ├── 1176D.cpp
 │   │   │   ├── 1176E.cpp
 │   │   │   └── zin.txt
-│   │   ├── f1214A.cpp
-│   │   ├── f1217A.cpp
-│   │   ├── f1217B.cpp
-│   │   ├── f2-1214A.cpp
-│   │   ├── f31214A.cpp
+│   │   ├── f1215B.cpp
+│   │   ├── f1230A.cpp
+│   │   ├── f-363B.cpp
+│   │   ├── f489C.cpp
+│   │   ├── failed-1251A.cpp
+│   │   ├── failed-1265C.cpp
+│   │   ├── failed-1271A.cpp
+│   │   ├── failed-1279A.cpp
+│   │   ├── failed-1279B.cpp
+│   │   ├── failed-1281B.cpp
+│   │   ├── failed-1283C.cpp
+│   │   ├── failed-1293A.cpp
+│   │   ├── failed-1293B.cpp
+│   │   ├── failed-1294A.cpp
+│   │   ├── failed-1312C.cpp
+│   │   ├── failed-1328B1.cpp
+│   │   ├── failed-1328B.cpp
+│   │   ├── failed-1330A.cpp
+│   │   ├── failed-1332C.cpp
+│   │   ├── failed-1333B.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
@@ -666,12 +788,17 @@
 │   │   │   ├── 1195D1-comb-num-thm.cpp
 │   │   │   ├── 1196B.cpp
 │   │   │   ├── 1214B.cpp
+│   │   │   ├── 1265B.cpp
+│   │   │   ├── 1266C.cpp
+│   │   │   ├── 1279A.cpp
+│   │   │   ├── 1284C.cpp
 │   │   │   ├── 294C.cpp
 │   │   │   ├── 414B.cpp
 │   │   │   ├── 461A.cpp
 │   │   │   ├── 576A.cpp
 │   │   │   ├── 644B.cpp
 │   │   │   ├── 796C.cpp
+│   │   │   ├── 909B.cpp
 │   │   │   ├── 923B.cpp
 │   │   │   ├── 975D.cpp
 │   │   │   └── zin.txt
@@ -696,13 +823,12 @@
 │   │   ├── test126tg.cpp
 │   │   ├── test.cpp
 │   │   ├── training
-│   │   │   ├── 1213D1.cpp
-│   │   │   └── a.out
+│   │   │   └── 1213D1.cpp
 │   │   ├── uri1424.cpp
 │   │   ├── Welcome_to_CSE_DU.cpp
 │   │   ├── zexecscript.sh
 │   │   ├── zin.txt
-│   │   ├── zout.txt
+│   │   ├── zoutput.txt
 │   │   └── ztree.md
 │   ├── FacebookHackerCup
 │   │   ├── ClassTreasurer.cpp
@@ -741,11 +867,39 @@
 │   │   │   ├── pylons.cpp
 │   │   │   ├── wigglewalk-failed.cpp
 │   │   │   └── you-can-go-your-own-way.cpp
+│   │   ├── 2020
+│   │   │   ├── Allocation.cpp
+│   │   │   ├── a.out
+│   │   │   ├── failed-mymistake-NestingDepth.cpp
+│   │   │   ├── failed-parentingParentingReturns.cpp
+│   │   │   ├── in.txt
+│   │   │   ├── NestingDepth.cpp
+│   │   │   ├── ParentingParentingReturns.cpp
+│   │   │   └── vestigium.cpp
 │   │   └── testing_tool.py
+│   ├── leetcode-with-errichto
+│   │   ├── a.out
+│   │   ├── BackspaceStringCompare.cpp
+│   │   ├── BestTimeToBuyAndSellStockII.cpp
+│   │   ├── CountingElements.cpp
+│   │   ├── DiameterOfBinaryTreeByErrichto.cpp
+│   │   ├── FailedDiameterOfBinaryTree.cpp
+│   │   ├── failed-MoveZeroes.cpp
+│   │   ├── GroupAnagrams.cpp
+│   │   ├── GroupAnagrams.java
+│   │   ├── HappyNumber.cpp
+│   │   ├── in.txt
+│   │   ├── MaximumSubArray2.cpp
+│   │   ├── MaximumSubArray.cpp
+│   │   ├── MiddleOfLinkedList.cpp
+│   │   ├── MinStack.cpp
+│   │   ├── MoveZeroes.cpp
+│   │   └── SingleNumber.cpp
 │   ├── namespace.cpp
 │   ├── newskills.md
 │   ├── nextSolve.md
 │   ├── other-ojs
+│   │   ├── 1037.cpp
 │   │   ├── CoderByte
 │   │   │   ├── Distinct List.cpp
 │   │   │   ├── FizzBuzz.cpp
@@ -779,6 +933,29 @@
 │   │   │   ├── security-tutorial-permutations.cpp
 │   │   │   └── simple-array-sum.cpp
 │   │   ├── lol.cpp
+│   │   ├── OnlineJudge
+│   │   │   ├── 10018Reverse-and-Add.cpp
+│   │   │   ├── 100.cpp
+│   │   │   ├── 100-dp.cpp
+│   │   │   ├── 10305.cpp
+│   │   │   ├── 10305-indegree.cpp
+│   │   │   ├── 11172.cpp
+│   │   │   ├── 490RotatingSentence.cpp
+│   │   │   ├── 494-KindergartenCountingGame.cpp
+│   │   │   ├── 544.cpp
+│   │   │   ├── 7025.cpp
+│   │   │   ├── a.out
+│   │   │   ├── failed2-544.cpp
+│   │   │   ├── failed-544.cpp
+│   │   │   ├── failed-dominos.cpp
+│   │   │   ├── temp.cpp
+│   │   │   ├── UvaLive6802.cpp
+│   │   │   ├── UvaLive6983MatryoshkaDolls.cpp
+│   │   │   ├── uvalive6986.ccpp
+│   │   │   ├── x.cpp
+│   │   │   ├── zexecscript.sh
+│   │   │   ├── zin.txt
+│   │   │   └── zout.txt
 │   │   ├── ProjectEuler
 │   │   │   ├── Even Fibonacci numbers.cpp
 │   │   │   ├── Largest palindrome product-FAILED.cpp
@@ -793,7 +970,11 @@
 │   │   │   ├── LOOPEXP.cpp
 │   │   │   └── PIVAL - Digits of Pi.cpp
 │   │   ├── toph
-│   │   │   ├── a.out
+│   │   │   ├── 16DecContest
+│   │   │   │   ├── D.cpp
+│   │   │   │   ├── E.cpp
+│   │   │   │   ├── I.cpp
+│   │   │   │   └── N.cpp
 │   │   │   ├── ArraySimulation.cpp
 │   │   │   ├── Earthquake.cpp
 │   │   │   ├── F_Fitness_Freak.cpp
@@ -801,6 +982,8 @@
 │   │   │   ├── H-BeautifulPaths.cpp
 │   │   │   ├── I_AreaofTriangles.cpp
 │   │   │   ├── I_AreaofTriangles-failed.cpp
+│   │   │   ├── int64_t,
+│   │   │   ├── k-string.cpp
 │   │   │   ├── mines.cpp
 │   │   │   ├── n-th-prime.cpp
 │   │   │   ├── sabiha-play-with-fibonacci-series.cpp
@@ -808,22 +991,8 @@
 │   │   │   ├── temp.cpp
 │   │   │   ├── that-s-1-minute-see-you-tomorrow.cpp
 │   │   │   ├── unique-relief.cpp
+│   │   │   ├── use
 │   │   │   ├── very-dirty-string.cpp
-│   │   │   ├── zexecscript.sh
-│   │   │   ├── zin.txt
-│   │   │   └── zout.txt
-│   │   ├── UVA
-│   │   │   ├── 10018Reverse-and-Add.cpp
-│   │   │   ├── 100.cpp
-│   │   │   ├── 100-dp.cpp
-│   │   │   ├── 11172.cpp
-│   │   │   ├── 490RotatingSentence.cpp
-│   │   │   ├── 494-KindergartenCountingGame.cpp
-│   │   │   ├── 7025.cpp
-│   │   │   ├── UvaLive6802.cpp
-│   │   │   ├── UvaLive6983MatryoshkaDolls.cpp
-│   │   │   ├── uvalive6986.ccpp
-│   │   │   ├── x.cpp
 │   │   │   ├── zexecscript.sh
 │   │   │   ├── zin.txt
 │   │   │   └── zout.txt
@@ -899,6 +1068,7 @@
 │   │   ├── temp.txt
 │   │   ├── tictactoe.cpp
 │   │   ├── uri1151.cpp
+│   │   ├── uva10305.cpp
 │   │   ├── xoxoxo.cpp
 │   │   └── z.cpp
 │   ├── timus
@@ -1002,6 +1172,10 @@
 │   ├── B535.java
 │   ├── B911.java
 │   ├── BinarySearch.java
+│   ├── btree-java
+│   │   ├── BTree.java
+│   │   ├── Node.java
+│   │   └── Start.java
 │   ├── C1006.java
 │   ├── DNSLookup1.java
 │   ├── DNSLookup.java
@@ -1079,18 +1253,26 @@
 │       ├── 1170B.kt
 │       ├── 1171B.kt
 │       ├── 1212A.kt
-│       ├── _1212AKt.class
 │       ├── 1212B.kt
-│       ├── _1212BKt.class
+│       ├── 1298A.kt
+│       ├── 1298B.kt
+│       ├── 1298C.kt
 │       ├── 1A.kt
-│       ├── _1AKt.class
 │       ├── a.kt
-│       ├── AKt.class
+│       ├── failed_1298B.kt
+│       ├── in.txt
 │       └── META-INF
 │           └── main.kotlin_module
 ├── 1-software-development
 │   ├── design-patterns
 │   │   └── java
+│   │       ├── BuilderPattern
+│   │       │   ├── GenericBuilderDemo.iml
+│   │       │   └── src
+│   │       │       └── applications
+│   │       │           ├── AppManager.java
+│   │       │           ├── Model.java
+│   │       │           └── Start.java
 │   │       ├── DecoratorPattern
 │   │       │   ├── CoffeeDecorator.java
 │   │       │   ├── Coffee.java
@@ -1170,11 +1352,9 @@
 │       ├── TestThread.java
 │       └── ThreadDemo.java
 ├── 2-memory-managemennt
-│   ├── a.out
 │   ├── in.txt
 │   ├── memory-management-0.cpp
 │   └── memory-management-1.cpp
-├── commit
 ├── CoolStuffs
 │   ├── allsize.md
 │   └── dfs4simple_case_A115.cpp
@@ -1207,6 +1387,7 @@
 │   │   ├── fahimfarhan-Round-D-Certificate-Kick-Start.pdf
 │   │   ├── fahimfarhan-SNCK19.pdf
 │   │   └── fahimfarhan-Summary-Certificate-Kick-Start-2019.pdf
+│   ├── github.css
 │   ├── index.html
 │   └── Knuth Odd Solutions
 │       ├── chap1.html
@@ -1359,6 +1540,11 @@
 │   ├── f1206C.cpp
 │   ├── f1208B.cpp
 │   ├── f1213C.cpp
+│   ├── f1214A.cpp
+│   ├── f1217A.cpp
+│   ├── f1217B.cpp
+│   ├── f2-1214A.cpp
+│   ├── f31214A.cpp
 │   ├── f-501B-ME.cpp
 │   ├── f-621B-tle.cpp
 │   ├── f-796C-tle2.cpp
@@ -1388,7 +1574,8 @@
 │   ├── G911_time_exceed.cpp
 │   └── prince2_failed.cpp
 ├── geeksforgeeks
-│   ├── backtrack
+│   ├── 1265E-prototype.cpp
+│   ├── convex-hull-set-1-jarviss-algorithm-or-wrapping.cpp
 │   ├── Divide-n-Conquer
 │   │   ├── 0binary-tree.cpp
 │   │   ├── 1binary-search.cpp
@@ -1410,11 +1597,15 @@
 │   │   ├── 3binomialCoefficient.cpp
 │   │   ├── 4tiling-problem.cpp
 │   │   └── 5-gold-mine-problem.cpp
+│   ├── FermatsLittleThm.cpp
+│   ├── LCS-dp.cpp
+│   ├── LCS-recursion.cpp
+│   ├── LIS-dp.cpp
+│   ├── maximumSubarraySum.cpp
 │   ├── prefix-sum
 │   │   ├── prefix_sum.cpp
 │   │   └── prefix_sum_matrix.cpp
 │   ├── recursion
-│   │   ├── a.out
 │   │   ├── checkpalindrome.cpp
 │   │   ├── first-uppercase-letter-in-a-string-iterative-and-recursive.cpp
 │   │   ├── generate-binary-strings-without-consecutive-1s.cpp
@@ -1428,6 +1619,7 @@
 │   │   └── recursive-solution-count-substrings-first-last-characters.cpp
 │   ├── xor-of-all-the-nodes-in-the-sub-tree-of-the-given-node.cpp
 │   └── zin.txt
+├── GitCommitEmoji.md
 ├── graph-shafayet-planet.pdf
 ├── LICENSE
 ├── MissionImpossible
@@ -1451,35 +1643,25 @@
 │   ├── 8-j-FordFulkerson-failed.cpp
 │   ├── 8-k-findNumOfSCC-NotSureIfOk.cpp
 │   ├── 9-e-FloydCycleDetectAlgo.cpp
+│   ├── a.out
+│   ├── AVL-tree.cpp
+│   ├── AVL-tree-only-insert.cpp
+│   ├── bst-array.cpp
+│   ├── BST.cpp
+│   ├── failed-hare-and-tortoise.cpp
 │   ├── input.txt
 │   ├── in.txt
 │   ├── isprime-quickly.cpp
-│   └── lalala.cpp
+│   ├── lalala.cpp
+│   ├── RedBlackTree$Node.class
+│   ├── RedBlackTree.class
+│   ├── RedBlackTree-failed1.cpp
+│   ├── RedBlackTree-failed2.cpp
+│   └── RedBlackTree.java
 ├── MissionImpossible-2.pdf
 ├── MISSION_IMPOSSIBLE.md
 ├── MY_PROFILES.md
 ├── notebook.pdf
-├── others
-│   ├── global-routing
-│   │   ├── 1405052
-│   │   │   ├── 1405052.cpp
-│   │   │   ├── Lee_output.txt
-│   │   │   └── routing_input.txt
-│   │   ├── 1405052.cpp
-│   │   ├── 1405052.zip
-│   │   ├── Lee and Soukup Offline.pdf
-│   │   ├── lee_output.txt
-│   │   ├── Lee_output.txt
-│   │   ├── lee_output.txt.original
-│   │   ├── routing_input.txt
-│   │   ├── script.sh
-│   │   ├── soukup_output.txt
-│   │   └── soukup_output.txt.original
-│   └── partitioning
-│       ├── 1405052.cpp
-│       ├── input_KL.txt
-│       ├── output_KL.txt
-│       └── output_KL.txt.original
 ├── out.txt
 ├── problem-solution-book-1.pdf
 ├── PULL_REQUEST_TEMPLATE.md
@@ -1492,6 +1674,26 @@
 ├── Things-To-Do-After-Installing-Linux-Ed3.0.2.pdf
 ├── todolist.md
 ├── tree.md
-└── USEFUL_LINKS.pdf
+├── USEFUL_LINKS.pdf
+└── vlsi-hardware-algorithms
+    ├── global-routing
+    │   ├── 1405052
+    │   │   ├── 1405052.cpp
+    │   │   ├── Lee_output.txt
+    │   │   └── routing_input.txt
+    │   ├── 1405052.cpp
+    │   ├── Lee and Soukup Offline.pdf
+    │   ├── lee_output.txt
+    │   ├── Lee_output.txt
+    │   ├── lee_output.txt.original
+    │   ├── routing_input.txt
+    │   ├── script.sh
+    │   ├── soukup_output.txt
+    │   └── soukup_output.txt.original
+    └── partitioning
+        ├── 1405052.cpp
+        ├── input_KL.txt
+        ├── output_KL.txt
+        └── output_KL.txt.original
 
-129 directories, 1365 files
+138 directories, 1558 files

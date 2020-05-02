@@ -1,3 +1,4 @@
+tree > tree.md
 git status
 git add .
 git status
