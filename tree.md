@@ -881,19 +881,23 @@
 │   │   ├── a.out
 │   │   ├── BackspaceStringCompare.cpp
 │   │   ├── BestTimeToBuyAndSellStockII.cpp
+│   │   ├── ContiguousArray.cpp
+│   │   ├── ContiguousArray-divideNConq-failed.cpp
+│   │   ├── ContiguousArray-failed.cpp
 │   │   ├── CountingElements.cpp
 │   │   ├── DiameterOfBinaryTreeByErrichto.cpp
-│   │   ├── FailedDiameterOfBinaryTree.cpp
-│   │   ├── failed-MoveZeroes.cpp
+│   │   ├── DiameterOfBinaryTreeFailed.cpp
 │   │   ├── GroupAnagrams.cpp
 │   │   ├── GroupAnagrams.java
 │   │   ├── HappyNumber.cpp
 │   │   ├── in.txt
+│   │   ├── LastStoneWeight.cpp
 │   │   ├── MaximumSubArray2.cpp
 │   │   ├── MaximumSubArray.cpp
 │   │   ├── MiddleOfLinkedList.cpp
 │   │   ├── MinStack.cpp
 │   │   ├── MoveZeroes.cpp
+│   │   ├── MoveZeroesFailed.cpp
 │   │   └── SingleNumber.cpp
 │   ├── namespace.cpp
 │   ├── newskills.md
@@ -1696,4 +1700,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-138 directories, 1558 files
+138 directories, 1562 files
