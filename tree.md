@@ -878,15 +878,21 @@
 │   │   │   └── vestigium.cpp
 │   │   └── testing_tool.py
 │   ├── leetcode-with-errichto
+│   │   ├── 22SubarraySumEqualsK.cpp
+│   │   ├── 23BitwiseANDofNumbersRange.cpp
+│   │   ├── 24LRUCache.cpp
 │   │   ├── a.out
 │   │   ├── BackspaceStringCompare.cpp
 │   │   ├── BestTimeToBuyAndSellStockII.cpp
+│   │   ├── ConstructBinarySearchTreefromPreorderTraversal.cpp
 │   │   ├── ContiguousArray.cpp
 │   │   ├── ContiguousArray-divideNConq-failed.cpp
 │   │   ├── ContiguousArray-failed.cpp
 │   │   ├── CountingElements.cpp
 │   │   ├── DiameterOfBinaryTreeByErrichto.cpp
 │   │   ├── DiameterOfBinaryTreeFailed.cpp
+│   │   ├── failedProductOfArrayExceptSelf.cpp
+│   │   ├── failed-tle-22SubarraySumEqualsK.cpp
 │   │   ├── GroupAnagrams.cpp
 │   │   ├── GroupAnagrams.java
 │   │   ├── HappyNumber.cpp
@@ -895,10 +901,16 @@
 │   │   ├── MaximumSubArray2.cpp
 │   │   ├── MaximumSubArray.cpp
 │   │   ├── MiddleOfLinkedList.cpp
+│   │   ├── MinimumPathSum.cpp
 │   │   ├── MinStack.cpp
 │   │   ├── MoveZeroes.cpp
 │   │   ├── MoveZeroesFailed.cpp
-│   │   └── SingleNumber.cpp
+│   │   ├── NumberOfIslands.cpp
+│   │   ├── productOfArrayExceptSelf2.cpp
+│   │   ├── productOfArrayExceptSelf.cpp
+│   │   ├── SearchInRotatedSortedArray.cpp
+│   │   ├── SingleNumber.cpp
+│   │   └── validParanthesisString.cpp
 │   ├── namespace.cpp
 │   ├── newskills.md
 │   ├── nextSolve.md
@@ -1700,4 +1712,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-138 directories, 1562 files
+138 directories, 1574 files
