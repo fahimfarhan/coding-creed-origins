@@ -1283,12 +1283,19 @@
 │       ├── 1298A.kt
 │       ├── 1298B.kt
 │       ├── 1298C.kt
+│       ├── 1347A.kt
+│       ├── 1347B.kt
+│       ├── 1347C.kt
+│       ├── _1347DKt.class
 │       ├── 1A.kt
 │       ├── a.kt
 │       ├── failed_1298B.kt
+│       ├── failed-1347D.kt
 │       ├── in.txt
-│       └── META-INF
-│           └── main.kotlin_module
+│       ├── META-INF
+│       │   └── main.kotlin_module
+│       ├── template.kt
+│       └── TemplateKt.class
 ├── 1-software-development
 │   ├── design-patterns
 │   │   └── java
@@ -1722,4 +1729,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-144 directories, 1578 files
+144 directories, 1585 files
