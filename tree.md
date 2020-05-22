@@ -878,39 +878,45 @@
 │   │   │   └── vestigium.cpp
 │   │   └── testing_tool.py
 │   ├── leetcode-with-errichto
-│   │   ├── 22SubarraySumEqualsK.cpp
-│   │   ├── 23BitwiseANDofNumbersRange.cpp
-│   │   ├── 24LRUCache.cpp
-│   │   ├── a.out
-│   │   ├── BackspaceStringCompare.cpp
-│   │   ├── BestTimeToBuyAndSellStockII.cpp
-│   │   ├── ConstructBinarySearchTreefromPreorderTraversal.cpp
-│   │   ├── ContiguousArray.cpp
-│   │   ├── ContiguousArray-divideNConq-failed.cpp
-│   │   ├── ContiguousArray-failed.cpp
-│   │   ├── CountingElements.cpp
-│   │   ├── DiameterOfBinaryTreeByErrichto.cpp
-│   │   ├── DiameterOfBinaryTreeFailed.cpp
-│   │   ├── failedProductOfArrayExceptSelf.cpp
-│   │   ├── failed-tle-22SubarraySumEqualsK.cpp
-│   │   ├── GroupAnagrams.cpp
-│   │   ├── GroupAnagrams.java
-│   │   ├── HappyNumber.cpp
-│   │   ├── in.txt
-│   │   ├── LastStoneWeight.cpp
-│   │   ├── MaximumSubArray2.cpp
-│   │   ├── MaximumSubArray.cpp
-│   │   ├── MiddleOfLinkedList.cpp
-│   │   ├── MinimumPathSum.cpp
-│   │   ├── MinStack.cpp
-│   │   ├── MoveZeroes.cpp
-│   │   ├── MoveZeroesFailed.cpp
-│   │   ├── NumberOfIslands.cpp
-│   │   ├── productOfArrayExceptSelf2.cpp
-│   │   ├── productOfArrayExceptSelf.cpp
-│   │   ├── SearchInRotatedSortedArray.cpp
-│   │   ├── SingleNumber.cpp
-│   │   └── validParanthesisString.cpp
+│   │   └── may-challange
+│   │       ├── 22SubarraySumEqualsK.cpp
+│   │       ├── 23BitwiseANDofNumbersRange.cpp
+│   │       ├── 24LRUCache.cpp
+│   │       ├── 25JumpGame.cpp
+│   │       ├── 26LCS.cpp
+│   │       ├── 27MaximalSquare.cpp
+│   │       ├── 29BinaryTreeMaximumPathSum.cpp
+│   │       ├── a.out
+│   │       ├── BackspaceStringCompare.cpp
+│   │       ├── BestTimeToBuyAndSellStockII.cpp
+│   │       ├── ConstructBinarySearchTreefromPreorderTraversal.cpp
+│   │       ├── ContiguousArray.cpp
+│   │       ├── ContiguousArray-divideNConq-failed.cpp
+│   │       ├── ContiguousArray-failed.cpp
+│   │       ├── CountingElements.cpp
+│   │       ├── DiameterOfBinaryTreeByErrichto.cpp
+│   │       ├── DiameterOfBinaryTreeFailed.cpp
+│   │       ├── failed29BinaryTreeMaximumPathSum.cpp
+│   │       ├── failedProductOfArrayExceptSelf.cpp
+│   │       ├── failed-tle-22SubarraySumEqualsK.cpp
+│   │       ├── GroupAnagrams.cpp
+│   │       ├── GroupAnagrams.java
+│   │       ├── HappyNumber.cpp
+│   │       ├── in.txt
+│   │       ├── LastStoneWeight.cpp
+│   │       ├── MaximumSubArray2.cpp
+│   │       ├── MaximumSubArray.cpp
+│   │       ├── MiddleOfLinkedList.cpp
+│   │       ├── MinimumPathSum.cpp
+│   │       ├── MinStack.cpp
+│   │       ├── MoveZeroes.cpp
+│   │       ├── MoveZeroesFailed.cpp
+│   │       ├── NumberOfIslands.cpp
+│   │       ├── productOfArrayExceptSelf2.cpp
+│   │       ├── productOfArrayExceptSelf.cpp
+│   │       ├── SearchInRotatedSortedArray.cpp
+│   │       ├── SingleNumber.cpp
+│   │       └── validParanthesisString.cpp
 │   ├── namespace.cpp
 │   ├── newskills.md
 │   ├── nextSolve.md
@@ -1712,4 +1718,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-138 directories, 1574 files
+139 directories, 1579 files
