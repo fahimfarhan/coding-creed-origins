@@ -163,6 +163,20 @@ int main(){
 int m=min_element(a+l,a+r+1)-a;
 ``` 
 
+### Mod forluma
+```
+b_i = (a_i + x)%m  <=>  x = (b_i - a_i + m)%m
+```
+
+### Cpp stl Multiset
+You can do this: 
+```
+multiset<int> setA, setB; 
+/*... some code*/;
+if(setA == setB)
+{  /*todo logic*/  } // if they are equal, do sth, else do other thing...
+```
+
 AC I - Redemption 
 AC II - Revenge 
 AC: Brotherhood - Justice 
