@@ -145,78 +145,19 @@
 │   │   └── zexecscript.sh
 │   ├── CodeForces
 │   │   ├── 000-test.cpp
-│   │   ├── 1006C_mp.cpp
-│   │   ├── 1015C-again.cpp
-│   │   ├── 1037D-Forgot.cpp
-│   │   ├── 1038B-Non-Coprime-Partition.cpp
-│   │   ├── 1043A-Elections.cpp
-│   │   ├── 1043B-Lost-Array.cpp
 │   │   ├── 1046B-outofmemory.cpp
 │   │   ├── 10474.cpp
-│   │   ├── 1051B2.cpp
-│   │   ├── 1072A-Golden-Plate.cpp
-│   │   ├── 1073A-Diverse-Substring.cpp
-│   │   ├── 1073B-Vasya-and-Books.cpp
-│   │   ├── 1088A-backup.cpp
 │   │   ├── 1089L.cpp
-│   │   ├── 1110A2.cpp
-│   │   ├── 1111C-ok-for-small-case.cpp
-│   │   ├── 1121B-better.cpp
-│   │   ├── 1139C2.cpp
-│   │   ├── 1141A2.cpp
-│   │   ├── 1141A-pantho.cpp
-│   │   ├── 1145A2.cpp
 │   │   ├── 1146B-tle.cpp
-│   │   ├── 1150B-ok.cpp
-│   │   ├── 1152B-again.cpp
 │   │   ├── 1154F-MikeMirzayanov.cpp
 │   │   ├── 1155C-ok.cpp
-│   │   ├── 1166C-bruteforce.cpp
 │   │   ├── 1167C-mle.cpp
-│   │   ├── 1179A-imAnikStyle.cpp
 │   │   ├── 1180C-mle.cpp
 │   │   ├── 1181B-not-sure.cpp
-│   │   ├── 1185C1.cpp
-│   │   ├── 1196D1.cpp
-│   │   ├── 1197A2.cpp
-│   │   ├── 1234B2.cpp
-│   │   ├── 1243B1.cpp
-│   │   ├── 1265E_2.cpp
-│   │   ├── 1282B1.cpp
 │   │   ├── 1285B-failed.cpp
-│   │   ├── 1327A-tle.cpp
-│   │   ├── 1332B1.cpp
-│   │   ├── 141A-regex.cpp
-│   │   ├── 148A-again.cpp
-│   │   ├── 166E-again.cpp
-│   │   ├── 166E-dp.cpp
-│   │   ├── 181B-2.cpp
-│   │   ├── 217A2.cpp
-│   │   ├── 265B_non_oop.cpp
-│   │   ├── 271A.c
-│   │   ├── 313A-Ilya-and-Bak-Account.cpp
-│   │   ├── 349B-again.cpp
-│   │   ├── 352A-no-namespace.cpp
-│   │   ├── 389A-better.cpp
 │   │   ├── 431C-recursion.cpp
-│   │   ├── 467B-Fedor-and-New-Game.cpp
-│   │   ├── 484A-cf-tutorial-kisu-bujhi-nai.cpp
-│   │   ├── 490A-copy.cpp
-│   │   ├── 515B-easy.cpp
-│   │   ├── 525A-again.cpp
-│   │   ├── 552D2.cpp
-│   │   ├── 552D-tle.cpp
-│   │   ├── 573A-again.cpp
 │   │   ├── 577B-failed.cpp
-│   │   ├── 579A-Raising-Bacteria.cpp
 │   │   ├── 580C_ok_study_this.cpp
-│   │   ├── 698A-failed.cpp
-│   │   ├── 701A_using_pair.cpp
-│   │   ├── 750A_math.cpp
-│   │   ├── 755B2.cpp
-│   │   ├── 787A-copy.cpp
-│   │   ├── 796A2.cpp
-│   │   ├── 839C-again.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 898B-tle.cpp
 │   │   ├── 961B-backup-st.cpp
@@ -231,6 +172,7 @@
 │   │   │   ├── 1023A.cpp
 │   │   │   ├── 1025A.cpp
 │   │   │   ├── 1027A.cpp
+│   │   │   ├── 1043A-Elections.cpp
 │   │   │   ├── 1046F_WA.cpp
 │   │   │   ├── 1047A.cpp
 │   │   │   ├── 1055A.cpp
@@ -238,6 +180,8 @@
 │   │   │   ├── 1062A.cpp
 │   │   │   ├── 1064A.cpp
 │   │   │   ├── 1065A.cpp
+│   │   │   ├── 1072A-Golden-Plate.cpp
+│   │   │   ├── 1073A-Diverse-Substring.cpp
 │   │   │   ├── 1075A.cpp
 │   │   │   ├── 1076A.cpp
 │   │   │   ├── 1077A.cpp
@@ -245,6 +189,7 @@
 │   │   │   ├── 1082A.cpp
 │   │   │   ├── 1084A.cpp
 │   │   │   ├── 1087A.cpp
+│   │   │   ├── 1088A-backup.cpp
 │   │   │   ├── 1088A.cpp
 │   │   │   ├── 1091A.cpp
 │   │   │   ├── 1092A.cpp
@@ -255,6 +200,7 @@
 │   │   │   ├── 1102A.cpp
 │   │   │   ├── 1104A.cpp
 │   │   │   ├── 1106A.cpp
+│   │   │   ├── 1110A2.cpp
 │   │   │   ├── 1110A.cpp
 │   │   │   ├── 1111A.cpp
 │   │   │   ├── 1113A.cpp
@@ -266,9 +212,12 @@
 │   │   │   ├── 1133A.cpp
 │   │   │   ├── 1136A.cpp
 │   │   │   ├── 1140A.cpp
+│   │   │   ├── 1141A2.cpp
 │   │   │   ├── 1141A.cpp
+│   │   │   ├── 1141A-pantho.cpp
 │   │   │   ├── 1143A.cpp
 │   │   │   ├── 1144A.cpp
+│   │   │   ├── 1145A2.cpp
 │   │   │   ├── 1145A.cpp
 │   │   │   ├── 1146A.cpp
 │   │   │   ├── 1148A.cpp
@@ -287,6 +236,7 @@
 │   │   │   ├── 1176A.cpp
 │   │   │   ├── 1178A.cpp
 │   │   │   ├── 1179A.cpp
+│   │   │   ├── 1179A-imAnikStyle.cpp
 │   │   │   ├── 1180A.cpp
 │   │   │   ├── 1181A.cpp
 │   │   │   ├── 1183A.cpp
@@ -294,6 +244,7 @@
 │   │   │   ├── 118A.cpp
 │   │   │   ├── 1194A.cpp
 │   │   │   ├── 1196A.cpp
+│   │   │   ├── 1197A2.cpp
 │   │   │   ├── 1197A.cpp
 │   │   │   ├── 1199A.cpp
 │   │   │   ├── 1200A.cpp
@@ -341,29 +292,36 @@
 │   │   │   ├── 1335A.cpp
 │   │   │   ├── 1360A.cpp
 │   │   │   ├── 141A.cpp
+│   │   │   ├── 141A-regex.cpp
+│   │   │   ├── 148A-again.cpp
 │   │   │   ├── 148A.cpp
 │   │   │   ├── 181A.cpp
 │   │   │   ├── 199A.cpp
 │   │   │   ├── 1A.cpp
 │   │   │   ├── 202A.cpp
 │   │   │   ├── 208A.cpp
+│   │   │   ├── 217A2.cpp
 │   │   │   ├── 217A.cpp
 │   │   │   ├── 230A.cpp
 │   │   │   ├── 233A.cpp
 │   │   │   ├── 251A.cpp
 │   │   │   ├── 258A.cpp
 │   │   │   ├── 25A.cpp
+│   │   │   ├── 271A.c
 │   │   │   ├── 271A.cpp
 │   │   │   ├── 274A.cpp
 │   │   │   ├── 277A.cpp
 │   │   │   ├── 2A.cpp
+│   │   │   ├── 313A-Ilya-and-Bak-Account.cpp
 │   │   │   ├── 320A.cpp
 │   │   │   ├── 327A.cpp
 │   │   │   ├── 346A.cpp
 │   │   │   ├── 348A.cpp
 │   │   │   ├── 352A.cpp
+│   │   │   ├── 352A-no-namespace.cpp
 │   │   │   ├── 377A.cpp
 │   │   │   ├── 385A.cpp
+│   │   │   ├── 389A-better.cpp
 │   │   │   ├── 389A.cpp
 │   │   │   ├── 3A.cpp
 │   │   │   ├── 401A.cpp
@@ -373,8 +331,10 @@
 │   │   │   ├── 456A.cpp
 │   │   │   ├── 469A.cpp
 │   │   │   ├── 476A.cpp
+│   │   │   ├── 484A-cf-tutorial-kisu-bujhi-nai.cpp
 │   │   │   ├── 484A.cpp
 │   │   │   ├── 486A.cpp
+│   │   │   ├── 490A-copy.cpp
 │   │   │   ├── 490A.cpp
 │   │   │   ├── 500A.cpp
 │   │   │   ├── 501A.cpp
@@ -382,13 +342,16 @@
 │   │   │   ├── 514A.cpp
 │   │   │   ├── 515A.cpp
 │   │   │   ├── 520A.cpp
+│   │   │   ├── 525A-again.cpp
 │   │   │   ├── 525A.cpp
 │   │   │   ├── 527A.cpp
 │   │   │   ├── 534A.cpp
 │   │   │   ├── 559A.cpp
+│   │   │   ├── 573A-again.cpp
 │   │   │   ├── 573A.cpp
 │   │   │   ├── 576A.cpp
 │   │   │   ├── 577A.cpp
+│   │   │   ├── 579A-Raising-Bacteria.cpp
 │   │   │   ├── 58A.cpp
 │   │   │   ├── 591A.cpp
 │   │   │   ├── 598A.cpp
@@ -403,7 +366,9 @@
 │   │   │   ├── 667A.cpp
 │   │   │   ├── 682A.cpp
 │   │   │   ├── 698A.cpp
+│   │   │   ├── 698A-failed.cpp
 │   │   │   ├── 701A.cpp
+│   │   │   ├── 701A_using_pair.cpp
 │   │   │   ├── 702A.cpp
 │   │   │   ├── 712A.cpp
 │   │   │   ├── 713A.cpp
@@ -413,12 +378,15 @@
 │   │   │   ├── 746A.cpp
 │   │   │   ├── 749A.cpp
 │   │   │   ├── 750A.cpp
+│   │   │   ├── 750A_math.cpp
 │   │   │   ├── 755A.cpp
 │   │   │   ├── 758A.cpp
 │   │   │   ├── 761A.cpp
 │   │   │   ├── 767A.cpp
 │   │   │   ├── 771A.cpp
+│   │   │   ├── 787A-copy.cpp
 │   │   │   ├── 787A.cpp
+│   │   │   ├── 796A2.cpp
 │   │   │   ├── 796A.cpp
 │   │   │   ├── 804A.cpp
 │   │   │   ├── 805A.cpp
@@ -462,14 +430,7 @@
 │   │   │   ├── 996A.cpp
 │   │   │   ├── 999A.cpp
 │   │   │   ├── 9A.cpp
-│   │   │   ├── CA.cpp
-│   │   │   ├── f1230A.cpp
-│   │   │   ├── failed-1251A.cpp
-│   │   │   ├── failed-1271A.cpp
-│   │   │   ├── failed-1279A.cpp
-│   │   │   ├── failed-1293A.cpp
-│   │   │   ├── failed-1294A.cpp
-│   │   │   └── failed-1330A.cpp
+│   │   │   └── CA.cpp
 │   │   ├── a.out
 │   │   ├── Atemp.cpp
 │   │   ├── B
@@ -482,11 +443,15 @@
 │   │   │   ├── 1027B.cpp
 │   │   │   ├── 1030B.cpp
 │   │   │   ├── 1037B.cpp
+│   │   │   ├── 1038B-Non-Coprime-Partition.cpp
 │   │   │   ├── 1042B.cpp
+│   │   │   ├── 1043B-Lost-Array.cpp
 │   │   │   ├── 1047B.cpp
+│   │   │   ├── 1051B2.cpp
 │   │   │   ├── 1051B.cpp
 │   │   │   ├── 1055B.cpp
 │   │   │   ├── 1065B.cpp
+│   │   │   ├── 1073B-Vasya-and-Books.cpp
 │   │   │   ├── 1076B.cpp
 │   │   │   ├── 1077B.cpp
 │   │   │   ├── 1084B.cpp
@@ -497,6 +462,7 @@
 │   │   │   ├── 1101B.cpp
 │   │   │   ├── 1104B.cpp
 │   │   │   ├── 1108B.cpp
+│   │   │   ├── 1121B-better.cpp
 │   │   │   ├── 1121B.cpp
 │   │   │   ├── 1130B.cpp
 │   │   │   ├── 1131B.cpp
@@ -507,6 +473,8 @@
 │   │   │   ├── 1146B.cpp
 │   │   │   ├── 1148B.cpp
 │   │   │   ├── 1150B.cpp
+│   │   │   ├── 1150B-ok.cpp
+│   │   │   ├── 1152B-again.cpp
 │   │   │   ├── 1152B.cpp
 │   │   │   ├── 1153B.cpp
 │   │   │   ├── 1154B.cpp
@@ -530,14 +498,17 @@
 │   │   │   ├── 1215B.cpp
 │   │   │   ├── 1216B.cpp
 │   │   │   ├── 1220B.cpp
+│   │   │   ├── 1234B2.cpp
 │   │   │   ├── 1234B.cpp
 │   │   │   ├── 1238B.cpp
+│   │   │   ├── 1243B1.cpp
 │   │   │   ├── 1243B.cpp
 │   │   │   ├── 1257B.cpp
 │   │   │   ├── 1266B.cpp
 │   │   │   ├── 1269B.cpp
 │   │   │   ├── 1277B.cpp
 │   │   │   ├── 1281B.cpp
+│   │   │   ├── 1282B1.cpp
 │   │   │   ├── 1288B.cpp
 │   │   │   ├── 1291B.cpp
 │   │   │   ├── 1293B.cpp
@@ -546,23 +517,27 @@
 │   │   │   ├── 1325B.cpp
 │   │   │   ├── 1326B.cpp
 │   │   │   ├── 1328B.cpp
+│   │   │   ├── 1332B1.cpp
 │   │   │   ├── 1332B.cpp
 │   │   │   ├── 1335B.cpp
 │   │   │   ├── 1360B.cpp
 │   │   │   ├── 157B.cpp
 │   │   │   ├── 158B.cpp
+│   │   │   ├── 181B-2.cpp
 │   │   │   ├── 181B.cpp
 │   │   │   ├── 1B.cpp
 │   │   │   ├── 200B.cpp
 │   │   │   ├── 230B.cpp
 │   │   │   ├── 253B.cpp
 │   │   │   ├── 265B.cpp
+│   │   │   ├── 265B_non_oop.cpp
 │   │   │   ├── 268B.cpp
 │   │   │   ├── 271B.cpp
 │   │   │   ├── 276B.cpp
 │   │   │   ├── 279B.cpp
 │   │   │   ├── 295B.cpp
 │   │   │   ├── 312B.cpp
+│   │   │   ├── 349B-again.cpp
 │   │   │   ├── 363B.cpp
 │   │   │   ├── 368B.cpp
 │   │   │   ├── 427B.cpp
@@ -572,6 +547,7 @@
 │   │   │   ├── 460B.cpp
 │   │   │   ├── 462B.cpp
 │   │   │   ├── 467B.cpp
+│   │   │   ├── 467B-Fedor-and-New-Game.cpp
 │   │   │   ├── 473B.cpp
 │   │   │   ├── 474B.cpp
 │   │   │   ├── 476B.cpp
@@ -584,6 +560,7 @@
 │   │   │   ├── 507B.cpp
 │   │   │   ├── 514B.cpp
 │   │   │   ├── 515B.cpp
+│   │   │   ├── 515B-easy.cpp
 │   │   │   ├── 519B.cpp
 │   │   │   ├── 520B.cpp
 │   │   │   ├── 535B.cpp
@@ -607,6 +584,7 @@
 │   │   │   ├── 747B.cpp
 │   │   │   ├── 749B.cpp
 │   │   │   ├── 750B.cpp
+│   │   │   ├── 755B2.cpp
 │   │   │   ├── 755B.cpp
 │   │   │   ├── 758B.cpp
 │   │   │   ├── 768B.cpp
@@ -643,19 +621,14 @@
 │   │   │   ├── 999B.cpp
 │   │   │   ├── Amanda749B.cpp
 │   │   │   ├── binarysearch706B.cpp
-│   │   │   ├── debug1150B.cpp
-│   │   │   ├── f1215B.cpp
-│   │   │   ├── f-363B.cpp
-│   │   │   ├── failed-1279B.cpp
-│   │   │   ├── failed-1281B.cpp
-│   │   │   ├── failed-1293B.cpp
-│   │   │   ├── failed-1328B.cpp
-│   │   │   └── failed-1333B.cpp
+│   │   │   └── debug1150B.cpp
 │   │   ├── B1146.java
 │   │   ├── backup.txt
 │   │   ├── BigSum.cpp
 │   │   ├── C
+│   │   │   ├── 1006C_mp.cpp
 │   │   │   ├── 1009C.cpp
+│   │   │   ├── 1015C-again.cpp
 │   │   │   ├── 1015C.cpp
 │   │   │   ├── 1023C.cpp
 │   │   │   ├── 1037C.cpp
@@ -670,17 +643,21 @@
 │   │   │   ├── 1102C.cpp
 │   │   │   ├── 1106C.cpp
 │   │   │   ├── 1111C.cpp
+│   │   │   ├── 1111C-ok-for-small-case.cpp
 │   │   │   ├── 1130C.cpp
 │   │   │   ├── 1131C.cpp
+│   │   │   ├── 1139C2.cpp
 │   │   │   ├── 1139C.cpp
 │   │   │   ├── 1140C.cpp
 │   │   │   ├── 1141C.cpp
 │   │   │   ├── 1143C.cpp
 │   │   │   ├── 1155C.cpp
 │   │   │   ├── 1161C.cpp
+│   │   │   ├── 1166C-bruteforce.cpp
 │   │   │   ├── 1174C.cpp
 │   │   │   ├── 1176C.cpp
 │   │   │   ├── 1180C.cpp
+│   │   │   ├── 1185C1.cpp
 │   │   │   ├── 1206C.cpp
 │   │   │   ├── 1213C.cpp
 │   │   │   ├── 1214C.cpp
@@ -712,6 +689,7 @@
 │   │   │   ├── 580C.cpp
 │   │   │   ├── 630C.cpp
 │   │   │   ├── 796C.cpp
+│   │   │   ├── 839C-again.cpp
 │   │   │   ├── 839C.cpp
 │   │   │   ├── 908C.cpp
 │   │   │   ├── 909C.cpp
@@ -725,14 +703,10 @@
 │   │   │   ├── 978C.cpp
 │   │   │   ├── 992C.cpp
 │   │   │   ├── 999C.cpp
-│   │   │   ├── a.out
-│   │   │   ├── f489C.cpp
-│   │   │   ├── failed-1265C.cpp
-│   │   │   ├── failed-1283C.cpp
-│   │   │   ├── failed-1312C.cpp
-│   │   │   └── failed-1332C.cpp
+│   │   │   └── a.out
 │   │   ├── ColeAnderson.cpp
 │   │   ├── D
+│   │   │   ├── 1037D-Forgot.cpp
 │   │   │   ├── 1077D.cpp
 │   │   │   ├── 1084D.cpp
 │   │   │   ├── 1136D.cpp
@@ -744,6 +718,7 @@
 │   │   │   ├── 1165D.cpp
 │   │   │   ├── 1176D.cpp
 │   │   │   ├── 1183D.cpp
+│   │   │   ├── 1196D1.cpp
 │   │   │   ├── 1234D.cpp
 │   │   │   ├── 1296D.cpp
 │   │   │   ├── 1325D.cpp
@@ -752,14 +727,15 @@
 │   │   │   ├── 276D.cpp
 │   │   │   ├── 339D.cpp
 │   │   │   ├── 493D.cpp
+│   │   │   ├── 552D2.cpp
 │   │   │   ├── 552D.cpp
+│   │   │   ├── 552D-tle.cpp
 │   │   │   ├── 659D.cpp
 │   │   │   ├── 796D.cpp
 │   │   │   ├── 911D.cpp
 │   │   │   ├── 913D.cpp
 │   │   │   ├── 914D.cpp
-│   │   │   ├── 950D.cpp
-│   │   │   └── failed-1360D.cpp
+│   │   │   └── 950D.cpp
 │   │   ├── dfs.cpp
 │   │   ├── DFS_demo_stack_version_Corman_1ta_BAAL.cpp
 │   │   ├── E
@@ -769,9 +745,12 @@
 │   │   │   ├── 1176A-ME.cpp
 │   │   │   ├── 1176E.cpp
 │   │   │   ├── 1196E.cpp
+│   │   │   ├── 1265E_2.cpp
 │   │   │   ├── 1265E.cpp
 │   │   │   ├── 1360E.cpp
+│   │   │   ├── 166E-again.cpp
 │   │   │   ├── 166E.cpp
+│   │   │   ├── 166E-dp.cpp
 │   │   │   ├── 464E.cpp
 │   │   │   ├── 909E.cpp
 │   │   │   ├── 990E.cpp
@@ -1515,6 +1494,7 @@
 │   ├── 1185C1-failed2.cpp
 │   ├── 1185C1-failed.cpp
 │   ├── 1185D-failed.cpp
+│   ├── 1327A-tle.cpp
 │   ├── 166E-again.cpp.FAILED
 │   ├── 166E-FAILED.cpp
 │   ├── 166E-formula.cpp.Formula-error.FAILED
@@ -1587,10 +1567,14 @@
 │   ├── f1208B.cpp
 │   ├── f1213C.cpp
 │   ├── f1214A.cpp
+│   ├── f1215B.cpp
 │   ├── f1217A.cpp
 │   ├── f1217B.cpp
+│   ├── f1230A.cpp
 │   ├── f2-1214A.cpp
 │   ├── f31214A.cpp
+│   ├── f-363B.cpp
+│   ├── f489C.cpp
 │   ├── f-501B-ME.cpp
 │   ├── f-621B-tle.cpp
 │   ├── f-796C-tle2.cpp
@@ -1605,7 +1589,23 @@
 │   ├── failed-1159C-so-close.cpp
 │   ├── failed-1185D-almost-ok.cpp
 │   ├── failed-1197A-Hacked.cpp
+│   ├── failed-1251A.cpp
+│   ├── failed-1265C.cpp
+│   ├── failed-1271A.cpp
+│   ├── failed-1279A.cpp
+│   ├── failed-1279B.cpp
+│   ├── failed-1281B.cpp
+│   ├── failed-1283C.cpp
+│   ├── failed-1293A.cpp
+│   ├── failed-1293B.cpp
+│   ├── failed-1294A.cpp
+│   ├── failed-1312C.cpp
 │   ├── Failed_131A.cpp
+│   ├── failed-1328B.cpp
+│   ├── failed-1330A.cpp
+│   ├── failed-1332C.cpp
+│   ├── failed-1333B.cpp
+│   ├── failed-1360D.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── FAILED-2A.cpp
 │   ├── FAILED_494-KindergartenCountingGame.cpp
