@@ -42,7 +42,10 @@ Thank you for reading.
 * [spojsolutions/spoj](https://github.com/spojsolutions/spoj)
 * [bnslakki/Spoj](https://github.com/bnslakki/Spoj)
 
-## MISSION IMPOSSIBLE
+### ML
+* [madewithhtml](https://madewithml.com/topics/)
+
+## ALGORITHMS
 0. - [ ] study GeeksForGeeks, notebook.pdf
 1. - [x] Basic data sturctures (arrays, queues, linked lists, etc.).
 2. - [ ]  Bit manipulation.
