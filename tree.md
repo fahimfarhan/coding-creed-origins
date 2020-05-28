@@ -291,6 +291,7 @@
 │   │   │   ├── 1332A.cpp
 │   │   │   ├── 1335A.cpp
 │   │   │   ├── 1358A.cpp
+│   │   │   ├── 1359A.cpp
 │   │   │   ├── 1360A.cpp
 │   │   │   ├── 141A.cpp
 │   │   │   ├── 141A-regex.cpp
@@ -521,6 +522,7 @@
 │   │   │   ├── 1332B1.cpp
 │   │   │   ├── 1332B.cpp
 │   │   │   ├── 1335B.cpp
+│   │   │   ├── 1359B.cpp
 │   │   │   ├── 1360B.cpp
 │   │   │   ├── 157B.cpp
 │   │   │   ├── 158B.cpp
@@ -675,6 +677,7 @@
 │   │   │   ├── 1355C-bruteforce-tle.cpp
 │   │   │   ├── 1355C.cpp
 │   │   │   ├── 1358C.cpp
+│   │   │   ├── 1359C.cpp
 │   │   │   ├── 1360C.cpp
 │   │   │   ├── 158C.cpp
 │   │   │   ├── 1C.cpp
@@ -825,9 +828,6 @@
 │   │   ├── uri1424.cpp
 │   │   ├── Welcome_to_CSE_DU.cpp
 │   │   ├── xtreme
-│   │   │   ├── 1359A.cpp
-│   │   │   ├── 1359B.cpp
-│   │   │   └── failed1359C.cpp
 │   │   ├── zexecscript.sh
 │   │   ├── zin.txt
 │   │   ├── zoutput.txt
@@ -1614,6 +1614,7 @@
 │   ├── failed1358A.cpp
 │   ├── failed1358B.cpp
 │   ├── failed1358C.cpp
+│   ├── failed1359C.cpp
 │   ├── failed-1360D.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── FAILED-2A.cpp
@@ -1752,4 +1753,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-145 directories, 1607 files
+145 directories, 1608 files
