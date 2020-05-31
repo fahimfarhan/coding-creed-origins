@@ -154,9 +154,7 @@
 │   │   ├── 1167C-mle.cpp
 │   │   ├── 1180C-mle.cpp
 │   │   ├── 1181B-not-sure.cpp
-│   │   ├── 1285B-failed.cpp
 │   │   ├── 431C-recursion.cpp
-│   │   ├── 577B-failed.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 898B-tle.cpp
@@ -305,6 +303,7 @@
 │   │   │   ├── 217A2.cpp
 │   │   │   ├── 217A.cpp
 │   │   │   ├── 230A.cpp
+│   │   │   ├── 233A1.cpp
 │   │   │   ├── 233A.cpp
 │   │   │   ├── 251A.cpp
 │   │   │   ├── 258A.cpp
@@ -435,6 +434,7 @@
 │   │   │   └── CA.cpp
 │   │   ├── a.out
 │   │   ├── Atemp.cpp
+│   │   ├── automove.sh
 │   │   ├── B
 │   │   │   ├── 1006B.cpp
 │   │   │   ├── 1008B.cpp
@@ -531,6 +531,7 @@
 │   │   │   ├── 1B.cpp
 │   │   │   ├── 200B.cpp
 │   │   │   ├── 230B.cpp
+│   │   │   ├── 233B.cpp
 │   │   │   ├── 253B.cpp
 │   │   │   ├── 265B.cpp
 │   │   │   ├── 265B_non_oop.cpp
@@ -768,7 +769,6 @@
 │   │   │   ├── 630F.cpp
 │   │   │   ├── 908F.cpp
 │   │   │   └── 920F.cpp
-│   │   ├── failed-1328B1.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
@@ -827,7 +827,7 @@
 │   │   │   └── 1213D1.cpp
 │   │   ├── uri1424.cpp
 │   │   ├── Welcome_to_CSE_DU.cpp
-│   │   ├── xtreme
+│   │   ├── x
 │   │   ├── zexecscript.sh
 │   │   ├── zin.txt
 │   │   ├── zoutput.txt
@@ -880,45 +880,49 @@
 │   │   │   └── vestigium.cpp
 │   │   └── testing_tool.py
 │   ├── leetcode-with-errichto
+│   │   ├── a.out
+│   │   ├── april-challange
+│   │   │   ├── 22SubarraySumEqualsK.cpp
+│   │   │   ├── 23BitwiseANDofNumbersRange.cpp
+│   │   │   ├── 24LRUCache.cpp
+│   │   │   ├── 25JumpGame.cpp
+│   │   │   ├── 26LCS.cpp
+│   │   │   ├── 27MaximalSquare.cpp
+│   │   │   ├── 29BinaryTreeMaximumPathSum.cpp
+│   │   │   ├── a.out
+│   │   │   ├── BackspaceStringCompare.cpp
+│   │   │   ├── BestTimeToBuyAndSellStockII.cpp
+│   │   │   ├── ConstructBinarySearchTreefromPreorderTraversal.cpp
+│   │   │   ├── ContiguousArray.cpp
+│   │   │   ├── ContiguousArray-divideNConq-failed.cpp
+│   │   │   ├── ContiguousArray-failed.cpp
+│   │   │   ├── CountingElements.cpp
+│   │   │   ├── DiameterOfBinaryTreeByErrichto.cpp
+│   │   │   ├── DiameterOfBinaryTreeFailed.cpp
+│   │   │   ├── failed29BinaryTreeMaximumPathSum.cpp
+│   │   │   ├── failedProductOfArrayExceptSelf.cpp
+│   │   │   ├── failed-tle-22SubarraySumEqualsK.cpp
+│   │   │   ├── GroupAnagrams.cpp
+│   │   │   ├── GroupAnagrams.java
+│   │   │   ├── HappyNumber.cpp
+│   │   │   ├── in.txt
+│   │   │   ├── LastStoneWeight.cpp
+│   │   │   ├── MaximumSubArray2.cpp
+│   │   │   ├── MaximumSubArray.cpp
+│   │   │   ├── MiddleOfLinkedList.cpp
+│   │   │   ├── MinimumPathSum.cpp
+│   │   │   ├── MinStack.cpp
+│   │   │   ├── MoveZeroes.cpp
+│   │   │   ├── MoveZeroesFailed.cpp
+│   │   │   ├── NumberOfIslands.cpp
+│   │   │   ├── productOfArrayExceptSelf2.cpp
+│   │   │   ├── productOfArrayExceptSelf.cpp
+│   │   │   ├── SearchInRotatedSortedArray.cpp
+│   │   │   ├── SingleNumber.cpp
+│   │   │   └── validParanthesisString.cpp
 │   │   └── may-challange
-│   │       ├── 22SubarraySumEqualsK.cpp
-│   │       ├── 23BitwiseANDofNumbersRange.cpp
-│   │       ├── 24LRUCache.cpp
-│   │       ├── 25JumpGame.cpp
-│   │       ├── 26LCS.cpp
-│   │       ├── 27MaximalSquare.cpp
-│   │       ├── 29BinaryTreeMaximumPathSum.cpp
-│   │       ├── a.out
-│   │       ├── BackspaceStringCompare.cpp
-│   │       ├── BestTimeToBuyAndSellStockII.cpp
-│   │       ├── ConstructBinarySearchTreefromPreorderTraversal.cpp
-│   │       ├── ContiguousArray.cpp
-│   │       ├── ContiguousArray-divideNConq-failed.cpp
-│   │       ├── ContiguousArray-failed.cpp
-│   │       ├── CountingElements.cpp
-│   │       ├── DiameterOfBinaryTreeByErrichto.cpp
-│   │       ├── DiameterOfBinaryTreeFailed.cpp
-│   │       ├── failed29BinaryTreeMaximumPathSum.cpp
-│   │       ├── failedProductOfArrayExceptSelf.cpp
-│   │       ├── failed-tle-22SubarraySumEqualsK.cpp
-│   │       ├── GroupAnagrams.cpp
-│   │       ├── GroupAnagrams.java
-│   │       ├── HappyNumber.cpp
-│   │       ├── in.txt
-│   │       ├── LastStoneWeight.cpp
-│   │       ├── MaximumSubArray2.cpp
-│   │       ├── MaximumSubArray.cpp
-│   │       ├── MiddleOfLinkedList.cpp
-│   │       ├── MinimumPathSum.cpp
-│   │       ├── MinStack.cpp
-│   │       ├── MoveZeroes.cpp
-│   │       ├── MoveZeroesFailed.cpp
-│   │       ├── NumberOfIslands.cpp
-│   │       ├── productOfArrayExceptSelf2.cpp
-│   │       ├── productOfArrayExceptSelf.cpp
-│   │       ├── SearchInRotatedSortedArray.cpp
-│   │       ├── SingleNumber.cpp
-│   │       └── validParanthesisString.cpp
+│   │       ├── 29CourseSchedule.cpp
+│   │       └── failed-29CourseSchedule.cpp
 │   ├── namespace.cpp
 │   ├── newskills.md
 │   ├── nextSolve.md
@@ -1500,6 +1504,7 @@
 │   ├── 1185C1-failed2.cpp
 │   ├── 1185C1-failed.cpp
 │   ├── 1185D-failed.cpp
+│   ├── 1285B-failed.cpp
 │   ├── 1327A-tle.cpp
 │   ├── 166E-again.cpp.FAILED
 │   ├── 166E-FAILED.cpp
@@ -1526,6 +1531,7 @@
 │   ├── 543B-failed2.cpp
 │   ├── 543B-failed.cpp
 │   ├── 567C_failed.cpp
+│   ├── 577B-failed.cpp
 │   ├── 743B-Chloe-and-the-sequence-FAILED.cpp
 │   ├── 743B-FAILED.cpp
 │   ├── 758B-failed.cpp
@@ -1607,6 +1613,7 @@
 │   ├── failed-1294A.cpp
 │   ├── failed-1312C.cpp
 │   ├── Failed_131A.cpp
+│   ├── failed-1328B1.cpp
 │   ├── failed-1328B.cpp
 │   ├── failed-1330A.cpp
 │   ├── failed-1332C.cpp
@@ -1616,6 +1623,8 @@
 │   ├── failed1358C.cpp
 │   ├── failed1359C.cpp
 │   ├── failed-1360D.cpp
+│   ├── failed-1363A.cpp
+│   ├── failed-1363B.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── FAILED-2A.cpp
 │   ├── FAILED_494-KindergartenCountingGame.cpp
@@ -1753,4 +1762,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-145 directories, 1608 files
+146 directories, 1616 files
