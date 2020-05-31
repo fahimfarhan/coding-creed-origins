@@ -2,7 +2,6 @@
 /* May the CodeForces be with you! */
 
 #include <iostream>
-#include <climits>  // this includes INT_MIN, INT_MAX, ... ...
 // #include <sstream>
 // #include <cstdio>
 // #include <cmath>
@@ -46,6 +45,34 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    int T, oddKount, evenKount, n, x, a;
+    bool b;
+
+    cin>>T;
+    while(T--) {
+        cin>>n>>x;
+
+
+        evenKount = 0; oddKount = 0;
+
+        for(int i=0; i<n; i++) {    
+            cin>>a;
+            if( (a&1) == 1 ) { oddKount++; }
+            else{   evenKount++;    }
+        }
+
+        b = false;
+        for(int i=1; (i<=oddKount) && (i<=x) ; i+=2) {
+            int currOddKount = i;
+            int neededEvenKount = x - i;
+            if(neededEvenKount <= evenKount ) {     b = true; break;   }    
+        }
+
+        if(b){  cout<<"Yes\n";  }
+        else{   cout<<"No\n";   }
+
+    }
 
 
     return 0;

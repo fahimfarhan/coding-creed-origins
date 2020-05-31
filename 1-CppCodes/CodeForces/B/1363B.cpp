@@ -2,10 +2,10 @@
 /* May the CodeForces be with you! */
 
 #include <iostream>
-#include <climits>  // this includes INT_MIN, INT_MAX, ... ...
+#include <climits>
 // #include <sstream>
 // #include <cstdio>
-// #include <cmath>
+#include <cmath>
 // #include <cstring>
 // #include <cctype>
 // #include <string>
@@ -47,6 +47,38 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int T, n, zeroKount, oneKount, tempZero, tempOne;
+    int costOf0011, costOf1100;
+    int minimus = 0;
+    
+    string s;
+
+    cin>>T;
+    while(T--) {
+        cin>>s;
+        n = s.size();
+        zeroKount = 0; oneKount = 0;
+        tempZero = 0; tempOne = 0;
+    
+        for(int i=0; i<n; i++) {
+            if( s[i] == '0' ) {     zeroKount++;    }
+            else{   oneKount++;     }
+        }
+
+        costOf0011 = 0;
+        costOf1100 = 0;
+        minimus = INT_MAX;
+
+        for(int i=0; i<n; i++) {
+            if( s[i] == '0' ) {     tempZero++;    }
+            else{   tempOne++;     }
+            costOf0011 = tempOne + (zeroKount - tempZero);
+            costOf1100 = tempZero + (oneKount - tempOne);
+            minimus = min(minimus, costOf1100); 
+            minimus = min(costOf0011, minimus); 
+        }
+        cout<<minimus<<"\n";
+    }
 
     return 0;
 }
