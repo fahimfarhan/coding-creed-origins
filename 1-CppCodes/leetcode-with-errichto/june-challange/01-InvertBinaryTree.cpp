@@ -33,6 +33,42 @@ ll MOD = 1e9+7;
 vector<int> *g;
 bool *isvisited;
 
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+struct TreeNode {
+      int val;
+      TreeNode *left;
+      TreeNode *right;
+      TreeNode() : val(0), left(nullptr), right(nullptr) {}
+      TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+      TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+
+
+class Solution {
+public:
+    TreeNode* invertTree(TreeNode* root) {
+        if(root == nullptr) {   return nullptr; }
+
+        TreeNode *prevLeft;
+        prevLeft = root->left;
+  
+        root->left = invertTree(root->right); 
+        root->right = invertTree(prevLeft);
+
+        return root;        
+    }
+};
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -42,14 +78,6 @@ int main(int argc, char const *argv[])
     std::cout << std::fixed;
     std::cout << std::setprecision(10);
     cout << num1 << endl;
-    ---------- Interactive problems ---------
-
-    on each interactive questions' end, add `cout.flush()`
-    say, cout<<"some weirdo question";
-    cout<<"\n"; // end of question
-    cout.flush(); // <-- just like this
-
-    if still confusing, check out 1363D.cpp
     */
     ios_base::sync_with_stdio(0);
     cin.tie(0);

@@ -154,6 +154,8 @@
 │   │   ├── 1167C-mle.cpp
 │   │   ├── 1180C-mle.cpp
 │   │   ├── 1181B-not-sure.cpp
+│   │   ├── 1363D.cpp
+│   │   ├── 1363D-original.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
@@ -435,7 +437,7 @@
 │   │   │   └── CA.cpp
 │   │   ├── a.out
 │   │   ├── Atemp.cpp
-│   │   ├── automove.sh
+│   │   ├── Automove.sh
 │   │   ├── B
 │   │   │   ├── 1006B.cpp
 │   │   │   ├── 1008B.cpp
@@ -922,6 +924,10 @@
 │   │   │   ├── SearchInRotatedSortedArray.cpp
 │   │   │   ├── SingleNumber.cpp
 │   │   │   └── validParanthesisString.cpp
+│   │   ├── june-challange
+│   │   │   ├── 01-InvertBinaryTree.cpp
+│   │   │   ├── 02-DeleteNodeinaLinkedList (copy).cpp
+│   │   │   └── 02-DeleteNodeinaLinkedList.cpp
 │   │   └── may-challange
 │   │       ├── 29CourseSchedule.cpp
 │   │       └── failed-29CourseSchedule.cpp
@@ -1764,4 +1770,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-146 directories, 1618 files
+147 directories, 1623 files
