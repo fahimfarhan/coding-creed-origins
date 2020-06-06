@@ -47,6 +47,26 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll T, koupleKount;
+    string s;
+
+    cin>>T;
+    while(T--) {
+        cin>>s;
+        koupleKount = 0;
+        for(int i=1; i<s.size(); i++) {
+            if(s[i] == 'x' && s[i-1] == 'y') {
+                koupleKount++;
+                s[i] = 'z'; s[i-1] = 'z';
+            }else if(s[i] == 'y' && s[i-1] == 'x') {
+                koupleKount++;
+                s[i] = 'z'; s[i-1] = 'z';
+            }
+        }
+
+        cout<<koupleKount<<"\n";
+    }
+
 
     return 0;
 }

@@ -33,6 +33,27 @@ ll MOD = 1e9+7;
 vector<int> *g;
 bool *isvisited;
 
+int getMinimus(ll input) {
+    int kount = 0;
+    int n = input;
+    while(n >= 8) {
+        kount++;
+        n = n >> 3;
+    }
+
+    while(n >= 4) {
+        kount++;
+        n = n >> 2;
+    }
+
+    while(n >= 2) {
+        kount++;
+        n = n >> 1;
+    }
+
+    return kount;
+}
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -42,17 +63,7 @@ int main(int argc, char const *argv[])
     std::cout << std::fixed;
     std::cout << std::setprecision(10);
     cout << num1 << endl;
-    */
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-
-
-    return 0;
-}
-
-/*
----------- Interactive problems ---------
+    ---------- Interactive problems ---------
 
     on each interactive questions' end, add `cout.flush()`
     say, cout<<"some weirdo question";
@@ -60,5 +71,26 @@ int main(int argc, char const *argv[])
     cout.flush(); // <-- just like this
 
     if still confusing, check out 1363D.cpp
-    
-*/
+    */
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+
+    int T;
+    ll a, b;
+    ll d, r;
+    cin>>T;
+    while(T--) {
+        cin>>a>>b;
+        if(a < b) { swap(a,b);  }
+        int kount = -1;
+        if( (a % b) == 0) {
+            d = a / b;
+            kount = getMinimus(d);
+        }
+        cout<<kount<<"\n";
+    }
+
+    return 0;
+}
+

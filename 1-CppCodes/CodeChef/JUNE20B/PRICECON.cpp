@@ -47,18 +47,23 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll T, N, K, a, totalLoss, loss;
+    cin>>T;
+    while(T--) {
+        cin>>N>>K;
+        totalLoss = 0;
+        for(int i=0; i<N; i++) {
+            cin>>a;
+            if(a > K) { 
+                loss =  a - K;
+                totalLoss+=loss; 
+            }
+        }
+
+        cout<<totalLoss<<"\n";
+    }
+
 
     return 0;
 }
 
-/*
----------- Interactive problems ---------
-
-    on each interactive questions' end, add `cout.flush()`
-    say, cout<<"some weirdo question";
-    cout<<"\n"; // end of question
-    cout.flush(); // <-- just like this
-
-    if still confusing, check out 1363D.cpp
-    
-*/

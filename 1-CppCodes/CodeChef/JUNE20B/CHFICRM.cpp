@@ -47,6 +47,42 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int T, N, *a;
+    int five, ten, fifteen;
+    bool b;
+
+    cin>>T;
+    while(T--) {
+        cin>>N;
+        a = new int[N+1];
+        five = 0; ten = 0; fifteen = 0;
+        b = true;
+
+        for(int i=0; i<N; i++) {    cin>>a[i];  }
+
+        for(int i=0; i<N; i++) {
+            if(a[i] == 5) { five++; }
+            else if(a[i] == 10) {
+                ten++;
+                if(five > 0) {  five--; }
+                else{   b = false;  break;  }
+            }else if(a[i] == 15) {
+                fifteen++;
+                if(ten > 0) {
+                    ten--;
+                }else if(five > 1) {
+                    five-=2;
+                }else{
+                    b = false;
+                    break;
+                }
+            }
+        }
+
+        if(b) { cout<<"YES\n";  }
+        else {  cout<<"NO\n";   }
+        delete[] a;
+    }
 
     return 0;
 }
