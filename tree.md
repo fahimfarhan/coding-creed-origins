@@ -158,8 +158,8 @@
 │   │   ├── 1167C-mle.cpp
 │   │   ├── 1180C-mle.cpp
 │   │   ├── 1181B-not-sure.cpp
-│   │   ├── 1363D.cpp
 │   │   ├── 1363D-original.cpp
+│   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
@@ -532,6 +532,7 @@
 │   │   │   ├── 1359B.cpp
 │   │   │   ├── 1360B.cpp
 │   │   │   ├── 1363B.cpp
+│   │   │   ├── 1365B.cpp
 │   │   │   ├── 157B.cpp
 │   │   │   ├── 158B.cpp
 │   │   │   ├── 181B-2.cpp
@@ -739,6 +740,7 @@
 │   │   │   ├── 1325D.cpp
 │   │   │   ├── 1335D.cpp
 │   │   │   ├── 1360D.cpp
+│   │   │   ├── 1363D.cpp
 │   │   │   ├── 276D.cpp
 │   │   │   ├── 339D.cpp
 │   │   │   ├── 493D.cpp
@@ -778,7 +780,6 @@
 │   │   │   ├── 630F.cpp
 │   │   │   ├── 908F.cpp
 │   │   │   └── 920F.cpp
-│   │   ├── failed-1362A.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
@@ -1639,8 +1640,12 @@
 │   ├── failed1358C.cpp
 │   ├── failed1359C.cpp
 │   ├── failed-1360D.cpp
+│   ├── failed-1362A.cpp
 │   ├── failed-1363A.cpp
 │   ├── failed-1363B.cpp
+│   ├── failed-1365A.cpp
+│   ├── failed-1365B.cpp
+│   ├── failed-1365D.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── FAILED-2A.cpp
 │   ├── FAILED_494-KindergartenCountingGame.cpp
@@ -1778,4 +1783,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-148 directories, 1630 files
+148 directories, 1635 files
