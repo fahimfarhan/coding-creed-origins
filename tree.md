@@ -937,6 +937,7 @@
 │   │   │   ├── 02-DeleteNodeinaLinkedList (copy).cpp
 │   │   │   ├── 02-DeleteNodeinaLinkedList.cpp
 │   │   │   ├── 04-ReverseString.cpp
+│   │   │   ├── 08-PowerofTwo.cpp
 │   │   │   ├── failed-03-TwoCityScheduling.cpp
 │   │   │   └── failed-06-QueueReconstructionByHeight.cpp
 │   │   └── may-challange
@@ -1785,4 +1786,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-148 directories, 1637 files
+148 directories, 1638 files
