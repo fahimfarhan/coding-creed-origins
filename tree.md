@@ -161,6 +161,9 @@
 │   │   ├── 1181B-not-sure.cpp
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1365C-almost-ok.cpp
+│   │   ├── 1366A.cpp
+│   │   ├── 1367A.cpp
+│   │   ├── 1367B.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
@@ -783,6 +786,8 @@
 │   │   │   ├── 630F.cpp
 │   │   │   ├── 908F.cpp
 │   │   │   └── 920F.cpp
+│   │   ├── failed-1366A.cpp
+│   │   ├── failed-1367C.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
@@ -816,6 +821,7 @@
 │   │   │   ├── 909B.cpp
 │   │   │   ├── 923B.cpp
 │   │   │   ├── 975D.cpp
+│   │   │   ├── bujhi_ni_1366B.cpp
 │   │   │   └── zin.txt
 │   │   ├── MyException.java
 │   │   ├── NewTricks
@@ -940,6 +946,9 @@
 │   │   │   ├── 04-ReverseString.cpp
 │   │   │   ├── 08-PowerofTwo.cpp
 │   │   │   ├── 09-IsSubsequence.cpp
+│   │   │   ├── 10-SearchInsertPosition.cpp
+│   │   │   ├── 11-Sort Colors Solution.cpp
+│   │   │   ├── 15SearchinaBinarySearchTree.cpp
 │   │   │   ├── a.out
 │   │   │   ├── failed-03-TwoCityScheduling.cpp
 │   │   │   └── failed-06-QueueReconstructionByHeight.cpp
@@ -1710,6 +1719,8 @@
 │   │   ├── Print-all-possible-strings-of-length-k-that-can-be-formed-from-a-set-of-n-characters.cpp
 │   │   ├── recursive-implementation-of-atoi.cpp
 │   │   └── recursive-solution-count-substrings-first-last-characters.cpp
+│   ├── segment-tree
+│   │   └── lazy-propagation-in-segment-tree.cpp
 │   ├── xor-of-all-the-nodes-in-the-sub-tree-of-the-given-node.cpp
 │   └── zin.txt
 ├── GitCommitEmoji.md
@@ -1789,4 +1800,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-148 directories, 1641 files
+149 directories, 1651 files
