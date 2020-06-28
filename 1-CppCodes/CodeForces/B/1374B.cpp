@@ -15,7 +15,7 @@
 // #include <map>
 // #include <queue>
 // #include <stack>
-#include <algorithm>
+// #include <algorithm>
 // #include <functional>
 #include <iomanip>      // std::setprecision
 
@@ -33,6 +33,37 @@ ll MOD = 1e9+7;
 vector<int> *g;
 bool *isvisited;
 
+bool isDivisibleBy3(const int& x) {
+    int sum = 0;
+    int n = x;
+    while(n>0) {
+        sum = sum + n%10;
+        n = n / 10;
+    }
+
+    return ( (sum%3) == 0);
+}
+
+ll stepKount(ll x){
+    ll n = x;
+    ll kount = 0;
+    ll one = 1;
+    if(n == one) {    return 0;   }
+    while(n != one) {
+        if(!isDivisibleBy3(n)) {
+            return -1;
+        }else {
+            if( (n & one) == one) {
+                n = n<<1; // n*=2;
+            }else{ 
+                n = n / 6;
+            }
+            kount++;
+        }
+    }
+    return kount;
+}
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -46,6 +77,16 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    ll T, n, kount;
+    cin>>T;
+
+    while(T--) {
+        cin>>n;
+        kount = stepKount(n);
+        cout<<kount<<"\n";
+
+    }
 
 
     return 0;

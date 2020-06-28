@@ -15,7 +15,7 @@
 // #include <map>
 // #include <queue>
 // #include <stack>
-#include <algorithm>
+// #include <algorithm>
 // #include <functional>
 #include <iomanip>      // std::setprecision
 
@@ -46,6 +46,17 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    ll T, x,y,n,k;
+    cin>>T;
+    while(T--) {
+        cin>>x>>y>>n;
+
+        ll m = (n-y)/x;
+        k = m*x + y;
+        cout<<k<<"\n";
+         
+    }
 
 
     return 0;

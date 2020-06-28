@@ -15,7 +15,7 @@
 // #include <map>
 // #include <queue>
 // #include <stack>
-#include <algorithm>
+// #include <algorithm>
 // #include <functional>
 #include <iomanip>      // std::setprecision
 
@@ -33,6 +33,13 @@ ll MOD = 1e9+7;
 vector<int> *g;
 bool *isvisited;
 
+int getCode(const char& ch) {
+    if(ch == '(') return 1;
+    else return -1;
+}
+
+
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -46,6 +53,31 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    ll T, n, kount, sum, minimus;
+    string s;
+    
+    cin>>T;
+    while(T--) {
+        cin>>n;
+        cin>>s;
+
+        sum = 0;
+        kount = 0;
+
+        for(int i=0; i<n; i++) {
+            sum += getCode(s[i]);
+            if(sum < 0) {
+                kount++;
+                sum = 0;
+            }
+        }
+
+        minimus = min(kount, (n - kount));
+
+        cout<<minimus<<"\n";
+
+    }
 
 
     return 0;

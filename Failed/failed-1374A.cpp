@@ -15,7 +15,7 @@
 // #include <map>
 // #include <queue>
 // #include <stack>
-#include <algorithm>
+// #include <algorithm>
 // #include <functional>
 #include <iomanip>      // std::setprecision
 
@@ -47,6 +47,19 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll T, x,y,n,k;
+
+    cin>>T;
+    while(T--) {
+        cin>>x>>y>>n;
+        k = 0;
+
+        for(int i=y; i<=n; i+=x) {
+            k++;
+        }
+
+        cout<<k<<"\n";
+    }
 
     return 0;
 }
