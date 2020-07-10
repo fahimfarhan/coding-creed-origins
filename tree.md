@@ -103,6 +103,7 @@
 │   │   │   ├── a.out
 │   │   │   ├── CHEFSTR1.cpp
 │   │   │   ├── CRDGAME.cpp
+│   │   │   ├── failed-CHFNSWPS.cpp
 │   │   │   ├── failed-PTMSSNG.cpp
 │   │   │   ├── in.txt
 │   │   │   ├── out.txt
@@ -1816,4 +1817,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-150 directories, 1666 files
+150 directories, 1667 files
