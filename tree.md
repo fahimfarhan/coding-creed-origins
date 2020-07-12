@@ -171,6 +171,7 @@
 │   │   ├── 1181B-not-sure.cpp
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1365C-almost-ok.cpp
+│   │   ├── 1372A.cpp
 │   │   ├── 1376A1.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
@@ -903,6 +904,7 @@
 │   │   │   ├── wigglewalk-failed.cpp
 │   │   │   └── you-can-go-your-own-way.cpp
 │   │   ├── 2020
+│   │   │   ├── AlienPiano.cpp
 │   │   │   ├── Allocation.cpp
 │   │   │   ├── a.out
 │   │   │   ├── failed-mymistake-NestingDepth.cpp
@@ -910,6 +912,7 @@
 │   │   │   ├── in.txt
 │   │   │   ├── NestingDepth.cpp
 │   │   │   ├── ParentingParentingReturns.cpp
+│   │   │   ├── RecordBreaker.cpp
 │   │   │   └── vestigium.cpp
 │   │   └── testing_tool.py
 │   ├── leetcode-with-errichto
@@ -1792,6 +1795,7 @@
 ├── README.md
 ├── Remove_Old_Snaps.sh
 ├── script.sh
+├── theoretical_computer_science_cheat_sheet.pdf
 ├── Things-To-Do-After-Installing-Linux-Ed3.0.2.pdf
 ├── todolist.md
 ├── tree.md
@@ -1817,4 +1821,4 @@
         ├── output_KL.txt
         └── output_KL.txt.original
 
-150 directories, 1667 files
+150 directories, 1671 files
