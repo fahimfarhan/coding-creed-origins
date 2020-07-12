@@ -171,7 +171,6 @@
 │   │   ├── 1181B-not-sure.cpp
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1365C-almost-ok.cpp
-│   │   ├── 1372A.cpp
 │   │   ├── 1376A1.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
@@ -315,6 +314,7 @@
 │   │   │   ├── 1366A.cpp
 │   │   │   ├── 1367A.cpp
 │   │   │   ├── 1369A.cpp
+│   │   │   ├── 1372A.cpp
 │   │   │   ├── 1374A.cpp
 │   │   │   ├── 141A.cpp
 │   │   │   ├── 141A-regex.cpp
@@ -904,9 +904,9 @@
 │   │   │   ├── wigglewalk-failed.cpp
 │   │   │   └── you-can-go-your-own-way.cpp
 │   │   ├── 2020
-│   │   │   ├── AlienPiano.cpp
 │   │   │   ├── Allocation.cpp
 │   │   │   ├── a.out
+│   │   │   ├── failed-AlienPiano.cpp
 │   │   │   ├── failed-mymistake-NestingDepth.cpp
 │   │   │   ├── failed-parentingParentingReturns.cpp
 │   │   │   ├── in.txt
