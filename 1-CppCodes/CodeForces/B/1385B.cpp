@@ -49,6 +49,34 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll T, n,m, *a;
+    ll x = 0;
+    vector<ll> v;
+
+    cin>>T;
+    while(T--) {
+        cin>>n;
+        m = n<<1;
+        a = new ll[m+1];
+        isvisited = new bool[n+1];
+        for(int i=0; i<=n; i++) {    isvisited[i] = false;   }
+
+        for(int i=0; i<m; i++) {
+            cin>>a[i];
+        }
+
+        for(int i=0; i<m; i++) {
+            x = a[i];
+            if(!isvisited[x]) {
+                isvisited[x] = true;
+                cout<<x<<" ";
+            }
+        }cout<<"\n";
+
+        delete[] a;
+        delete[] isvisited;
+    }
+
 
     return 0;
 }

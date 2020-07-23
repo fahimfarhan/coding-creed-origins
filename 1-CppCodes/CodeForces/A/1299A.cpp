@@ -49,7 +49,40 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int n; ll *a;
+    cin>>n;
+    a = new ll[n+1];
 
+    for(int i=0; i<n; i++) {
+        cin>>a[i];
+    }
+
+    int kount = 0;
+    int position = -1;
+
+    ll temp = 0;
+    for(int i=29; i > -1; i--) {
+        kount = 0;
+        for(int j=0; j<n; j++) {
+            temp = a[j] >> i;
+            if( (temp & 1) == 1) {
+                kount++;
+                position = j;
+            }
+        }
+        if(kount == 1) {
+            swap(a[0], a[position]);
+            break;
+        }
+    }
+
+
+
+    for(int i=0; i<n; i++) {
+        cout<<a[i]<<" ";
+    }cout<<"\n";
+
+    delete[] a;
     return 0;
 }
 

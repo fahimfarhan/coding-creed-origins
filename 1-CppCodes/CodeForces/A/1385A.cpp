@@ -49,6 +49,26 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll T;
+    cin>>T;
+
+    ll a,b,c;
+    ll x[3];
+
+    while(T--) {
+        cin>>x[0]>>x[1]>>x[2];
+        sort(x,x+3);
+        if( (x[0] == x[1]) && (x[0] == x[2]) ) {
+            cout<<"YES\n";
+            cout<<x[0]<<" "<<x[0]<<" "<<x[0]<<"\n";
+        }else if( (x[1] == x[2]) && (x[1] != x[0]) ) {
+            cout<<"YES\n";
+            cout<<x[1]<<" "<<x[0]<<" "<<x[0]<<"\n";
+        }else {
+          cout<<"NO\n";
+        }
+    }
+
 
     return 0;
 }

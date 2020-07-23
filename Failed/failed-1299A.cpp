@@ -14,7 +14,7 @@
 // #include <set>
 // #include <unordered_set>
 // #include <map>
-// #include <unordered_map>
+#include <unordered_map>
 // #include <queue>
 // #include <stack>
 #include <algorithm>
@@ -49,7 +49,30 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int n; ll *a;
+    unordered_map<ll,int> mp;
+    cin>>n;
+    a = new ll[n+1];
 
+    for(int i=0; i<n; i++) {  cin>>a[i]; mp[a[i]]++;    }
+
+    sort(a,a+n);
+    int maximus;
+    for(int i=n-1; i>=0; i++) {
+      if(mp[a[i]] == 1) {
+        maximus = i; break;
+      }
+    }
+
+    ll temp = a[maximus];
+    a[maximus] = a[0];
+    a[0] = temp;
+
+    for(int i=0; i<n; i++) {
+      cout<<a[i]<<" ";
+    }cout<<"\n";
+
+    delete[] a;
     return 0;
 }
 
