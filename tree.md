@@ -1,60 +1,6 @@
 .
-├── 0-Programming_Contest_DS_Algorithms
-│   ├── 3_2_1_num_of_zero_n_fact.cpp
-│   ├── 3_2_2_HowManyDigitsAfterNfact.cpp
-│   ├── 3_2_4_CatalanNum.cpp
-│   ├── 3_2_4_DearrangementNum.cpp
-│   ├── 3_2_4_StirlingNum1.cpp
-│   ├── 3_2_4_StirlingNum2.cpp
-│   ├── 5-13-1-uvalive6986.cpp
-│   ├── 5_7_priority_queue.cpp
-│   ├── 5_8_disjointUnionSet.cpp
-│   ├── 5_9_SqRootSegmentation.cpp
-│   ├── 6_1_fractional_knapsack.cpp
-│   ├── 6-4-huffman-again.cpp
-│   ├── 6_4_huffmancoding.cpp
-│   ├── 7-2-1-cion-exchange-var1.cpp
-│   ├── 7-5-Longest-Common-Subsequence.cpp
-│   ├── 7-6-in.txt
-│   ├── 7-6-Matrix-Chain-Multiplication.cpp
-│   ├── 7-6-MCM.cpp
-│   ├── bigmod.cpp
-│   ├── bigsum.cpp
-│   ├── divisors.cpp
-│   ├── FAILED_how_many_digits_in_n_fact.cpp
-│   ├── gcd.cpp
-│   ├── how_many_0_for_100_fact.cpp
-│   ├── my-binaryIndexTree-1-based-indexing.cpp
-│   ├── my-binaryIndexTree.cpp
-│   ├── myLazyPropagation.cpp
-│   ├── mySegmentTree.cpp
-│   ├── nCr2failed.cpp
-│   ├── nCr.cpp
-│   ├── old-coin-change
-│   │   ├── 7-2-1-coin-change.cpp
-│   │   ├── 7-2-1-variation-1.cpp
-│   │   ├── 7-2-2-coin-change.cpp
-│   │   ├── 7-2-2-variation-2.cpp
-│   │   ├── 7-2-3-variation-3.cpp
-│   │   └── 7-2-4-variant-4.cpp
-│   ├── old-segment-trees
-│   │   ├── 5_11_st_cf.cpp
-│   │   ├── 5_11_st_cf_final.cpp
-│   │   ├── 5_11_st_codeforces.cpp
-│   │   ├── SegmentTree.cpp
-│   │   └── st.cpp
-│   ├── prime.cpp
-│   ├── seive.cpp
-│   ├── temp1234567.cpp
-│   ├── template.cpp
-│   ├── tprimes.cpp
-│   ├── withvector.txt
-│   ├── xxor-prototype.cpp
-│   ├── zexecscript.sh
-│   └── zin.txt
-├── 1-Corman
-│   └── 15-1-DpRodCut.cpp
-├── 1-CppCodes
+├── cp1.pdf
+├── CppCodes
 │   ├── 000A1.cpp
 │   ├── 00A0-namespace.cpp
 │   ├── 00A.cpp
@@ -171,7 +117,7 @@
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 1376A1.cpp
-│   │   ├── 1385C.cpp
+│   │   ├── 1389B1.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
@@ -318,6 +264,9 @@
 │   │   │   ├── 1372A.cpp
 │   │   │   ├── 1374A.cpp
 │   │   │   ├── 1385A.cpp
+│   │   │   ├── 1388A.cpp
+│   │   │   ├── 1389A.cpp
+│   │   │   ├── 1399A.cpp
 │   │   │   ├── 141A.cpp
 │   │   │   ├── 141A-regex.cpp
 │   │   │   ├── 148A-again.cpp
@@ -557,6 +506,7 @@
 │   │   │   ├── 1369B.cpp
 │   │   │   ├── 1374B.cpp
 │   │   │   ├── 1385B.cpp
+│   │   │   ├── 1399B.cpp
 │   │   │   ├── 157B.cpp
 │   │   │   ├── 158B.cpp
 │   │   │   ├── 181B-2.cpp
@@ -716,6 +666,8 @@
 │   │   │   ├── 1363C.cpp
 │   │   │   ├── 1365C.cpp
 │   │   │   ├── 1374C.cpp
+│   │   │   ├── 1385C.cpp
+│   │   │   ├── 1399C.cpp
 │   │   │   ├── 158C.cpp
 │   │   │   ├── 1C.cpp
 │   │   │   ├── 276C.cpp
@@ -1167,301 +1119,6 @@
 │   │   ├── UVA-374.cpp
 │   │   └── UVALive-7025-failed.cpp
 │   └── zAllSizes.cpp
-├── 1-JavaCodes
-│   ├── A0Fast.java
-│   ├── A1.java
-│   ├── A750.java
-│   ├── Algorithms-in-Java
-│   │   ├── Algorithms.iml
-│   │   ├── out
-│   │   │   └── production
-│   │   │       └── Algorithms
-│   │   │           ├── FileIO
-│   │   │           │   ├── test1.txt
-│   │   │           │   └── test.txt
-│   │   │           ├── graph
-│   │   │           │   ├── friendship.txt
-│   │   │           │   └── websites.txt
-│   │   │           ├── in.txt
-│   │   │           └── Temp.txt
-│   │   └── src
-│   │       ├── AlgorithmsTestPrototype1
-│   │       │   └── Main.java
-│   │       ├── CoinChangePrototype1
-│   │       │   ├── CoinChange.java
-│   │       │   └── Main.java
-│   │       ├── FileIO
-│   │       │   ├── BufferedReaderDemo.java
-│   │       │   ├── BufferedWrierDemo.java
-│   │       │   ├── ConsoleDemo.java
-│   │       │   ├── FileCopyDemo.java
-│   │       │   ├── MainIO.java
-│   │       │   ├── test1.txt
-│   │       │   └── test.txt
-│   │       ├── Ford_Fulkerson
-│   │       │   ├── GraphFF.java
-│   │       │   ├── MainFF.java
-│   │       │   ├── Node.java
-│   │       │   └── Vertex.java
-│   │       ├── graph
-│   │       │   ├── friendship.txt
-│   │       │   ├── Graph.java
-│   │       │   ├── Main.java
-│   │       │   ├── Node.java
-│   │       │   ├── Vertex.java
-│   │       │   └── websites.txt
-│   │       ├── GraphGFSPrototype1
-│   │       │   ├── Graph.java
-│   │       │   └── Main.java
-│   │       ├── in.txt
-│   │       ├── Knapsack
-│   │       │   └── Knapsack.java
-│   │       ├── Knapsack_0_1_Prototype
-│   │       │   ├── Knapsack2.java
-│   │       │   ├── Knapsack.java
-│   │       │   └── MainK.java
-│   │       ├── KnightsTour
-│   │       │   ├── KnightsTour.java
-│   │       │   └── MainKT.java
-│   │       ├── LCSiterativePrototype1
-│   │       │   ├── LCS1.java
-│   │       │   ├── LCS2.java
-│   │       │   └── MainLCS.java
-│   │       ├── LCS.java
-│   │       ├── MaxFlow.java
-│   │       ├── MCM.java
-│   │       ├── MCMPrototype
-│   │       │   ├── MainMCM.java
-│   │       │   └── MCM1.java
-│   │       ├── MCMPrototype2
-│   │       │   ├── Functions.java
-│   │       │   └── MainMCM2.java
-│   │       ├── MergeSort
-│   │       │   ├── MainMergeSort.java
-│   │       │   └── MergeSort.java
-│   │       ├── N_QueenProblem
-│   │       │   ├── MainNQ.java
-│   │       │   └── NQueen.java
-│   │       ├── QuickSort
-│   │       │   ├── MainQuickSort.java
-│   │       │   └── QuickSort.java
-│   │       ├── Sudoku.java
-│   │       └── Temp.txt
-│   ├── B535.java
-│   ├── B911.java
-│   ├── BinarySearch.java
-│   ├── btree-java
-│   │   ├── BTree.java
-│   │   ├── Node.java
-│   │   └── Start.java
-│   ├── C1006.java
-│   ├── DNSLookup1.java
-│   ├── DNSLookup.java
-│   └── TOH
-│       ├── Algorithm.java
-│       ├── Disk.java
-│       ├── Peg.java
-│       ├── Start.java
-│       ├── State.java
-│       └── toh
-│           ├── Algorithm.java
-│           ├── Disk.java
-│           ├── Peg.java
-│           ├── Start.java
-│           └── State.java
-├── 1-other-languages
-│   ├── bash
-│   │   ├── 1read.sh
-│   │   ├── 2read.sh
-│   │   ├── 3readnumber.sh
-│   │   ├── 4ifelse.sh
-│   │   ├── vi.txt
-│   │   ├── z1.sh
-│   │   └── z2.sh
-│   ├── c-sharp
-│   │   ├── 1131B.cs
-│   │   ├── a
-│   │   ├── A-new-console.md
-│   │   ├── HelloThere.cs
-│   │   ├── HowToRun.sh
-│   │   └── vjudge
-│   │       ├── bin
-│   │       │   └── Debug
-│   │       │       └── netcoreapp2.2
-│   │       │           ├── vjudge.deps.json
-│   │       │           ├── vjudge.pdb
-│   │       │           ├── vjudge.runtimeconfig.dev.json
-│   │       │           └── vjudge.runtimeconfig.json
-│   │       ├── input.txt
-│   │       ├── obj
-│   │       │   ├── Debug
-│   │       │   │   └── netcoreapp2.2
-│   │       │   │       ├── project.razor.json
-│   │       │   │       ├── vjudge.AssemblyInfo.cs
-│   │       │   │       ├── vjudge.AssemblyInfoInputs.cache
-│   │       │   │       ├── vjudge.assets.cache
-│   │       │   │       ├── vjudge.csprojAssemblyReference.cache
-│   │       │   │       ├── vjudge.csproj.CoreCompileInputs.cache
-│   │       │   │       ├── vjudge.csproj.FileListAbsolute.txt
-│   │       │   │       └── vjudge.pdb
-│   │       │   ├── project.assets.json
-│   │       │   ├── vjudge.csproj.nuget.cache
-│   │       │   ├── vjudge.csproj.nuget.g.props
-│   │       │   └── vjudge.csproj.nuget.g.targets
-│   │       ├── output.txt
-│   │       ├── Program.cs
-│   │       └── vjudge.csproj
-│   ├── go
-│   │   ├── solved
-│   │   │   └── 1131B.go
-│   │   └── template
-│   │       └── test.go
-│   ├── groovy
-│   │   └── Hello.groovy
-│   ├── in.txt
-│   ├── js
-│   │   ├── 0template.js
-│   │   ├── 1A.js
-│   │   ├── 2A.js
-│   │   ├── 4C.js
-│   │   ├── greedyDemo.js
-│   │   └── in.txt
-│   └── kotlin
-│       ├── 1170A.kt
-│       ├── 1170B.kt
-│       ├── 1171B.kt
-│       ├── 1212A.kt
-│       ├── 1212B.kt
-│       ├── 1298A.kt
-│       ├── 1298B.kt
-│       ├── 1298C.kt
-│       ├── 1347A.kt
-│       ├── 1347B.kt
-│       ├── 1347C.kt
-│       ├── 1A.kt
-│       ├── a.kt
-│       ├── failed_1298B.kt
-│       ├── failed-1347D.kt
-│       ├── in.txt
-│       ├── META-INF
-│       │   └── main.kotlin_module
-│       └── template.kt
-├── 1-software-development
-│   ├── design-patterns
-│   │   └── java
-│   │       ├── BuilderPattern
-│   │       │   ├── GenericBuilderDemo.iml
-│   │       │   └── src
-│   │       │       └── applications
-│   │       │           ├── AppManager.java
-│   │       │           ├── Model.java
-│   │       │           └── Start.java
-│   │       ├── DecoratorPattern
-│   │       │   ├── CoffeeDecorator.java
-│   │       │   ├── Coffee.java
-│   │       │   └── Start.java
-│   │       ├── FactoryPattern
-│   │       │   ├── BMW.java
-│   │       │   ├── Car.java
-│   │       │   ├── Factory.java
-│   │       │   ├── Start.java
-│   │       │   └── Toyota.java
-│   │       ├── SingletonPattern
-│   │       │   ├── Database.java
-│   │       │   ├── Singleton1.java
-│   │       │   ├── Singleton2.java
-│   │       │   ├── Singleton3.java
-│   │       │   └── Start.java
-│   │       └── StrategyPattern
-│   │           ├── AlgoA.java
-│   │           ├── AlgoB.java
-│   │           ├── Context.java
-│   │           ├── Customer.java
-│   │           └── Strategy.java
-│   └── unit-tests
-│       ├── java
-│       │   ├── JunitTestSuite.java
-│       │   ├── Start.java
-│       │   ├── TestJunit1.java
-│       │   ├── TestJunit2.java
-│       │   ├── TestJunit3.java
-│       │   └── TestRunner.java
-│       └── python
-│           ├── __pycache__
-│           │   └── start.cpython-37.pyc
-│           ├── start.py
-│           └── test.py
-├── 1-stl-n-collections
-│   └── java-collections
-│       ├── ArrayDequeue.java
-│       ├── ArrayListDemo.java
-│       ├── HashMap.java
-│       ├── HashSet.java
-│       ├── LinkedHashSet.java
-│       ├── LinkedListDemo.java
-│       ├── ListDemo.java
-│       ├── PriorityQueue.java
-│       ├── Stack.java
-│       ├── TreeSet.java
-│       └── Vector.java
-├── 1-threading
-│   ├── cpp17-builtin
-│   │   ├── part1
-│   │   │   ├── 1.cpp
-│   │   │   ├── 2.cpp
-│   │   │   ├── 3.cpp
-│   │   │   └── start.cpp
-│   │   ├── part2
-│   │   │   ├── 1.cpp
-│   │   │   ├── 1-join.cpp
-│   │   │   ├── 2-detach.cpp
-│   │   │   ├── 3-this-is-error.cpp
-│   │   │   ├── 4-so-do-this.cpp
-│   │   │   ├── 5-always-call-join-else-error.cpp
-│   │   │   └── 6-exception-handle.cpp
-│   │   ├── part3
-│   │   │   ├── 1-passing-simple-args.cpp
-│   │   │   ├── 2-dont-do-this.cpp
-│   │   │   ├── 3-const-ref.cpp
-│   │   │   ├── 4-const-ref-and-return-it-to-main.cpp
-│   │   │   └── 5-assign-pointer-to-member-func-of-a-class.cpp
-│   │   ├── part5
-│   │   │   ├── 1-mutex-demo.cpp
-│   │   │   └── 2-lock-guaard-demo.cpp
-│   │   └── part7
-│   │       └── 1-conditional-variables.cpp
-│   └── java
-│       ├── RunnableDemo.java
-│       ├── TestThread.java
-│       └── ThreadDemo.java
-├── 2-memory-managemennt
-│   ├── in.txt
-│   ├── memory-management-0.cpp
-│   └── memory-management-1.cpp
-├── CoolStuffs
-│   ├── allsize.md
-│   └── dfs4simple_case_A115.cpp
-├── cp1.pdf
-├── Docker
-│   ├── docker-cpp
-│   │   ├── Dockerfile
-│   │   └── hello_docker.cpp
-│   ├── docker-java-app
-│   │   ├── Dockerfile
-│   │   └── Hello.java
-│   ├── docker-python-app
-│   │   ├── Dockerfile
-│   │   └── index.py
-│   ├── instructions.txt
-│   ├── php-docker-app
-│   │   ├── Dockerfile
-│   │   └── index.php
-│   └── python_flask
-│       ├── app
-│       │   ├── main.py
-│       │   └── requirements.txt
-│       ├── Dockerfile
-│       └── requirements.txt
 ├── docs
 │   ├── certificates
 │   │   ├── fahimfarhan-Certificate-Code-Jam-2019.pdf
@@ -1695,58 +1352,165 @@
 │   ├── failed-mle-1358C.cpp
 │   ├── G911_time_exceed.cpp
 │   └── prince2_failed.cpp
-├── geeksforgeeks
-│   ├── 1265E-prototype.cpp
-│   ├── convex-hull-set-1-jarviss-algorithm-or-wrapping.cpp
-│   ├── Divide-n-Conquer
-│   │   ├── 0binary-tree.cpp
-│   │   ├── 1binary-search.cpp
-│   │   ├── 2randomized-binary-search-algorithm-failed.cpp
-│   │   ├── 3mergesort.cpp
-│   │   ├── 4count-inversion.cpp
-│   │   ├── 5closest-pair-of-points-using-divide-and-conquer-algorithm.cpp
-│   │   ├── 6closestpoints.cpp
-│   │   ├── 7maximum-subarray-sum-using-divide-and-conquer-algorithm.cpp
-│   │   ├── 8longest-common-prefix-using-divide-and-conquer-algorithm.cpp
-│   │   ├── zin.txt
-│   │   └── zout.txt
-│   ├── dp
-│   │   ├── 0url.md
-│   │   ├── 1uglydpagain.cpp
-│   │   ├── 1uglynumber.cpp
-│   │   ├── 1uglynumberdp.cpp
-│   │   ├── 2bellnumber.cpp
-│   │   ├── 3binomialCoefficient.cpp
-│   │   ├── 4tiling-problem.cpp
-│   │   └── 5-gold-mine-problem.cpp
-│   ├── FermatsLittleThm.cpp
-│   ├── LCS-dp.cpp
-│   ├── LCS-recursion.cpp
-│   ├── LIS-dp.cpp
-│   ├── maximumSubarraySum.cpp
-│   ├── prefix-sum
-│   │   ├── prefix_sum.cpp
-│   │   └── prefix_sum_matrix.cpp
-│   ├── recursion
-│   │   ├── checkpalindrome.cpp
-│   │   ├── first-uppercase-letter-in-a-string-iterative-and-recursive.cpp
-│   │   ├── generate-binary-strings-without-consecutive-1s.cpp
-│   │   ├── given-a-string-print-all-possible-palindromic-partition.cpp
-│   │   ├── link.txt
-│   │   ├── out.txt
-│   │   ├── powet-set-lexicographic-order.cpp
-│   │   ├── print-all-combinations-of-given-length.cpp
-│   │   ├── Print-all-possible-strings-of-length-k-that-can-be-formed-from-a-set-of-n-characters.cpp
-│   │   ├── recursive-implementation-of-atoi.cpp
-│   │   └── recursive-solution-count-substrings-first-last-characters.cpp
-│   ├── segment-tree
-│   │   └── lazy-propagation-in-segment-tree.cpp
-│   ├── xor-of-all-the-nodes-in-the-sub-tree-of-the-given-node.cpp
-│   └── zin.txt
 ├── GitCommitEmoji.md
 ├── graph-shafayet-planet.pdf
+├── JavaCodes
+│   ├── A0Fast.java
+│   ├── A1.java
+│   ├── A750.java
+│   ├── Algorithms-in-Java
+│   │   ├── Algorithms.iml
+│   │   ├── out
+│   │   │   └── production
+│   │   │       └── Algorithms
+│   │   │           ├── FileIO
+│   │   │           │   ├── test1.txt
+│   │   │           │   └── test.txt
+│   │   │           ├── graph
+│   │   │           │   ├── friendship.txt
+│   │   │           │   └── websites.txt
+│   │   │           ├── in.txt
+│   │   │           └── Temp.txt
+│   │   └── src
+│   │       ├── AlgorithmsTestPrototype1
+│   │       │   └── Main.java
+│   │       ├── CoinChangePrototype1
+│   │       │   ├── CoinChange.java
+│   │       │   └── Main.java
+│   │       ├── FileIO
+│   │       │   ├── BufferedReaderDemo.java
+│   │       │   ├── BufferedWrierDemo.java
+│   │       │   ├── ConsoleDemo.java
+│   │       │   ├── FileCopyDemo.java
+│   │       │   ├── MainIO.java
+│   │       │   ├── test1.txt
+│   │       │   └── test.txt
+│   │       ├── Ford_Fulkerson
+│   │       │   ├── GraphFF.java
+│   │       │   ├── MainFF.java
+│   │       │   ├── Node.java
+│   │       │   └── Vertex.java
+│   │       ├── graph
+│   │       │   ├── friendship.txt
+│   │       │   ├── Graph.java
+│   │       │   ├── Main.java
+│   │       │   ├── Node.java
+│   │       │   ├── Vertex.java
+│   │       │   └── websites.txt
+│   │       ├── GraphGFSPrototype1
+│   │       │   ├── Graph.java
+│   │       │   └── Main.java
+│   │       ├── in.txt
+│   │       ├── Knapsack
+│   │       │   └── Knapsack.java
+│   │       ├── Knapsack_0_1_Prototype
+│   │       │   ├── Knapsack2.java
+│   │       │   ├── Knapsack.java
+│   │       │   └── MainK.java
+│   │       ├── KnightsTour
+│   │       │   ├── KnightsTour.java
+│   │       │   └── MainKT.java
+│   │       ├── LCSiterativePrototype1
+│   │       │   ├── LCS1.java
+│   │       │   ├── LCS2.java
+│   │       │   └── MainLCS.java
+│   │       ├── LCS.java
+│   │       ├── MaxFlow.java
+│   │       ├── MCM.java
+│   │       ├── MCMPrototype
+│   │       │   ├── MainMCM.java
+│   │       │   └── MCM1.java
+│   │       ├── MCMPrototype2
+│   │       │   ├── Functions.java
+│   │       │   └── MainMCM2.java
+│   │       ├── MergeSort
+│   │       │   ├── MainMergeSort.java
+│   │       │   └── MergeSort.java
+│   │       ├── N_QueenProblem
+│   │       │   ├── MainNQ.java
+│   │       │   └── NQueen.java
+│   │       ├── QuickSort
+│   │       │   ├── MainQuickSort.java
+│   │       │   └── QuickSort.java
+│   │       ├── Sudoku.java
+│   │       └── Temp.txt
+│   ├── B535.java
+│   ├── B911.java
+│   ├── BinarySearch.java
+│   ├── btree-java
+│   │   ├── BTree.java
+│   │   ├── Node.java
+│   │   └── Start.java
+│   ├── C1006.java
+│   ├── DNSLookup1.java
+│   ├── DNSLookup.java
+│   └── TOH
+│       ├── Algorithm.java
+│       ├── Disk.java
+│       ├── Peg.java
+│       ├── Start.java
+│       ├── State.java
+│       └── toh
+│           ├── Algorithm.java
+│           ├── Disk.java
+│           ├── Peg.java
+│           ├── Start.java
+│           └── State.java
 ├── LICENSE
 ├── mahbubul-hassan
+│   ├── 0-Programming_Contest_DS_Algorithms
+│   │   ├── 3_2_1_num_of_zero_n_fact.cpp
+│   │   ├── 3_2_2_HowManyDigitsAfterNfact.cpp
+│   │   ├── 3_2_4_CatalanNum.cpp
+│   │   ├── 3_2_4_DearrangementNum.cpp
+│   │   ├── 3_2_4_StirlingNum1.cpp
+│   │   ├── 3_2_4_StirlingNum2.cpp
+│   │   ├── 5-13-1-uvalive6986.cpp
+│   │   ├── 5_7_priority_queue.cpp
+│   │   ├── 5_8_disjointUnionSet.cpp
+│   │   ├── 5_9_SqRootSegmentation.cpp
+│   │   ├── 6_1_fractional_knapsack.cpp
+│   │   ├── 6-4-huffman-again.cpp
+│   │   ├── 6_4_huffmancoding.cpp
+│   │   ├── 7-2-1-cion-exchange-var1.cpp
+│   │   ├── 7-5-Longest-Common-Subsequence.cpp
+│   │   ├── 7-6-in.txt
+│   │   ├── 7-6-Matrix-Chain-Multiplication.cpp
+│   │   ├── 7-6-MCM.cpp
+│   │   ├── bigmod.cpp
+│   │   ├── bigsum.cpp
+│   │   ├── divisors.cpp
+│   │   ├── FAILED_how_many_digits_in_n_fact.cpp
+│   │   ├── gcd.cpp
+│   │   ├── how_many_0_for_100_fact.cpp
+│   │   ├── my-binaryIndexTree-1-based-indexing.cpp
+│   │   ├── my-binaryIndexTree.cpp
+│   │   ├── myLazyPropagation.cpp
+│   │   ├── mySegmentTree.cpp
+│   │   ├── nCr2failed.cpp
+│   │   ├── nCr.cpp
+│   │   ├── old-coin-change
+│   │   │   ├── 7-2-1-coin-change.cpp
+│   │   │   ├── 7-2-1-variation-1.cpp
+│   │   │   ├── 7-2-2-coin-change.cpp
+│   │   │   ├── 7-2-2-variation-2.cpp
+│   │   │   ├── 7-2-3-variation-3.cpp
+│   │   │   └── 7-2-4-variant-4.cpp
+│   │   ├── old-segment-trees
+│   │   │   ├── 5_11_st_cf.cpp
+│   │   │   ├── 5_11_st_cf_final.cpp
+│   │   │   ├── 5_11_st_codeforces.cpp
+│   │   │   ├── SegmentTree.cpp
+│   │   │   └── st.cpp
+│   │   ├── prime.cpp
+│   │   ├── seive.cpp
+│   │   ├── temp1234567.cpp
+│   │   ├── template.cpp
+│   │   ├── tprimes.cpp
+│   │   ├── withvector.txt
+│   │   ├── xxor-prototype.cpp
+│   │   ├── zexecscript.sh
+│   │   └── zin.txt
 │   ├── 10-b-z-algo.cpp
 │   ├── 10-c-kmp-algo.cpp
 │   ├── 3-b-cf-lazy-propagation.cpp
@@ -1781,7 +1545,233 @@
 │   └── RedBlackTree.java
 ├── MY_PROFILES.md
 ├── notebook.pdf
-├── out.txt
+├── other-languages
+│   ├── bash
+│   │   ├── 1read.sh
+│   │   ├── 2read.sh
+│   │   ├── 3readnumber.sh
+│   │   ├── 4ifelse.sh
+│   │   ├── vi.txt
+│   │   ├── z1.sh
+│   │   └── z2.sh
+│   ├── c-sharp
+│   │   ├── 1131B.cs
+│   │   ├── a
+│   │   ├── A-new-console.md
+│   │   ├── HelloThere.cs
+│   │   ├── HowToRun.sh
+│   │   └── vjudge
+│   │       ├── bin
+│   │       │   └── Debug
+│   │       │       └── netcoreapp2.2
+│   │       │           ├── vjudge.deps.json
+│   │       │           ├── vjudge.pdb
+│   │       │           ├── vjudge.runtimeconfig.dev.json
+│   │       │           └── vjudge.runtimeconfig.json
+│   │       ├── input.txt
+│   │       ├── obj
+│   │       │   ├── Debug
+│   │       │   │   └── netcoreapp2.2
+│   │       │   │       ├── project.razor.json
+│   │       │   │       ├── vjudge.AssemblyInfo.cs
+│   │       │   │       ├── vjudge.AssemblyInfoInputs.cache
+│   │       │   │       ├── vjudge.assets.cache
+│   │       │   │       ├── vjudge.csprojAssemblyReference.cache
+│   │       │   │       ├── vjudge.csproj.CoreCompileInputs.cache
+│   │       │   │       ├── vjudge.csproj.FileListAbsolute.txt
+│   │       │   │       └── vjudge.pdb
+│   │       │   ├── project.assets.json
+│   │       │   ├── vjudge.csproj.nuget.cache
+│   │       │   ├── vjudge.csproj.nuget.g.props
+│   │       │   └── vjudge.csproj.nuget.g.targets
+│   │       ├── output.txt
+│   │       ├── Program.cs
+│   │       └── vjudge.csproj
+│   ├── go
+│   │   ├── solved
+│   │   │   └── 1131B.go
+│   │   └── template
+│   │       └── test.go
+│   ├── groovy
+│   │   └── Hello.groovy
+│   ├── in.txt
+│   ├── js
+│   │   ├── 0template.js
+│   │   ├── 1A.js
+│   │   ├── 2A.js
+│   │   ├── 4C.js
+│   │   ├── greedyDemo.js
+│   │   └── in.txt
+│   ├── kotlin
+│   │   ├── 1170A.kt
+│   │   ├── 1170B.kt
+│   │   ├── 1171B.kt
+│   │   ├── 1212A.kt
+│   │   ├── 1212B.kt
+│   │   ├── 1298A.kt
+│   │   ├── 1298B.kt
+│   │   ├── 1298C.kt
+│   │   ├── 1347A.kt
+│   │   ├── 1347B.kt
+│   │   ├── 1347C.kt
+│   │   ├── 1A.kt
+│   │   ├── a.kt
+│   │   ├── failed_1298B.kt
+│   │   ├── failed-1347D.kt
+│   │   ├── in.txt
+│   │   ├── META-INF
+│   │   │   └── main.kotlin_module
+│   │   └── template.kt
+│   └── sql
+│       ├── 1-revising-the-select-query-1.sql
+│       ├── 2-revising-the-select-query-2.SQL
+│       ├── 3-select-all-sql.SQL
+│       ├── 4-select-by-id.sql
+│       ├── 5-japanese-cities-attributes.sql
+│       ├── 6-japanese-cities-name.sql
+│       ├── 8-weather-observation-station-3.sql
+│       └── 9-weather-observation-station-4.sql
+├── others
+│   ├── 1-Corman
+│   │   └── 15-1-DpRodCut.cpp
+│   ├── 1-stl-n-collections
+│   │   └── java-collections
+│   │       ├── ArrayDequeue.java
+│   │       ├── ArrayListDemo.java
+│   │       ├── HashMap.java
+│   │       ├── HashSet.java
+│   │       ├── LinkedHashSet.java
+│   │       ├── LinkedListDemo.java
+│   │       ├── ListDemo.java
+│   │       ├── PriorityQueue.java
+│   │       ├── Stack.java
+│   │       ├── TreeSet.java
+│   │       └── Vector.java
+│   ├── 1-threading
+│   │   ├── cpp17-builtin
+│   │   │   ├── part1
+│   │   │   │   ├── 1.cpp
+│   │   │   │   ├── 2.cpp
+│   │   │   │   ├── 3.cpp
+│   │   │   │   └── start.cpp
+│   │   │   ├── part2
+│   │   │   │   ├── 1.cpp
+│   │   │   │   ├── 1-join.cpp
+│   │   │   │   ├── 2-detach.cpp
+│   │   │   │   ├── 3-this-is-error.cpp
+│   │   │   │   ├── 4-so-do-this.cpp
+│   │   │   │   ├── 5-always-call-join-else-error.cpp
+│   │   │   │   └── 6-exception-handle.cpp
+│   │   │   ├── part3
+│   │   │   │   ├── 1-passing-simple-args.cpp
+│   │   │   │   ├── 2-dont-do-this.cpp
+│   │   │   │   ├── 3-const-ref.cpp
+│   │   │   │   ├── 4-const-ref-and-return-it-to-main.cpp
+│   │   │   │   └── 5-assign-pointer-to-member-func-of-a-class.cpp
+│   │   │   ├── part5
+│   │   │   │   ├── 1-mutex-demo.cpp
+│   │   │   │   └── 2-lock-guaard-demo.cpp
+│   │   │   └── part7
+│   │   │       └── 1-conditional-variables.cpp
+│   │   └── java
+│   │       ├── RunnableDemo.java
+│   │       ├── TestThread.java
+│   │       └── ThreadDemo.java
+│   ├── 2-memory-managemennt
+│   │   ├── in.txt
+│   │   ├── memory-management-0.cpp
+│   │   └── memory-management-1.cpp
+│   ├── CoolStuffs
+│   │   ├── allsize.md
+│   │   └── dfs4simple_case_A115.cpp
+│   ├── Docker
+│   │   ├── docker-cpp
+│   │   │   ├── Dockerfile
+│   │   │   └── hello_docker.cpp
+│   │   ├── docker-java-app
+│   │   │   ├── Dockerfile
+│   │   │   └── Hello.java
+│   │   ├── docker-python-app
+│   │   │   ├── Dockerfile
+│   │   │   └── index.py
+│   │   ├── instructions.txt
+│   │   ├── php-docker-app
+│   │   │   ├── Dockerfile
+│   │   │   └── index.php
+│   │   └── python_flask
+│   │       ├── app
+│   │       │   ├── main.py
+│   │       │   └── requirements.txt
+│   │       ├── Dockerfile
+│   │       └── requirements.txt
+│   ├── geeksforgeeks
+│   │   ├── 1265E-prototype.cpp
+│   │   ├── convex-hull-set-1-jarviss-algorithm-or-wrapping.cpp
+│   │   ├── Divide-n-Conquer
+│   │   │   ├── 0binary-tree.cpp
+│   │   │   ├── 1binary-search.cpp
+│   │   │   ├── 2randomized-binary-search-algorithm-failed.cpp
+│   │   │   ├── 3mergesort.cpp
+│   │   │   ├── 4count-inversion.cpp
+│   │   │   ├── 5closest-pair-of-points-using-divide-and-conquer-algorithm.cpp
+│   │   │   ├── 6closestpoints.cpp
+│   │   │   ├── 7maximum-subarray-sum-using-divide-and-conquer-algorithm.cpp
+│   │   │   ├── 8longest-common-prefix-using-divide-and-conquer-algorithm.cpp
+│   │   │   ├── zin.txt
+│   │   │   └── zout.txt
+│   │   ├── dp
+│   │   │   ├── 0url.md
+│   │   │   ├── 1uglydpagain.cpp
+│   │   │   ├── 1uglynumber.cpp
+│   │   │   ├── 1uglynumberdp.cpp
+│   │   │   ├── 2bellnumber.cpp
+│   │   │   ├── 3binomialCoefficient.cpp
+│   │   │   ├── 4tiling-problem.cpp
+│   │   │   └── 5-gold-mine-problem.cpp
+│   │   ├── FermatsLittleThm.cpp
+│   │   ├── LCS-dp.cpp
+│   │   ├── LCS-recursion.cpp
+│   │   ├── LIS-dp.cpp
+│   │   ├── maximumSubarraySum.cpp
+│   │   ├── prefix-sum
+│   │   │   ├── prefix_sum.cpp
+│   │   │   └── prefix_sum_matrix.cpp
+│   │   ├── recursion
+│   │   │   ├── checkpalindrome.cpp
+│   │   │   ├── first-uppercase-letter-in-a-string-iterative-and-recursive.cpp
+│   │   │   ├── generate-binary-strings-without-consecutive-1s.cpp
+│   │   │   ├── given-a-string-print-all-possible-palindromic-partition.cpp
+│   │   │   ├── link.txt
+│   │   │   ├── out.txt
+│   │   │   ├── powet-set-lexicographic-order.cpp
+│   │   │   ├── print-all-combinations-of-given-length.cpp
+│   │   │   ├── Print-all-possible-strings-of-length-k-that-can-be-formed-from-a-set-of-n-characters.cpp
+│   │   │   ├── recursive-implementation-of-atoi.cpp
+│   │   │   └── recursive-solution-count-substrings-first-last-characters.cpp
+│   │   ├── segment-tree
+│   │   │   └── lazy-propagation-in-segment-tree.cpp
+│   │   ├── xor-of-all-the-nodes-in-the-sub-tree-of-the-given-node.cpp
+│   │   └── zin.txt
+│   └── vlsi-hardware-algorithms
+│       ├── global-routing
+│       │   ├── 1405052
+│       │   │   ├── 1405052.cpp
+│       │   │   ├── Lee_output.txt
+│       │   │   └── routing_input.txt
+│       │   ├── 1405052.cpp
+│       │   ├── Lee and Soukup Offline.pdf
+│       │   ├── lee_output.txt
+│       │   ├── Lee_output.txt
+│       │   ├── lee_output.txt.original
+│       │   ├── routing_input.txt
+│       │   ├── script.sh
+│       │   ├── soukup_output.txt
+│       │   └── soukup_output.txt.original
+│       └── partitioning
+│           ├── 1405052.cpp
+│           ├── input_KL.txt
+│           ├── output_KL.txt
+│           └── output_KL.txt.original
 ├── problem-solution-book-1.pdf
 ├── PULL_REQUEST_TEMPLATE.md
 ├── quora2.txt
@@ -1792,30 +1782,55 @@
 ├── README.md
 ├── Remove_Old_Snaps.sh
 ├── script.sh
+├── software-development
+│   ├── design-patterns
+│   │   └── java
+│   │       ├── BuilderPattern
+│   │       │   ├── GenericBuilderDemo.iml
+│   │       │   └── src
+│   │       │       └── applications
+│   │       │           ├── AppManager.java
+│   │       │           ├── Model.java
+│   │       │           └── Start.java
+│   │       ├── DecoratorPattern
+│   │       │   ├── CoffeeDecorator.java
+│   │       │   ├── Coffee.java
+│   │       │   └── Start.java
+│   │       ├── FactoryPattern
+│   │       │   ├── BMW.java
+│   │       │   ├── Car.java
+│   │       │   ├── Factory.java
+│   │       │   ├── Start.java
+│   │       │   └── Toyota.java
+│   │       ├── SingletonPattern
+│   │       │   ├── Database.java
+│   │       │   ├── Singleton1.java
+│   │       │   ├── Singleton2.java
+│   │       │   ├── Singleton3.java
+│   │       │   └── Start.java
+│   │       └── StrategyPattern
+│   │           ├── AlgoA.java
+│   │           ├── AlgoB.java
+│   │           ├── Context.java
+│   │           ├── Customer.java
+│   │           └── Strategy.java
+│   └── unit-tests
+│       ├── java
+│       │   ├── JunitTestSuite.java
+│       │   ├── Start.java
+│       │   ├── TestJunit1.java
+│       │   ├── TestJunit2.java
+│       │   ├── TestJunit3.java
+│       │   └── TestRunner.java
+│       └── python
+│           ├── __pycache__
+│           │   └── start.cpython-37.pyc
+│           ├── start.py
+│           └── test.py
 ├── theoretical_computer_science_cheat_sheet.pdf
 ├── Things-To-Do-After-Installing-Linux-Ed3.0.2.pdf
 ├── todolist.md
 ├── tree.md
-├── USEFUL_LINKS.pdf
-└── vlsi-hardware-algorithms
-    ├── global-routing
-    │   ├── 1405052
-    │   │   ├── 1405052.cpp
-    │   │   ├── Lee_output.txt
-    │   │   └── routing_input.txt
-    │   ├── 1405052.cpp
-    │   ├── Lee and Soukup Offline.pdf
-    │   ├── lee_output.txt
-    │   ├── Lee_output.txt
-    │   ├── lee_output.txt.original
-    │   ├── routing_input.txt
-    │   ├── script.sh
-    │   ├── soukup_output.txt
-    │   └── soukup_output.txt.original
-    └── partitioning
-        ├── 1405052.cpp
-        ├── input_KL.txt
-        ├── output_KL.txt
-        └── output_KL.txt.original
+└── USEFUL_LINKS.pdf
 
-151 directories, 1667 files
+153 directories, 1680 files
