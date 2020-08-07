@@ -118,7 +118,6 @@
 │   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 1376A1.cpp
 │   │   ├── 1389B1.cpp
-│   │   ├── 1389B.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
@@ -267,6 +266,7 @@
 │   │   │   ├── 1385A.cpp
 │   │   │   ├── 1388A.cpp
 │   │   │   ├── 1389A.cpp
+│   │   │   ├── 1393A.cpp
 │   │   │   ├── 1399A.cpp
 │   │   │   ├── 141A.cpp
 │   │   │   ├── 141A-regex.cpp
@@ -507,6 +507,8 @@
 │   │   │   ├── 1369B.cpp
 │   │   │   ├── 1374B.cpp
 │   │   │   ├── 1385B.cpp
+│   │   │   ├── 1389B.cpp
+│   │   │   ├── 1393B.cpp
 │   │   │   ├── 1399B.cpp
 │   │   │   ├── 157B.cpp
 │   │   │   ├── 158B.cpp
@@ -761,7 +763,6 @@
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
-│   │   ├── int64_t,
 │   │   ├── MISC_BUJHI_NAI
 │   │   │   ├── 1105C.cpp
 │   │   │   ├── 1107B.cpp
@@ -820,6 +821,7 @@
 │   │   ├── use
 │   │   ├── Welcome_to_CSE_DU.cpp
 │   │   ├── zexecscript.sh
+│   │   ├── zin.txt
 │   │   ├── zoutput.txt
 │   │   └── ztree.md
 │   ├── CodeForcesEducation
@@ -1130,7 +1132,8 @@
 │   │   ├── fahimfarhan-Round-C-Certificate-Kick-Start.pdf
 │   │   ├── fahimfarhan-Round-D-Certificate-Kick-Start.pdf
 │   │   ├── fahimfarhan-SNCK19.pdf
-│   │   └── fahimfarhan-Summary-Certificate-Kick-Start-2019.pdf
+│   │   ├── fahimfarhan-Summary-Certificate-Kick-Start-2019.pdf
+│   │   └── Summary Certificate - Kick Start-2020.pdf
 │   ├── github.css
 │   ├── index.html
 │   └── Knuth Odd Solutions
@@ -1342,6 +1345,7 @@
 │   ├── failed-1366A.cpp
 │   ├── failed-1367C.cpp
 │   ├── failed-1374A.cpp
+│   ├── failed-1393B.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── FAILED-2A.cpp
 │   ├── FAILED_494-KindergartenCountingGame.cpp
@@ -1838,4 +1842,4 @@
 ├── Things-To-Do-After-Installing-Linux-Ed3.0.2.pdf
 └── tree.md
 
-154 directories, 1684 files
+154 directories, 1688 files
