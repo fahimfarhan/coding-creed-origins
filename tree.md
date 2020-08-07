@@ -1,5 +1,5 @@
 .
-├── cp1.pdf
+├── auto-commit.sh
 ├── CppCodes
 │   ├── 000A1.cpp
 │   ├── 00A0-namespace.cpp
@@ -1357,7 +1357,6 @@
 │   ├── G911_time_exceed.cpp
 │   └── prince2_failed.cpp
 ├── GitCommitEmoji.md
-├── graph-shafayet-planet.pdf
 ├── JavaCodes
 │   ├── A0Fast.java
 │   ├── A1.java
@@ -1547,8 +1546,6 @@
 │   ├── RedBlackTree-failed1.cpp
 │   ├── RedBlackTree-failed2.cpp
 │   └── RedBlackTree.java
-├── MY_PROFILES.md
-├── notebook.pdf
 ├── other-languages
 │   ├── bash
 │   │   ├── 1read.sh
@@ -1776,16 +1773,9 @@
 │           ├── input_KL.txt
 │           ├── output_KL.txt
 │           └── output_KL.txt.original
-├── problem-solution-book-1.pdf
 ├── PULL_REQUEST_TEMPLATE.md
-├── quora2.txt
-├── quora.txt
-├── README2.md
-├── README3.md
-├── readme3.pdf
 ├── README.md
-├── Remove_Old_Snaps.sh
-├── script.sh
+├── remove_old_snaps.sh
 ├── software-development
 │   ├── design-patterns
 │   │   └── java
@@ -1831,10 +1821,21 @@
 │           │   └── start.cpython-37.pyc
 │           ├── start.py
 │           └── test.py
-├── theoretical_computer_science_cheat_sheet.pdf
+├── study-materials
+│   ├── cp1.pdf
+│   ├── graph-shafayet-planet.pdf
+│   ├── MY_PROFILES.md
+│   ├── notebook.pdf
+│   ├── problem-solution-book-1.pdf
+│   ├── quora2.txt
+│   ├── quora.txt
+│   ├── README2.md
+│   ├── README3.md
+│   ├── readme3.pdf
+│   ├── theoretical_computer_science_cheat_sheet.pdf
+│   ├── todolist.md
+│   └── USEFUL_LINKS.pdf
 ├── Things-To-Do-After-Installing-Linux-Ed3.0.2.pdf
-├── todolist.md
-├── tree.md
-└── USEFUL_LINKS.pdf
+└── tree.md
 
-153 directories, 1684 files
+154 directories, 1684 files
