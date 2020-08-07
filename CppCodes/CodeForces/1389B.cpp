@@ -27,7 +27,7 @@ using namespace std;
 #define PI 2*acos(0)
 
 //typedef long long int ll;
- #define ll int
+ #define ll long long int
 // other popular ones=> int64_t, uint64_t => use for 10^18
 ll MOD = 1e9+7;
 
