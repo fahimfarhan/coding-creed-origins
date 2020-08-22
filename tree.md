@@ -1,5 +1,4 @@
 .
-├── auto-commit.sh
 ├── bad-apt-upgrade-fix.sh
 ├── CppCodes
 │   ├── 000A1.cpp
@@ -118,6 +117,7 @@
 │   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 1376A1.cpp
 │   │   ├── 1389B1.cpp
+│   │   ├── 1401C1.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
@@ -413,7 +413,6 @@
 │   │   │   └── CA.cpp
 │   │   ├── a.out
 │   │   ├── Atemp.cpp
-│   │   ├── Automove.sh
 │   │   ├── B
 │   │   │   ├── 1006B.cpp
 │   │   │   ├── 1008B.cpp
@@ -675,6 +674,7 @@
 │   │   │   ├── 1385C.cpp
 │   │   │   ├── 1391C.cpp
 │   │   │   ├── 1399C.cpp
+│   │   │   ├── 1401C.cpp
 │   │   │   ├── 158C.cpp
 │   │   │   ├── 1C.cpp
 │   │   │   ├── 276C.cpp
@@ -824,6 +824,7 @@
 │   │   ├── uri1424.cpp
 │   │   ├── use
 │   │   ├── Welcome_to_CSE_DU.cpp
+│   │   ├── xautomove.sh
 │   │   ├── zexecscript.sh
 │   │   ├── zin.txt
 │   │   ├── zoutput.txt
@@ -1837,6 +1838,7 @@
 │   ├── todolist.md
 │   └── USEFUL_LINKS.pdf
 ├── Things-To-Do-After-Installing-Linux-Ed3.0.2.pdf
-└── tree.md
+├── tree.md
+└── x-auto-commit.sh
 
-154 directories, 1685 files
+154 directories, 1687 files
