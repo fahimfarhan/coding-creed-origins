@@ -118,7 +118,6 @@
 │   │   ├── 1376A1.cpp
 │   │   ├── 1389B1.cpp
 │   │   ├── 1398C1.cpp
-│   │   ├── 1398C.cpp
 │   │   ├── 1401C1.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
@@ -675,6 +674,7 @@
 │   │   │   ├── 1374C.cpp
 │   │   │   ├── 1385C.cpp
 │   │   │   ├── 1391C.cpp
+│   │   │   ├── 1398C.cpp
 │   │   │   ├── 1399C.cpp
 │   │   │   ├── 1401C.cpp
 │   │   │   ├── 158C.cpp
@@ -766,7 +766,6 @@
 │   │   │   ├── 630F.cpp
 │   │   │   ├── 908F.cpp
 │   │   │   └── 920F.cpp
-│   │   ├── failed-tle-1398C.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
@@ -1358,6 +1357,7 @@
 │   ├── failed-996A-almost-ok-rte.cpp
 │   ├── FAILED_ASCDFIB-AscendingFibonacciNumbers.cpp
 │   ├── failed-mle-1358C.cpp
+│   ├── failed-tle-1398C.cpp
 │   ├── G911_time_exceed.cpp
 │   └── prince2_failed.cpp
 ├── gitAmendCommitsForAlreadyPushedCode.md
