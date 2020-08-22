@@ -1840,7 +1840,7 @@
 │   ├── theoretical_computer_science_cheat_sheet.pdf
 │   ├── todolist.md
 │   └── USEFUL_LINKS.pdf
-├── Things-To-Do-After-Installing-Linux-Ed3.0.2.pdf
+├── Things-To-Do-After-Installing-Linux.pdf
 ├── tree.md
 └── x-auto-commit.sh
 

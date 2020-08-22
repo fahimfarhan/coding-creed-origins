@@ -16,3 +16,4 @@ Please note we have a code of conduct, please follow it in all your interactions
 4. ( For normal projects ) I review the changes. If I find them okay, I'll merge them in. 
 5. ( For group projects ) You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
    do not have permission to do that, you may request the second reviewer to merge it for you.
+   
