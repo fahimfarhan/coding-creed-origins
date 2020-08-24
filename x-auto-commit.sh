@@ -3,5 +3,5 @@ git status
 git add .
 git status
 git commit -m ":rocket: auto-commit"
-git push origin master
+git push origin dev
 
