@@ -22,6 +22,7 @@ Thank you for reading.
 * [Dark Knight DS](https://codeforces.com/blog/entry/15729)
 
 ## Important Repos
+* [labuladong-leetcode-english](https://github.com/labuladong/fucking-algorithm/tree/english)
 * [cheran-senthil/PyRival](https://github.com/cheran-senthil/PyRival)
 * [google-code-jam-2017-solns](https://github.com/ruippeixotog/google-code-jam-2017)
 * [AnikSarker/DeobureoMinkyuParty](https://github.com/AnikSarker/DeobureoMinkyuParty)
