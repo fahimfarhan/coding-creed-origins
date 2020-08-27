@@ -1,4 +1,5 @@
 .
+├── AndroidPaginationTutorial.md
 ├── bad-apt-upgrade-fix.sh
 ├── CppCodes
 │   ├── 000A1.cpp
@@ -113,6 +114,7 @@
 │   │   ├── 1167C-mle.cpp
 │   │   ├── 1180C-mle.cpp
 │   │   ├── 1181B-not-sure.cpp
+│   │   ├── 1187E.cpp
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 1376A1.cpp
@@ -412,7 +414,6 @@
 │   │   │   ├── 999A.cpp
 │   │   │   ├── 9A.cpp
 │   │   │   └── CA.cpp
-│   │   ├── a.out
 │   │   ├── Atemp.cpp
 │   │   ├── B
 │   │   │   ├── 1006B.cpp
@@ -875,7 +876,6 @@
 │   │   │   └── you-can-go-your-own-way.cpp
 │   │   ├── 2020
 │   │   │   ├── Allocation.cpp
-│   │   │   ├── a.out
 │   │   │   ├── failed-AlienPiano.cpp
 │   │   │   ├── failed-longestArithmetic.cpp
 │   │   │   ├── failed-mymistake-NestingDepth.cpp
@@ -895,7 +895,6 @@
 │   │   │   ├── 26LCS.cpp
 │   │   │   ├── 27MaximalSquare.cpp
 │   │   │   ├── 29BinaryTreeMaximumPathSum.cpp
-│   │   │   ├── a.out
 │   │   │   ├── BackspaceStringCompare.cpp
 │   │   │   ├── BestTimeToBuyAndSellStockII.cpp
 │   │   │   ├── ConstructBinarySearchTreefromPreorderTraversal.cpp
@@ -1847,4 +1846,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-154 directories, 1693 files
+154 directories, 1692 files
