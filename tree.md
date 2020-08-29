@@ -992,13 +992,17 @@
 │   │   │   ├── 10305-indegree.cpp
 │   │   │   ├── 11172.cpp
 │   │   │   ├── 272 TEX Quotes.cpp
+│   │   │   ├── 482-Permutation-Arrays.cpp
 │   │   │   ├── 490RotatingSentence.cpp
 │   │   │   ├── 494-KindergartenCountingGame.cpp
 │   │   │   ├── 544.cpp
 │   │   │   ├── 7025.cpp
 │   │   │   ├── a.out
+│   │   │   ├── failed2-482-Permutation-Arrays.cpp
 │   │   │   ├── failed2-544.cpp
+│   │   │   ├── failed-482-Permutation-Arrays.cpp
 │   │   │   ├── failed-544.cpp
+│   │   │   ├── failed-594-One-Little-Two-Little-Three-Little-Endians.cpp
 │   │   │   ├── failed-dominos.cpp
 │   │   │   ├── temp.cpp
 │   │   │   ├── UvaLive6802.cpp
@@ -1856,4 +1860,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-156 directories, 1700 files
+156 directories, 1704 files
