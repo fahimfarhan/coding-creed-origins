@@ -47,5 +47,5 @@ See also [gitmoji](https://gitmoji.carloscuesta.me/).
 | Code review changes        | :ok_hand: `:ok_hand:`                         |
 | Accessibility              | :wheelchair: `:wheelchair:`                   |
 | Move/rename repository     | :truck: `:truck:`                             |
-| Satellite                  | :satellite_orbital: satellite                 |
+| Satellite                  | :artificial_satellite: `:artificial_satellite:`                 |
 | Other                      | [Be creative](http://www.emoji-cheat-sheet.com/)  |
