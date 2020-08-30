@@ -122,8 +122,12 @@
 │   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 1376A1.cpp
 │   │   ├── 1389B1.cpp
+│   │   ├── 1397A.cpp
+│   │   ├── 1397B-almost-there.cpp
 │   │   ├── 1398C1.cpp
 │   │   ├── 1400C.cpp
+│   │   ├── 1401A.cpp
+│   │   ├── 1401B.cpp
 │   │   ├── 1401C1.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
@@ -996,8 +1000,10 @@
 │   │   │   ├── 490RotatingSentence.cpp
 │   │   │   ├── 494-KindergartenCountingGame.cpp
 │   │   │   ├── 544.cpp
+│   │   │   ├── 594-One-Little-Two-Little-Three-Little-Endians.cpp
 │   │   │   ├── 7025.cpp
 │   │   │   ├── a.out
+│   │   │   ├── failed-11340-Newspaper.cpp
 │   │   │   ├── failed2-482-Permutation-Arrays.cpp
 │   │   │   ├── failed2-544.cpp
 │   │   │   ├── failed-482-Permutation-Arrays.cpp
@@ -1860,4 +1866,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-156 directories, 1704 files
+156 directories, 1710 files
