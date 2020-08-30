@@ -38,6 +38,8 @@
 3. [ibm ponder](https://www.research.ibm.com/haifa/ponderthis/index.shtml)
 4. [QUORA](https://www.quora.com/Is-there-a-site-like-Project-Euler-but-about-pure-maths)
 5. [edx](https://profile.edx.org/u/fahimfarhan) (id, email)
+6. [gonitzoggo](https://gonitzoggo.com/) fahimfarhan (id, email)
+
 ## RESEARCH
 1. [zooniverse.org](https://www.zooniverse.org/users/fahimfarhan) fahimfarhan (id, email)
 2. [openreview](https://openreview.net/)  Fahim Farhan Qazi (email)
