@@ -117,17 +117,12 @@
 │   │   ├── 1167C-mle.cpp
 │   │   ├── 1180C-mle.cpp
 │   │   ├── 1181B-not-sure.cpp
-│   │   ├── 1187E.cpp
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 1376A1.cpp
 │   │   ├── 1389B1.cpp
-│   │   ├── 1397A.cpp
 │   │   ├── 1397B-almost-there.cpp
 │   │   ├── 1398C1.cpp
-│   │   ├── 1400C.cpp
-│   │   ├── 1401A.cpp
-│   │   ├── 1401B.cpp
 │   │   ├── 1401C1.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
@@ -279,8 +274,10 @@
 │   │   │   ├── 1389A.cpp
 │   │   │   ├── 1391A.cpp
 │   │   │   ├── 1393A.cpp
+│   │   │   ├── 1397A.cpp
 │   │   │   ├── 1398A.cpp
 │   │   │   ├── 1399A.cpp
+│   │   │   ├── 1401A.cpp
 │   │   │   ├── 141A.cpp
 │   │   │   ├── 141A-regex.cpp
 │   │   │   ├── 148A-again.cpp
@@ -523,6 +520,7 @@
 │   │   │   ├── 1391B.cpp
 │   │   │   ├── 1393B.cpp
 │   │   │   ├── 1399B.cpp
+│   │   │   ├── 1401B.cpp
 │   │   │   ├── 157B.cpp
 │   │   │   ├── 158B.cpp
 │   │   │   ├── 181B-2.cpp
@@ -686,6 +684,7 @@
 │   │   │   ├── 1391C.cpp
 │   │   │   ├── 1398C.cpp
 │   │   │   ├── 1399C.cpp
+│   │   │   ├── 1400C.cpp
 │   │   │   ├── 1401C.cpp
 │   │   │   ├── 158C.cpp
 │   │   │   ├── 1C.cpp
@@ -757,6 +756,7 @@
 │   │   │   ├── 1165E.cpp
 │   │   │   ├── 1176A-ME.cpp
 │   │   │   ├── 1176E.cpp
+│   │   │   ├── 1187E.cpp
 │   │   │   ├── 1196E.cpp
 │   │   │   ├── 1265E_2.cpp
 │   │   │   ├── 1265E.cpp
@@ -776,7 +776,6 @@
 │   │   │   ├── 630F.cpp
 │   │   │   ├── 908F.cpp
 │   │   │   └── 920F.cpp
-│   │   ├── failed-1400C.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
@@ -1365,6 +1364,7 @@
 │   ├── failed-1367C.cpp
 │   ├── failed-1374A.cpp
 │   ├── failed-1393B.cpp
+│   ├── failed-1400C.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── FAILED-2A.cpp
 │   ├── FAILED_494-KindergartenCountingGame.cpp
