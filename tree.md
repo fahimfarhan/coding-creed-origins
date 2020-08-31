@@ -108,26 +108,18 @@
 │   │   └── zexecscript.sh
 │   ├── CodeForces
 │   │   ├── 000-test.cpp
-│   │   ├── 1046B-outofmemory.cpp
 │   │   ├── 10474.cpp
 │   │   ├── 1089L.cpp
 │   │   ├── 1146B-tle.cpp
 │   │   ├── 1154F-MikeMirzayanov.cpp
 │   │   ├── 1155C-ok.cpp
-│   │   ├── 1167C-mle.cpp
-│   │   ├── 1180C-mle.cpp
-│   │   ├── 1181B-not-sure.cpp
 │   │   ├── 1363D-original.cpp
-│   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 1376A1.cpp
 │   │   ├── 1389B1.cpp
-│   │   ├── 1397B-almost-there.cpp
 │   │   ├── 1398C1.cpp
 │   │   ├── 1401C1.cpp
-│   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
-│   │   ├── 898B-tle.cpp
 │   │   ├── 961B-backup-st.cpp
 │   │   ├── A
 │   │   │   ├── 1005A.cpp
@@ -628,7 +620,6 @@
 │   │   │   ├── binarysearch706B.cpp
 │   │   │   └── debug1150B.cpp
 │   │   ├── B1146.java
-│   │   ├── backup.txt
 │   │   ├── BigSum.cpp
 │   │   ├── C
 │   │   │   ├── 1006C_mp.cpp
@@ -817,6 +808,13 @@
 │   │   │   └── zin.txt
 │   │   ├── MyException.java
 │   │   ├── NewTricks
+│   │   ├── others-codes
+│   │   │   ├── 1096C.cpp
+│   │   │   ├── 1138A.cpp
+│   │   │   ├── 224A.cpp
+│   │   │   ├── 508B-rte.cpp
+│   │   │   ├── 794B.cpp
+│   │   │   └── 859B.cpp
 │   │   ├── puzzle15.cpp
 │   │   ├── ria.cpp
 │   │   ├── saiful_dh_1389B1.cpp
@@ -827,24 +825,14 @@
 │   │   ├── STL_BinarySearch.cpp
 │   │   ├── STL_SET.cpp
 │   │   ├── STL_Useful_stuffs.cpp
-│   │   ├── temp
-│   │   │   ├── 1096C.cpp
-│   │   │   ├── 1138A.cpp
-│   │   │   ├── 224A.cpp
-│   │   │   ├── 508B-rte.cpp
-│   │   │   ├── 794B.cpp
-│   │   │   └── 859B.cpp
-│   │   ├── test.cpp
 │   │   ├── training
 │   │   │   └── 1213D1.cpp
 │   │   ├── uri1424.cpp
-│   │   ├── use
 │   │   ├── Welcome_to_CSE_DU.cpp
 │   │   ├── xautomove.sh
 │   │   ├── zexecscript.sh
 │   │   ├── zin.txt
-│   │   ├── zoutput.txt
-│   │   └── ztree.md
+│   │   └── zoutput.txt
 │   ├── CodeForcesEducation
 │   │   └── 1SuffixArrayBaseAlgorithm.cpp
 │   ├── FacebookHackerCup
@@ -1187,6 +1175,7 @@
 │   ├── 1037B_failed.cpp
 │   ├── 1037D-FAILED.cpp
 │   ├── 1040A_FAILED.cpp
+│   ├── 1046B-outofmemory.cpp
 │   ├── 1047C-failed.cpp
 │   ├── 1051B-failed.cpp
 │   ├── 1055B-FAILED-2.cpp
@@ -1236,16 +1225,21 @@
 │   ├── 1165D-failed.cpp
 │   ├── 1165E-failed.cpp
 │   ├── 1167A-failed.cpp
+│   ├── 1167C-mle.cpp
 │   ├── 1167F-failed.cpp
 │   ├── 1176A-failed.cpp
 │   ├── 1176D-failed2.cpp
 │   ├── 1176D-failed.cpp
+│   ├── 1180C-mle.cpp
+│   ├── 1181B-not-sure.cpp
 │   ├── 1182F-failed.cpp
 │   ├── 1185C1-failed2.cpp
 │   ├── 1185C1-failed.cpp
 │   ├── 1185D-failed.cpp
 │   ├── 1285B-failed.cpp
 │   ├── 1327A-tle.cpp
+│   ├── 1365C-almost-ok.cpp
+│   ├── 1397B-almost-there.cpp
 │   ├── 166E-again.cpp.FAILED
 │   ├── 166E-FAILED.cpp
 │   ├── 166E-formula.cpp.Formula-error.FAILED
@@ -1283,6 +1277,7 @@
 │   ├── 854A-failed.cpp
 │   ├── 893C_failed2.cpp
 │   ├── 893C_failed.cpp
+│   ├── 898B-tle.cpp
 │   ├── 914B-failed.cpp
 │   ├── 920F-failed.cpp
 │   ├── 920F-trial1-failed.ccpp
@@ -1876,4 +1871,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-156 directories, 1720 files
+156 directories, 1715 files
