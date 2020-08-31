@@ -120,10 +120,14 @@
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 1376A1.cpp
+│   │   ├── 1388A.cpp
 │   │   ├── 1389B1.cpp
+│   │   ├── 1392A.cpp
+│   │   ├── 1395A.cpp
 │   │   ├── 1397B-almost-there.cpp
 │   │   ├── 1397B.cpp
 │   │   ├── 1398C1.cpp
+│   │   ├── 1400A.cpp
 │   │   ├── 1401C1.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
@@ -1873,4 +1877,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-156 directories, 1717 files
+156 directories, 1721 files
