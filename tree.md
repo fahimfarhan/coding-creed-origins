@@ -120,14 +120,9 @@
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1365C-almost-ok.cpp
 │   │   ├── 1376A1.cpp
-│   │   ├── 1388A.cpp
 │   │   ├── 1389B1.cpp
-│   │   ├── 1392A.cpp
-│   │   ├── 1395A.cpp
 │   │   ├── 1397B-almost-there.cpp
-│   │   ├── 1397B.cpp
 │   │   ├── 1398C1.cpp
-│   │   ├── 1400A.cpp
 │   │   ├── 1401C1.cpp
 │   │   ├── 431C-recursion.cpp
 │   │   ├── 580C_ok_study_this.cpp
@@ -278,10 +273,13 @@
 │   │   │   ├── 1388A.cpp
 │   │   │   ├── 1389A.cpp
 │   │   │   ├── 1391A.cpp
+│   │   │   ├── 1392A.cpp
 │   │   │   ├── 1393A.cpp
+│   │   │   ├── 1395A.cpp
 │   │   │   ├── 1397A.cpp
 │   │   │   ├── 1398A.cpp
 │   │   │   ├── 1399A.cpp
+│   │   │   ├── 1400A.cpp
 │   │   │   ├── 1401A.cpp
 │   │   │   ├── 141A.cpp
 │   │   │   ├── 141A-regex.cpp
@@ -524,6 +522,7 @@
 │   │   │   ├── 1389B.cpp
 │   │   │   ├── 1391B.cpp
 │   │   │   ├── 1393B.cpp
+│   │   │   ├── 1397B.cpp
 │   │   │   ├── 1399B.cpp
 │   │   │   ├── 1401B.cpp
 │   │   │   ├── 157B.cpp
@@ -1877,4 +1876,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-156 directories, 1721 files
+156 directories, 1720 files

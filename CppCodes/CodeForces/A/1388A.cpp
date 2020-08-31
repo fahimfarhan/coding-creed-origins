@@ -35,6 +35,8 @@ ll MOD = 1e9+7;
 vector<int> *g;
 bool *isvisited;
 
+void start() {}
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -48,6 +50,29 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    ll T, n;
+    ll d = 0;
+    cin>>T;
+    while(T--) {
+        cin>>n;
+        ll m[3] = {6, 10, 14};
+        if(n > 30) {
+            cout<<"YES\n";
+            d = n - 30;
+
+            for(int i=0; i<3; i++) {
+                if(m[i] == d) {
+                    m[2]++;
+                    d--;
+                    break;
+                }
+            }
+            cout<<m[0]<<" "<<m[1]<<" "<<m[2]<<" "<<d<<"\n";
+        }else{
+            cout<<"NO\n";
+        }
+    }
 
 
     return 0;
