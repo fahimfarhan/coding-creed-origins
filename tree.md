@@ -122,6 +122,7 @@
 │   │   ├── 1376A1.cpp
 │   │   ├── 1389B1.cpp
 │   │   ├── 1397B-almost-there.cpp
+│   │   ├── 1397B.cpp
 │   │   ├── 1398C1.cpp
 │   │   ├── 1401C1.cpp
 │   │   ├── 431C-recursion.cpp
@@ -956,6 +957,8 @@
 │   │   ├── 10018Reverse-and-Add.cpp
 │   │   ├── 100.cpp
 │   │   ├── 100-dp.cpp
+│   │   ├── 10194-Football-google.cpp
+│   │   ├── 10194-Football-too-complicated.cpp
 │   │   ├── 10305.cpp
 │   │   ├── 10305-indegree.cpp
 │   │   ├── 11172.cpp
@@ -977,6 +980,8 @@
 │   │   ├── failed-at-some-korner-case-11340-Newspaper.cpp
 │   │   ├── failed-dominos.cpp
 │   │   ├── temp.cpp
+│   │   ├── test.cpp
+│   │   ├── UVA10194Football.java
 │   │   ├── UvaLive6802.cpp
 │   │   ├── UvaLive6983MatryoshkaDolls.cpp
 │   │   ├── uvalive6986.ccpp
@@ -1868,4 +1873,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-156 directories, 1712 files
+156 directories, 1717 files
