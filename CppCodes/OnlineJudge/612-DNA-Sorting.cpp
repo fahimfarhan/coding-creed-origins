@@ -38,6 +38,43 @@ bool *isvisited;
 
 void start() {}
 
+class Dna{
+public:
+    int index;
+    int inversionKount;
+    string dnaString;
+
+    Dna() {
+        index = 0;
+        inversionKount = 0;
+        dnaString = "";
+    }
+
+    Dna(int index, int inversionKount, string dnaString) {
+        this->index = index;
+        this->inversionKount = inversionKount;
+        this->dnaString = dnaString;
+    }
+};
+
+int calcInversionKount(const string& s) {
+    int inversionkount = 0;
+    
+    for(int i=0; i<s.size()-1; i++) {
+        for(int j=i+1; j<s.size(); j++) {
+            if(s[i]>s[j]) { inversionkount++;   }
+        }
+    }
+
+    return inversionkount;
+}
+
+bool compatator(const Dna& dna1, const Dna& dna2) {
+    if(dna1.inversionKount == dna2.inversionKount){   
+        return (dna1.index < dna2.index);  
+    }return (dna1.inversionKount < dna2.inversionKount);
+}
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -51,6 +88,31 @@ int main(int argc, char const *argv[])
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+
+    ll T, n, m;
+    string s;
+
+    
+    
+
+    cin>>T;
+    while(T--) {
+        vector<Dna> dnaList;
+        cin>>n>>m;
+
+        for(int i=0; i<m; i++) {
+            cin>>s;
+            Dna ithDna(i, calcInversionKount(s), s);
+            dnaList.push_back(ithDna);
+        }
+
+        sort(dnaList.begin(), dnaList.end(), compatator);
+
+        for(int i=0; i<dnaList.size(); i++) {
+            cout<<dnaList[i].dnaString<<"\n";
+        }
+        if(T)cout<<"\n";
+    }
 
 
     return 0;

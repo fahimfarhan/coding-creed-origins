@@ -1,5 +1,4 @@
-/* SPDX-License-Identifier: MIT */
-/* Copyright (c) 2020 Qazi Fahim Farhan (@fahimfarhan) */
+/* Author : Qazi Fahim Farhan (@fahimfarhan) */
 /* May the CodeForces be with you! */
 
 #include <iostream>
@@ -52,6 +51,17 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    int T, n, *p;
+    cin>>T;
+    while(T--) {
+        cin>>n;
+        p = new int[n+1];
+        for(int i=0; i<n; i++) {    cin>>p[i];  }
+        for(int i=n-1; i>=0; i--) { cout<<p[i]<<" ";    }
+        cout<<"\n";
+        
+        delete[] p;
+    }
 
     return 0;
 }

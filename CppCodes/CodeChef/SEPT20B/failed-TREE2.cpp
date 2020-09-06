@@ -13,7 +13,7 @@
 #include <vector>
 // #include <list>
 // #include <set>
-// #include <unordered_set>
+#include <unordered_set>
 // #include <map>
 // #include <unordered_map>
 // #include <queue>
@@ -52,6 +52,22 @@ int main(int argc, char const *argv[])
     cin.tie(0);
     cout.tie(0);
 
+    ll T;
+    ll n, a;
+    unordered_set<ll> s;
+
+    cin>>T;
+    while(T--) {
+        cin>>n;
+        for(int i=0; i<n; i++) {
+            cin>>a;
+            s.insert(a);
+        }
+
+        cout<<s.size()<<"\n";
+
+        s.clear();
+    }
 
     return 0;
 }

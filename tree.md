@@ -19,6 +19,7 @@
 │   │   ├── 460.cpp
 │   │   └── input.txt
 │   ├── CodeChef
+│   │   ├── a.out
 │   │   ├── APRIL20B
 │   │   │   ├── CARSELL.cpp
 │   │   │   ├── COVIDLQ.cpp
@@ -73,6 +74,8 @@
 │   │   │   ├── f2-FIBEASY.cpp
 │   │   │   ├── f-CHEFINSQ.cpp
 │   │   │   └── f-FIBEASY.cpp
+│   │   ├── SEPT20B
+│   │   │   └── failed-TREE2.cpp
 │   │   ├── untitled-contests
 │   │   │   ├── ARRGRAPH.cpp
 │   │   │   ├── ATTND.cpp
@@ -120,6 +123,7 @@
 │   │   ├── 1389B1.cpp
 │   │   ├── 1398C1.cpp
 │   │   ├── 1401C1.cpp
+│   │   ├── 1405A.cpp
 │   │   ├── 1409A.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
@@ -965,6 +969,7 @@
 │   │   ├── 494-KindergartenCountingGame.cpp
 │   │   ├── 544.cpp
 │   │   ├── 594-One-Little-Two-Little-Three-Little-Endians.cpp
+│   │   ├── 612-DNA-Sorting.cpp
 │   │   ├── 7025.cpp
 │   │   ├── a.out
 │   │   ├── failed-11340-Newspaper.cpp
@@ -1878,4 +1883,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-157 directories, 1721 files
+158 directories, 1725 files
