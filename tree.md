@@ -125,6 +125,7 @@
 │   │   ├── 1401C1.cpp
 │   │   ├── 1405A.cpp
 │   │   ├── 1409A.cpp
+│   │   ├── 27A.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 961B-backup-st.cpp
@@ -960,6 +961,8 @@
 │   │   ├── 10194-Football-too-complicated.cpp
 │   │   ├── 10305.cpp
 │   │   ├── 10305-indegree.cpp
+│   │   ├── 10810-Ultra-QuickSort.cpp
+│   │   ├── 10810-UltraQuiclSort2.cpp
 │   │   ├── 11172.cpp
 │   │   ├── 146-ID-Codes.cpp
 │   │   ├── 272 TEX Quotes.cpp
@@ -972,6 +975,7 @@
 │   │   ├── 612-DNA-Sorting.cpp
 │   │   ├── 7025.cpp
 │   │   ├── a.out
+│   │   ├── failed-10810-Ultra-Quicksort2.cpp
 │   │   ├── failed-11340-Newspaper.cpp
 │   │   ├── failed2-482-Permutation-Arrays.cpp
 │   │   ├── failed2-544.cpp
@@ -1883,4 +1887,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-158 directories, 1725 files
+158 directories, 1729 files
