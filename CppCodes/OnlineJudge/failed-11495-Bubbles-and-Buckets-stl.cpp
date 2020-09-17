@@ -18,9 +18,10 @@ ll player = 0;
 
 bool comparator(const int& i,const int& j) {
     if(i<=j) {
+        player++;
         return true;
     }else{
-        player++;
+
         return false;
     }
 }
@@ -37,9 +38,10 @@ int main(int argc, char const *argv[]){
         if(N==0) {  break;  }
         a = new ll[N+1];
         for(int i=0; i<N; i++) {    cin>>a[i];  }
-
+        
+        player = 0;
         sort(a,a+N, comparator);
-
+        cerr<<player<<"\n";
         if( (player & one) == one) {
             cout<<"Marcelo\n";
         }else{
