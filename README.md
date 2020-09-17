@@ -5,7 +5,17 @@ And I would really like to know who you are. Perhaps you could `Star` the repo :
 Thank you for reading.
 
 ### Reminder
-[Linux custom theme](https://github.com/fahimfarhan/Windows-10-blue) Next time when you(future me) reinstall linux, download this customized theme and save time :3
+<!-- [Linux custom theme](https://github.com/fahimfarhan/Windows-10-blue) Next time when you(future me) reinstall linux, download this customized theme and save time :3 -->
+After setting up new OS, run:
+```
+$ git config --global credential.helper store
+```
+And then 
+```
+$ git pull
+```
+This will save the git username and password. No need to type in the credentials everytime! 
+[reference](https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git-gitextension#35942890)
 
 ## Modular Inverse
 [online calculator](https://planetcalc.com/3311/), [geeksforgeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/), [khanacademy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses)
