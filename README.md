@@ -10,6 +10,10 @@ After setting up new OS, run:
 ```
 $ git config --global credential.helper store
 ```
+OR
+```
+$ git config credential.helper 'cache' --timeout=2592000     # <-- cache credentials for 1 month
+```
 And then 
 ```
 $ git pull

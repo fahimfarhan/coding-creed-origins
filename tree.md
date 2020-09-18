@@ -119,6 +119,7 @@
 │   │   ├── 1146B-tle.cpp
 │   │   ├── 1154F-MikeMirzayanov.cpp
 │   │   ├── 1155C-ok.cpp
+│   │   ├── 1339A.cpp
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1376A1.cpp
 │   │   ├── 1389B1.cpp
@@ -126,7 +127,10 @@
 │   │   ├── 1401C1.cpp
 │   │   ├── 1405A.cpp
 │   │   ├── 1409A.cpp
+│   │   ├── 141-A.cpp
+│   │   ├── 169A.cpp
 │   │   ├── 27A.cpp
+│   │   ├── 339A.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 961B-backup-st.cpp
@@ -842,7 +846,8 @@
 │   │   ├── xautomove.sh
 │   │   ├── zexecscript.sh
 │   │   ├── zin.txt
-│   │   └── zoutput.txt
+│   │   ├── zout.txt
+│   │   └── ztemp.txt
 │   ├── CodeForcesEducation
 │   │   └── 1SuffixArrayBaseAlgorithm.cpp
 │   ├── FacebookHackerCup
@@ -978,7 +983,9 @@
 │   │   ├── 544.cpp
 │   │   ├── 594-One-Little-Two-Little-Three-Little-Endians.cpp
 │   │   ├── 612-DNA-Sorting.cpp
+│   │   ├── 673-Parentheses-Balance.cpp
 │   │   ├── 7025.cpp
+│   │   ├── 727-Equation.cpp
 │   │   ├── a.out
 │   │   ├── failed-10810-Ultra-Quicksort2.cpp
 │   │   ├── failed-11340-Newspaper.cpp
@@ -990,6 +997,7 @@
 │   │   ├── failed-594-One-Little-Two-Little-Three-Little-Endians.cpp
 │   │   ├── failed-at-some-korner-case-11340-Newspaper.cpp
 │   │   ├── failed-dominos.cpp
+│   │   ├── failed-UVA-673-Parentheses-Balance.cpp
 │   │   ├── temp.cpp
 │   │   ├── test.cpp
 │   │   ├── UVA10194Football.java
@@ -1902,4 +1910,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-158 directories, 1744 files
+158 directories, 1752 files
