@@ -119,19 +119,11 @@
 │   │   ├── 1146B-tle.cpp
 │   │   ├── 1154F-MikeMirzayanov.cpp
 │   │   ├── 1155C-ok.cpp
-│   │   ├── 1339A.cpp
 │   │   ├── 1363D-original.cpp
 │   │   ├── 1376A1.cpp
 │   │   ├── 1389B1.cpp
 │   │   ├── 1398C1.cpp
 │   │   ├── 1401C1.cpp
-│   │   ├── 1405A.cpp
-│   │   ├── 1409A.cpp
-│   │   ├── 141-A.cpp
-│   │   ├── 169A.cpp
-│   │   ├── 27A.cpp
-│   │   ├── 339A.cpp
-│   │   ├── 432A.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 961B-backup-st.cpp
@@ -265,6 +257,7 @@
 │   │   │   ├── 1328A.cpp
 │   │   │   ├── 1332A.cpp
 │   │   │   ├── 1335A.cpp
+│   │   │   ├── 1339A.cpp
 │   │   │   ├── 1358A.cpp
 │   │   │   ├── 1359A.cpp
 │   │   │   ├── 1360A.cpp
@@ -287,10 +280,14 @@
 │   │   │   ├── 1399A.cpp
 │   │   │   ├── 1400A.cpp
 │   │   │   ├── 1401A.cpp
+│   │   │   ├── 1405A.cpp
+│   │   │   ├── 1409A.cpp
+│   │   │   ├── 141-A.cpp
 │   │   │   ├── 141A.cpp
 │   │   │   ├── 141A-regex.cpp
 │   │   │   ├── 148A-again.cpp
 │   │   │   ├── 148A.cpp
+│   │   │   ├── 169A.cpp
 │   │   │   ├── 181A.cpp
 │   │   │   ├── 199A.cpp
 │   │   │   ├── 1A.cpp
@@ -308,10 +305,12 @@
 │   │   │   ├── 271A.cpp
 │   │   │   ├── 274A.cpp
 │   │   │   ├── 277A.cpp
+│   │   │   ├── 27A.cpp
 │   │   │   ├── 2A.cpp
 │   │   │   ├── 313A-Ilya-and-Bak-Account.cpp
 │   │   │   ├── 320A.cpp
 │   │   │   ├── 327A.cpp
+│   │   │   ├── 339A.cpp
 │   │   │   ├── 346A.cpp
 │   │   │   ├── 348A.cpp
 │   │   │   ├── 352A.cpp
@@ -323,6 +322,7 @@
 │   │   │   ├── 3A.cpp
 │   │   │   ├── 401A.cpp
 │   │   │   ├── 41A.cpp
+│   │   │   ├── 432A.cpp
 │   │   │   ├── 445A.cpp
 │   │   │   ├── 453A.cpp
 │   │   │   ├── 456A.cpp
@@ -785,7 +785,6 @@
 │   │   │   ├── 630F.cpp
 │   │   │   ├── 908F.cpp
 │   │   │   └── 920F.cpp
-│   │   ├── failed-1409C.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
@@ -988,17 +987,6 @@
 │   │   ├── 7025.cpp
 │   │   ├── 727-Equation.cpp
 │   │   ├── a.out
-│   │   ├── failed-10810-Ultra-Quicksort2.cpp
-│   │   ├── failed-11340-Newspaper.cpp
-│   │   ├── failed-11495-Bubbles-and-Buckets-stl.cpp
-│   │   ├── failed2-482-Permutation-Arrays.cpp
-│   │   ├── failed2-544.cpp
-│   │   ├── failed-482-Permutation-Arrays.cpp
-│   │   ├── failed-544.cpp
-│   │   ├── failed-594-One-Little-Two-Little-Three-Little-Endians.cpp
-│   │   ├── failed-at-some-korner-case-11340-Newspaper.cpp
-│   │   ├── failed-dominos.cpp
-│   │   ├── failed-UVA-673-Parentheses-Balance.cpp
 │   │   ├── temp.cpp
 │   │   ├── test.cpp
 │   │   ├── UVA10194Football.java
@@ -1359,9 +1347,12 @@
 │   ├── FAILED-1073B-Vasya-and-Books.cpp
 │   ├── FAILED-1073D.cpp
 │   ├── FAILED-1075A.cpp
+│   ├── failed-10810-Ultra-Quicksort2.cpp
 │   ├── failed-1104E-Almost-ok.cpp
 │   ├── FAILED-1106D.cpp
 │   ├── failed-1131F-bfs-RTE.cpp
+│   ├── failed-11340-Newspaper.cpp
+│   ├── failed-11495-Bubbles-and-Buckets-stl.cpp
 │   ├── failed-1159C-so-close.cpp
 │   ├── failed-1185D-almost-ok.cpp
 │   ├── failed-1197A-Hacked.cpp
@@ -1399,10 +1390,16 @@
 │   ├── failed-1374A.cpp
 │   ├── failed-1393B.cpp
 │   ├── failed-1400C.cpp
+│   ├── failed-1409C.cpp
 │   ├── failed-2-1153A.cpp
+│   ├── failed2-482-Permutation-Arrays.cpp
+│   ├── failed2-544.cpp
 │   ├── FAILED-2A.cpp
+│   ├── failed-482-Permutation-Arrays.cpp
 │   ├── FAILED_494-KindergartenCountingGame.cpp
+│   ├── failed-544.cpp
 │   ├── FAILED_550A.cpp
+│   ├── failed-594-One-Little-Two-Little-Three-Little-Endians.cpp
 │   ├── failed-875A-TLE.cpp
 │   ├── failed-923B-tle.cpp
 │   ├── FAILED_935C.cpp
@@ -1410,8 +1407,11 @@
 │   ├── Failed_950D.cpp
 │   ├── failed-996A-almost-ok-rte.cpp
 │   ├── FAILED_ASCDFIB-AscendingFibonacciNumbers.cpp
+│   ├── failed-at-some-korner-case-11340-Newspaper.cpp
+│   ├── failed-dominos.cpp
 │   ├── failed-mle-1358C.cpp
 │   ├── failed-tle-1398C.cpp
+│   ├── failed-UVA-673-Parentheses-Balance.cpp
 │   ├── G911_time_exceed.cpp
 │   └── prince2_failed.cpp
 ├── gitAmendCommitsForAlreadyPushedCode.md
