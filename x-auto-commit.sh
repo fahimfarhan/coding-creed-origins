@@ -1,3 +1,4 @@
+./CppCodes/CodeForces/xautomove.sh
 tree > tree.md
 git status
 git add .
