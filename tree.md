@@ -282,6 +282,7 @@
 │   │   │   ├── 1401A.cpp
 │   │   │   ├── 1405A.cpp
 │   │   │   ├── 1409A.cpp
+│   │   │   ├── 1419A.cpp
 │   │   │   ├── 141-A.cpp
 │   │   │   ├── 141A.cpp
 │   │   │   ├── 141A-regex.cpp
@@ -977,6 +978,7 @@
 │   │   ├── 146-ID-Codes.cpp
 │   │   ├── 272 TEX Quotes.cpp
 │   │   ├── 299-Train-Swapping.cpp
+│   │   ├── 336-A-Node-Too-Far.cpp
 │   │   ├── 482-Permutation-Arrays.cpp
 │   │   ├── 490RotatingSentence.cpp
 │   │   ├── 494-KindergartenCountingGame.cpp
@@ -1391,6 +1393,7 @@
 │   ├── failed-1393B.cpp
 │   ├── failed-1400C.cpp
 │   ├── failed-1409C.cpp
+│   ├── failed-1419B.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── failed2-482-Permutation-Arrays.cpp
 │   ├── failed2-544.cpp
@@ -1911,4 +1914,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-158 directories, 1753 files
+158 directories, 1756 files
