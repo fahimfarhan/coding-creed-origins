@@ -1,39 +1,5 @@
-08*46*-47/2*+
-
-332+45+2+*12+31244+*-/-*+35*-
-
-332+45+2+*12+31244+*-/-*+35*-
-
-123*4*+
-
-12+3
-
-123*+
-
-12+3-
-
-123*+
-
-12+34-/
-
-12+34-*5+67+/
-
-123+45*+*1+
-
-1
-
-1
-
-12+3
-
-325+/95*+13/-
-
-
-
-32+5*
-
-32+5*
-
-32+4-5*
-
-32+4-9+
+Case 1: 9  nodes not reachable from node 35 with TTL = 2.
+Case 1: 9  nodes not reachable from node 35 with TTL = 3.
+Case 1: 16  nodes not reachable from node 1 with TTL = 2.
+Case 1: 14  nodes not reachable from node 3 with TTL = 2.
+Case 1: 14  nodes not reachable from node 3 with TTL = 3.

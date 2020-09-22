@@ -1162,10 +1162,12 @@
 │   └── zAllSizes.cpp
 ├── docs
 │   ├── certificates
-│   │   ├── fahimfarhan-Certificate-Code-Jam-2019.pdf
-│   │   ├── fahimfarhan-Round-B-Certificate-Kick-Start.pdf
-│   │   ├── fahimfarhan-Round-C-Certificate-Kick-Start.pdf
-│   │   ├── fahimfarhan-Round-D-Certificate-Kick-Start.pdf
+│   │   ├── fahimfarhan-Round-A-Certificate-Kick-Start-2020.pdf
+│   │   ├── fahimfarhan-Round-B-Certificate-Kick-Start-2019.pdf
+│   │   ├── fahimfarhan-Round-C-Certificate-Kick-Start-2019.pdf
+│   │   ├── fahimfarhan-Round-D-Certificate-Kick-Start-2019.pdf
+│   │   ├── fahimfarhan-Round-D-Certificate-Kick-Start-2020.pdf
+│   │   ├── fahimfarhan-Round-E-Certificate-Kick-Start-2020.pdf
 │   │   ├── fahimfarhan-SNCK19.pdf
 │   │   ├── fahimfarhan-Summary-Certificate-Kick-Start-2019.pdf
 │   │   └── Summary Certificate - Kick Start-2020.pdf
@@ -1914,4 +1916,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-158 directories, 1756 files
+158 directories, 1758 files
