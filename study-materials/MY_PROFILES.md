@@ -2,7 +2,7 @@
 ## Competitive Coding
 0. [vjudge](https://vjudge.net/user/269707) fahimfarhan (id)
 1. [Codeforces](http://codeforces.com/profile/fahimfarhan) fahimfarhan  (email,id)
-2. [HackerRank](https://www.hackerrank.com/fahimfarhan) fahimfarhan     (github)
+2. [HackerRank](https://www.hackerrank.com/soumic) soumic     (github)
 3. [CodeChef](https://www.codechef.com/users/fahimfarhan) fahimfarhan (github, firefox)
 4. [Spoj](https://www.spoj.com/users/fahimfarhan/) fahimfarhan (id)
 5. [onlinejudge (former UVA)](https://onlinejudge.org/) fahimfarhan ( email)

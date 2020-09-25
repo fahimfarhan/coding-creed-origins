@@ -1,5 +1,6 @@
-Case 1: 9  nodes not reachable from node 35 with TTL = 2.
-Case 1: 9  nodes not reachable from node 35 with TTL = 3.
-Case 1: 16  nodes not reachable from node 1 with TTL = 2.
-Case 1: 14  nodes not reachable from node 3 with TTL = 2.
-Case 1: 14  nodes not reachable from node 3 with TTL = 3.
+Case 1: 5 nodes not reachable from node 35 with TTL = 2.
+Case 2: 2 nodes not reachable from node 35 with TTL = 3.
+Case 3: 8 nodes not reachable from node 1 with TTL = 1.
+Case 4: 5 nodes not reachable from node 1 with TTL = 2.
+Case 5: 4 nodes not reachable from node 3 with TTL = 2.
+Case 6: 2 nodes not reachable from node 3 with TTL = 3.

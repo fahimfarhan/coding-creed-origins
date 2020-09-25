@@ -978,7 +978,6 @@
 │   │   ├── 146-ID-Codes.cpp
 │   │   ├── 272 TEX Quotes.cpp
 │   │   ├── 299-Train-Swapping.cpp
-│   │   ├── 336-A-Node-Too-Far.cpp
 │   │   ├── 482-Permutation-Arrays.cpp
 │   │   ├── 490RotatingSentence.cpp
 │   │   ├── 494-KindergartenCountingGame.cpp
@@ -989,6 +988,8 @@
 │   │   ├── 7025.cpp
 │   │   ├── 727-Equation.cpp
 │   │   ├── a.out
+│   │   ├── failed2-336-A-Node-Too-Far.cpp
+│   │   ├── failed-336-A-Node-Too-Far.cpp
 │   │   ├── temp.cpp
 │   │   ├── test.cpp
 │   │   ├── UVA10194Football.java
@@ -1916,4 +1917,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-158 directories, 1758 files
+158 directories, 1759 files

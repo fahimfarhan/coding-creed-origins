@@ -29,12 +29,13 @@
 // #include <cstring>
 // #include <cctype>
 // #include <string>
+#include <queue>
 #include <vector>
 // #include <list>
 // #include <set>
-// #include <unordered_set>
+#include <unordered_set>
 // #include <map>
-// #include <unordered_map>
+#include <unordered_map>
 // #include <queue>
 // #include <stack>
 #include <algorithm>
@@ -52,10 +53,90 @@ using namespace std;
 ll MOD = 1e9+7;
 
 // int n,m;
-vector<int> *g;
-bool *isvisited;
+unordered_map<int, vector<int> > g;
+unordered_map<int, bool> isvisited;
+unordered_set<int> allNodes;
+unordered_map<int, int> level;
+int t;
 
-void start() {}
+void bfs(int src) {
+
+  for(auto node : allNodes) {
+    isvisited[node] = false;
+  }
+
+  level[src] = 0;
+  queue<int> q;
+  q.push(src);
+  while(!q.empty()) {
+    int u = q.front();
+    q.pop();
+
+    isvisited[u] = true;
+    int nextLevel = (level[u] + 1);
+
+    for(int i=0; i<g[u].size(); i++) {
+      int v = g[u][i];
+      if(!isvisited[v]) {
+        q.push(v);
+        level[v] = nextLevel;
+      }
+    }
+  }
+}
+
+void start() {
+  int N, u, v;
+  int src, unReachableKount, ttl;
+
+  cin>>N;
+  if(N == 0) {
+    exit(0);
+  }
+  for(int i=0; i<N; i++) {
+    cin>>u>>v;
+    g[u].push_back(v);
+    g[v].push_back(u);
+    allNodes.insert(u); 
+    allNodes.insert(v);
+  }
+
+  int allNodesKount = allNodes.size();
+  while(true) {
+    cin>>src>>ttl;
+    if(src == 0 && ttl == 0) {  break; }
+    // else perform a bfs
+
+    for(auto node: allNodes) {
+      level[node] = INT_MAX;
+    }
+
+    bfs(src);
+    unReachableKount = 0;
+    for(auto node: allNodes) {
+      if(level[node] > ttl) {
+        unReachableKount++;
+      }
+    }
+
+    int unvisitedKount = 0;
+    for(auto node: allNodes) {
+      if(!isvisited[node]) {
+        unvisitedKount++;
+      }
+    }
+
+    unReachableKount = unReachableKount + unvisitedKount; 
+
+    // Case 1: 5 nodes not reachable from node 35 with TTL = 2.
+    t++;
+    cout<<"Case "<<t<<": "<<unReachableKount<<" nodes not reachable from node "<<src<<" with TTL = "<<ttl<<".\n";
+  }
+
+  allNodes.clear();
+  g.clear();
+  isvisited.clear();
+}
 
 void FastIO() {
   // freopen("input.txt","r",stdin);
@@ -85,6 +166,11 @@ void FastIO() {
 int main(int argc, char const *argv[]){
   /* code */
   FastIO();
+
+  t = 0;
+  while(true) {
+    start();
+  }
 
   return 0;
 }
