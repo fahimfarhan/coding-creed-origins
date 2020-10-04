@@ -127,6 +127,7 @@
 │   │   ├── 1398C1.cpp
 │   │   ├── 1401C1.cpp
 │   │   ├── 1408A.cpp
+│   │   ├── 1422A.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 961B-backup-st.cpp
@@ -789,6 +790,7 @@
 │   │   │   ├── 630F.cpp
 │   │   │   ├── 908F.cpp
 │   │   │   └── 920F.cpp
+│   │   ├── failed-1422B.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
@@ -1923,4 +1925,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-159 directories, 1764 files
+159 directories, 1766 files
