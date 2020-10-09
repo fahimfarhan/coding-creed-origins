@@ -7,7 +7,7 @@
 │   └── failed_1_B_plus_tree.cpp
 ├── AndroidPaginationTutorial.md
 ├── bad-apt-upgrade-fix.sh
-├── CppCodes
+├── Codes
 │   ├── 000A1.cpp
 │   ├── 00A0-namespace.cpp
 │   ├── 00A.cpp
