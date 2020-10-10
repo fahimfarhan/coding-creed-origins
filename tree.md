@@ -971,6 +971,7 @@
 │   │   ├── 100-dp.cpp
 │   │   ├── 10194-Football-google.cpp
 │   │   ├── 10194-Football-too-complicated.cpp
+│   │   ├── 10226-Hardwood-Species.cpp
 │   │   ├── 10305.cpp
 │   │   ├── 10305-indegree.cpp
 │   │   ├── 10810-Ultra-QuickSort.cpp
@@ -996,9 +997,20 @@
 │   │   ├── a.out
 │   │   ├── failed2-336-A-Node-Too-Far.cpp
 │   │   ├── failed-336-A-Node-Too-Far.cpp
+│   │   ├── Main.class
+│   │   ├── Pair.class
 │   │   ├── temp.cpp
 │   │   ├── test.cpp
-│   │   ├── UVA10194Football.java
+│   │   ├── uva10194
+│   │   │   └── UVA10194Football.java
+│   │   ├── uva10226
+│   │   │   ├── FAILED-TLE-UVA10226.java
+│   │   │   ├── Main.class
+│   │   │   └── UVA10226.class
+│   │   ├── UVA10226.class
+│   │   ├── uva10901
+│   │   │   └── UVA10901.java
+│   │   ├── UVA10901.class
 │   │   ├── UvaLive6802.cpp
 │   │   ├── UvaLive6983MatryoshkaDolls.cpp
 │   │   ├── uvalive6986.ccpp
@@ -1925,4 +1937,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-159 directories, 1766 files
+162 directories, 1775 files
