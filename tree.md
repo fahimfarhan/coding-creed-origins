@@ -126,8 +126,6 @@
 │   │   ├── 1389B1.cpp
 │   │   ├── 1398C1.cpp
 │   │   ├── 1401C1.cpp
-│   │   ├── 1408A.cpp
-│   │   ├── 1422A.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 961B-backup-st.cpp
@@ -285,11 +283,13 @@
 │   │   │   ├── 1400A.cpp
 │   │   │   ├── 1401A.cpp
 │   │   │   ├── 1405A.cpp
+│   │   │   ├── 1408A.cpp
 │   │   │   ├── 1409A.cpp
 │   │   │   ├── 1419A.cpp
 │   │   │   ├── 141-A.cpp
 │   │   │   ├── 141A.cpp
 │   │   │   ├── 141A-regex.cpp
+│   │   │   ├── 1422A.cpp
 │   │   │   ├── 148A-again.cpp
 │   │   │   ├── 148A.cpp
 │   │   │   ├── 169A.cpp
@@ -694,6 +694,7 @@
 │   │   │   ├── 1363C.cpp
 │   │   │   ├── 1365C.cpp
 │   │   │   ├── 1374C.cpp
+│   │   │   ├── 1375C.cpp
 │   │   │   ├── 1385C.cpp
 │   │   │   ├── 1391C.cpp
 │   │   │   ├── 1398C.cpp
@@ -790,7 +791,6 @@
 │   │   │   ├── 630F.cpp
 │   │   │   ├── 908F.cpp
 │   │   │   └── 920F.cpp
-│   │   ├── failed-1422B.cpp
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
@@ -1420,10 +1420,12 @@
 │   ├── failed-1366A.cpp
 │   ├── failed-1367C.cpp
 │   ├── failed-1374A.cpp
+│   ├── failed-1375C.cpp
 │   ├── failed-1393B.cpp
 │   ├── failed-1400C.cpp
 │   ├── failed-1409C.cpp
 │   ├── failed-1419B.cpp
+│   ├── failed-1422B.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── failed2-482-Permutation-Arrays.cpp
 │   ├── failed2-544.cpp
@@ -1944,4 +1946,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-163 directories, 1781 files
+163 directories, 1783 files
