@@ -36,6 +36,7 @@ This will save the git username and password. No need to type in the credentials
 * [Dark Knight DS](https://codeforces.com/blog/entry/15729)
 
 ## Important Repos
+* [SHY-Corp/LeetCode-Solutions](https://github.com/SHY-Corp/LeetCode-Solutions)
 * [labuladong-leetcode-english](https://github.com/labuladong/fucking-algorithm/tree/english)
 * [cheran-senthil/PyRival](https://github.com/cheran-senthil/PyRival)
 * [google-code-jam-2017-solns](https://github.com/ruippeixotog/google-code-jam-2017)
