@@ -32,9 +32,9 @@
 #include <vector>
 // #include <list>
 // #include <set>
-#include <unordered_set>
+// #include <unordered_set>
 // #include <map>
-#include <unordered_map>
+// #include <unordered_map>
 // #include <queue>
 // #include <stack>
 #include <algorithm>
@@ -82,60 +82,36 @@ void FastIO() {
 */
 }
 
+int *leaf, *sum, *a;
+int n;
+
+void dfs(int u) {
+  
+}
+
+// https://codeforces.com/contest/1436/submission/96779983  this looks nice but I don't understand it yet
 int main(int argc, char const *argv[]){
   /* code */
   FastIO();
+  cin>>n;
+  a = new int[n+1];
+  sum = new int[n+1];
+  leaf = new int[n+1];
+  g = new vector<int>[n+1];
 
-  int T, n;
-  int a;
-
-  unordered_map<int, vector<int> > mp;
-  unordered_set<int> gangs;
-
-  cin>>T;
-  while(T--) {
-    cin>>n;
-    for(int i=1; i<=n; i++) {
-      cin>>a;
-      mp[a].push_back(i);
-      if(gangs.size() < 2) {
-        gangs.insert(a);
-      }
-    }
-
-    if(mp.size() == 1) {  cout<<"NO\n"; }
-    else{
-      cout<<"YES\n";
-
-      vector<int> bandits;
-      for(int gang: gangs) {
-        bandits.push_back(gang);
-      }
-
-      for(auto entry: mp) {
-        int gang = entry.first;
-        if(gang != bandits[0]) {
-          int u = mp[bandits[0]][0];
-          for(int j=0; j<mp[gang].size(); j++) {
-            int v = mp[gang][j];
-
-            cout<<u<<" "<<v<<"\n";
-          }
-        }
-      }
-
-      int u = mp[bandits[1]][0];
-      for(int i=1; i<mp[bandits[0]].size(); i++) {
-        int v = mp[bandits[0]][i];
-        cout<<u<<" "<<v<<"\n";
-      }
-
-
-     }
-
-    mp.clear();
-    gangs.clear();
+  int pi;
+  for(int i=2; i<=n; i++) {
+    cin>>pi;
+    g[pi].push_back(i);
   }
 
+  for(int i=1; i<=n; i++) { cin>>a[i];  }
+
+  dfs(1);
+
+  delete[] g;
+  delete[] leaf;
+  delete[] sum;
+  delete[] a;
   return 0;
 }
