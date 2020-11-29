@@ -57,7 +57,7 @@ vector<int> *g;
 bool *isvisited;
 
 void start() {}
-// 1454A.cpp
+
 void FastIO() {
   // freopen("input.txt","r",stdin);
   // freopen("output.txt","w",stdout);
@@ -83,16 +83,23 @@ void FastIO() {
 */
 }
 
+inline int binaryExp(const int& base, const int& power) {
+  if(power == 0) return 1;
+  if(power == 1) return base;
+
+  int _power = power >> 1;
+  int result = binaryExp(base, _power);
+  result = result * result;
+  if( (power&1) == 1) {
+    result = result * base;
+  } 
+  return result;
+}
+
 int main(int argc, char const *argv[]){
   /* code */
   FastIO();
-  int T, N;
-  cin>>T;
-  while(T--) {
-    cin>>N;
-    for(int i=2; i<=N; i++) {
-        cout<<i<<" ";
-    }cout<<1<<"\n";
-  }
+  cout<<binaryExp(2, 7)<<"\n";
+  cout<<binaryExp(3, 11)<<"\n";
   return 0;
 }

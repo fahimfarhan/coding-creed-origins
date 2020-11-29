@@ -57,7 +57,7 @@ vector<int> *g;
 bool *isvisited;
 
 void start() {}
-// 1454A.cpp
+
 void FastIO() {
   // freopen("input.txt","r",stdin);
   // freopen("output.txt","w",stdout);
@@ -83,16 +83,50 @@ void FastIO() {
 */
 }
 
+
+vector<int> primes;
+bool isNonPrime[90000001]; // by default they are auto initialized to false. 
+                           // reinitializing only kills time
+inline void preprocessingseive() {
+  int N = 90000001;
+  isNonPrime[0] = true;
+  isNonPrime[1] = true;
+
+  primes.push_back(2);
+  for(int i=4; i < N; i+=2) {
+    isNonPrime[i] = true;
+  }
+
+  for(int i=3; i*i < N; i+=2) {
+    if(isNonPrime[i] == false) {
+      // primes.push_back(i); // <-- putting this inside this loop is the peccable reason
+      // int start = i<<1;
+      for(int j = i*i; j < N; j+=i) {
+        isNonPrime[j] = true;
+      }
+    }
+  }
+
+  for(int i=3; i<N; i+=2) {
+    if(isNonPrime[i] == false) {
+      primes.push_back(i);
+    }
+  }
+
+
+}
+
 int main(int argc, char const *argv[]){
   /* code */
   FastIO();
-  int T, N;
+  preprocessingseive();
+  // cerr<<"primes.size = "<<primes.size()<<"\n";
+  int T, K;
   cin>>T;
   while(T--) {
-    cin>>N;
-    for(int i=2; i<=N; i++) {
-        cout<<i<<" ";
-    }cout<<1<<"\n";
+    cin>>K;
+    cout<<primes[(K-1)]<<"\n";
   }
+  
   return 0;
 }
