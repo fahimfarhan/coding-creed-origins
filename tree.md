@@ -1760,6 +1760,18 @@
 │   │   │   └── main.kotlin_module
 │   │   └── template.kt
 │   ├── python
+│   │   ├── 10-some-string-basics.py
+│   │   ├── 11-negative-indexing-string-should-work-with-arrays.py
+│   │   ├── 12-string-format.py
+│   │   ├── 1-conditions.py
+│   │   ├── 2-type-casting.py
+│   │   ├── 3-python-is-case-sensitive.py
+│   │   ├── 4-assign-multiple-variables.py
+│   │   ├── 5-unpack-a-collection.py
+│   │   ├── 6-local-and-global-scoped-variables.py
+│   │   ├── 7-scientific-number.py
+│   │   ├── 8-complex-numbers.py
+│   │   ├── 9-random-number.py
 │   │   └── start.py
 │   └── sql
 │       ├── 1-revising-the-select-query-1.sql
@@ -1977,4 +1989,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-164 directories, 1813 files
+164 directories, 1825 files
