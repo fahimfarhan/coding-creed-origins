@@ -308,6 +308,7 @@
 │   │   │   ├── 1443A.cpp
 │   │   │   ├── 1454A.cpp
 │   │   │   ├── 1465A.cpp
+│   │   │   ├── 1467A.cpp
 │   │   │   ├── 148A-again.cpp
 │   │   │   ├── 148A.cpp
 │   │   │   ├── 169A.cpp
@@ -818,6 +819,7 @@
 │   │   ├── FindThePoint.cpp
 │   │   ├── Graph.cpp
 │   │   ├── imanik.cpp
+│   │   ├── int64_t,
 │   │   ├── MISC_BUJHI_NAI
 │   │   │   ├── 1105C.cpp
 │   │   │   ├── 1107B.cpp
@@ -872,6 +874,7 @@
 │   │   ├── training
 │   │   │   └── 1213D1.cpp
 │   │   ├── uri1424.cpp
+│   │   ├── use
 │   │   ├── Welcome_to_CSE_DU.cpp
 │   │   ├── xautomove.sh
 │   │   ├── zexecscript.sh
@@ -1457,6 +1460,7 @@
 │   ├── failed-1433C.cpp
 │   ├── failed-1436B.cpp
 │   ├── failed-1467A.cpp
+│   ├── failed-1467B.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── failed2-482-Permutation-Arrays.cpp
 │   ├── failed2-544.cpp
@@ -1763,6 +1767,9 @@
 │   │   ├── 10-some-string-basics.py
 │   │   ├── 11-negative-indexing-string-should-work-with-arrays.py
 │   │   ├── 12-string-format.py
+│   │   ├── 13-lists.py
+│   │   ├── 14-loops.py
+│   │   ├── 15-tuples.py
 │   │   ├── 1-conditions.py
 │   │   ├── 2-type-casting.py
 │   │   ├── 3-python-is-case-sensitive.py
@@ -1989,4 +1996,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-164 directories, 1825 files
+164 directories, 1832 files
