@@ -13,6 +13,8 @@
 │   ├── c4-macro-and-prime-prime.cpp
 │   ├── c5-prime-factor-using-seive.cpp
 │   ├── c6-soln.cpp
+│   ├── c7.cpp
+│   ├── c7-fibonacci-finding-easy.cpp
 │   ├── failed-almost-ok-c6-power-of-matrix.cpp
 │   └── zin.txt
 ├── AndroidPaginationTutorial.md
@@ -138,6 +140,7 @@
 │   │   ├── 1389B1.cpp
 │   │   ├── 1398C1.cpp
 │   │   ├── 1401C1.cpp
+│   │   ├── 1467B.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 961B-backup-st.cpp
@@ -1063,6 +1066,7 @@
 │   │   │   └── MojtabasArrayandArpasQueries.cpp
 │   │   ├── HackerRank
 │   │   │   ├── 10daystatistics-d1-p1.cpp
+│   │   │   ├── a.out
 │   │   │   ├── arithmetic.cpp
 │   │   │   ├── a-very-big-sum.cpp
 │   │   │   ├── Be like Bumble.cpp
@@ -1074,6 +1078,7 @@
 │   │   │   ├── leonardo-and-prime.cpp
 │   │   │   ├── lowest-triangle.cpp
 │   │   │   ├── queue-using-two-stacks.cpp
+│   │   │   ├── save-princess.cpp
 │   │   │   ├── security-bijective-functions.cpp
 │   │   │   ├── security-inverse-of-a-function.cpp
 │   │   │   ├── security-involution.cpp
@@ -1770,7 +1775,13 @@
 │   │   ├── 13-lists.py
 │   │   ├── 14-loops.py
 │   │   ├── 15-tuples.py
+│   │   ├── 16-sets.py
+│   │   ├── 17-dictionary.py
+│   │   ├── 18-functions.py
+│   │   ├── 19-lambdas.py
 │   │   ├── 1-conditions.py
+│   │   ├── 20-class-object.py
+│   │   ├── 21-hackerrank.py
 │   │   ├── 2-type-casting.py
 │   │   ├── 3-python-is-case-sensitive.py
 │   │   ├── 4-assign-multiple-variables.py
@@ -1779,6 +1790,9 @@
 │   │   ├── 7-scientific-number.py
 │   │   ├── 8-complex-numbers.py
 │   │   ├── 9-random-number.py
+│   │   ├── any_and_all.py
+│   │   ├── hackerrank.py
+│   │   ├── input.txt
 │   │   └── start.py
 │   └── sql
 │       ├── 1-revising-the-select-query-1.sql
@@ -1996,4 +2010,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-164 directories, 1832 files
+164 directories, 1846 files

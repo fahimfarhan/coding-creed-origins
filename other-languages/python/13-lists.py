@@ -1,6 +1,8 @@
 list1 = [1,2,3,7,4]
 list2 = list(list1)
 
+list3 = list((1,2,3,4,5,6,7))
+
 print(list1)
 print(list2)
 

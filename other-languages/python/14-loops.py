@@ -26,3 +26,8 @@ print(b)
 
 c = b.copy()
 print(c)
+
+
+print("the for loop")
+for i in range(0,8):
+  print(i)
