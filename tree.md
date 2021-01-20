@@ -15,6 +15,7 @@
 │   ├── c6-soln.cpp
 │   ├── c7.cpp
 │   ├── c7-fibonacci-finding-easy.cpp
+│   ├── c7-pointers.cpp
 │   ├── failed-almost-ok-c6-power-of-matrix.cpp
 │   └── zin.txt
 ├── AndroidPaginationTutorial.md
@@ -141,6 +142,8 @@
 │   │   ├── 1398C1.cpp
 │   │   ├── 1401C1.cpp
 │   │   ├── 1467B.cpp
+│   │   ├── 1474A.cpp
+│   │   ├── 1474B.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 961B-backup-st.cpp
@@ -2010,4 +2013,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-164 directories, 1846 files
+164 directories, 1849 files
