@@ -141,9 +141,6 @@
 │   │   ├── 1389B1.cpp
 │   │   ├── 1398C1.cpp
 │   │   ├── 1401C1.cpp
-│   │   ├── 1467B.cpp
-│   │   ├── 1474A.cpp
-│   │   ├── 1474B.cpp
 │   │   ├── 580C_ok_study_this.cpp
 │   │   ├── 883M.cpp
 │   │   ├── 961B-backup-st.cpp
@@ -315,6 +312,7 @@
 │   │   │   ├── 1454A.cpp
 │   │   │   ├── 1465A.cpp
 │   │   │   ├── 1467A.cpp
+│   │   │   ├── 1474A.cpp
 │   │   │   ├── 148A-again.cpp
 │   │   │   ├── 148A.cpp
 │   │   │   ├── 169A.cpp
@@ -564,6 +562,7 @@
 │   │   │   ├── 1433B.cpp
 │   │   │   ├── 1436B.cpp
 │   │   │   ├── 1454B.cpp
+│   │   │   ├── 1467B.cpp
 │   │   │   ├── 157B.cpp
 │   │   │   ├── 158B.cpp
 │   │   │   ├── 181B-2.cpp
@@ -1469,6 +1468,7 @@
 │   ├── failed-1436B.cpp
 │   ├── failed-1467A.cpp
 │   ├── failed-1467B.cpp
+│   ├── failed-1474B.cpp
 │   ├── failed-2-1153A.cpp
 │   ├── failed2-482-Permutation-Arrays.cpp
 │   ├── failed2-544.cpp
