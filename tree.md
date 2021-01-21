@@ -16,6 +16,7 @@
 │   ├── c7.cpp
 │   ├── c7-fibonacci-finding-easy.cpp
 │   ├── c7-pointers.cpp
+│   ├── c8-codechef-.cpp
 │   ├── failed-almost-ok-c6-power-of-matrix.cpp
 │   └── zin.txt
 ├── AndroidPaginationTutorial.md
@@ -2021,4 +2022,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-166 directories, 1855 files
+166 directories, 1856 files
