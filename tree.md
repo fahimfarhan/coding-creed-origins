@@ -1201,6 +1201,14 @@
 │   │   ├── uva10305.cpp
 │   │   ├── xoxoxo.cpp
 │   │   └── z.cpp
+│   ├── Rosalind
+│   │   ├── 1-DNA.cpp
+│   │   ├── 2-RNA.cpp
+│   │   ├── a.out
+│   │   ├── inputs
+│   │   │   ├── rosalind_dna.txt
+│   │   │   └── rosalind_rna.txt
+│   │   └── out.txt
 │   ├── timus
 │   │   ├── 1000.cpp
 │   │   ├── 102_coprime-failed.cpp
@@ -2013,4 +2021,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-164 directories, 1849 files
+166 directories, 1855 files

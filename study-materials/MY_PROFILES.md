@@ -21,6 +21,9 @@
 18. [icpc](https://icpc.global/) (email)
 19. [freeCodeCamp](https://www.freecodecamp.org/) (github)
 
+## BioInformatics
+1. [rosalind.info](http://rosalind.info/users/fahimfarhan/) fahimfarhan (email)
+
 ## AI
 1. [codingame](https://www.codingame.com/home) fahimfarhan  (github)
 2. [gvgai](http://www.gvgai.net/index.php) fahimfarhan  (id)
