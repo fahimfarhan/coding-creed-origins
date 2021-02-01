@@ -7,6 +7,7 @@
 │   ├── 3-merge-sort.cpp
 │   ├── a.out
 │   ├── c0-seive.cpp
+│   ├── c10-partially-ok-codechef-GCDMOD.cpp
 │   ├── c1-primefactorization.cpp
 │   ├── c2-binaryExponential.cpp
 │   ├── c3primeInterval.cpp
@@ -17,7 +18,10 @@
 │   ├── c7-fibonacci-finding-easy.cpp
 │   ├── c7-pointers.cpp
 │   ├── c8-codechef-.cpp
+│   ├── c9-codeforces-742.cpp
+│   ├── failed2-c10-codechef-GCDMOD2.cpp
 │   ├── failed-almost-ok-c6-power-of-matrix.cpp
+│   ├── failed-c10-codechef-GCDMOD.cpp
 │   └── zin.txt
 ├── AndroidPaginationTutorial.md
 ├── bad-apt-upgrade-fix.sh
@@ -1202,6 +1206,14 @@
 │   │   ├── uva10305.cpp
 │   │   ├── xoxoxo.cpp
 │   │   └── z.cpp
+│   ├── Regex
+│   │   ├── out
+│   │   │   └── production
+│   │   │       └── Regex
+│   │   │           └── Start.class
+│   │   ├── Regex.iml
+│   │   └── src
+│   │       └── Start.java
 │   ├── Rosalind
 │   │   ├── 1-DNA.cpp
 │   │   ├── 2-RNA.cpp
@@ -1958,6 +1970,7 @@
 │           └── output_KL.txt.original
 ├── PULL_REQUEST_TEMPLATE.md
 ├── README.md
+├── regular-expressions-cheat-sheet.pdf
 ├── remove_old_snaps.sh
 ├── software-development
 │   ├── design-patterns
@@ -2022,4 +2035,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-166 directories, 1856 files
+171 directories, 1864 files
