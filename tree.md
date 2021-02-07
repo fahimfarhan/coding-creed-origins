@@ -14,6 +14,8 @@
 │   ├── c10.cpp
 │   ├── c10-partially-ok-codechef-GCDMOD.cpp
 │   ├── c11-total-number-of-divisors-from-prime-factorization.cpp
+│   ├── c15-binomial-coeff-using-nultiplicative-modulo-inverse.cpp
+│   ├── c18-eulers-totient-function.cpp
 │   ├── c1-primefactorization.cpp
 │   ├── c2-binaryExponential.cpp
 │   ├── c3primeInterval.cpp
@@ -323,9 +325,12 @@
 │   │   │   ├── 1436A.cpp
 │   │   │   ├── 1443A.cpp
 │   │   │   ├── 1454A.cpp
+│   │   │   ├── 1455A.cpp
+│   │   │   ├── 1458A.cpp
 │   │   │   ├── 1465A.cpp
 │   │   │   ├── 1467A.cpp
 │   │   │   ├── 1474A.cpp
+│   │   │   ├── 1480A.cpp
 │   │   │   ├── 148A-again.cpp
 │   │   │   ├── 148A.cpp
 │   │   │   ├── 169A.cpp
@@ -1279,6 +1284,10 @@
 │   ├── codeNcode
 │   │   ├── 10-modular-arithmetic-2.md
 │   │   ├── 11-total-number-of-divisors.md
+│   │   ├── 15-binomial-coeff-using-modular-inverse.md
+│   │   ├── 16-Eulers-totioen-function.md
+│   │   ├── 17-Eulers-totient-function-2.md
+│   │   ├── 1-modulo-inverse.md
 │   │   ├── 1-primality-test.md
 │   │   ├── 7-fibonacci.md
 │   │   └── 8-euclid-algo-and-intro-to-modular-arithmetic.md
@@ -2061,4 +2070,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-176 directories, 1885 files
+176 directories, 1894 files
