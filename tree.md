@@ -1,13 +1,19 @@
 .
 ├── algos
+│   ├── 1
 │   ├── 2-3-2-UnionFind-by-rank.cpp
 │   ├── 2-3-2-UnionFind-DisjointSet.cpp
 │   ├── 2-3-3-segment-tree.cpp
 │   ├── 2-bubble-sort.cpp
 │   ├── 3-merge-sort.cpp
+│   ├── A
 │   ├── a.out
+│   ├── B
 │   ├── c0-seive.cpp
+│   ├── c10-codechef-GCDMOD.cpp
+│   ├── c10.cpp
 │   ├── c10-partially-ok-codechef-GCDMOD.cpp
+│   ├── c11-total-number-of-divisors-from-prime-factorization.cpp
 │   ├── c1-primefactorization.cpp
 │   ├── c2-binaryExponential.cpp
 │   ├── c3primeInterval.cpp
@@ -22,6 +28,8 @@
 │   ├── failed2-c10-codechef-GCDMOD2.cpp
 │   ├── failed-almost-ok-c6-power-of-matrix.cpp
 │   ├── failed-c10-codechef-GCDMOD.cpp
+│   ├── N
+│   ├── T
 │   └── zin.txt
 ├── AndroidPaginationTutorial.md
 ├── bad-apt-upgrade-fix.sh
@@ -1222,6 +1230,20 @@
 │   │   │   ├── rosalind_dna.txt
 │   │   │   └── rosalind_rna.txt
 │   │   └── out.txt
+│   ├── StyleGrammer
+│   │   ├── out
+│   │   │   └── production
+│   │   │       └── StyleGrammer
+│   │   │           ├── FollowOutput.class
+│   │   │           ├── MentionsMetaData.class
+│   │   │           ├── Start.class
+│   │   │           └── StyleParser.class
+│   │   ├── src
+│   │   │   ├── FollowOutput.java
+│   │   │   ├── MentionsMetaData.java
+│   │   │   ├── Start.java
+│   │   │   └── StyleParser.java
+│   │   └── StyleGrammer.iml
 │   ├── timus
 │   │   ├── 1000.cpp
 │   │   ├── 102_coprime-failed.cpp
@@ -1255,7 +1277,11 @@
 │   │   ├── fahimfarhan-Summary-Certificate-Kick-Start-2019.pdf
 │   │   └── Summary Certificate - Kick Start-2020.pdf
 │   ├── codeNcode
-│   │   └── 1-primality-test.md
+│   │   ├── 10-modular-arithmetic-2.md
+│   │   ├── 11-total-number-of-divisors.md
+│   │   ├── 1-primality-test.md
+│   │   ├── 7-fibonacci.md
+│   │   └── 8-euclid-algo-and-intro-to-modular-arithmetic.md
 │   ├── github.css
 │   ├── index.html
 │   └── Knuth Odd Solutions
@@ -2035,4 +2061,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-171 directories, 1864 files
+176 directories, 1885 files
