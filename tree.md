@@ -16,6 +16,7 @@
 │   ├── c11-total-number-of-divisors-from-prime-factorization.cpp
 │   ├── c15-binomial-coeff-using-nultiplicative-modulo-inverse.cpp
 │   ├── c18-eulers-totient-function.cpp
+│   ├── c19-totient-function-using-seive.cpp
 │   ├── c1-primefactorization.cpp
 │   ├── c2-binaryExponential.cpp
 │   ├── c3primeInterval.cpp
@@ -1019,6 +1020,7 @@
 │   │   ├── 10018Reverse-and-Add.cpp
 │   │   ├── 100.cpp
 │   │   ├── 100-dp.cpp
+│   │   ├── 10183-how-many-fibs.cpp
 │   │   ├── 10194-Football-google.cpp
 │   │   ├── 10194-Football-too-complicated.cpp
 │   │   ├── 10226-Hardwood-Species.cpp
@@ -1051,10 +1053,12 @@
 │   │   ├── 727-Equation.cpp
 │   │   ├── a.out
 │   │   ├── failed-11136-Hoax-or-what.cpp
+│   │   ├── failed2-10183-how-many-fibs.cpp
 │   │   ├── failed2-336-A-Node-Too-Far.cpp
 │   │   ├── failed-336-A-Node-Too-Far.cpp
 │   │   ├── faileduva11239
 │   │   │   └── UVA11239.java
+│   │   ├── falied-tle-10183-how-many-fibs.cpp
 │   │   ├── temp.cpp
 │   │   ├── test.cpp
 │   │   ├── uva10194
@@ -1287,8 +1291,10 @@
 │   │   ├── 15-binomial-coeff-using-modular-inverse.md
 │   │   ├── 16-Eulers-totioen-function.md
 │   │   ├── 17-Eulers-totient-function-2.md
+│   │   ├── 19-calc-euler-totioent-fast.md
 │   │   ├── 1-modulo-inverse.md
 │   │   ├── 1-primality-test.md
+│   │   ├── 20-totient-func-and-gcd-sum.md
 │   │   ├── 7-fibonacci.md
 │   │   └── 8-euclid-algo-and-intro-to-modular-arithmetic.md
 │   ├── github.css
@@ -2070,4 +2076,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-176 directories, 1894 files
+176 directories, 1900 files
