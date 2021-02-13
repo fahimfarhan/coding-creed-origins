@@ -55,6 +55,59 @@ ll MOD = 1e9+7;
 vector<int> *g;
 bool *isvisited;
 
+#define GREATER 1
+#define EQUAL 0
+#define SMALLER -1
+
+int bigIntComparator(string a, string b) {
+  int sizeOfA = a.size();
+  int sizeOfB = b.size();
+  if(sizeOfA > sizeOfB) { return GREATER; }
+  else if(sizeOfA < sizeOfB) { return SMALLER; }
+  else{
+    for(int i=0; i<sizeOfA; i++) {
+      if(a[i]  < b[i]) {  return SMALLER; }
+      else if(a[i] > b[i]) {  return GREATER; }
+    }
+  }
+  return EQUAL;
+}
+
+
+string bigIntSum(string a, string b) {
+  string summation = "";
+
+  if(a.size() < b.size()) {
+    swap(a, b);
+  }
+
+  int len1 = a.size(), len2 = b.size();
+
+  int carry = 0;
+  char ch;
+  // int n = len2;
+  int x = 0;
+  for(int i=len1 - 1, j= len2-1; i>=0; i--, j--) {
+    if(j >= 0) {
+      x = (a[i] - '0') + (b[j] - '0') + carry;
+    }else{
+      x = (a[i] - '0') + carry;
+    }
+    if(x < 10) {  carry = 0;  }
+    else{ carry = 1;  }
+
+    x = x % 10;
+    ch = x + '0';
+    summation = ch + summation;
+  }
+
+  if(carry == 1) {
+    summation = "1" + summation;
+  }
+
+  return summation;
+}
+
 void start() {}
 
 void FastIO() {
