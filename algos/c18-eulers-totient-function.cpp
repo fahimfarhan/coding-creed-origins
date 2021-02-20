@@ -23,9 +23,11 @@ inline void seivePreprocess() {
 }
 
 int phi(int n) {
-  if(n < 2) {
+  if(n == 0) {
     return 0;
   }
+
+  if(n == 1) {  return 1; }
 
   if(isPrime[n]) {
     return (n-1);

@@ -29,3 +29,19 @@ gdc(xi, N) = d => gdc(xi/d, N/d) = 1
 => 1 <= xi/d <= N/d
 
 the number of integers having gcd d with N = number of integers coprime with d.
+
+Since gcd(d,N) = d => gdc(1, N/d) = 1. So getCount(d, N) == phi[N / d]
+```cpp
+int getCount(int d, int N) {
+   int m = N / d;
+   
+   return phi[m];
+}
+```
+
+## Conclusion
+```
+gcdSumOfN = ithDivisor * phi[N / ithDivisor]
+```
+
+Complexity = O(NlogN + Q sqrt(N))
