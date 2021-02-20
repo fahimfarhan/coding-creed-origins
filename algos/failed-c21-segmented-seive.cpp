@@ -17,17 +17,27 @@ inline void segmentedSeivePreprocess() {
   }
 
   for(int i=4; i*i <= R; i+2) {
-    if(i >= L) {
+      int remainder = L % 2;
+      int start = L - remainder;
+      if(remainder!=0) {
+        start+=2;
+      }
+    //if(i >= L) {
       isPrime[i - L] = COMPOSITE;
-    }
+    //}
   }
 
   for(int i=3; i*i <= R; i+=2) {
     if(isPrime[i]) {
-      for(int j=i*2; j<=R; j+=i) {
-        if(j > L) {
+      int remainder = L % i;
+      int start = L - remainder;
+      if(remainder!=0) {
+        start+=i;
+      }
+      for(int j=start; j<=R; j+=i) {
+        // if(j > L) {
           isPrime[j] = COMPOSITE;
-        }
+        // }
       }
     }
   }
