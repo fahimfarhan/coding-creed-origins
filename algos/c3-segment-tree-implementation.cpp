@@ -26,6 +26,11 @@ void buildSegmentTree(int index, int start, int end) {
   segmentTree[index] = someOperation(segmentTree[left], segmentTree[right]);
 }
 
+
+/*
+  When in confusion, remember this graph!
+--- --- ss1 --- se1 --- qs --- ss ---- se --- qe --- ss2 --- se2 --- ---
+*/
 int query(int si, int ss, int se, int qs, int qe) {
   if((ss > qe) || (se < qs)) {  return INT_MAX; } // case: completely outside
 

@@ -26,6 +26,10 @@ inline void buildSegmentTree(int si, int ss, int se) {
   segmentTree[si] = min(segmentTree[left], segmentTree[right]); // someOperation
 }
 
+/*
+  When in confusion, remember this graph!
+--- --- ss1 --- se1 --- qs --- ss ---- se --- qe --- ss2 --- se2 --- ---
+*/
 inline int query(int si, int ss, int se, int qs, int qe) {  
   if((ss > qe) || (se < qs)) {  return INT_MAX; } // case: completely outside
 
@@ -40,8 +44,6 @@ inline int query(int si, int ss, int se, int qs, int qe) {
 
   int leftQuery = query(left, ss, mid, qs, qe);
   int rightQuery = query(right, (mid+1), se, qs, qe);
-
-
   
   return min(leftQuery, rightQuery); // someOperation
 }
