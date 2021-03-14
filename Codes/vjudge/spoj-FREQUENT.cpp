@@ -40,6 +40,10 @@ inline int query(int si, int ss, int se, int qs, int qe) {
 }
 
 int main() {
+  ios_base::sync_with_stdio(0);
+  cin.tie(0);
+  cout.tie(0);
+  
   int N, Q;
   while(true) {
     cin>>N;
@@ -52,8 +56,8 @@ int main() {
     start = new int[m];
     tree = new int[(m<<2)];
 
-    for(int i=0; i<=N; i++) { input[i] = 0; start[i] = 0; freq[i] = 0;  }
-    for(int i=0; i<m; i++) { tree[i] = 0;  }
+    // for(int i=0; i<=N; i++) { input[i] = 0; start[i] = 0; freq[i] = 0;  }
+    // for(int i=0; i<m; i++) { tree[i] = 0;  }
 
     for(int i=1; i<=N; i++) {
       cin>>input[i];
