@@ -1,8 +1,8 @@
 # coding-creed-origins
 ## Hello there! 
 Thank you for visiting! Feel free to see the codes. But it would be nice if you try the problems yourself first :) 
-And I would really like to know who you are. Perhaps you could `Star` the repo :)
-Thank you for reading.
+<!-- And I would really like to know who you are. Perhaps you could `Star` the repo :)
+Thank you for reading. -->
 
 ### Reminder
 <!-- [Linux custom theme](https://github.com/fahimfarhan/Windows-10-blue) Next time when you(future me) reinstall linux, download this customized theme and save time :3 -->
