@@ -120,27 +120,13 @@ Linux from scratch
 Machine Learning
 Deep Learning 
 CodeForces
-Qt/C++
 OpenCV
 TensonFlow
 Keras
 Spring
-Vue.js
-kali linux
-Projects from Freelancer
 CodinGame, Halit AI projects
-Kaggle ML projects
-create a messenger in webapp!
+Kaggle and DevPost ML projects
 Learn GDB, Valgrind
-
-## Cool Tools
-- BundlePhobia https://bundlephobia.com/
-- CloudCraft https://cloudcraft.co/
-- Figma https://www.figma.com
-- Fontflipper https://fontflipper.com/
-- Visbug https://github.com/GoogleChromeLabs/ProjectVisBug
-- Insomnia https://insomnia.rest/
-- Flare https://www.2dimensions.com/about-flare
 
 ## Cool Stuffs
 ```
