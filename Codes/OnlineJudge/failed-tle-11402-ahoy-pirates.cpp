@@ -2,10 +2,12 @@
 
 using namespace std;
 
-bool *input;
-int *tree;
+#define MAXN 1024000
+
+bool input[MAXN];
+int tree[4*MAXN];
 // int *lazy;
-vector<int> lazy;
+int lazy[4*MAXN];
 
 #define Buccaneer 1
 #define Barbary 0
@@ -131,8 +133,9 @@ int main() {
     int N = pirates.size();
     int maxn = ((N+1) << 2);
     
-    input = new bool[N+1];  tree = new int[maxn]; // lazy = new int[maxn];
-    lazy.resize(maxn, 0);
+    // input = new bool[N+1];  tree = new int[maxn]; // lazy = new int[maxn];
+    // lazy.resize(maxn, 0);
+    memset(lazy, 0, sizeof(lazy));
 
     pirates = "x"+pirates; // to make it 1 based indexing...
     for(int i=1; i<=N; i++) {  input[i] = pirates[i] - '0';  }
@@ -160,7 +163,7 @@ int main() {
       }
     }
   
-    delete[] tree;  delete[] input;
+    // delete[] tree;  delete[] input;
   }
 
   return 0;
