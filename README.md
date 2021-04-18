@@ -21,6 +21,9 @@ $ git pull
 This will save the git username and password. No need to type in the credentials everytime! 
 [reference](https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git-gitextension#35942890)
 
+## Debug C++ in VS-Code tutorial
+[debugging-c-with-vscode-and-gdb](https://medium.com/@LicHacker/debugging-c-with-vscode-and-gdb-a266eec287e3)
+
 ## Modular Inverse
 [online calculator](https://planetcalc.com/3311/), [geeksforgeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/), [khanacademy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses)
 
