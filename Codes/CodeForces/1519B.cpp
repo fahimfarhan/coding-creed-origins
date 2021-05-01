@@ -41,7 +41,6 @@
 // #include <functional>
 #include <iomanip>      // std::setprecision
 // #include <regex>   // for regular expressions
-#include <bitset> // for bitset
 
 using namespace std;
 
@@ -131,9 +130,24 @@ inline void FastIO() {
 */
 }
 
+
 int main(int argc, char const *argv[]){
   /* code */
   FastIO();
 
+  int T, n, m, k, cx, cy, totalCost;
+  cin>>T;
+  while(T--) {
+    cin>>n>>m>>k;
+    totalCost = 0;
+
+    cx = 1 * (n-1) + n * (m - 1);
+    cy = 1 * (m-1) + m * (n - 1);
+
+    totalCost = min(cx, cy);
+
+    if(totalCost == k) {  cout<<"YES\n";  }
+    else{ cout<<"NO\n"; }
+  }
   return 0;
 }

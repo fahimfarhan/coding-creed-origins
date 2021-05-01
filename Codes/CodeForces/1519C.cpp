@@ -131,9 +131,84 @@ inline void FastIO() {
 */
 }
 
+int T, N;
+int *u;
+// ll *s;
+
+bitset<100010> isPrime;
+vector<int> *g;
+
+inline void preprocess() {
+  for(int i=0; i<=100010; i++) {
+    isPrime[i] = 1;
+  }
+  isPrime[0] = 0;
+  isPrime[1] = 0;
+  isPrime[2] = 1; 
+
+  for(int i=4; i<=100010; i++) {
+    isPrime[i] = 0;
+  }
+
+  for(int i=3; i<=100010; i++) {
+    if(isPrime[i] == 1) {
+      for(int j = (i<<1); j<=100010; j+=i) {
+        isPrime[j] = 0;
+      }
+    }
+  }
+}
+
+inline void start() {
+  cin>>N;
+  u = new int[N+1];
+  // s = new ll[N+1];
+
+  int maximus = -1;
+
+  for(int i=1; i<= N; i++) {  cin>>u[i]; maximus = max(maximus, u[i]);  }
+  
+  g = new vector<int>[maximus+1];
+  
+  int s;
+  for(int i=1; i<= N; i++) {  cin>>s; g[u[i]].push_back(s);  }
+
+  // cout<<"maximus = "<<maximus<<"\n";
+
+  // delete[] s;
+  delete[] u;
+
+  // for(int i=1; i<=maximus; i++) {
+  //   for(int j = 0; j< g[i].size(); j++) {
+  //     cout<<g[i][j]<<" ";
+  //   }cout<<"\n";
+  // }
+  // cout<<"----------------\n";
+
+  for(int i = 1; i<=N; i++) {
+    sort(g[i].begin(), g[i].end());
+  }
+
+  for(int i=1; i<=N; i++) {
+    for(int j=1; j<g[i].size(); j++) {
+      g[i][j] = g[i][j] + g[i][j-1];
+    } 
+  }
+
+  for(int k = 1; k<=N; k++) {
+    
+  }
+}
+
 int main(int argc, char const *argv[]){
   /* code */
   FastIO();
+
+  cin>>T;
+  preprocess();
+  while(T--) {
+    start();
+  }
 
   return 0;
 }

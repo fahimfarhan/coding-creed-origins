@@ -25,7 +25,7 @@
 #include <climits>  // this includes INT_MIN, INT_MAX, ... ...
 // #include <sstream>
 // #include <cstdio>
-// #include <cmath>
+#include <cmath>
 // #include <cstring>
 // #include <cctype>
 // #include <string>
@@ -41,7 +41,6 @@
 // #include <functional>
 #include <iomanip>      // std::setprecision
 // #include <regex>   // for regular expressions
-#include <bitset> // for bitset
 
 using namespace std;
 
@@ -134,6 +133,20 @@ inline void FastIO() {
 int main(int argc, char const *argv[]){
   /* code */
   FastIO();
+
+  int T, r, b, d;
+  int n;
+  cin>>T;
+  while(T--) {
+    cin>>r>>b>>d;
+    if(r > b) {
+      swap(r, b); // so r always has smallest
+    }
+    n = ceil((b * 1.0) / r);
+    // cerr<<"n = "<<n<<"\n";
+    if( (n - 1) <= d) {  cout<<"YES\n";  }
+    else{ cout<<"NO\n"; }
+  }
 
   return 0;
 }
