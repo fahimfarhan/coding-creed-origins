@@ -28,6 +28,7 @@ This will save the git username and password. No need to type in the credentials
 [online calculator](https://planetcalc.com/3311/), [geeksforgeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/), [khanacademy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses)
 
 ## Useful Links/Blogs
+* [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus)
 * [tayllan/awesome-algorithms](https://github.com/tayllan/awesome-algorithms)
 * [ds & algo visualization](https://visualgo.net/en)
 * [ds & algo visualization 2](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
