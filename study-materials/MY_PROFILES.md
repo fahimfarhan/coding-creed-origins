@@ -20,6 +20,7 @@
 17. [fahimfarhan](https://www.topcoder.com/members/fahimfarhan) fahimfarhan (email)
 18. [icpc](https://icpc.global/) (email)
 19. [freeCodeCamp](https://www.freecodecamp.org/) (github)
+20. [timus](https://acm.timus.ru/) 252005XX (judge_id)
 
 ## BioInformatics
 1. [rosalind.info](http://rosalind.info/users/fahimfarhan/) fahimfarhan (email)
