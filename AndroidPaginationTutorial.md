@@ -12,3 +12,6 @@
 4. https://ayusch.com/android-paginated-recyclerview-with-progress-bar/
 5. https://guides.codepath.com/android/Endless-Scrolling-with-AdapterViews-and-RecyclerView
 
+
+
+
