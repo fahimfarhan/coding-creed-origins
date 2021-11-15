@@ -24,6 +24,9 @@ This will save the git username and password. No need to type in the credentials
 ## Debug C++ in VS-Code tutorial
 [debugging-c-with-vscode-and-gdb](https://medium.com/@LicHacker/debugging-c-with-vscode-and-gdb-a266eec287e3)
 
+## educative.io
+[lot's of pdfs from educative.io](https://github.com/jeregatong/educative.io_courses)
+
 ## Modular Inverse
 [online calculator](https://planetcalc.com/3311/), [geeksforgeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/), [khanacademy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses)
 
