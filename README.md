@@ -1,5 +1,5 @@
 # coding-creed-origins
-## Hello there! 
+## Consistency is the key!
 Thank you for visiting! Feel free to see the codes. But it would be nice if you try the problems yourself first :) 
 <!-- And I would really like to know who you are. Perhaps you could `Star` the repo :)
 Thank you for reading. -->
