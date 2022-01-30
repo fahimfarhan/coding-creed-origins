@@ -1101,6 +1101,7 @@
 │   │   │   ├── d7-382-Linked-List-Random-Node-v3.cpp
 │   │   │   ├── failed2-d8-1463CherryPickupII.cpp
 │   │   │   ├── failed-d22-134-gas-station.cpp
+│   │   │   ├── failed-d30-189-rotate-array.cpp
 │   │   │   ├── failed-d5-131-pallindrome-partition.cpp
 │   │   │   ├── failed-d8-1463CherryPickupII.cpp
 │   │   │   ├── leetcode-211-design-add-and-search-words-data-structure.cpp
@@ -2200,4 +2201,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-179 directories, 2021 files
+179 directories, 2022 files
