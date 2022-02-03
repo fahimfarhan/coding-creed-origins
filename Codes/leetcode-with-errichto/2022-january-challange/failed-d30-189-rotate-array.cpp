@@ -5,9 +5,28 @@ using namespace std;
 class Solution{
 	public:
 		void rotate(vector<int>& nums, int k) {
-			int mod = k % nums.size();
+			int N = nums.size();
+			int mod = k % N;
+			if(mod == 0) {
+				return;
+			}
+			int temp = 0;
+			int divs = ceil(N / mod);
 			for(int i=0; i < mod; i++) {
-				
+				temp = nums[i];
+				int p = i;
+				int q = 0;
+				for(int j = 0; j < divs; j++) {
+					q += mod;
+					if(q >= N) {
+						q -= N;
+					}
+					temp = temp ^ nums[q];
+					nums[q] = temp ^ nums[q];
+					temp = temp ^ nums[q];
+					
+					p = q;
+				}
 			}
 		}
 
