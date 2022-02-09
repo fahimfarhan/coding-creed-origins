@@ -1100,6 +1100,8 @@
 │   │   │   ├── 454-4sum-2.cpp
 │   │   │   ├── 80-remove-duplicates-from-sorted-array-ii.cpp
 │   │   │   ├── a.out
+│   │   │   ├── d8-258-add-digits.cpp
+│   │   │   ├── d9-532-k-diff-pairs.cpp
 │   │   │   ├── failed-121-best-time-to-buy-and-sell-stock.cpp
 │   │   │   ├── failed-80-remove-duplicates-from-sorted-array-ii.cpp
 │   │   │   ├── leetcode-525-contiguous-array.cpp
@@ -2213,4 +2215,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-180 directories, 2033 files
+180 directories, 2035 files
