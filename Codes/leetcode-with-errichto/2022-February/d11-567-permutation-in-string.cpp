@@ -9,7 +9,7 @@ public:
 
 	int charFreq[26] = {0};	
 
-	bool checkInclusion(const string& s1, const string& s2) {
+	inline bool checkInclusion(const string& s1, const string& s2) {
 		int N = s1.size();
 		int k = 0;
 	
@@ -46,7 +46,7 @@ public:
 		return false;
   }
 
-	int slidingWindow(const string& s1, const string& s2, const int& start) {
+	inline int slidingWindow(const string& s1, const string& s2, const int& start) {
 		int temp[26] = {0};
 		int end = start + s1.size();
 		int N = s2.size();
