@@ -1109,8 +1109,11 @@
 │   │   │   ├── d8-258-add-digits.cpp
 │   │   │   ├── d9-532-k-diff-pairs.cpp
 │   │   │   ├── failed-121-best-time-to-buy-and-sell-stock.cpp
+│   │   │   ├── failed1-d18-402-remove-k-digits.cpp
+│   │   │   ├── failed2-d18-402-remove-k-digits.cpp
 │   │   │   ├── failed-80-remove-duplicates-from-sorted-array-ii.cpp
 │   │   │   ├── failed-d11-567-permutation-in-string.cpp
+│   │   │   ├── failed-same-combo-repeat-d17-39-combination-sum.cpp
 │   │   │   ├── leetcode-525-contiguous-array.cpp
 │   │   │   └── zout.txt
 │   │   ├── 2022-january-challange
@@ -2222,4 +2225,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-180 directories, 2042 files
+180 directories, 2045 files
