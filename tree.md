@@ -1106,6 +1106,8 @@
 │   │   │   ├── d12-127-word-ladder.cpp
 │   │   │   ├── d15-136-single-number.cpp
 │   │   │   ├── d16-24-swap-nodes-in-pairs.cpp
+│   │   │   ├── d20-1288-remove-covered-intervals.cpp
+│   │   │   ├── d20-1288-remove-covered-intervals-v2.cpp
 │   │   │   ├── d8-258-add-digits.cpp
 │   │   │   ├── d9-532-k-diff-pairs.cpp
 │   │   │   ├── failed-121-best-time-to-buy-and-sell-stock.cpp
@@ -2225,4 +2227,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-180 directories, 2045 files
+180 directories, 2047 files
