@@ -1096,6 +1096,7 @@
 │   │   │   ├── 1721-swapping-nodes-in-a-linked-list.cpp
 │   │   │   ├── 21-merge-2-sorted-lists.cpp
 │   │   │   ├── 21-merge-2-sorted-lists-v2.cpp
+│   │   │   ├── 229-majority-elements.cpp
 │   │   │   ├── 23-merge-k-sorted-lists.cpp
 │   │   │   ├── 23-merge-k-sorted-lists-v2.cpp
 │   │   │   ├── 25-reverse-nodes-in-k-groups.cpp
@@ -1108,6 +1109,8 @@
 │   │   │   ├── d16-24-swap-nodes-in-pairs.cpp
 │   │   │   ├── d20-1288-remove-covered-intervals.cpp
 │   │   │   ├── d20-1288-remove-covered-intervals-v2.cpp
+│   │   │   ├── d21-169-majority-element.cpp
+│   │   │   ├── d22-171-excel-sheet-column-number.cpp
 │   │   │   ├── d8-258-add-digits.cpp
 │   │   │   ├── d9-532-k-diff-pairs.cpp
 │   │   │   ├── failed-121-best-time-to-buy-and-sell-stock.cpp
@@ -1115,6 +1118,7 @@
 │   │   │   ├── failed2-d18-402-remove-k-digits.cpp
 │   │   │   ├── failed-80-remove-duplicates-from-sorted-array-ii.cpp
 │   │   │   ├── failed-d11-567-permutation-in-string.cpp
+│   │   │   ├── failed-d22-171-excel-sheet-column-number.cpp
 │   │   │   ├── failed-same-combo-repeat-d17-39-combination-sum.cpp
 │   │   │   ├── leetcode-525-contiguous-array.cpp
 │   │   │   └── zout.txt
@@ -2227,4 +2231,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-180 directories, 2047 files
+180 directories, 2051 files
