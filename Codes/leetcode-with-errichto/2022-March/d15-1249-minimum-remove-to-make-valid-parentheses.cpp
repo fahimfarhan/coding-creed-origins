@@ -44,7 +44,9 @@ public:
 
 
 int main() {
-
+  ios_base::sync_with_stdio(0);
+  cin.tie(0); cout.tie(0);
+  cout<<"Hello there from vim!\n";
   return 0;
 }
 // 1249-minimum-remove-to-make-valid-parentheses
