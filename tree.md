@@ -1147,6 +1147,7 @@
 │   │   │   ├── a.out
 │   │   │   ├── d12-138-copy-list-with-random-pointer.cpp
 │   │   │   ├── d15-1249-minimum-remove-to-make-valid-parentheses.cpp
+│   │   │   ├── d19-895-maximum-frequency-stack.cpp
 │   │   │   ├── d1.cpp
 │   │   │   ├── d3-413-arithmetic-slices.cpp
 │   │   │   ├── d4-799-champane-tower.cpp
@@ -2251,4 +2252,4 @@
 ├── tree.md
 └── x-auto-commit.sh
 
-181 directories, 2070 files
+181 directories, 2071 files
