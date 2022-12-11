@@ -1,8 +1,7 @@
-# coding-creed-origins
+# coding-creed-origins (No Longer maintained, see [FarCryCoding](https://github.com/fahimfarhan/FarCryCoding))
 ## Consistency is the key!
-Thank you for visiting! Feel free to see the codes. But it would be nice if you try the problems yourself first :) 
-<!-- And I would really like to know who you are. Perhaps you could `Star` the repo :)
-Thank you for reading. -->
+* Thank you for visiting! Feel free to see the codes. But it would be nice if you try the problems yourself first :) 
+* This repository is too big, and the codes are not organized. Hence, I am building a new repository named [FarCryCoding](https://github.com/fahimfarhan/FarCryCoding)
 
 ### Reminder
 <!-- [Linux custom theme](https://github.com/fahimfarhan/Windows-10-blue) Next time when you(future me) reinstall linux, download this customized theme and save time :3 -->
